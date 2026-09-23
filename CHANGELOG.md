@@ -18,7 +18,7 @@
 - EVA có một ngoại hình mặc định; không có skin riêng; chỉ hỗ trợ tạo world mới.
 - Giữ nguồn cấp Achievement & Level; không chuyển cấp EVA sang hh_leveling.
 - Chặn bật đồng thời mod EVA riêng; gộp prefab/assets mà không ghi đè danh sách Phàm Nhân.
-- Kiểm thử DST offline: chi tiết trong EVA_INTEGRATION_VI.md.
+- Kiểm thử DST offline đã đạt; phần đồ họa và multiplayer vẫn cần kiểm tra trực tiếp trong game.
 
 ## 2.0 — 2026-09-20
 

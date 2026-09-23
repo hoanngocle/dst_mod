@@ -13,8 +13,6 @@ Catalog hiện có 51 encounter:
 
 Solo đã nằm trong Phàm Nhân 2.0. 13 encounter có nguồn gốc Solo mặc định tham gia Tế Đàn; đã bỏ tùy chọn bật/tắt riêng theo yêu cầu người dùng. Availability được đọc sau khi bootstrap tích hợp hoàn tất, đồng thời kiểm tra prefab, prefab phụ, địa hình, số vị trí tạo và mùa trước khi nhận lễ vật. Deerclops/Mutated Deerclops chỉ tạo vào mùa đông theo gate gốc; Moose/Goose chỉ tạo vào mùa xuân và không tạo trong hang.
 
-Danh mục, adapter và nguồn dòng cụ thể được lưu tại `docs/superpowers/reports/2026-09-20-pham-nhan-te-dan-boss-catalog.md` ở workspace. Báo cáo provenance tài nguyên/nguồn ban đầu nằm tại `docs/superpowers/reports/2026-09-19-tu-tien-ky-te-dan-source.md`.
-
 ## Lifecycle và quyền sở hữu
 
 - Mỗi lượt có namespace bền vững gồm định danh Tế Đàn và bộ đếm tăng dần. Boss, manager, minion, bẫy và thực thể phụ được đánh dấu theo đúng lượt; cleanup không quét bán kính.

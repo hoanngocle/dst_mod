@@ -41,11 +41,11 @@ Kiểm chứng và giới hạn được ghi tại `../../.superpowers/sdd/2026-
 
 ## Mỏ linh thạch tự nhiên và chế tạo
 
-Ba cấp mỏ tự nhiên đào hết sẽ mất, mỗi mùa sinh thêm mỏ mới. Công trình nhân tạo **Linh Tuyền Cực Phẩm** có hình ảnh riêng, tạo linh thạch mỗi 5 ngày để bấm **Thu hoạch**, vẫn giữ nguyên công trình; thay thế ba công thức mỏ chế tạo cũ. Công thức, sản lượng, phân bố và lưu/tải: [SPIRIT_MINES_VI.md](SPIRIT_MINES_VI.md).
+Ba cấp mỏ tự nhiên đào hết sẽ mất, mỗi mùa sinh thêm mỏ mới. Công trình nhân tạo **Linh Tuyền Cực Phẩm** có hình ảnh riêng, tạo linh thạch mỗi 5 ngày để bấm **Thu hoạch**, vẫn giữ nguyên công trình; thay thế ba công thức mỏ chế tạo cũ.
 
 ## Bổ sung bốn món vườn
 
-Đã thêm **Nguyệt Hoa Nhiếp Dược Chi**, **Hoán Nguyệt Trì**, **Hạnh Hoa Thụ** và **Hoán Miêu Thụ Ốc**. Mọi nhân vật sử dụng được. Công thức, cách hái linh thảo, nuôi cá và nhận quà Catcoon: [GARDEN_EXPANSION_VI.md](GARDEN_EXPANSION_VI.md).
+Đã thêm **Nguyệt Hoa Nhiếp Dược Chi**, **Hoán Nguyệt Trì**, **Hạnh Hoa Thụ** và **Hoán Miêu Thụ Ốc**. Mọi nhân vật sử dụng được.
 
 ## Máy Quay Thưởng Linh Thạch
 
@@ -383,12 +383,12 @@ Phạm vi: Ngọc Lộ Huyền Thương, Ngọc Lộ Tiên Khu, Quỳnh Lâu Kim
 - Trạm gia vị xử lý nguyên liệu theo chồng, giữ phần dư và số lượng mẻ qua lưu/tải. Bốn gia vị chuẩn có công thức riêng tại Máy Khoa Học.
 - Kho tự nhặt vũ khí bỏ qua đồ khóa chủ bằng Solo; các hook mới chỉ áp dụng cho prefab/action/cooker của Phàm Nhân Tu Tiên. Không import Solo.
 - Skin nhập cho đúng vật phẩm đã chuyển: tổng cộng **179 skin** đã đối chiếu giữa manifest và bảng Lua, gồm Cổ Trận vốn đã có, các mẫu công trình, trang bị và các mẫu vũ khí dùng chung có bằng chứng alias từ nguồn. Skin BYJ của Thiên Cơ Ốc nối với hệ phòng hiện có, không đăng ký thêm bản nhà trùng tên. Nhà được dựng bằng Quyển Trục; dùng Chổi Sạch để đổi ngoại hình.
-- Chi tiết cơ chế, đầu ra và các điều chỉnh để dùng độc lập: `BATCH19_MISC_VI.md`, `BATCH19_HERBS_VI.md`, `BATCH19_HOUSES_VI.md`. Dữ liệu web ở `/tu-tien-ky` có liên kết tới sản vật và vật phẩm liên quan.
+- Dữ liệu web ở `/tu-tien-ky` có liên kết tới sản vật và vật phẩm liên quan.
 
 Đối chiếu mã/API và kiểm tra cú pháp không thay thế chơi thử multiplayer với Solo. Báo cáo đợt này ghi riêng phạm vi kiểm tra, không coi kết quả runtime của tác vụ khác là kiểm chứng toàn bộ 18 món.
 # Bộ giáp Tử Xá và áo Vân Mạc
 
-Đã thêm Tử Xá Diện Giáp, Tà Sát Hộ Giáp và Vân Mạc Thượng Trang. Tử Xá Diện Giáp và Tà Sát Hộ Giáp cần học bản vẽ; Vân Mạc Thượng Trang vẫn mở sẵn. Áo phát sáng bán kính 5, giữ màu và cường độ mũ thợ mỏ. Công thức, chỉ số và cách sửa: [ARMOR_SET_VI.md](ARMOR_SET_VI.md).
+Đã thêm Tử Xá Diện Giáp, Tà Sát Hộ Giáp và Vân Mạc Thượng Trang. Tử Xá Diện Giáp và Tà Sát Hộ Giáp cần học bản vẽ; Vân Mạc Thượng Trang vẫn mở sẵn. Áo phát sáng bán kính 5, giữ màu và cường độ mũ thợ mỏ.
 
 ## Skin Cổ Trận cho Truyền Tống Trận
 
@@ -405,7 +405,7 @@ Trong công thức **Truyền Tống Trận** (bảng hiệu `homesign`), chọn
 - Hiệu ứng khi kiếm khí trúng: **Kim** thêm 10 sát thương planar; **Mộc** hồi 2 máu; **Thủy** có 20% cơ hội làm chậm di chuyển 25% trong 2 giây; **Hỏa** nổ bán kính 2 lên địch khác, gây 50% sát thương kiếm khí; **Thổ** cho lá chắn hấp thụ 10 sát thương trong 3 giây; **Lôi** nảy sang một địch khác với 50% sát thương kiếm khí. Hỏa không gây cháy và không đánh thêm mục tiêu chính.
 - Mộc và Thổ có hồi chiêu **riêng 3 giây theo người bắn**. Làm chậm và lá chắn không cộng dồn; lá chắn yếu hơn không hạ sức chắn đang mạnh hơn. Sát thương phụ không kích hoạt thêm nội tại.
 - Solo được tích hợp mặc định: crit của vũ khí dùng hệ thống Solo, không tự cộng tỷ lệ crit riêng.
-- Bộ kiếm và hiệu ứng nguyên tố đã qua kiểm thử Lua, hồi quy Solo và máy chủ DST offline. Báo cáo: `docs/superpowers/reports/2026-09-20-luc-nguyen-elements.md` ở gốc workspace. Chưa xác nhận hình ảnh bằng máy khách đồ họa.
+- Bộ kiếm và hiệu ứng nguyên tố đã qua kiểm thử Lua, hồi quy Solo và máy chủ DST offline. Chưa xác nhận hình ảnh bằng máy khách đồ họa.
 
 ## Bộ sáu kiếm nguyên tố
 

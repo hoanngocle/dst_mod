@@ -11,7 +11,7 @@
 ## Bộ giáp Tử Xá và Vân Mạc Thượng Trang
 
 - Nguồn Tu Tiên Workshop `3235319974`: `xd_zcmj`, `xd_xshj`, `xd_yunxiao_ymsz`, hiệu ứng `xd_zcmj_forcefield`, hoạt ảnh và icon tương ứng. Tác giả nguồn: 薪人小黄、路障僵尸、吃不吃大肉丸子.
-- Tu Tiên Ký chuyển namespace sang `ttk_`, mở công thức không bản vẽ, thay nguyên liệu còn thiếu bằng nguyên liệu DST theo yêu cầu; giữ cơ chế bộ giáp và tự sửa. Áo sử dụng `minerhatlight` của Klei. Chi tiết tại `ARMOR_SET_VI.md`.
+- Tu Tiên Ký chuyển namespace sang `ttk_`, mở công thức không bản vẽ, thay nguyên liệu còn thiếu bằng nguyên liệu DST theo yêu cầu; giữ cơ chế bộ giáp và tự sửa. Áo sử dụng `minerhatlight` của Klei.
 
 ## Boss Indicators (0.9.0)
 

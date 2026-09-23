@@ -30,7 +30,7 @@ Smoke test trên server DST offline đã xác nhận bootstrap tích hợp, comp
 - Save mẫu tạo bằng Tu Tiên Ký 0.9.0 + Solo riêng đã được mở lại bằng chỉ Tu Tiên Ký 0.10.0; đấu trường và hai loại vật phẩm nêu trên vẫn còn.
 - Ba bộ hồi quy sắp túi đồ, ô trang bị và chỉ báo boss đã đạt. Rà soát mã độc lập không còn phát hiện lỗi tích hợp nghiêm trọng sau khi sửa API liệt kê mod trong worldgen.
 
-Kết quả chi tiết của lần tích hợp được ghi trong `docs/superpowers/reports/2026-09-20-solo-integration.md` ở repository. Công cụ tái kiểm tra: `tools/test_ttk_solo_integration.py` và `tools/run_ttk_solo_smoke.py`.
+Công cụ tái kiểm tra: `tools/test_ttk_solo_integration.py` và `tools/run_ttk_solo_smoke.py`.
 
 Kiểm thử server offline và serialization không thay thế kiểm tra giao diện bằng máy khách, kết nối nhiều người, Master–Caves hoặc toàn bộ kỹ năng/boss trong một phiên chơi thật. Giữ bản sao save cho đến khi đã kiểm tra nhân vật, trang bị, quân đoàn, nhiệm vụ và hầm ngục của mình.
 
