@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "source": "artifacts/eva-approved-sprite/approved-design.png",
+  "source_size": [1652,952],
+  "coordinate_system": "Original reference pixels, before any crop or resize",
+  "policy": "Only change alpha/ownership masks. Every retained RGB pixel comes from the unchanged approved source. These conservative exclusion polygons protect at least approximately one pixel beyond detected strong ink; refine antialias separately.",
+  "profile": {
+    "exclude_polygons": [
+      {
+        "id": "false_far_arm_background_lobe",
+        "polygon": [[1123,567],[1117,571],[1113,576],[1113,581],[1114,586],[1115,592],[1117,600],[1119,610],[1121,616],[1124,623],[1127,631],[1131,641],[1134,648],[1153,648],[1153,567]],
+        "reason": "Semantic magenta region includes original dark background to the right of the bodice/gown, not an arm. Do not erase the genuine black dress outline on the left side of this polygon."
+      },
+      {
+        "id": "crown_phantom_tip_above_original",
+        "polygon": [[1139,149],[1183,149],[1183,172],[1151,172],[1147,171],[1139,171]],
+        "reason": "Current matte reaches y158, but original strong crown ink in this x-region starts around y174. Preserve the real black horn outline below this exclusion."
+      },
+      {
+        "id": "crown_background_right_flank",
+        "polygon": [[1151,174],[1154,181],[1158,186],[1169,191],[1172,196],[1174,201],[1177,206],[1179,211],[1185,211],[1185,174]],
+        "reason": "Remove the narrow dark-background fringe to the right of the genuine horn and secondary spike, without changing their white/purple artwork."
+      }
+    ],
+    "conditional_include_regions": [
+      {
+        "id": "dress_right_outline_below_removed_lobe",
+        "polygon": [[1126,644],[1147,644],[1154,672],[1133,672]],
+        "rule": "Include source foreground connected to retained gown; current alpha trims genuine black outline by 3–4 pixels from y650 onward. Use local background contrast, not a filled polygon."
+      },
+      {
+        "id": "crown_rear_connection",
+        "polygon": [[1128,184],[1148,184],[1148,202],[1128,202]],
+        "rule": "Inspect and retain original black/silver connection to the larger crown; semantic mask misses source ink around x1135 at y190. Do not fill background between separate horn branches."
+      }
+    ],
+    "measured_right_edge_samples": {
+      "method": "Rightmost original RGB differing from row-local background median by >9 in any channel, within x1095..1160; background sampled x1200..1229. Diagnostic strong-ink edge, not antialias ground truth.",
+      "columns": ["y","original_strong_ink_right_x","current_matte_right_x"],
+      "rows": [[550,1117,1116],[560,1112,1111],[570,1114,1121],[575,1110,1125],[580,1110,1117],[590,1112,1121],[600,1115,1126],[610,1117,1136],[620,1121,1140],[630,1124,1142],[640,1128,1141],[645,1130,1137],[650,1133,1130],[655,1135,1132],[660,1137,1134],[665,1140,1136]]
+    }
+  },
+  "front": {
+    "conditional_include_regions": [
+      {
+        "id": "outer_ink_head_and_hair",
+        "polygon": [[150,180],[662,180],[662,752],[150,752]],
+        "rule": "Search only up to 6 pixels outside current foreground; retain connected original black ink/silver foreground with local background contrast. Most current outline loss is 2–5 pixels. Do not indiscriminately dilate into background or close curl holes."
+      },
+      {
+        "id": "left_hair_curl_lost_tip",
+        "polygon": [[182,636],[221,636],[251,713],[242,738],[197,748],[183,727]],
+        "rule": "Allow up to 12 pixels outside current matte to recover clipped original curl tips; retain only connected original foreground, not all pixels inside polygon."
+      },
+      {
+        "id": "right_hair_curl_lost_tip",
+        "polygon": [[589,698],[633,698],[637,746],[601,748],[582,731]],
+        "rule": "Allow up to 12 pixels outside current matte for original curl tip/outline, using foreground contrast and connection checks."
+      },
+      {
+        "id": "gown_hem_points",
+        "polygon": [[216,759],[617,759],[617,818],[216,818]],
+        "rule": "Recover original gown silhouette/black contour in this region using source-versus-background contrast, connected to existing skirt. Current yellow mask clips tips by up to 29 pixels horizontally and omits bottom ink at y810. Do not simply expand the whole hem rectangle."
+      }
+    ],
+    "boundary_cleanup_regions": [
+      {
+        "id": "scalp_background_cap",
+        "polygon": [[375,144],[466,144],[466,160],[375,160]],
+        "rule": "At the existing matte boundary only, discard RGB matching the local background. Current alpha is wider than genuine scalp ink near y150–155. Preserve the crown horns outside this region."
+      }
+    ],
+    "measured_outer_edge_samples": {
+      "method": "Original strong contrast >11 from median RGB of x100..129 and x690..719 at each row. Samples are guidance for missing outline extent; do not fill every x between left/right because curl holes remain background.",
+      "columns": ["y","original_left","original_right","current_left","current_right"],
+      "rows": [[200,316,520,319,515],[250,274,555,279,552],[300,258,568,262,566],[350,239,581,242,580],[380,225,607,228,604],[400,212,607,214,606],[430,216,590,219,588],[470,218,604,220,601],[500,222,594,226,591],[550,220,608,222,606],[570,183,628,187,626],[600,155,657,158,654],[620,157,655,160,652],[650,187,628,198,627],[700,237,590,240,588],[730,203,619,212,609],[750,264,563,268,560],[765,244,584,253,579],[775,222,606,238,584],[780,240,589,267,560],[790,257,569,286,542],[800,335,492,344,485],[805,345,482,357,439],[810,390,438,null,null]]
+    }
+  },
+  "foreground_inclusion_guidance": {
+    "background_model": "Use a local row/surface background estimate from verified empty neighboring pixels, not one global black threshold. Original background is approximately RGB39,36,47 near profile waist but varies across the reference.",
+    "strong_candidate": "For pixels inside the specified search region, max(abs(sourceRGB-backgroundRGB)) > 9–11 is evidence of original ink/art; require connection to the existing corresponding foreground or reviewed tip.",
+    "antialias": "Retain a reviewed one-pixel edge allowance around strong original ink. Do not use a large global feather, which mixes original background into a dark halo.",
+    "ownership": "Added outline follows its existing part label (head/crown, hair, or skirt). Removed background is removed from every part, including hidden padding masks if those accidentally contain it.",
+    "rgb_preservation": "Re-read RGB from approved-design.png at the original coordinate. No drawing, recoloring, generation, or resizing of the source."
+  },
+  "acceptance": [
+    "Reconstruct on checkerboard and on white as well as original dark background; the original background alone hides dark blobs and missing black outlines.",
+    "Profile waist silhouette has no rounded fake arm/background lobe.",
+    "Profile horn begins at genuine source ink, not a matte-created dark spike above it.",
+    "Front lower hem includes original black pointed tips through y810; hair curl holes remain transparent.",
+    "Every retained interior RGB pixel still matches the approved raster exactly; corrected alpha is reviewed separately."
+  ]
+}

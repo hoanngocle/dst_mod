@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+  <Texture filename="ttk_bossindicators.tex" />
+  <Elements>
+    <Element name="Antlion.tex" u1="0" u2="0.25" v2="1" v1="0.75" />
+    <Element name="bearger.tex" u1="0.25" u2="0.5" v2="1" v1="0.75" />
+    <Element name="deerclops.tex" u1="0" u2="0.25" v2="0.75" v1="0.5" />
+    <Element name="dragonfly.tex" u1="0.25" u2="0.5" v2="0.75" v1="0.5" />
+    <Element name="klaus.tex" u1="0.5" u2="0.75" v2="1" v1="0.75" />
+    <Element name="klaus_sack.tex" u1="0.75" u2="1" v2="1" v1="0.75" />
+    <Element name="minotaur.tex" u1="0.5" u2="0.75" v2="0.75" v1="0.5" />
+    <Element name="moose.tex" u1="0.75" u2="1" v2="0.75" v1="0.5" />
+    <Element name="toadstool.tex" u1="0" u2="0.25" v2="0.5" v1="0.25" />
+    <Element name="toadstool_cap.tex" u1="0.25" u2="0.5" v2="0.5" v1="0.25" />
+  </Elements>
+</Atlas>

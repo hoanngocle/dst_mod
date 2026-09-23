@@ -1,0 +1,30 @@
+{
+  "source": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_approved\\donor-luoshen.zip",
+  "source_sha256": "83ded69ce707e7851966aaf518e25c1466a3898d04665911894011f09a56d02d",
+  "candidate": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v2_luoshen\\eva-v2-luoshen-purple.zip",
+  "candidate_sha256": "c540aed44a1bb70686a4692ebbd4bb68dc1aa7f361e87340a91e6cdf0c48a644",
+  "build_sha256": "4b8b5e7444c60a813b601fb9224e74a87895aa670c7214cfb4835d076fa24041",
+  "anim_sha256": "d0fc41f95ae026d5e6b995ec9a8bfb5c69f7095671c393001545afa76d95c535",
+  "atlas_count": 1,
+  "alpha_blocks_exact": true,
+  "palette": {
+    "hue_degrees": 280.8,
+    "saturation_range": [
+      0.38,
+      0.78
+    ],
+    "preserved": [
+      "alpha",
+      "black lineart",
+      "pale skin",
+      "neutral whites"
+    ]
+  },
+  "comparison": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v2_luoshen\\idle-front-profile-rear-comparison.png",
+  "outputs": [
+    "luoshen-original-atlas-0.png",
+    "eva-v2-purple-atlas-0.png",
+    "eva-v2-luoshen-purple.zip",
+    "idle-front-profile-rear-comparison.png"
+  ]
+}

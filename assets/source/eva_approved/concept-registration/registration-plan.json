@@ -1,0 +1,1001 @@
+{
+  "version": 1,
+  "bindings": [
+    {
+      "name": "front_chin",
+      "kind": "chin",
+      "view": "front",
+      "symbol": "headbase",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.5175,
+        0.9568733153638814
+      ],
+      "target": [
+        417,
+        501
+      ],
+      "element_matrix": [
+        [
+          1.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          -118.82730102539062
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_neck",
+      "kind": "neckline",
+      "view": "front",
+      "symbol": "torso",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.5192307692307693,
+        0.09876543209876543
+      ],
+      "target": [
+        417,
+        515
+      ],
+      "element_matrix": [
+        [
+          1.016456961631775,
+          0.0,
+          0.699177086353302
+        ],
+        [
+          0.0,
+          0.9892246127128601,
+          -44.36117935180664
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_left_shoulder",
+      "kind": "shoulder",
+      "view": "front",
+      "symbol": "arm_upper",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.46875,
+        0.08823529411764706
+      ],
+      "target": [
+        356,
+        537
+      ],
+      "element_matrix": [
+        [
+          0.9130125045776367,
+          -0.3998033106327057,
+          -20.00551986694336
+        ],
+        [
+          0.3998033106327057,
+          0.9130125045776367,
+          -109.11499786376953
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_left_wrist",
+      "kind": "wrist",
+      "view": "front",
+      "symbol": "hand",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.40476190476190477,
+        0.22
+      ],
+      "target": [
+        336,
+        607
+      ],
+      "element_matrix": [
+        [
+          0.9919883012771606,
+          -0.03281892091035843,
+          -44.09086990356445
+        ],
+        [
+          0.03281892091035843,
+          0.9919883012771606,
+          -53.19091033935547
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_waist",
+      "kind": "waist",
+      "view": "front",
+      "symbol": "torso",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.5144230769230769,
+        0.49382716049382713
+      ],
+      "target": [
+        416,
+        579
+      ],
+      "element_matrix": [
+        [
+          1.016456961631775,
+          0.0,
+          0.699177086353302
+        ],
+        [
+          0.0,
+          0.9892246127128601,
+          -44.36117935180664
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_skirt_waist",
+      "kind": "waist",
+      "view": "front",
+      "symbol": "skirt",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.49056603773584906,
+        0.06224066390041494
+      ],
+      "target": [
+        416,
+        587
+      ],
+      "element_matrix": [
+        [
+          1.016456961631775,
+          0.0,
+          0.75
+        ],
+        [
+          0.0,
+          0.9892246127128601,
+          -43.71818923950195
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_hem",
+      "kind": "hem",
+      "view": "front",
+      "symbol": "skirt",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.49595687331536387,
+        0.979253112033195
+      ],
+      "target": [
+        418,
+        808
+      ],
+      "element_matrix": [
+        [
+          1.016456961631775,
+          0.0,
+          0.75
+        ],
+        [
+          0.0,
+          0.9892246127128601,
+          -43.71818923950195
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_chin",
+      "kind": "chin",
+      "view": "profile",
+      "symbol": "headbase",
+      "frame": 1,
+      "vertex_offset": 0,
+      "normalized": [
+        0.8054298642533937,
+        0.5621890547263682
+      ],
+      "target": [
+        1104,
+        486
+      ],
+      "element_matrix": [
+        [
+          0.999904215335846,
+          -0.008581677451729774,
+          13.0
+        ],
+        [
+          0.008581677451729774,
+          0.999904215335846,
+          -118.1082992553711
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_neck",
+      "kind": "neckline",
+      "view": "profile",
+      "symbol": "torso",
+      "frame": 3,
+      "vertex_offset": 0,
+      "normalized": [
+        0.5374149659863946,
+        0.109375
+      ],
+      "target": [
+        1065,
+        502
+      ],
+      "element_matrix": [
+        [
+          1.014983057975769,
+          0.0,
+          1.5992510318756104
+        ],
+        [
+          0.0,
+          0.9919341206550598,
+          -42.373348236083984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_shoulder",
+      "kind": "shoulder",
+      "view": "profile",
+      "symbol": "arm_upper",
+      "frame": 2,
+      "vertex_offset": 0,
+      "normalized": [
+        0.625,
+        0.17142857142857143
+      ],
+      "target": [
+        1035,
+        536
+      ],
+      "element_matrix": [
+        [
+          0.9107983112335205,
+          -0.40421009063720703,
+          -13.085180282592773
+        ],
+        [
+          0.4502164125442505,
+          1.0648839473724365,
+          -120.00019836425781
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_elbow",
+      "kind": "elbow",
+      "view": "profile",
+      "symbol": "arm_lower__eva_profile",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.8255813953488372,
+        0.09448818897637795
+      ],
+      "target": [
+        1025,
+        574
+      ],
+      "element_matrix": [
+        [
+          0.9888613820075989,
+          -0.09015276283025742,
+          -26.630199432373047
+        ],
+        [
+          0.10250759869813919,
+          1.1488779783248901,
+          -84.99093627929688
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_wrist",
+      "kind": "wrist",
+      "view": "profile",
+      "symbol": "hand",
+      "frame": 2,
+      "vertex_offset": 0,
+      "normalized": [
+        0.5,
+        0.2037037037037037
+      ],
+      "target": [
+        1019,
+        609
+      ],
+      "element_matrix": [
+        [
+          0.9843921065330505,
+          0.11315230280160904,
+          -29.451099395751953
+        ],
+        [
+          -0.109995998442173,
+          1.0139219760894775,
+          -50.564300537109375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_waist",
+      "kind": "waist",
+      "view": "profile",
+      "symbol": "torso",
+      "frame": 3,
+      "vertex_offset": 0,
+      "normalized": [
+        0.7074829931972789,
+        0.5052083333333334
+      ],
+      "target": [
+        1090,
+        578
+      ],
+      "element_matrix": [
+        [
+          1.014983057975769,
+          0.0,
+          1.5992510318756104
+        ],
+        [
+          0.0,
+          0.9919341206550598,
+          -42.373348236083984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_right_shoulder",
+      "kind": "shoulder",
+      "view": "front",
+      "symbol": "arm_upper",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.46875,
+        0.08823529411764706
+      ],
+      "target": [
+        476,
+        537
+      ],
+      "element_matrix": [
+        [
+          -0.9156277179718018,
+          0.393833190202713,
+          20.098520278930664
+        ],
+        [
+          0.393833190202713,
+          0.9156277179718018,
+          -109.00689697265625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "front_right_wrist",
+      "kind": "wrist",
+      "view": "front",
+      "symbol": "hand",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.40476190476190477,
+        0.22
+      ],
+      "target": [
+        491,
+        607
+      ],
+      "element_matrix": [
+        [
+          -0.9902222156524658,
+          0.06774867326021194,
+          43.599971771240234
+        ],
+        [
+          0.06774891912937164,
+          0.9902220964431763,
+          -52.900001525878906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -333.6813354189336
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "profile_hem",
+      "kind": "hem",
+      "view": "profile",
+      "symbol": "skirt__eva_profile",
+      "frame": 0,
+      "vertex_offset": 0,
+      "normalized": [
+        0.547112462006079,
+        0.9871244635193133
+      ],
+      "target": [
+        1050,
+        808
+      ],
+      "element_matrix": [
+        [
+          1.008916974067688,
+          0.0,
+          1.649999976158142
+        ],
+        [
+          0.0,
+          0.9919341206550598,
+          -41.728599548339844
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          0.8001950489662677,
+          0.0,
+          -840.2048014145811
+        ],
+        [
+          0.0,
+          0.8001950489662677,
+          -538.7971330250273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "shared_frame_conflicts": [
+    {
+      "symbol": "skirt",
+      "frame": 0,
+      "uses": [
+        "front idle",
+        "profile idle"
+      ],
+      "conflict": "Approved front and profile skirt images differ; one original BILD frame cannot independently choose both images."
+    },
+    {
+      "symbol": "arm_upper",
+      "frame": 0,
+      "uses": [
+        "front left",
+        "front right",
+        "rear"
+      ],
+      "conflict": "Mirror-aware source fit and registration offsets must agree; do not bake two independently positioned copies into one frame."
+    },
+    {
+      "symbol": "arm_lower",
+      "frame": 0,
+      "uses": [
+        "front left",
+        "front right",
+        "profile near",
+        "profile far",
+        "rear"
+      ],
+      "conflict": "Same local geometry under different ANIM matrices; independently fitted view targets generally differ."
+    },
+    {
+      "symbol": "hairpigtails",
+      "frames": [
+        0,
+        1
+      ],
+      "uses": [
+        "front",
+        "rear",
+        "profile far for1"
+      ],
+      "conflict": "Full curtain split must remain paired under native mirrored transforms; do not assign front/rear independent local offsets."
+    }
+  ],
+  "world_map": {
+    "scale": 0.8001950489662677,
+    "front_translation": [
+      -333.6813354189336,
+      -538.7971330250273
+    ],
+    "profile_translation": [
+      -840.2048014145811,
+      -538.7971330250273
+    ],
+    "front_center_x": 417,
+    "profile_center_x": 1050,
+    "formula": "world = scale * concept_pixel + view_translation",
+    "concept_hem_y": 810,
+    "native_hem_y": 109.36085663764959,
+    "concept_top_y": 151,
+    "native_top_y": -417.96768063112086,
+    "total_native_height": 527.3285372687704,
+    "rationale": "Use the least-squares vertical shoulder/elbow/wrist scale with free translation. Do not force hem to zero. Apply this SAME map to head, face, crown, torso, arms, hands, skirt and hair; no donor-bbox placement or independent +82 skirt offset. Final whole-character display scaling is a separate uniform choice."
+  },
+  "cutout_audit": {
+    "front": {
+      "overlap_pixels_before_precedence": 161659,
+      "unassigned_visible_pixels": 301,
+      "changed_rgb_pixels": 0,
+      "curved_front_root_overlap_pixels": 11451,
+      "restored_neck_pixels": 586,
+      "restored_bodice_pixels": 1194,
+      "restored_left_petal_pixels": 2812,
+      "semantic_unassigned_pixels": 0,
+      "strand_unassigned_pixels": 55,
+      "semantic_source_rgb_preserved": true,
+      "hidden_hair_padding_pixels": 972,
+      "hidden_underarm_plate_pixels": 18496,
+      "blank_skin_generated_pixels": 27068,
+      "crownless_hidden_hair_pixels": 14099
+    },
+    "profile": {
+      "overlap_pixels_before_precedence": 141720,
+      "unassigned_visible_pixels": 162,
+      "changed_rgb_pixels": 0,
+      "curved_profile_root_overlap_pixels": 16061,
+      "static_profile_sleeve_panel_pixels": 3866,
+      "restored_profile_curl_pixels": 1326,
+      "restored_profile_sleeve_pixels": 1142,
+      "restored_profile_neck_pixels": 333,
+      "semantic_unassigned_pixels": 0,
+      "strand_unassigned_pixels": 21,
+      "semantic_source_rgb_preserved": true,
+      "hidden_hair_padding_pixels": 310,
+      "hidden_underarm_plate_pixels": 12211,
+      "blank_skin_generated_pixels": 15064,
+      "crownless_hidden_hair_pixels": 7083
+    }
+  },
+  "source_mode": "approved_design_exact_visible_cutouts",
+  "rear_registration": {
+    "source_sha256": "9568a47883c2e599162511b09b88d1f55f2e4a34b081fae0db01018d6eb4945f",
+    "hat_source_sha256": "a3a51615046aabe0280e0f10d2b40791ba610ec77f05b2fa9b6c127937bd5d10",
+    "mask_sha256": "63d08936276f9f840f144a3e968fe9f0a105963a2b94487d0e6bd0d5c7a800b1",
+    "strand_mask_sha256": "8cb102f7b1ace2b244365b49560eb25e41c1bae96892dd1e2e37aefddd3b4608",
+    "unassigned_alpha32_pixels": 0,
+    "scale": 0.5745422842197035,
+    "translation": [
+      88.36181342632955,
+      78.60767218831735
+    ],
+    "strand_unassigned_pixels": 0,
+    "motion_owner": "interlocking whole-strand ownership for frames 0 and 1",
+    "source_rgb_preserved": true
+  },
+  "facing_aliases": {
+    "skirt__eva_front": "skirt",
+    "skirt__eva_profile": "skirt",
+    "skirt__eva_rear": "skirt",
+    "arm_lower__eva_front": "arm_lower",
+    "arm_lower__eva_profile": "arm_lower",
+    "arm_lower__eva_rear": "arm_lower",
+    "hairpigtails__eva_front": "hairpigtails",
+    "hairpigtails__eva_profile": "hairpigtails",
+    "hairpigtails__eva_rear": "hairpigtails",
+    "arm_upper__eva_front": "arm_upper",
+    "arm_upper__eva_profile": "arm_upper",
+    "arm_upper__eva_rear": "arm_upper",
+    "hand__eva_front": "hand",
+    "hand__eva_profile": "hand",
+    "hand__eva_rear": "hand"
+  },
+  "front_run_limb_trial": {
+    "lower_1_hand_2": {
+      "lower_elbow": [
+        -21.5350192802498,
+        -11.926652729722043
+      ],
+      "lower_wrist": [
+        3.431108556312174,
+        44.84986519474232
+      ],
+      "hand_wrist": [
+        1.4067800801801624,
+        2.015476503040598
+      ],
+      "max_elbow_error_native": 13.859878361376909,
+      "max_wrist_error_native": 1.6495980284797114,
+      "rms_elbow_error_native": 8.127384156372317,
+      "rms_wrist_error_native": 0.8595284044782233
+    },
+    "lower_2_hand_5": {
+      "lower_elbow": [
+        25.293153030066673,
+        9.343898794012206
+      ],
+      "lower_wrist": [
+        -46.473760839030305,
+        12.342024963520567
+      ],
+      "hand_wrist": [
+        0.13648841072986187,
+        4.974588194067007
+      ],
+      "max_elbow_error_native": 18.912305719219475,
+      "max_wrist_error_native": 4.987792904917963,
+      "rms_elbow_error_native": 10.701129109848997,
+      "rms_wrist_error_native": 2.409615784993501
+    }
+  },
+  "front_forearm_partition": {
+    "left_forearm": {
+      "foreground_pixels": 3383,
+      "joint_pixels": 1404,
+      "pendant_pixels": 1979,
+      "union_exact": true,
+      "overlap_pixels": 0,
+      "radius_concept_pixels": 20.0
+    },
+    "right_forearm": {
+      "foreground_pixels": 3193,
+      "joint_pixels": 1303,
+      "pendant_pixels": 1890,
+      "union_exact": true,
+      "overlap_pixels": 0,
+      "radius_concept_pixels": 20.0
+    }
+  },
+  "unresolved_supported_conflicts": [],
+  "accepted_compromises": [
+    "front bilateral arm instances share one local frame geometry",
+    "rear uses a coherent generated continuity source, not exact approved pixels",
+    "rear arms remain the native articulated branch over the coherent gown"
+  ]
+}

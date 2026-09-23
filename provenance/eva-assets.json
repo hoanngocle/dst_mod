@@ -1,0 +1,366 @@
+{
+  "source": "EVA 1.2.1",
+  "level_source": "Achievement & Level",
+  "files": [
+    {
+      "path": "anim/eva.zip",
+      "sha256": "fbfd9993a9ddb778ef88b3cdf06e9c8f865856f6eaaf70d443d5b36509a09e9d"
+    },
+    {
+      "path": "anim/eva_fox.zip",
+      "sha256": "062a0c4d8a5bedc60ab7dde55e37532c5a70aad3f2a0ca61220096febb3369ab"
+    },
+    {
+      "path": "anim/eva_fox_fire.zip",
+      "sha256": "00d3630691f066eab6ca22b44183838d887eca49fc969d1cc092a6f2a3b6061b"
+    },
+    {
+      "path": "anim/eva_life_flower_circle.zip",
+      "sha256": "45ab730cb0e1877dff65fafacccaa6aea290c2ffcdcbdd81accbd78ae6c72624"
+    },
+    {
+      "path": "anim/eva_life_flower_projectile.zip",
+      "sha256": "fa339ab3ab038416b5b30a37266c624f3599ce9a4dc9b77740639fe756bee62a"
+    },
+    {
+      "path": "anim/eva_scythe.zip",
+      "sha256": "988ea7701a734b4db34d0d08528d615d457d9762daed8a7fa954ae7ee1e6444f"
+    },
+    {
+      "path": "anim/eva_wings.zip",
+      "sha256": "dee80dc3bbce28060560db9956cb2d70bd1ec956aef7ca83405c410ea9f4fb64"
+    },
+    {
+      "path": "anim/ghost_eva_build.zip",
+      "sha256": "9055a8c031317c51565a7d842c48debc9e25a8f1c0c4b01bd140dd7577029f0a"
+    },
+    {
+      "path": "anim/status_meter_soul.zip",
+      "sha256": "f4beff92780f52d1938a5f0c41787eef5167cb599c38a695c4d1ce1c0e8263bd"
+    },
+    {
+      "path": "anim/swap_eva_scythe.zip",
+      "sha256": "283c2b4b22323087f8ba7e62b1c92a91b3c3bd92c9ef3dd98325540d6c9569c5"
+    },
+    {
+      "path": "bigportraits/eva.tex",
+      "sha256": "05f0f35b747d3d61554ae346c2d4d841d0f4c6170b8c572890472eedcddb84e3"
+    },
+    {
+      "path": "bigportraits/eva.xml",
+      "sha256": "2e113aed532f445527fc419547b379f21f611184c82d8de04c0fd111ec948697"
+    },
+    {
+      "path": "bigportraits/eva_none.tex",
+      "sha256": "05f0f35b747d3d61554ae346c2d4d841d0f4c6170b8c572890472eedcddb84e3"
+    },
+    {
+      "path": "bigportraits/eva_none.xml",
+      "sha256": "5db5144dfb68a4e84bc73c5851ee6be5914691b57a83e499b2ba2eb3c583d671"
+    },
+    {
+      "path": "images/avatars/avatar_eva.tex",
+      "sha256": "3bca22e668df744fa011db5aadbfa097c535180bb3a26299930217eba2293df2"
+    },
+    {
+      "path": "images/avatars/avatar_eva.xml",
+      "sha256": "791b34c09dae9bd6918629a2f4f43add7e77117e895c6adaef1161a1a5ded7a6"
+    },
+    {
+      "path": "images/avatars/avatar_ghost_eva.tex",
+      "sha256": "b58cede07d0146afa5ef527d259180c69c6b43b229e17d1e4726aef761963a39"
+    },
+    {
+      "path": "images/avatars/avatar_ghost_eva.xml",
+      "sha256": "8903995ddd5294a4349a71a7a9c53eef8f4034705ab7c203738027668a53a16e"
+    },
+    {
+      "path": "images/avatars/self_inspect_eva.tex",
+      "sha256": "3bca22e668df744fa011db5aadbfa097c535180bb3a26299930217eba2293df2"
+    },
+    {
+      "path": "images/avatars/self_inspect_eva.xml",
+      "sha256": "94eba23dd7cf5def7b3e4d5ae26a5ccb0c158934976896e3bf2c407135bf10ee"
+    },
+    {
+      "path": "images/eva_skill_icons.tex",
+      "sha256": "8f3c023888db9598dd8129b0feb2a044806077d828a11516a10633f4ea5a4073"
+    },
+    {
+      "path": "images/eva_skill_icons.xml",
+      "sha256": "d11ef694207f65ee999896c960e46ec203dacd6d33902fac80f95d1389b682f0"
+    },
+    {
+      "path": "images/eva_skill_toggle.tex",
+      "sha256": "6010059fdb60d20a3cff7339159a1948c595f689799e19885b739ffe7812674f"
+    },
+    {
+      "path": "images/eva_skill_toggle.xml",
+      "sha256": "57c997e6b774d7a94c98d0a276287412e533916bbeffaa0df0a2cf2aa24aec83"
+    },
+    {
+      "path": "images/inventoryimages/eva_life_flower.tex",
+      "sha256": "2f325b4f8ae03fafe79aa2a351de4c8ed73bbeb5b858db6e71f321d4416ea06a"
+    },
+    {
+      "path": "images/inventoryimages/eva_life_flower.xml",
+      "sha256": "54c9c2b481386b7ba2618ad3d99b4947af6eb6920c4bb8f8713a5e229cbef828"
+    },
+    {
+      "path": "images/inventoryimages/eva_moon_wings.tex",
+      "sha256": "8daed2dc190c765432eddaa17db61dc54abb67a1b7fd71a0649ef1b3031c049c"
+    },
+    {
+      "path": "images/inventoryimages/eva_moon_wings.xml",
+      "sha256": "821a1dda4b69651d83e7f9e50246671921f5a4c203ea1d05b24978799bd622db"
+    },
+    {
+      "path": "images/inventoryimages/eva_scythe.tex",
+      "sha256": "da2b9b1063256624b0cd4b6b5b6b5165622226aec52b14f054cb5b3d1641318d"
+    },
+    {
+      "path": "images/inventoryimages/eva_scythe.xml",
+      "sha256": "d92b7f9c830564fcecf378f4b9c4e073e7b74c7aaae362d9f924bace03e61987"
+    },
+    {
+      "path": "images/inventoryimages/evatab.tex",
+      "sha256": "f2db5f46f8daf5a218f2c6f32be3653fe2a5a26f11024e11c22f19d45d832952"
+    },
+    {
+      "path": "images/inventoryimages/evatab.xml",
+      "sha256": "9086a112c2986f12c55ae43055a28213ecc6cb3bc1ca906ee028d4b784208022"
+    },
+    {
+      "path": "images/map_icons/eva.tex",
+      "sha256": "3bca22e668df744fa011db5aadbfa097c535180bb3a26299930217eba2293df2"
+    },
+    {
+      "path": "images/map_icons/eva.xml",
+      "sha256": "71702770aea78da5210b2fffb35e0557df09dc06d08bcb65e265a03d5b197fcc"
+    },
+    {
+      "path": "images/names_eva.tex",
+      "sha256": "4ae1a47fceb472b6150600510d382341642c7e21e83ed82da635a70e59b47a3c"
+    },
+    {
+      "path": "images/names_eva.xml",
+      "sha256": "ef8bab32f4fb88e9244b20ce8fcf97e9b63c7068143e65e8134bb9e647eff76e"
+    },
+    {
+      "path": "images/names_gold_eva.tex",
+      "sha256": "4ae1a47fceb472b6150600510d382341642c7e21e83ed82da635a70e59b47a3c"
+    },
+    {
+      "path": "images/names_gold_eva.xml",
+      "sha256": "151a22d173df1d70f3993b061c5669897e835d5612216444bae854ea85d5b232"
+    },
+    {
+      "path": "images/saveslot_portraits/eva.tex",
+      "sha256": "bb55fb4db645d32201286ee295baada754e277d9883f4912f358b5447e6205f4"
+    },
+    {
+      "path": "images/saveslot_portraits/eva.xml",
+      "sha256": "048ae4f709e0ea21c1a1c271f291fc46865fd9cc1f6fcc6f016ed2c3dd4900e9"
+    },
+    {
+      "path": "images/selectscreen_portraits/eva.tex",
+      "sha256": "126d8c9da47a3f6babb695905de4c1c29b036f168ad21d2bba1d50fa893c53c1"
+    },
+    {
+      "path": "images/selectscreen_portraits/eva.xml",
+      "sha256": "20e8ac74a69fbdc5638320331704a48f9d068e9b5cf5830aa809d8bfe1338d1d"
+    },
+    {
+      "path": "images/selectscreen_portraits/eva_silho.tex",
+      "sha256": "015a5900c8a7c1c83b779e98b7fa9e6005f016820bb45d4ad9c94038e192560e"
+    },
+    {
+      "path": "images/selectscreen_portraits/eva_silho.xml",
+      "sha256": "4d7770201a716bde68b5af3fc331151eef9e1a611c2f07382f800885a071bc56"
+    },
+    {
+      "path": "images/souls/darksoul_0.tex",
+      "sha256": "99b073954137b3f5d5aa27d76eb0a615e8fac07152ebaccc4fe447aa0d7263bb"
+    },
+    {
+      "path": "images/souls/darksoul_0.xml",
+      "sha256": "0574a1e89926e79f26e7e562944fa89295cfb884fe194defae93b3b4b8ca88a4"
+    },
+    {
+      "path": "images/souls/darksoul_1.tex",
+      "sha256": "a9486bbdcea8f6c9c0ed06cf600dba0642abb96bb64e9c5a5b6c04178e1bd440"
+    },
+    {
+      "path": "images/souls/darksoul_1.xml",
+      "sha256": "968dce364d48530719b388df463884a2c1c07bc969f91841848cf7c28c062afa"
+    },
+    {
+      "path": "images/souls/darksoul_2.tex",
+      "sha256": "42e3c6305c58c74ab485a2a69a1f6640b5152746603695c35dcdff65bc7b7312"
+    },
+    {
+      "path": "images/souls/darksoul_2.xml",
+      "sha256": "35a1d5adf48ce1d2a8aae83a984361b6c8df1676f960569ebcf6cb0380afd1e1"
+    },
+    {
+      "path": "images/souls/darksoul_3.tex",
+      "sha256": "aed1587b0fea05fe8fdf4926b873c9a280fd0a76df4ce5b9e140e7d2f624e1d8"
+    },
+    {
+      "path": "images/souls/darksoul_3.xml",
+      "sha256": "ffc1a4deb9ba210665dcac30232a0719c163d56c50aa0f65924cd2dcdb987d72"
+    },
+    {
+      "path": "scripts/announcestrings.lua",
+      "sha256": "50b62e0d6d7ed2b9ffcabd5c458a8308084052e7caa5726326e42794f7146cdb"
+    },
+    {
+      "path": "scripts/components/eva_daydu.lua",
+      "sha256": "de46979da9b2cee7711e9aa65bc09212ff9c2c7732ea6b2b0f301787473e5ac7"
+    },
+    {
+      "path": "scripts/components/eva_fox_blink.lua",
+      "sha256": "6f2a07995e9f6902b7d37bdcabe44f2a5a63f4ab894d2ab6b0388654419dd021"
+    },
+    {
+      "path": "scripts/components/eva_harvest.lua",
+      "sha256": "73ea41ef2bfeade066e2bf28612c925113c86acd31b6015dced8bc75ebcf9cd3"
+    },
+    {
+      "path": "scripts/components/eva_life.lua",
+      "sha256": "4c85f2a4de91d429cba2ac72b749dcc9bd426bad3bd7022b418a67f6b94574d9"
+    },
+    {
+      "path": "scripts/components/eva_melee_wave.lua",
+      "sha256": "6a4547aaf58d0a2f8ced6d53e8e7758f90bbcd8f66b6cafee337d5ef688bfc9c"
+    },
+    {
+      "path": "scripts/components/eva_scythe_array.lua",
+      "sha256": "103495b6e0cd5f1984058c0ed00374d217f88163a480c834b1d97d9888334628"
+    },
+    {
+      "path": "scripts/components/eva_souls.lua",
+      "sha256": "6abcfd1cc56d5e5826ee52fe0fd53f5d0ded715a2aaa092279d7923605fbe918"
+    },
+    {
+      "path": "scripts/components/eva_wings.lua",
+      "sha256": "d90769815d06e58f446e2b8a7a33a42d80a88d6077bf849dac926cf3d5a556e2"
+    },
+    {
+      "path": "scripts/prefabs/eva.lua",
+      "sha256": "f5a5ebc6435884f0c099eae03d6806f3aded0554c0ab7c40aad8170eb38d78de"
+    },
+    {
+      "path": "scripts/prefabs/eva_combat_fx.lua",
+      "sha256": "0cb39c7065da524924511d77f9304e17696621d8f842ef3c560b0771e9db4d45"
+    },
+    {
+      "path": "scripts/prefabs/eva_fox_fx.lua",
+      "sha256": "67c2f12a81350c0727856e9f1bf46e8562689d000c71764415dcf488e340266d"
+    },
+    {
+      "path": "scripts/prefabs/eva_harvest_fx.lua",
+      "sha256": "589b3579e94381ea122ff0efed2536871b1e6fb4c672645ccc74cfebd21a1c55"
+    },
+    {
+      "path": "scripts/prefabs/eva_life_fx.lua",
+      "sha256": "799567c3332844b2648ee64aac1e137496013adc05857ed2f59d5d2ab3e3cbef"
+    },
+    {
+      "path": "scripts/prefabs/eva_none.lua",
+      "sha256": "3d0affa46060d013be8572168983ab817410a1e2b3304f167c99d652b200cd41"
+    },
+    {
+      "path": "scripts/prefabs/eva_scythe.lua",
+      "sha256": "4a3d4a3fc945aba49fa93cfbe5fc18981caa5f7453fda6ce92e255db91eb7493"
+    },
+    {
+      "path": "scripts/prefabs/eva_scythe_array_fx.lua",
+      "sha256": "cccd42eec070bc73bdce9f2618566b974272753016b67494c4b5ce65dc58a13a"
+    },
+    {
+      "path": "scripts/prefabs/eva_skillbook.lua",
+      "sha256": "b7806f2b7cf8b0f9f8446436a0cb4e2d2b3e73bff78d2c27f9a842549da2ab06"
+    },
+    {
+      "path": "scripts/prefabs/eva_wings_fx.lua",
+      "sha256": "5e96b66660354787c63ee653ee4db0d013aa046cd1a413149c515c5037543f9a"
+    },
+    {
+      "path": "scripts/speech_eva.lua",
+      "sha256": "e99b231b8d52ea01e4b97b88d872be330c4a2e5220aaf8f51fa2df16cf8123e0"
+    },
+    {
+      "path": "scripts/util/eva_combat_common.lua",
+      "sha256": "2100d6572c18f0162bc2a5cf37f09fbcc33f38baec8d4b59980ddc49d9a04852"
+    },
+    {
+      "path": "scripts/util/eva_damage.lua",
+      "sha256": "1ffd9dd206880fdc61a524152713d38be831df1fbc198860834325ce06d6395d"
+    },
+    {
+      "path": "scripts/util/eva_fox_common.lua",
+      "sha256": "29ea5953374fbc63476329659953b38936d62937f61db12e2b9fbea29b75c5cd"
+    },
+    {
+      "path": "scripts/util/eva_harvest_common.lua",
+      "sha256": "12b778b69d764459e8467c0305a3bf99ad157fe3d7f603e45dcbf444204c9030"
+    },
+    {
+      "path": "scripts/util/eva_life_common.lua",
+      "sha256": "9621d216a30b753eaf2049db49845ee5fa0d0d25000abc32ef4f75d26e4faf25"
+    },
+    {
+      "path": "scripts/util/eva_life_input.lua",
+      "sha256": "b9b1491f69c7b2e1988fd50c3f0d368d4118b4070eaa0a778e62e240ff15262a"
+    },
+    {
+      "path": "scripts/util/eva_progression.lua",
+      "sha256": "b78f59b31ecdafce45ffc79e70f3c04d5bcfb1ea899aa95a06931e6535870e38"
+    },
+    {
+      "path": "scripts/util/eva_recipes.lua",
+      "sha256": "4496f2a0ab38b9494023e4c21a0cd0e0eaa23122036740d26382288850581502"
+    },
+    {
+      "path": "scripts/util/eva_scythe_array_common.lua",
+      "sha256": "3fefd3062082026f07fb94a7f8efa2cb78f11907f1b73506abb9b1f6d04307bf"
+    },
+    {
+      "path": "scripts/util/eva_scythe_array_input.lua",
+      "sha256": "5440714c76e956e6b90e5ca2535943b41c1fde39edf3646285f37d21af733f3b"
+    },
+    {
+      "path": "scripts/util/eva_settings.lua",
+      "sha256": "cf3eaf51c305c58088a447b1e9df074679eea5756bfc71b5b7707d1ad0b1c701"
+    },
+    {
+      "path": "scripts/util/eva_skill_damage.lua",
+      "sha256": "9c1a33e793ae97e17525121d76795dc34cbc6d7e937edde8997aee7e5228ffa6"
+    },
+    {
+      "path": "scripts/util/eva_skillpanel.lua",
+      "sha256": "41facfbc32761e38891e5ba7d4e52652c82e8d821fb268a1066c55dcc6ae3887"
+    },
+    {
+      "path": "scripts/util/eva_skillpanel_states.lua",
+      "sha256": "2231b7f95f877c5e9237818fac8e4aa1728ea32dea5b0dc4cd65498c19372ce4"
+    },
+    {
+      "path": "scripts/util/eva_widget.lua",
+      "sha256": "3c3013b6d86b39fecc89d5b8853a205c031ad8084eb7eba6cb25427f2a70b838"
+    },
+    {
+      "path": "scripts/util/eva_wings_input.lua",
+      "sha256": "aaf2a40520abddc2acf8218a1edeb985f17b17f6217a76c9003b94e61fb70f4e"
+    },
+    {
+      "path": "scripts/widgets/eva_badge.lua",
+      "sha256": "346e34ac37b9c48b4c458c95f8b515140e645b0ed7e29f567f68a7ffca9a4fa0"
+    },
+    {
+      "path": "scripts/widgets/eva_skillpanel.lua",
+      "sha256": "a003671bfe997215f78c147950c5db812448a832bd637c3a6007b4aba51bb562"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+-- Fixed donor values from Tu Tien 19.7 scripts/main/actions.lua.
+-- As in the source, donor remaining durability does not affect the amount.
+return {
+    spear = 25, spear_wathgrithr = 50,
+    boomerang = 50, hambat = 75,
+    batbat = 125, whip = 125,
+    nightsword = 100, nightstick = 150,
+    sword_lunarplant = 225, staff_lunarplant = 225,
+    voidcloth_scythe = 225, blowdart_sleep = 75,
+    blowdart_yellow = 75, blowdart_fire = 75,
+    blowdart_pipe = 75, tentaclespike = 75,
+    staff_tornado = 250, trident = 250,
+    firestaff = 75, icestaff = 75,
+    fence_rotator = 30, ruins_bat = 150,
+    shieldofterror = 300, bullkelp_root = 25,
+    slingshot = 30, slingshotammo_rock = 1,
+    slingshotammo_gold = 2, slingshotammo_marble = 2,
+    slingshotammo_poop = 1, slingshotammo_freeze = 2,
+    slingshotammo_slow = 3, slingshotammo_thulecite = 2,
+    pocketwatch_weapon = 225, spear_wathgrithr_lightning = 250,
+    spear_wathgrithr_lightning_charged = 250, wathgrithr_shield = 75,
+    glasscutter = 100, cutless = 20, rabbitkingspear = 100,
+    xd_jingwei_blowdart = 225, xd_yunxiao_fls = 225,
+    xd_htz_tlz = 250, xd_wmz_kjb = 225,
+}

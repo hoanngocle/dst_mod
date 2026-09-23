@@ -1,0 +1,21 @@
+2026-09-19 — Nhất Vũ Phương Hoa
+
+PASS: tools/test_nhatvuphuonghoa.py (Lua 5.1)
+- Actual prefab callback execution, engine entity fixture.
+- Actual DST Trader component consumes one low-grade stone from a stack.
+- Recharge adds 5% of max durability; full item refuses without consuming.
+- Other tiers and multi-item counts rejected.
+- Empty umbrella survives; recharge restores equippable and ground rain dome.
+- Spell removes wetness and costs 25%; below 25% consumes nothing.
+- 240-second buff, refresh, cleanup preserves other immunity sources.
+- Server/client split, no character recipe gate, all mod Lua syntax checked.
+
+PASS: tools/audit_registration.py
+60 configurations; 129 Lua files; 144 atlas texture references;
+108 animation archives; no missing static require/modimport dependencies.
+
+NOT VERIFIED: live DST umbrella rendering and interaction.
+The isolated server failed before umbrella testing with the existing game
+asset lookup: images/cookbook_unagi_spice_salt.xml.
+Full-game regression script: tests/test_nhatvuphuonghoa.lua.
+Workspace runner: tools/test_nhatvuphuonghoa_runtime.py.

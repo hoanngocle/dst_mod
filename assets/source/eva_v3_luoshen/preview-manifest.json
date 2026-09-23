@@ -1,0 +1,45 @@
+{
+  "source": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v3_luoshen\\eva-v3-luoshen-white-purple-dark-outline.zip",
+  "source_sha256": "e04eb76c2998250d8dfe50f8c1c8268a70c301072242a4cedb099ca7a44c39ba",
+  "candidate": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v3_luoshen\\eva-v3-luoshen-white-purple.zip",
+  "candidate_sha256": "0ecbb4b1fb8db2361b881c91702691d6a232614410ba09b39e4a30032521916f",
+  "build_sha256": "4b8b5e7444c60a813b601fb9224e74a87895aa670c7214cfb4835d076fa24041",
+  "anim_sha256": "d0fc41f95ae026d5e6b995ec9a8bfb5c69f7095671c393001545afa76d95c535",
+  "atlas_count": 1,
+  "alpha_blocks_exact": true,
+  "palette": {
+    "name": "EVA3 white-purple",
+    "preserved": [
+      "alpha",
+      "face and hand lineart",
+      "pale skin",
+      "neutral whites"
+    ],
+    "materials": {
+      "brown hair": "silver-white lavender shading",
+      "orange/gold costume": "white and pale lavender",
+      "green jewels": "deep amethyst"
+    }
+  },
+  "softened_outline_symbols": [
+    "arm_lower",
+    "arm_upper",
+    "arm_upper_skin",
+    "hairpigtails",
+    "headbase",
+    "headbase_hat",
+    "skirt",
+    "torso"
+  ],
+  "outline_blend": {
+    "source_weight": 0.4,
+    "dark_plum_rgb": [
+      72,
+      59,
+      86
+    ],
+    "dark_plum_weight": 0.6
+  },
+  "atlas_png": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v3_luoshen\\eva-v3-white-purple-atlas-0.png",
+  "comparison": "C:\\Users\\NYX\\company\\dst_wiki\\mods\\PhamNhanTuTien\\assets\\source\\eva_v3_luoshen\\eva-v3-outline-before-after-front-profile-rear.png"
+}

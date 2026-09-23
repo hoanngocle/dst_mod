@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "status": "offline registration proposal; not a production acceptance record",
+  "reference": "artifacts/eva-approved-sprite/approved-design.png",
+  "reference_size": [1652, 952],
+  "measurement": {
+    "method": "Manual visual landmark annotation on the original-resolution approved concept and extracted transparent parts",
+    "uncertainty_pixels": {"clear_features": 3, "occluded_joints": 6},
+    "warning": "Coordinates are explicit registration targets, not a claim that generated parts are pixel-identical to the concept. Wrist anchors under ornaments are proposed attachment landmarks and require the overlaid base-pose check."
+  },
+  "world_map": {
+    "scale": 0.8001950489662677,
+    "front_translation": [-333.6813354189336, -538.7971330250273],
+    "profile_translation": [-840.2048014145811, -538.7971330250273],
+    "front_center_x": 417,
+    "profile_center_x": 1050,
+    "formula": "world = scale * concept_pixel + view_translation",
+    "concept_hem_y": 810,
+    "native_hem_y": 109.36085663764959,
+    "concept_top_y": 151,
+    "native_top_y": -417.96768063112086,
+    "total_native_height": 527.3285372687704,
+    "rationale": "Use the least-squares vertical shoulder/elbow/wrist scale with free translation. Do not force hem to zero. Apply this SAME map to head, face, crown, torso, arms, hands, skirt and hair; no donor-bbox placement or independent +82 skirt offset. Final whole-character display scaling is a separate uniform choice."
+  },
+  "native_fit_evidence": {
+    "archive": "player_idles.zip",
+    "clip": "idle_loop",
+    "facing": 8,
+    "frame_zero_based": 8,
+    "concept_joint_order": ["left_shoulder", "left_elbow", "left_wrist", "right_shoulder", "right_elbow", "right_wrist"],
+    "concept_points": [[356,537],[348,573],[336,607],[476,537],[483,573],[491,607]],
+    "native_registration_points": [[-20.006,-109.115],[-33.845,-80.477],[-44.091,-53.191],[20.099,-109.007],[33.427,-80.223],[43.600,-52.900]],
+    "unconstrained_uniform_xy_fit": {"scale": 0.5315703811434302, "translation": [-220.73770817,-385.05428147], "rms_native_units": 10.48613331085793, "hem_y": 45.517727251755275},
+    "independent_axis_fit": {"x_scale": 0.4850992870252717, "y_scale": 0.8001950489662677},
+    "independent_left_chain": {"scale": 0.8277306532663316, "translation": [-319.5939598,-554.66551055], "rms_native_units": 3.575247070259661},
+    "independent_right_chain": {"scale": 0.8348362808842655, "translation": [-371.12886909,-558.51463143], "rms_native_units": 4.677665869469916},
+    "interpretation": "Native element translations are registration pivots, not proven anatomical skin centers. The vertical fit is good, but horizontal joint offsets remain. Calibrating the base pose does not prove continuity during rotation."
+  },
+  "concept_landmarks": {
+    "front": {
+      "hair_top": [418,153], "crown_left_tip": [315,169], "crown_right_tip": [526,168], "crown_gem": [421,230], "forehead_pendant": [421,300],
+      "head_shell_bounds": [210,151,610,530], "hairline_center": [421,300], "chin": [417,501], "neck": [417,515],
+      "left_shoulder": [356,537], "right_shoulder": [476,537], "left_elbow": [348,573], "right_elbow": [483,573], "left_wrist": [336,607], "right_wrist": [491,607],
+      "left_fingertip": [337,640], "right_fingertip": [490,640], "waist": [416,579], "bodice_lower_gem": [415,617], "bodice_bottom": [415,652],
+      "skirt_top": [416,587], "hem_center": [418,808], "hem_bounds": [225,771,609,810],
+      "hair_left_extent": [158,610], "hair_right_extent": [652,610], "hair_bottom": [411,744],
+      "left_eye_center": [356,396], "right_eye_center": [476,395], "nose_tip": [403,428], "mouth_center": [418,462],
+      "left_sleeve_tip": [286,703], "right_sleeve_tip": [548,703]
+    },
+    "profile": {
+      "hair_top": [1042,154], "crown_back_tip": [1039,184], "crown_front_tip": [1156,180], "crown_gem": [1161,225], "forehead_pendant": [1169,284],
+      "head_shell_bounds": [793,152,1191,504], "hairline_center": [1126,283], "chin": [1104,486], "neck": [1065,502],
+      "near_shoulder": [1035,536], "near_elbow": [1025,574], "near_wrist": [1019,609], "near_fingertip": [1017,648],
+      "waist": [1090,578], "bodice_lower_gem": [1109,615], "bodice_bottom": [1120,650],
+      "skirt_top": [1090,588], "hem_center": [1050,808], "hem_bounds": [861,773,1205,810],
+      "hair_left_extent": [751,570], "hair_bottom": [829,746], "eye_center": [1099,378], "nose_tip": [1151,428], "mouth_center": [1116,445],
+      "near_sleeve_tip": [965,711], "far_arm": null,
+      "far_arm_note": "Occluded in approved concept. Do not invent measured landmarks; retain a separately documented rig pose behind torso."
+    }
+  },
+  "source_parts": {
+    "base_directory": "artifacts/eva-approved-sprite/components",
+    "coordinate_convention": "pixel centers in each already-cropped component PNG, x right, y down",
+    "front": {
+      "head_blank": {"size":[368,371], "anchors":{"hair_top":[184,6],"chin":[184,330],"left_hair_edge":[12,250]}, "targets":{"hair_top":[418,153],"chin":[417,501],"left_hair_edge":[221,411]}, "fit":"three-anchor affine; inspect tapered skin mask, do not use whole hair bbox"},
+      "face": {"size":[368,206], "anchors":{"left_eye":[85,86],"right_eye":[282,86],"mouth":[183,185],"nose":[178,132]}, "targets":{"left_eye":[356,396],"right_eye":[476,395],"mouth":[418,462],"nose":[403,428]}, "fit":"eyes+mouth affine; nose is independent residual check, not an additional silent warp"},
+      "crown": {"size":[353,213], "anchors":{"left_tip":[15,10],"right_tip":[335,10],"gem":[176,99],"pendant":[175,184]}, "targets":{"left_tip":[315,169],"right_tip":[526,168],"gem":[421,230],"pendant":[421,300]}, "fit":"least-squares affine using all four landmarks"},
+      "back_hair": {"size":[361,466], "anchors":{"scalp":[181,6],"tip":[182,457],"left_wave":[7,307],"right_wave":[352,313]}, "targets":{"scalp":[419,153],"tip":[411,744],"left_wave":[158,610],"right_wave":[652,610]}, "fit":"least-squares affine; full scalp must overlap same head scalp behind head, never start at nape as a second head"},
+      "bodice": {"size":[354,350], "anchors":{"neck":[177,25],"waist":[177,177],"left_wing":[45,58],"right_wing":[310,58]}, "targets":{"neck":[417,515],"waist":[416,579],"left_wing":[335,523],"right_wing":[500,523]}, "fit":"least-squares affine, not donor torso bounds"},
+      "skirt": {"size":[425,363], "anchors":{"waist":[212,20],"left_hem":[8,333],"right_hem":[417,333],"bottom":[212,359]}, "targets":{"waist":[416,587],"left_hem":[225,779],"right_hem":[609,779],"bottom":[418,808]}, "fit":"least-squares affine; cloth can be anisotropic; same global world map"},
+      "upper_arm": {"size":[137,246], "anchors":{"shoulder":[94,22],"elbow":[54,232]}, "targets_left":{"shoulder":[356,537],"elbow":[348,573]}, "targets_right":{"shoulder":[476,537],"elbow":[483,573]}, "fit":"oriented two-point similarity; right source mirrored; do not fit transparent or ornament bounds"},
+      "forearm": {"size":[149,294], "anchors":{"elbow":[36,19],"wrist":[61,98],"sleeve_tip":[79,287]}, "targets_left":{"elbow":[348,573],"wrist":[336,607],"sleeve_tip":[286,703]}, "targets_right":{"elbow":[483,573],"wrist":[491,607],"sleeve_tip":[548,703]}, "fit":"two-point elbow/wrist similarity; sleeve tip is QA residual, never the wrist anchor", "anchor_status":"wrist is occluded by ornament; proposed attachment anchor with 6px uncertainty"},
+      "hand": {"size":[124,241], "anchors":{"wrist":[62,125],"fingertip":[62,230]}, "targets_left":{"wrist":[336,607],"fingertip":[337,640]}, "targets_right":{"wrist":[491,607],"fingertip":[490,640]}, "fit":"neutral hand source for neutral artwork; mirror for right; grip artwork remains separate carrying pose"}
+    },
+    "profile": {
+      "head_blank": {"size":[395,398], "anchors":{"hair_top":[235,8],"chin":[307,346],"nose":[356,276]}, "targets":{"hair_top":[1042,154],"chin":[1104,486],"nose":[1151,428]}, "fit":"three-anchor affine; lower-left horizontal cut requires root-supplied repaired source, not geometry masking"},
+      "face": {"size":[157,157], "anchors":{"eye":[89,60],"mouth":[103,131]}, "targets":{"eye":[1099,378],"mouth":[1116,445]}, "fit":"oriented two-point similarity; preserve approved expression art"},
+      "crown": {"size":[279,208], "anchors":{"back_tip":[10,13],"front_tip":[227,44],"gem":[252,105],"pendant":[252,184]}, "targets":{"back_tip":[1039,184],"front_tip":[1156,180],"gem":[1161,225],"pendant":[1169,284]}, "fit":"least-squares affine"},
+      "back_hair": {"size":[311,521], "anchors":{"scalp":[234,7],"left_wave":[8,334],"bottom":[110,507]}, "targets":{"scalp":[1042,154],"left_wave":[751,570],"bottom":[829,746]}, "fit":"three-anchor affine; crown/head scalp co-registration required"},
+      "bodice": {"size":[237,359], "anchors":{"neck":[110,26],"waist":[150,158],"shoulder":[80,84]}, "targets":{"neck":[1065,502],"waist":[1090,578],"shoulder":[1035,536]}, "fit":"three-anchor affine"},
+      "skirt": {"size":[391,353], "anchors":{"waist":[178,18],"left_hem":[8,329],"right_hem":[380,328],"bottom":[202,347]}, "targets":{"waist":[1090,588],"left_hem":[861,779],"right_hem":[1205,779],"bottom":[1050,808]}, "fit":"least-squares affine; cannot independently bind profile image to shared skirt0 without a measured consistency check or explicit frame alias"},
+      "upper_arm": {"size":[112,227], "anchors":{"shoulder":[65,19],"elbow":[50,213]}, "targets":{"shoulder":[1035,536],"elbow":[1025,574]}, "fit":"oriented two-point similarity"},
+      "forearm": {"size":[140,242], "anchors":{"elbow":[37,16],"wrist":[57,88],"sleeve_tip":[75,234]}, "targets":{"elbow":[1025,574],"wrist":[1019,609],"sleeve_tip":[965,711]}, "fit":"two-point elbow/wrist similarity; sleeve tip independent residual", "anchor_status":"wrist under ornament, proposed attachment anchor"},
+      "hand": {"size":[126,203], "anchors":{"wrist":[64,88],"fingertip":[66,193]}, "targets":{"wrist":[1019,609],"fingertip":[1017,648]}, "fit":"oriented two-point similarity for the near visible neutral hand"}
+    }
+  },
+  "native_inverse": {
+    "native_matrix": "A=[[a,c],[b,d]], translation t=[tx,ty] from ANIM element",
+    "source_to_concept": "C_i(p)=M_i*p+k_i, fitted only from the source/target landmarks above",
+    "source_to_build": "q_i(p)=inverse(A_i_bind)*(scale*C_i(p)+view_translation-t_i_bind)",
+    "matrix_form": "B_i=inverse(A_i_bind)*scale*M_i; b_i=inverse(A_i_bind)*(scale*k_i+view_translation-t_i_bind); vertexXY=B_i*p+b_i",
+    "bind_pose": "player_idles.zip / idle_loop / frame8; front8, profile5, rear2",
+    "joint_test": "For each skin-to-skin join, transform BOTH source anchors through their BILD and real ANIM matrices; compare resulting world coordinates, not sprite bounding boxes",
+    "shared_frame_test": "If two views/instances use the same(symbol,frame), their independently inferred B_i,b_i must agree within declared tolerance. Otherwise do not overwrite one with the other or silently average; record conflict."
+  },
+  "shared_frames_to_audit": [
+    {"symbol":"skirt","frame":0,"uses":["front idle","profile idle"],"conflict":"Approved front and profile skirt images differ; one original BILD frame cannot independently choose both images."},
+    {"symbol":"arm_upper","frame":0,"uses":["front left","front right","rear"],"conflict":"Mirror-aware source fit and registration offsets must agree; do not bake two independently positioned copies into one frame."},
+    {"symbol":"arm_lower","frame":0,"uses":["front left","front right","profile near","profile far","rear"],"conflict":"Same local geometry under different ANIM matrices; independently fitted view targets generally differ."},
+    {"symbol":"hairpigtails","frames":[0,1],"uses":["front","rear","profile far for1"],"conflict":"Full curtain split must remain paired under native mirrored transforms; do not assign front/rear independent local offsets."}
+  ],
+  "acceptance": {
+    "base_pose_landmark_max_error_concept_pixels": 6,
+    "motion_join_max_gap_native_units": 3,
+    "silhouette_check": "Overlay candidate at exactly the same world-to-concept inverse, with no per-panel recentering/scaling. Compare crown/head/chin/waist/hem/hairtip, not a normalized thumbnail.",
+    "expression_limit": "Approved parts provide only neutral front/profile expressions. Retained Luoshen expressions can preserve coverage but cannot honestly be called pixel-identical to the approved concept. Do not copy neutral face across33frames."
+  }
+}

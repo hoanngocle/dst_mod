@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "source": "artifacts/eva-approved-sprite/approved-design.png",
+  "source_size": [1652, 952],
+  "coordinate_system": "Original source pixel coordinates; origin upper-left; polygons list [x,y] vertices",
+  "status": "Manually annotated anatomical ownership regions and segmentation seeds, not final pixel-accurate alpha contours",
+  "instructions": [
+    "Retain original reference RGB pixels. These polygons guide ownership; do not regenerate visible artwork.",
+    "Intersect every region with a separately verified character foreground matte. A polygon alone is NOT an alpha cutout: the source has an opaque dark gradient background.",
+    "Use the segmentation aid to refine actual ink contours inside these anatomical regions. At uncertain internal boundaries preserve neutral reconstruction first, then inspect articulation.",
+    "Assign visible ownership front-to-back in ownership_priority order, subtracting already assigned pixels. Back_hair receives the remaining verified character foreground, never remaining background.",
+    "Store each cutout's original source origin. Neutral reconstruction places pixels back at that origin, with no resizing or per-part recentering.",
+    "Head region includes the visible face and crown for the identity-first neutral comparison. Later expression separation must not silently replace their visible neutral pixels.",
+    "Joint padding extends only into normally occluded regions. Preserve an explicit original-visible mask and verify its RGB is unchanged. Do not use regenerated source parts over visible concept pixels.",
+    "The far profile arm is not independently visible enough to extract honestly. Do not fabricate a second measured silhouette; hidden extension or separately approved art is required for poses exposing it."
+  ],
+  "matte_requirements": {
+    "interior_rgb": "exact source RGB under the original-visible mask",
+    "outer_edge": "Use a reviewed foreground matte; antialiased source-edge RGB already contains dark background. Alpha recovery/background unmix is not bit-identical RGB and must be separately documented.",
+    "crop_padding_px": 4,
+    "neutral_reconstruction": "All assigned masks union to verified character foreground; no dropped or double-owned pixels; reconstruct at exact source coordinates before native binding."
+  },
+  "front": {
+    "bounds": [150,145,660,815],
+    "ownership_priority": ["left_hand", "right_hand", "left_forearm", "right_forearm", "left_upper_arm", "right_upper_arm", "torso", "head_face_crown", "skirt", "back_hair"],
+    "parts": {
+      "head_face_crown": {
+        "include_polygons": [[[205,145],[617,145],[618,467],[597,505],[456,511],[440,506],[417,501],[390,508],[231,510],[207,465]]],
+        "semantic_bounds": "Crown, scalp, side hair around face, ears, whole face and chin; lower long tresses belong to back_hair",
+        "anchors": {"scalp":[418,153],"chin":[417,501],"neck_join":[417,510]},
+        "occluded_padding": [{"joint":"neck_join","radius_px":10,"direction":"down behind collar"}],
+        "face_patch_for_later_expression_work": [[319,345],[388,342],[441,342],[513,346],[510,437],[471,480],[419,500],[365,482],[326,438]],
+        "crown_patch_for_later_hat_work": [[308,157],[350,178],[392,188],[420,187],[450,188],[500,173],[534,156],[536,205],[494,234],[447,265],[428,313],[410,313],[395,264],[347,235],[309,203]],
+        "expression_feature_seed_polygons": {
+          "left_brow": [[312,345],[350,347],[382,353],[399,369],[361,366],[322,365]],
+          "right_brow": [[436,357],[466,345],[499,346],[517,358],[481,365],[439,368]],
+          "left_eye_lashes": [[288,360],[332,369],[377,373],[402,410],[371,424],[335,420],[315,405]],
+          "right_eye_lashes": [[438,409],[453,380],[493,369],[546,359],[521,400],[505,419],[466,425]],
+          "nose": [[393,404],[408,407],[413,434],[408,445],[395,442]],
+          "mouth": [[392,449],[445,449],[442,468],[423,475],[402,470]]
+        },
+        "expression_partition_rule": "Refine feature masks inside these seed polygons to original ink/color pixels with antialias allowance; retain white eye interiors exactly. Neutral face layer receives those original pixels. Blank head base needs underlying skin/hair restored only where neutral feature pixels were removed. Transparent holes alone are insufficient for alternate expressions. Keep face silhouette/chin/ears/hairline in headbase, not the expression layer."
+      },
+      "torso": {
+        "include_polygons": [
+          [[379,501],[414,513],[448,502],[466,526],[455,555],[437,575],[442,601],[456,639],[415,660],[376,640],[391,607],[395,575],[371,554],[367,529]],
+          [[309,506],[375,505],[385,518],[369,535],[331,540],[316,530]],
+          [[449,505],[516,505],[509,525],[499,537],[461,536],[441,521]]
+        ],
+        "anchors": {"neck":[417,515],"waist":[416,579],"lower_ornament":[415,617]},
+        "occluded_padding": [{"joint":"neck","radius_px":8,"direction":"up behind chin"},{"joint":"waist","radius_px":12,"direction":"down behind upper skirt"}]
+      },
+      "left_upper_arm": {
+        "include_polygons": [[[348,532],[365,535],[372,546],[361,563],[357,577],[338,576],[341,557]]],
+        "anchors": {"shoulder":[356,537],"elbow":[348,573]},
+        "occluded_padding": [{"joint":"shoulder","radius_px":8},{"joint":"elbow","radius_px":8}]
+      },
+      "right_upper_arm": {
+        "include_polygons": [[[465,533],[483,536],[491,550],[496,573],[478,579],[469,562],[461,546]]],
+        "anchors": {"shoulder":[476,537],"elbow":[483,573]},
+        "occluded_padding": [{"joint":"shoulder","radius_px":8},{"joint":"elbow","radius_px":8}]
+      },
+      "left_forearm": {
+        "include_polygons": [[[333,559],[358,563],[365,582],[354,603],[345,620],[324,661],[300,702],[282,718],[284,681],[301,637],[313,602],[301,594],[312,579]]],
+        "anchors": {"elbow":[348,573],"wrist":[336,607],"hanging_tip":[286,703]},
+        "occluded_padding": [{"joint":"elbow","radius_px":8},{"joint":"wrist","radius_px":7}],
+        "note": "Long hanging cloth belongs to this articulated sleeve, not to the hand. Refine its boundary against skirt and back hair using the actual black outline."
+      },
+      "right_forearm": {
+        "include_polygons": [[[473,560],[497,560],[515,579],[526,594],[513,604],[526,637],[544,680],[552,716],[532,704],[506,662],[487,620],[476,603],[466,582]]],
+        "anchors": {"elbow":[483,573],"wrist":[491,607],"hanging_tip":[548,703]},
+        "occluded_padding": [{"joint":"elbow","radius_px":8},{"joint":"wrist","radius_px":7}]
+      },
+      "left_hand": {
+        "include_polygons": [[[329,597],[350,596],[357,608],[361,619],[356,632],[349,642],[337,645],[326,637],[319,622],[322,608]]],
+        "anchors": {"wrist":[336,607],"fingertip":[337,640]},
+        "occluded_padding": [{"joint":"wrist","radius_px":7,"direction":"up behind cuff"}]
+      },
+      "right_hand": {
+        "include_polygons": [[[480,596],[498,596],[506,607],[512,620],[507,634],[495,644],[482,641],[473,628],[472,614],[476,604]]],
+        "anchors": {"wrist":[491,607],"fingertip":[490,640]},
+        "occluded_padding": [{"joint":"wrist","radius_px":7,"direction":"up behind cuff"}]
+      },
+      "skirt": {
+        "include_polygons": [[[393,565],[436,565],[459,607],[487,651],[516,701],[546,740],[613,781],[572,790],[536,799],[483,804],[442,810],[417,813],[386,808],[342,806],[295,799],[225,784],[273,751],[318,696],[365,633]]],
+        "anchors": {"waist":[416,587],"hem_center":[418,808]},
+        "occluded_padding": [{"joint":"waist","radius_px":12,"direction":"up behind bodice"}],
+        "note": "Torso lower ornament and sleeves own their foreground pixels first; skirt is the underlying gown."
+      },
+      "back_hair": {
+        "include_polygons": [[[150,145],[660,145],[660,755],[150,755]]],
+        "operation": "verified foreground minus all higher-priority visible ownership masks",
+        "anchors": {"scalp":[418,153],"left_wave":[158,610],"right_wave":[652,610],"tip":[411,744]},
+        "occluded_padding": [{"joint":"scalp","radius_px":12,"direction":"behind head"},{"joint":"neck","center":[417,501],"radius_px":12,"direction":"behind torso"}],
+        "note": "Can be split into left/right tresses after exact neutral reconstruction. Preserve each half's original source origin; do not recenter halves independently."
+      }
+    }
+  },
+  "profile": {
+    "bounds": [740,145,1212,815],
+    "ownership_priority": ["near_hand", "near_forearm", "near_upper_arm", "torso", "head_face_crown", "skirt", "back_hair"],
+    "parts": {
+      "head_face_crown": {
+        "include_polygons": [[[850,145],[1202,145],[1202,356],[1176,400],[1154,448],[1110,490],[1073,484],[1073,510],[1017,508],[939,530],[899,508],[888,464],[791,479],[809,422],[830,350],[849,309]]],
+        "anchors": {"scalp":[1042,154],"nose":[1151,428],"chin":[1104,486],"neck_join":[1065,502]},
+        "occluded_padding": [{"joint":"neck_join","radius_px":10,"direction":"down behind collar"}],
+        "face_patch_for_later_expression_work": [[1050,327],[1137,330],[1149,397],[1156,430],[1133,467],[1104,490],[1043,468],[1034,413]],
+        "crown_patch_for_later_hat_work": [[1027,175],[1076,192],[1128,195],[1148,164],[1177,198],[1182,251],[1180,302],[1159,304],[1147,251],[1107,232],[1051,220],[1027,202]],
+        "expression_feature_seed_polygons": {
+          "brow": [[1066,329],[1111,331],[1139,349],[1136,357],[1099,348],[1067,345]],
+          "eye_lashes": [[1038,344],[1072,351],[1116,352],[1140,369],[1127,401],[1109,410],[1071,392],[1052,371]],
+          "mouth": [[1090,432],[1138,432],[1133,451],[1113,458],[1095,450]]
+        },
+        "expression_partition_rule": "Profile nose is the outer head silhouette and remains in headbase. Separate eye/brow/mouth original pixels only; preserve approved white sclera. Restore underlying skin/hair in the base where those neutral features were removed, especially eyelashes crossing the bang."
+      },
+      "torso": {
+        "include_polygons": [[[1041,489],[1064,493],[1087,508],[1102,536],[1114,553],[1107,578],[1120,600],[1135,641],[1118,672],[1084,662],[1068,629],[1051,596],[1028,569],[1012,542],[986,527],[991,501],[1021,509]]],
+        "anchors": {"neck":[1065,502],"waist":[1090,578],"lower_ornament":[1109,615]},
+        "occluded_padding": [{"joint":"neck","radius_px":8,"direction":"behind chin"},{"joint":"waist","radius_px":12,"direction":"behind skirt"}]
+      },
+      "near_upper_arm": {
+        "include_polygons": [[[1022,530],[1044,531],[1049,545],[1046,562],[1035,580],[1014,574],[1017,548]]],
+        "anchors": {"shoulder":[1035,536],"elbow":[1025,574]},
+        "occluded_padding": [{"joint":"shoulder","radius_px":8},{"joint":"elbow","radius_px":8}]
+      },
+      "near_forearm": {
+        "include_polygons": [[[1008,562],[1037,565],[1047,579],[1038,600],[1029,626],[1005,677],[973,713],[949,717],[954,665],[974,622],[979,590]]],
+        "anchors": {"elbow":[1025,574],"wrist":[1019,609],"hanging_tip":[965,711]},
+        "occluded_padding": [{"joint":"elbow","radius_px":8},{"joint":"wrist","radius_px":7}]
+      },
+      "near_hand": {
+        "include_polygons": [[[1007,598],[1027,598],[1037,610],[1039,625],[1031,640],[1025,650],[1015,651],[1005,640],[1000,622],[1003,609]]],
+        "anchors": {"wrist":[1019,609],"fingertip":[1017,648]},
+        "occluded_padding": [{"joint":"wrist","radius_px":7,"direction":"up behind cuff"}]
+      },
+      "skirt": {
+        "include_polygons": [[[1062,574],[1109,578],[1130,626],[1149,677],[1160,718],[1178,751],[1210,784],[1186,795],[1148,803],[1106,807],[1071,813],[1033,808],[997,807],[951,799],[898,794],[858,782],[903,751],[956,697],[1008,638],[1048,601]]],
+        "anchors": {"waist":[1090,588],"hem_center":[1050,808]},
+        "occluded_padding": [{"joint":"waist","radius_px":12,"direction":"up behind bodice"}]
+      },
+      "back_hair": {
+        "include_polygons": [[[740,145],[1175,145],[1175,755],[740,755]]],
+        "operation": "verified foreground minus all higher-priority visible ownership masks",
+        "anchors": {"scalp":[1042,154],"left_wave":[751,570],"tip":[829,746]},
+        "occluded_padding": [{"joint":"scalp","radius_px":12,"direction":"behind head"},{"joint":"neck","center":[1065,502],"radius_px":12,"direction":"behind torso"}]
+      }
+    },
+    "not_extractable_visible_parts": ["far hand", "far forearm", "far upper arm", "back of head", "rear gown"],
+    "not_extractable_note": "These are not supplied by the approved two-angle raster as separately visible complete art; do not label them exact original cutouts."
+  },
+  "checks": [
+    "On the approved background, recomposite visible cutouts at original origins and compare RGB byte-for-byte inside the union of original-visible masks.",
+    "Display masks with labels over the ORIGINAL source and review hand-versus-sleeve, sleeve-versus-skirt, and chin-versus-collar boundaries before padding.",
+    "No point of the scythe reference or text labels belongs to either character matte.",
+    "Visible pixels must never be supplied from regenerated source sheets. Only separately masked hidden padding may use those sheets.",
+    "A successful exact neutral reconstruction does not by itself establish native shared-frame compatibility or animated joint continuity."
+  ]
+}

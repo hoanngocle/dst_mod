@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Atlas><Texture filename="controls.tex" /><Elements>
+<Element name="tab_idle.tex" u1="0.022786458" u2="0.478515625" v1="0.705078125" v2="0.833007812" />
+<Element name="tab_active.tex" u1="0.522786458" u2="0.979166667" v1="0.705078125" v2="0.833007812" />
+<Element name="primary.tex" u1="0.019531250" u2="0.480468750" v1="0.187500000" v2="0.395507812" />
+<Element name="slot.tex" u1="0.633463542" u2="0.867838542" v1="0.147460938" v2="0.491210938" />
+<Element name="diamond.tex" u1="0.7356770833333334" u2="0.765625" v1="0.4453125" v2="0.4892578125" /></Elements></Atlas>

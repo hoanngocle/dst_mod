@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "build": "eva",
+  "targets": {
+    "skirt": {
+      "front": "skirt__eva_front",
+      "profile": "skirt__eva_profile",
+      "rear": "skirt__eva_rear"
+    },
+    "arm_lower": {
+      "front": "arm_lower__eva_front",
+      "profile": "arm_lower__eva_profile",
+      "rear": "arm_lower__eva_rear"
+    },
+    "hairpigtails": {
+      "front": "hairpigtails__eva_front",
+      "profile": "hairpigtails__eva_profile",
+      "rear": "hairpigtails__eva_rear"
+    },
+    "arm_upper": {
+      "front": "arm_upper__eva_front",
+      "profile": "arm_upper__eva_profile",
+      "rear": "arm_upper__eva_rear"
+    },
+    "hand": {
+      "front": "hand__eva_front",
+      "profile": "hand__eva_profile",
+      "rear": "hand__eva_rear"
+    }
+  }
+}

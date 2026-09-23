@@ -1,0 +1,430 @@
+==------------------ KHÁI QUÁT ------------------==
+
+--Phàm Nhân Tu Tiên 2.0: chiến đấu đã cập nhật 2026-09-21--
+- Dùng world mới, không migration save cũ. Achievement chưa merge; thành tựu thưởng Star, không EXP. Tiến trình hợp nhất Level/EXP chưa được công bố là hoàn tất trong mục chiến đấu này.
+- Sát thương nền B = sát thương gốc + cộng phẳng còn hợp lệ. Đòn chính = B x (1 + (Công Kích + Nghịch Cảnh)/100) x Bạo Kích x Bạo Phát.
+- Bạo Kích mặc định x2, cộng hiệu quả crit vào hệ số; +150% cho x3,5. Né quay trước crit/proc, trần né 70%; 1 AGI = 1% né.
+- Bạo Phát chỉ trên vũ khí, tối đa một cấp, chỉ có trong pool đá huyền thoại cực hiếm: I 30% x1,5; II 20% x2; III 10% x3; IV 8% x5. Bạo Kích và Bạo Phát được nhân nhau.
+- Xuyên Giáp là gói cộng thêm B x tỷ lệ (tổng tối đa 40%), không cắt từ đòn chính, không nhận Công Kích/Nghịch Cảnh/crit/Bạo Phát. 1 STR = 0,1%; affix I-IV là 3-5 / 6-10 / 11-15 / 16-20%.
+- Xuyên bỏ giáp vật lý và pool giảm thương người chơi; vẫn chịu miễn nhiễm, phòng thủ không phải giáp, phòng thủ quái và cơ chế world rank/chuyển hướng/Ngưỡng Sinh Tử. Không có gói Xuyên khi né hoặc không mất máu.
+- 1 VIT = 1% vào pool giảm sát thương thường Phàm Nhân (tổng tối đa 80%). DST dùng lớp giáp cao nhất, không nhân mũ với áo. Pool 80% và giáp 80% cho giảm 96%; planar giữ hệ phòng thủ riêng.
+- Thanh Long I-IV +3-5 / 6-10 / 11-15 / 16-20% Công Kích. Bảo★Sát +15%, Siêu★Sát +20%, Đá Sức Mạnh +10%; cho phép khảm lặp theo số lỗ, chưa chặn tổng Công Kích. Đã bỏ Đá Sát Thương +20.
+- Nghịch Cảnh: một trong Máu/Đói/Tinh Thần trên vũ khí, tối đa +50% đòn chính theo phần tài nguyên đã mất. Không tăng Độc, Xuyên hoặc lan.
+- Siêu★Lan 20% mỗi viên, một viên mỗi món, tổng tối đa 60%, bán kính 3 quanh mục tiêu chính. Lan nhận Công Kích/crit/Bạo Phát, chịu giáp riêng từng mục tiêu, không kích hoạt proc; cả đòn cận chiến và tầm xa hợp lệ.
+- Hút Máu tính HP thực mất của đòn chính thường và lan: tối đa 15% máu tối đa mỗi lần, tổng 90% mỗi cửa sổ một giây. Xuyên/Độc/Trọng Thương/Kết Liễu không hút máu.
+- Hạ Độc I-IV: 10/20/30/40%; tối đa 5 tầng, 10 giây và làm mới toàn bộ khi thêm tầng. Mỗi 2 giây mỗi tầng gây 20% B lúc đặt tầng; bỏ giáp thường nhưng vẫn chịu pool giảm thương và miễn nhiễm, không sinh proc.
+- Trọng Thương: tối đa 3% máu hiện tại quái thường, 1% boss; chịu giáp/giảm thương. Kết Liễu chỉ quái thường còn không quá 15% máu, không áp dụng boss.
+- Đóng Băng I-IV: 5/10/15/20%; quái thường đóng băng 2 giây, boss chậm 20% trong 2 giây; hồi chiêu mỗi mục tiêu 5 giây.
+- Liên Kích I-IV: 5-10 / 15-25 / 30-45 / 50-70%, tổng tốc đánh Phàm Nhân tối đa +100%. Nhanh Nhẹn 5-25%, tổng tốc chạy Phàm Nhân tối đa +50%; các hệ số vanilla tính riêng.
+- Đã bỏ custom Phản Kích/Phản Chấn +7 (không xóa gai vanilla), Lá Chắn tinh thần, Ban Phúc, Hồi Não, các sát thương điều kiện cũ và ba set Bạch Hổ Thiên Cương/Phi Vân Dật Ảnh/Thánh Quang Tí Hựu.
+
+--Thay Đổi--
+- Chỉnh lại đồ rơi ra (bỏ các đồ late game)
+- Cân bằng lại tỉ lệ ra đá, chỉ số đá
+- Thêm tính năng Cường Hoá, Nâng Cấp, Dung Hợp...
+- Thêm rất nhiều vật phẩm, trang bị và công trình mới
+- Hỗ trợ boss, mobs của các mod khác
+
+==------------------ VẬT PHẨM ------------------==
+
+[ITEM]
+[IMG_STATIC:hh_items:75:0.45::hh_remove_stone>hh_effect_tally]
+[NAME:Giấy Thuộc Tính]
+- Ép 1 dòng thuộc tính ngẫu nhiên cho trang bị
+- Giết quái có 15% rơi ra
+- Prefab: hh_effect_tally
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:hh_items:70:0.45]
+[NAME:Lục Bảo Thạch]
+- Tẩy 1 dòng thuộc tính ngẫu nhiên trong các dòng đã ép vào trang bị
+- Giết quái có 15% rơi ra
+- Prefab: hh_remove_stone
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:dyc_gems/dyc_gem_purple:75:0.45]
+[NAME:Đá Thuộc Tính]
+- Ép 1 dòng thuộc tính chỉ định (có ghi trên đá) cho trang bị
+- Từ ngẫu luyện/tái chế/mở rương kho báu hoặc rơi từ quái mạnh/trùm
+- Loại: trắng/cam/đỏ = thường/hiếm/siêu hiếm
+- Prefab: hh_effect_stone
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:dyc_gems/dyc_gem_enc:75:0.45]
+[NAME:Linh Thạch]
+- Sửa chữa trang bị, chế tạo vật phẩm/trang bị/công trình
+- Chế tạo từ 1 Giấy Thuộc Tính và 2 Lục Bảo Thạch
+- Hoặc dùng Túi Mèo để đổi từ Đá Thuộc Tính
+- Prefab: hh_essence
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:lucky_gem:75:0.45]
+[NAME:Đá Cường Hoá]
+- Nâng cấp trang bị lên cấp cao
+- Chế tạo từ 1 Iridescent Gem và 8 Linh Thạch
+- Mỗi lần chế tạo cho ra 8 viên
+- Prefab: wb_enhancegem
+[/ITEM]
+
+[ITEM]
+[IMG:yellowgem]
+[NAME:Ngọc Vàng]
+- Dùng để chế tạo Gậy Gọi Sao
+- Đổi Iridescent Gem được nhiều và nhanh hơn
+- Chế tạo từ 1 Ngọc Tím, 1 Ngọc Cam và 1 Linh Thạch
+- Cạnh Máy Ma Thuật Cấp 2
+- Prefab: yellowgem
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:hh_items:85:0.5::hh_remove_stone>hh_duck_box]
+[NAME:Túi Vịt]
+- Có 1 ô chứa dùng để đổi vàng (tương tự Pig King)
+- Chế tạo từ 10 Đá, 10 Vàng và 1 Lông Ngỗng
+- Prefab: hh_duck_box
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:hh_items:85:0.5::hh_remove_stone>hh_cat_box]
+[NAME:Túi Mèo]
+- Có 20 ô chứa dùng để đựng Giấy/Đá/Đá Cường Hoá/Cuộn Cường Hoá/Linh Thạch/Lục Bảo Thạch/Iridescent Gem
+- Ngoài ra có thể biến đổi Đá Thuộc Tính thành Linh Thạch
+- Chế tạo từ 10 Đá, 10 Vàng và 1 Đuôi Mèo
+- Prefab: hh_cat_box
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:hh_items:75:0.45::hh_remove_stone>hh_treasure_tally]
+[NAME:Tầm Bảo Quyền Trục]
+- Chỉ vị trí chính xác của Kho Báu trên map
+- Chế tạo từ 40 Stinger hoặc 20 Spider Gland và 40 Silk
+- Prefab: hh_treasure_tally
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:speedpotion/tesspotions:85:0.55]
+[NAME:Phúc Lạc Dược]
+- Tăng 5% tỉ lệ cường hoá thành công trong 30 giây
+- Chế tạo từ 1 Đá Cường Hoá và 1 Vegetable Stinger
+- Cạnh Lò Rèn
+- Prefab: nn_liquidluck
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:defensepotion/tesspotions:85:0.55]
+[NAME:Phúc Lạc Dược II]
+- Tăng 15% tỉ lệ cường hoá thành công trong 60 giây
+- Dung hợp từ 3 Phúc Lạc Dược I và 1 Pure Brilliance
+- Prefab: nn_liquidluck_2
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:attackpotion/tesspotions:85:0.55]
+[NAME:Phúc Lạc Dược III]
+- Tăng 25% tỉ lệ cường hoá thành công trong 270 giây
+- Dung hợp từ 3 Phúc Lạc Dược II và 2 Pure Brilliance
+- Prefab: nn_liquidluck_3
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:resource_amulet:75:0.55:resource_amulet]
+[NAME:Bùa Ma Thuật]
+- Không làm tụt cấp trang bị khi cường hoá trung cấp thất bại
+- Chế tạo từ 3 Vàng, 2 Nhiên liệu ác mộng và 6 Đá Cường Hoá
+- Cạnh Lò Rèn
+- Prefab: nn_magicpaper
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:keep_amulet:75:0.55:keep_amulet]
+[NAME:Bùa Bảo Vệ]
+- Không làm mất trang bị khi cường hoá cao cấp thất bại
+- Chế tạo từ 3 Vàng, 2 Nhiên liệu ác mộng và 10 Đá Cường Hoá
+- Cạnh Lò Rèn
+- Prefab: wb_strengthen_strengthen_protectpaper
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:lucky_symbols:100:0.55:prayer_symbol]
+[NAME:Cuộn Cường Hoá]
+- Cường hoá chắc chắn thành công lên cấp đã ghi từ một trang bị có cấp thấp hơn 1 bậc
+- Có các loại: +6/+7/+8/+9/+10/+11/+12
+- Giết 4 loại cá mùa ngoài biển, đập nông sản khổng lồ có tỉ lệ ra +6 đến +9
+- Cường hoá cao cấp thất bại có tỉ lệ rơi ra +10 đến +12
+- Mở túi mù câu ở ốc đảo có tỉ lệ rơi ra +6 đến +12
+- Prefab: wb_strengthen_strengthen_x_levelpaper
+[/ITEM]
+
+==------------------ CÔNG TRÌNH ------------------==
+
+[ITEM]
+[IMG_GIF:hh_suit_build:155]
+[NAME:Hợp Thành Đài]
+- Nơi để ngẫu luyện đá thuộc tính, thanh tẩy và kế thừa trang bị
+- Chế tạo từ 10 Đá, 10 Nhiên Liệu Ác Mộng và 10 Linh Thạch
+- Cạnh Máy Ma Thuật cấp 2
+- Prefab: hh_suit_build
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:lo_ren]
+[NAME:Lò Rèn]
+- Nơi để cường hoá trang bị
+- Chế tạo từ 10 Đá, 10 Nhiên Liệu Ác Mộng và 10 Đá Cẩm Thạch
+- Cạnh Máy Ma Thuật cấp 2
+- Prefab: hh_lo_ren
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:well_1:100::idle]
+[NAME:Hắc Nguyệt Hồ]
+- Dùng để lấy nước quanh năm kể cả trong mùa đông 
+- Có 20 ô chứa cá và hạt giống và rau/củ/quả
+- Cá được đặt bên trong sẽ không bị giảm độ tươi
+- Cá sẽ ăn hạt giống và rau/củ/quả mỗi ngày
+- Chế tạo từ 10 Đá cắt, 10 Thạch anh, 40 Cỏ và 40 Cành cây
+- Cạnh Máy Khoa Học cấp 2
+- Prefab: hh_hac_nguyet_ho
+[/ITEM]
+
+[ITEM]
+[IMG_STATIC:hh_items:100:::hh_remove_stone>hh_treasure_build]
+[NAME:Kho Báu]
+- Đào lên sẽ có những phần quà thú vị nhưng cũng có thể là quái mạnh. Ngoài ra đây là cách duy nhất để làm quái trùm siêu cấp xuất hiện
+- Xuất hiện ngẫu nhiên trên map khi có ai đó sử dụng Tầm Bảo Quyển Trục
+- Prefab: hh_treasure_build
+[/ITEM]
+
+==------------------ TRANG BỊ ------------------==
+
+[ITEM]
+[IMG_STATIC:hh_quat_long_vu:150::idle]
+[NAME:Quạt Lông Vũ]
+- Dùng để khảm nạm, hợp thành, tái chế trang bị đặt dưới đất
+- Hiệu ứng dựa trên vật phẩm bỏ vào ô chứa
+- Xem chi tiết cách dùng ở Tab "Khảm Nạm"
+- Prefab: hh_quat_long_vu
+[/ITEM]
+
+==------------------ SIÊU BOSS ------------------==
+
+--Cách Tìm--
+- Lúc mở kho báu, ngoài các quái vật và rương kho báu thông thường thì có tỉ lệ thấp mở ra các quái trùm siêu cấp, đây cũng là cách duy nhất để triệu hồi chúng.
+- Lưu ý quái siêu cấp giữ các đặc điểm và hành vi như bản thường nhưng được nâng cấp các đặc điểm sau đây:
+
+[BOSS]
+[IMG_STATIC:walrus/walrus_build:-50:0.5:idle_angry]
+[NAME:★★ Super Mactusk ★★]
+- Sở hữu 100.000 máu
+- Gây 33 Sát thương
+- Tầm đánh 15
+- Luôn có thuộc tính: tăng Sát thương, tăng tốc chạy, thiêu đốt, tăng chí mạng, hạ độc, làm chậm, hút máu, miễn nhiễm hiệu ứng gây trọng thương và miễn nhiễm đóng băng
+- Tiêu diệt nhận 1 đá thuộc tính siêu hiếm: Tất Kích hoặc 1 đá thuộc tính hiếm: Huyền Vũ-KC
+- Nguồn gốc: Có 2% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:krampus/krampus_build:-70:0.3:taunt]
+[NAME:★★ Super Krampus ★★]
+- Sở hữu 1.000.000 máu
+- Gây 50 Sát thương
+- Tầm đánh 3
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, tăng chí mạng, giảm sát thương nhận vào, miễn nhiễm hiệu ứng gây trọng thương
+- Có tỉ lệ rơi ngẫu nhiên 1 Đá Thuộc Tính cho mỗi 1000 máu mất đi
+- Khi bị tiêu diệt sẽ rơi ra Krampus Sack
+- Nguồn gốc: Có 1% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:catcoon/ticoon_build:-80:0.5:taunt]
+[NAME:★★ Siêu Mèo Thần Tài ★★]
+- Sở hữu 1.000.000 máu
+- Gây 25 Sát thương cơ bản
+- Tối đa nhận 1.000 Sát thương mỗi đòn đánh
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, tăng chí mạng, giảm sát thương nhận vào, miễn nhiễm hiệu ứng gây trọng thương
+- Có tỷ lệ rơi 7 loại ngọc Vanilla và Châu Báu Hiếm cho mỗi 1000 máu mất đi
+- Khi bị tiêu diệt sẽ rơi ra Krampus Sack
+- Nguồn gốc: Có 1% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:bearger/bearger_mutated:-90:0.18:taunt]
+[NAME:★★★★ Super Armored Bearger ★★★★]
+- Sở hữu 300.000 máu
+- Gây 87.5 Sát thương và 30 Sát thương xuyên giáp
+- Tầm đánh 6
+- Vô hiệu Sát thương nhận vào khi mục tiêu gây Sát thương đứng xa quá 5 đơn vị
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, hồi máu theo %, thiêu đốt, hút máu, kịch độc pháo kích, lôi quang tuyệt diệt, miễn nhiễm hiệu ứng gây trọng thương và miễn nhiễm đóng băng
+- Tiêu diệt nhận ngẫu nhiên 1 đá thuộc tính siêu hiếm và 1 châu báu hiếm hoặc siêu hiếm
+- Nguồn gốc: Có 5% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:deerclops/deerclops_mutated:-100:0.2:taunt]
+[NAME:★★★★ Super Crystal Deerclops ★★★★]
+- Sở hữu 300.000 máu
+- Gây 75 Sát thương và 30 Sát thương xuyên giáp
+- Tầm đánh 13
+- Vô hiệu Sát thương nhận vào khi mục tiêu gây Sát thương đứng xa quá 5 đơn vị
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, hồi máu theo %, thiêu đốt, hút máu, hàn băng pháo kích, lôi quang tuyệt diệt, miễn nhiễm hiệu ứng gây trọng thương và miễn nhiễm đóng băng
+- Tiêu diệt nhận ngẫu nhiên 1 đá thuộc tính siêu hiếm và 1 châu báu hiếm hoặc siêu hiếm
+- Nguồn gốc: Có 5% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:warg/warg_mutated_actions:-80:0.2:idle_loop]
+[NAME:★★★★ Siêu Sói Vương ★★★★]
+- Sở hữu 300.000 máu
+- Gây 50 Sát thương 
+- Tầm đánh 3
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, hồi máu theo %, hút máu, tăng chí mạng, hàn băng pháo kích, lôi quang tuyệt diệt, công kích chế tài, miễn nhiễm đóng băng, miễn nhiễm hiệu ứng gây trọng thương
+- Tiêu diệt nhận ngẫu nhiên 1 đá thuộc tính siêu hiếm và 1 châu báu hiếm hoặc siêu hiếm
+- Nguồn gốc: Có 5% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+[BOSS]
+[IMG_STATIC:sharkboi/sharkboi_build:-90:0.23:taunt]
+[NAME:★★★★ Super Frostjaw ★★★★]
+- Sở hữu 300.000 máu
+- Gây 50 Sát thương và 30 Sát thương xuyên giáp
+- Tầm đánh 4.5
+- Vô hiệu Sát thương nhận vào khi mục tiêu gây Sát thương đứng xa quá 5 đơn vị
+- Luôn có thuộc tính: tăng Sát thương, tăng Sát thương theo %, hồi máu theo %, thiêu đốt, hút máu, kịch độc pháo kích, lôi quang tuyệt diệt, miễn nhiễm hiệu ứng gây trọng thương và miễn nhiễm đóng băng
+- Tiêu diệt nhận ngẫu nhiên 1 đá thuộc tính siêu hiếm và 1 châu báu hiếm hoặc siêu hiếm
+- Nguồn gốc: Có 5% tỉ lệ xuất hiện khi đào kho báu từ Tầm Bảo Quyển Trục
+- Đặc điểm: Quái trùm siêu cấp sẽ tự biến mất nếu người chơi đi quá xa
+[/BOSS]
+==------------------ CƯỜNG HOÁ ------------------==
+
+--Tổng Quan--
+- Bỏ trang bị (TB) vào Lò Rèn và sử dụng Đá Cường Hoá để nâng cấp. Số lượng tiêu tốn bằng đúng số cấp cần lên.
+- Đối với vũ khí sẽ tăng sát thương vật lý (ST), với giáp sẽ tăng hệ số hấp thụ sát thương.
+- Cấp càng cao chỉ số càng tốt hơn, nhưng tỉ lệ cường hóa thành công càng thấp đi.
+- Vũ khí tầm xa sẽ không tăng sát thương.
+- Trang bị cường hoá +3/+6/+9 trở lên sẽ xuất hiện thêm 1/2/3 lỗ cho phép dùng đạo cụ [Mũi-đục] để khảm nạm châu báu.
+- Một số công thức đặc biệt chỉ mở khoá khi đứng cạnh Lò Rèn.
+
+--Cường Hoá--
+- Sơ cấp (từ +1 tới +5) nếu thất bại sẽ không làm tụt cấp.
+- Trung cấp (từ +6 tới +9) nếu thất bại sẽ bị tụt cấp.
+- Cao cấp (từ +10 tới +13) nếu thất bại sẽ mất trang bị.
+- Sở hữu Bùa Ma Thuật sẽ giúp không tụt cấp nếu cường hoá trung cấp thất bại.
+- Sở hữu Bùa Bảo Vệ sẽ giúp không mất trang bị nếu cường hoá cao cấp thất bại, tuy nhiên vẫn bị tụt cấp trang bị.
+- Giết cá mùa ngoài biển (Ice Bream, Sunfish, Bloomfin Tuna, Fallounder), đập nông sản khổng lồ (tất cả các loại) có tỉ lệ nhận các Cuộn Cường Hoá trung cấp.
+- Cường hoá cao cấp thất bại có tỉ lệ nhận các Cuộn Cường Hoá cao cấp.
+- Mở túi mù ở Ốc Đảo, cường hoá cao cấp thất bại có tỉ lệ nhận các Cuộn Cường Hoá trung cấp và cao cấp.
+
+--Tỉ Lệ Thành Công--
+- Cấp càng cao chỉ số trang bị càng tốt hơn nhưng tỉ lệ thành công càng thấp đi.
+- Uống Phúc Lạc Dược I/II/III giúp tăng 5/15/25% tỉ lệ thành công trong 30/90/270 giây
+
+[TABLE]
+[HEADER]Cấp|Tỉ Lệ Thành Công|Phúc Lạc Dược I|Phúc Lạc Dược II|Phúc Lạc Dược III[/HEADER]
+[ROW]+1|93.50|98.50|100|100[/ROW]
+[ROW]+2|79.48|84.48|94.48|100[/ROW]
+[ROW]+3|67.55|72.55|82.55|92.55[/ROW]
+[ROW]+4|57.42|62.42|72.42|82.42[/ROW]
+[ROW]+5|48.81|53.81|63.81|73.81[/ROW]
+[ROW]+6|41.49|46.49|56.49|66.49[/ROW]
+[ROW]+7|35.26|40.26|50.26|60.26[/ROW]
+[ROW]+8|29.97|34.97|44.97|54.97[/ROW]
+[ROW]+9|25.48|30.48|40.48|50.48[/ROW]
+[ROW]+10|21.66|26.66|36.66|46.66[/ROW]
+[ROW]+11|18.41|23.41|33.41|43.41[/ROW]
+[ROW]+12|15.65|20.65|30.65|40.65[/ROW]
+[ROW]+13|13.30|18.30|28.30|38.30[/ROW]
+[/TABLE]
+
+--Nội Tại--
+- Khi đạt đến cấp độ nhất định [TB Đầu] sẽ tự động nhận thêm các nội tại đặc biệt:
+[TABLE]
+[HEADER]Cấp|Nội Tại|Khả Năng[/HEADER]
+[ROW]+1|Hộ Thể|Nhận thêm hệ số hấp thụ sát thương tăng theo cấp (đối với giáp)[/ROW]
+[ROW]+3|Nhập Định|Giảm tiêu hao năng lượng (độ đói) tăng theo cấp (ở cấp 13 sẽ không cần ăn uống)[/ROW]
+[ROW]+5|Hoá Thần|Nhận thêm khả năng đảo ngược hào quang tinh thần tăng theo cấp[/ROW]
+[ROW]+9|Kim Quang|Giúp người chơi phát sáng phạm vi lớn, không còn là quái vật và không bị thù địch bởi bò mùa sinh sản[/ROW]
+[ROW]+11|Huyết Chú|Máu thấp dưới 30% ngay lập tức phục hồi đầy máu (có thời gian hồi chiêu giảm theo cấp)[/ROW]
+[ROW]+13|Bất Diệt|Khi bị tấn công có tỉ lệ cao phục hồi sinh lực bằng ST giáp đã hấp thụ và không tiêu hao độ bền trang bị[/ROW]
+[/TABLE]
+
+- Khi đạt đến cấp độ nhất định [TB Thân] sẽ tự động nhận thêm các nội tại đặc biệt:
+[TABLE]
+[HEADER]Cấp|Nội Tại|Khả Năng[/HEADER]
+[ROW]+1|Hộ Thể|Nhận thêm hệ số hấp thụ sát thương tăng theo cấp (đối với giáp)[/ROW]
+[ROW]+3|Lưu Vân|Nhận thêm tốc độ di chuyển tăng theo cấp[/ROW]
+[ROW]+5|Hồi Phong|Có tỉ lệ đẩy lùi mục tiêu ra xa khi bị tấn công[/ROW]
+[ROW]+9|Ngạo Tuyết|Nhận thêm khả năng kháng lửa, kháng axít[/ROW]
+[ROW]+11|Vô Ngã|Tăng khả năng chống chịu (chuyển hất ngã thành đẩy lùi)[/ROW]
+[ROW]+13|Bất Diệt|Bị tấn công có tỉ lệ cao phục hồi sinh lực bằng ST giáp đã hấp thụ và không tiêu hao độ bền trang bị[/ROW]
+[/TABLE]
+
+- Khi đạt đến cấp độ nhất định [TB Tay] sẽ tự động nhận thêm các nội tại đặc biệt:
+[TABLE]
+[HEADER]Cấp|Nội Tại|Khả Năng[/HEADER]
+[ROW]+1|Nhất Khí|Nhận thêm sát thương vật lý tăng theo cấp (đối với vũ khí)[/ROW]
+[ROW]+3|Bộc Liệt|Gây sát thương lan tăng theo cấp khi tấn công (ở cấp 13 gây 50% ST chính)[/ROW]
+[ROW]+5|Bạo Vũ|Gây sát thương chuẩn tăng theo cấp (trừ thẳng vào máu mục tiêu)[/ROW]
+[ROW]+9|Ngự Lôi|Nhận thêm khả năng miễn nhiễm sát thương từ sét[/ROW]
+[ROW]+11|Địa Chấn|Tấn công có cơ hội gây hiệu ứng làm ngắt chuỗi hành động mục tiêu[/ROW]
+[ROW]+13|Tàn Ảnh|Tấn công có cơ hội tạo nhiều phân thân đồng loạt tấn công lên mục tiêu và không tiêu hao độ bền trang bị[/ROW]
+[/TABLE]
+
+==------------------ HỢP THÀNH ------------------==
+
+- Mở bảng tổng hợp và đặt trang bị cần ép thuộc tính vào ô chỉ định, sau đó thêm Giấy Thuộc Tính hoặc Đá Thuộc Tính vào ô bên cạnh và cuối cùng ấn nút [Ép] để hợp thành thuộc tính đó vào trang bị.
+- Phần đa trang bị sẽ ép được tối đa 4 dòng thuộc tính, một số ít chỉ ép được tối đa 3 dòng
+- Một số trang bị đặc biệt sẽ ko ép được một số thuộc tính chỉ định
+
+==------------------ ĐÁ THUỘC TÍNH ------------------==
+
+--Tái Chế--
+- Giết bất cứ sinh vật nào đều có cơ hội rơi ra trang bị có chứa các dòng thuộc tính ngẫu nhiên, đạo cụ và châu báu. Quái càng mạnh thì chất lượng và tỉ lệ đồ rơi ra càng cao
+- Trang bị có nhiều hơn 3 thuộc tính có thể Tái Chế để trả lại 1 đá thuộc tính ngẫu nhiên trong 3 dòng
+- Tái chế trang bị có ít hơn 3 thuộc tính có tỉ lệ rất thấp trả lại đá thuộc tính
+- Để Tái Chế, người chơi có thể mở Bảng Tổng Hợp (ấn nút X nếu chưa thay đổi trong config mod) bỏ trang bị cần tái chế ở những ô bên trái và ấn nút Tái Chế. Ngoài ra có thể sử dụng chức năng của Thạch Trượng hoặc Hắc Trượng
+
+--Đặt Lại--
+Mở Bảng Tổng Hợp sẽ có nút [Đặt Lại] giúp làm mới tất cả các giá trị ngẫu nhiên của các dòng đã thêm vào trang bị chỉ định, yêu cầu 1 đạo cụ [Bùa-May] cho mỗi lần đặt lại (nếu có sẽ ở phần Khảm của Bảng Tổng Hợp)
+
+--Ngẫu Luyện--
+- Mở Hợp Thành Đài sẽ có phần [Ngẫu Luyện] giúp tạo ra Đá Thuộc Tính mới có thuộc tính ngẫu nhiên và phẩm chất ngẫu nhiên. Có 5% cơ hội tạo ra đá thuộc tính hiếm (đá cam) và có 1% cơ hội tạo ra đá thuộc tính siêu hiếm (đá đỏ). Mỗi lần sẽ yêu cầu tiêu tốn 1 đá thuộc tính thường (đá trắng) và 5 Linh Thạch.
+
+--Thanh Tẩy--
+- Mở Hợp Thành Đài sẽ có phần [Thanh Tẩy Trang Bị] giúp xoá chỉ định một hoặc nhiều dòng thuộc tính đã ép. Yêu cầu 1 đạo cụ [Bùa-Tẩy] cho mỗi dòng cần xoá (nếu có sẽ ở phần Khảm của Bảng Tổng Hợp)
+
+--Kế Thừa--
+- Mở Hợp Thành Đài sẽ có phần [Kế Thừa Trang Bị] giúp chuyển tất cả thuộc tính từ trang bị này sang 1 trang bị khác còn mới (chưa hợp thành hay khảm nạm gì). Yêu cầu: Linh Thạch và Nhiên Liệu Ác Mộng.
+
+
+==------------------ DUNG HỢP ------------------==
+
+--Cách Thực Hiện--
+- Bạn cần bỏ đúng nguyên liệu vào Máy Ma Thuật Cấp 2 và ấn nút để "Dung Hợp"
+  • 3 Phúc Lạc Dược I và 1 Pure Brilliance thành Phúc Lạc Dược II
+  • 3 Phúc Lạc Dược II và 2 Pure Brilliance thành Phúc Lạc Dược III
+
+==------------------ HIỆU ỨNG ------------------==
+
+[TABLE]
+[HEADER]Hiệu Ứng|Giải Thích[/HEADER]
+[ROW]Giảm Hồi Máu|Đòn chính giảm 90% hồi máu dương của mục tiêu trong 5 giây; làm mới, không cộng tầng và không gây sát thương[/ROW]
+[ROW]Xuyên giáp|Gói cộng thêm theo phần trăm sát thương nền, tổng tối đa 40%; không nhân crit/Bạo Phát/Công Kích/Nghịch Cảnh[/ROW]
+[ROW]Phá giáp|Làm giáp mục tiêu nhanh hỏng gấp đôi[/ROW]
+[ROW]Chí mạng|Mặc định là gấp đôi sát thương gây ra (tăng thêm nếu tăng sát thương chí mạng kèm theo)[/ROW]
+[ROW]Trọng thương|Tối đa 3% máu hiện tại quái thường hoặc 1% boss sau đòn chính; vẫn chịu giáp và giảm thương[/ROW]
+[ROW]Hạ Độc|Tối đa 5 tầng trong 10 giây, mỗi tầng gây 20% sát thương nền mỗi 2 giây; làm mới thời gian khi kích hoạt[/ROW]
+[ROW]Kịch độc|Khi trúng Kịch Độc Pháo Kích (miễn nhiễm độc ko kháng được loại độc này)[/ROW]
+[ROW]Bỏng|Khi trúng Hoả Diễm Pháo Kích, gây 20 ST và trừ máu theo thời gian[/ROW]
+[/TABLE]
+
+==CONSOLE==
+
+-c_give("hh_essence",99) — Linh Thạch x99
+-c_give("wb_enhancegem",99) — Đá Cường Hoá x99
+-c_give("hh_effect_tally",99) — Giấy Thuộc Tính x99
+-c_give("hh_remove_stone",99) — Lục Bảo Thạch x99
+-c_give("hh_effect_stone",10) — Đá Thuộc Tính x10

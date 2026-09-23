@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Atlas>
+  <Texture filename="eva_skill_icons.tex" />
+  <Elements>
+    <Element name="eva_skill_life.tex" u1="0.00048828125" u2="0.24951171875" v1="0.5009765625" v2="0.9990234375" />
+    <Element name="eva_skill_wings.tex" u1="0.25048828125" u2="0.49951171875" v1="0.5009765625" v2="0.9990234375" />
+    <Element name="eva_skill_array.tex" u1="0.50048828125" u2="0.74951171875" v1="0.5009765625" v2="0.9990234375" />
+    <Element name="eva_skill_harvest.tex" u1="0.75048828125" u2="0.99951171875" v1="0.5009765625" v2="0.9990234375" />
+    <Element name="eva_skill_daydu.tex" u1="0.00048828125" u2="0.24951171875" v1="0.0009765625" v2="0.4990234375" />
+  </Elements>
+</Atlas>

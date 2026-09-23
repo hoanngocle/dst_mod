@@ -1,0 +1,2582 @@
+{
+  "version": 1,
+  "build": "eva",
+  "atlas_limit": 2,
+  "animation_sha256": "13969e77f249aff2a55035cd36e9134a31380b367dc4d4b4c2c2f57c41e8de9d",
+  "build_sha256": "7e4219bb08addbfda4bfef691f721ff2741f86e42e2ddf0d970758a772bd5301",
+  "archive_sha256": "2ba94d79903fca84e33e26c8309737835acadfa6f5787aef45ec87144978a5d0",
+  "sources": {
+    "approved_front": {
+      "path": "front-parts.png",
+      "sha256": "de1e5ff6f25a79a1e89ede26710b6e7ddae263436cd1e4727bcb8bedec5c55c9"
+    },
+    "approved_profile": {
+      "path": "side-parts.png",
+      "sha256": "d892b27b7cbbeb0f00f9d7b12ff44f4e1f88a0e56e80ac6f74607d60fdd8a375"
+    },
+    "approved_rear": {
+      "path": "rear-parts.png",
+      "sha256": "3b0f0f8afe0171f0b3f005f3f21b1a833261ad886496bf9afc76ef881fcf6656"
+    },
+    "approved_rear_hat": {
+      "path": "rear-head-hat.png",
+      "sha256": "aaf65b26ec222c6265aa162c0262af778e6499bcfc9dadfbe7101a755151df56"
+    },
+    "approved_hands": {
+      "path": "hand-poses-clean.png",
+      "sha256": "f49c29497dbc584741d1812bc35c49a2ca0c8bd7de3c8b0e802eae09f2cc1ffc"
+    },
+    "approved_tresses": {
+      "path": "hair-tresses.png",
+      "sha256": "2578129ee4aa4b7225dc12ad0482e27e0cf84a5850c32a04e124667f4baf4102"
+    },
+    "approved_design": {
+      "path": "approved-design.png",
+      "sha256": "87b7ec2656efa8970c4b4b24c37df9800e3b60f4918a91fe04f7a636a53cab78"
+    },
+    "donor_luoshen": {
+      "path": "donor-luoshen.zip",
+      "sha256": "83ded69ce707e7851966aaf518e25c1466a3898d04665911894011f09a56d02d"
+    },
+    "baseline": {
+      "path": "baseline-eva.zip",
+      "sha256": "8e9dea6643f469fb61f07be6b67b671162ed04a149d27abae012fb0957fa323f"
+    },
+    "coherent_rear": {
+      "path": "concept-registration/coherent-rear-crown-fixed.png",
+      "sha256": "9568a47883c2e599162511b09b88d1f55f2e4a34b081fae0db01018d6eb4945f"
+    },
+    "coherent_rear_hat": {
+      "path": "concept-registration/coherent-rear-crownless.png",
+      "sha256": "a3a51615046aabe0280e0f10d2b40791ba610ec77f05b2fa9b6c127937bd5d10"
+    },
+    "crownless_material": {
+      "path": "concept-registration/crownless-blank-material.png",
+      "sha256": "e950b94b490d37f83fc602cd293d3b04fe451c60922bffb49e541927361a5878"
+    },
+    "blank_skin_material": {
+      "path": "concept-registration/blank-skin-material.png",
+      "sha256": "0c8659524412588ada96542540f4304909d7d5fc6bc9aa2e46fb1a71e43f0f1c"
+    },
+    "underarm_material": {
+      "path": "concept-registration/underarm-occlusion-plate.png",
+      "sha256": "a3e6681780773345b37739aade89bb4fd544616e8a59fe292463d02bea87eded"
+    },
+    "strand_ownership": {
+      "path": "concept-registration/strand-ownership-front-profile.png",
+      "sha256": "51105fcdbf7ae13a5b94b94e5ec89b7efbfb4c6e5f0213c38345415b0cd0113b"
+    },
+    "rear_strand_ownership": {
+      "path": "concept-registration/strand-ownership-rear.png",
+      "sha256": "8cb102f7b1ace2b244365b49560eb25e41c1bae96892dd1e2e37aefddd3b4608"
+    }
+  },
+  "symbols": {
+    "arm_lower": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_left_forearm_joint_shared",
+        "geometry_sha256": "38f1263db00409fb82aa899efaae9fdb48879bc982de0e9ae2082646025b6334"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "97a1a9139f376a68df8745d7786f810d911ebfa07ad7cf75b962c4823453f4d9"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      },
+      {
+        "frame": 3,
+        "mode": "preserved_special",
+        "source": "baseline#arm_lower:3",
+        "geometry_sha256": "1292fb3dac11d12120b2e949d67633a602c8172e8d4e241dff072db6d2d3a9c3"
+      },
+      {
+        "frame": 4,
+        "mode": "preserved_special",
+        "source": "baseline#arm_lower:4",
+        "geometry_sha256": "84e6fb67a7142b3f23789cc1fd1b97d004b1c483c71589cf59ec6d9621c0ec90"
+      },
+      {
+        "frame": 5,
+        "mode": "approved",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "92af58951fc09380bf5eba6f330c951dc5c3f55cb3f750db4a02d01da9fc374c"
+      },
+      {
+        "frame": 6,
+        "mode": "approved",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      }
+    ],
+    "hair": [
+      {
+        "frame": 0,
+        "mode": "hidden",
+        "source": "baseline#hair:0",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      },
+      {
+        "frame": 1,
+        "mode": "hidden",
+        "source": "baseline#hair:1",
+        "geometry_sha256": "413c163a4e3ab1293b729857426d2e1a0498dc5fda3cb26d03fbe5725d8f1d72"
+      },
+      {
+        "frame": 2,
+        "mode": "hidden",
+        "source": "baseline#hair:2",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      },
+      {
+        "frame": 3,
+        "mode": "hidden",
+        "source": "baseline#hair:3",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      }
+    ],
+    "hand": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_bilateral_hand_compromise",
+        "geometry_sha256": "0976451b76268af75739069597a33ea81f6c35f99431decb005d45e215c17a65"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "ab86afbbdaf5bee60bde09a985907b6539f057eed81569c1b497970a56916e7d"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_near_hand",
+        "geometry_sha256": "34cbe27624845e8715d9b9ebd4bd6c846de0b4d626f2bec5c053550e12e2ff33"
+      },
+      {
+        "frame": 3,
+        "mode": "approved",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "c24087d118753584646914a9017aaea805dfb668da808044327c0444bcf491c0"
+      },
+      {
+        "frame": 4,
+        "mode": "approved",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 5,
+        "mode": "approved",
+        "source": "approved_hands#fist_palm",
+        "geometry_sha256": "40d86f08c2ffb56913bf513c4d963cb192878a6ad898dfa1295cfdb44040e146"
+      },
+      {
+        "frame": 6,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "4d692894ad52b6a1a48ac6ec5557194903920ca54774c859d9c259bd866d84ca"
+      },
+      {
+        "frame": 7,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "fbfadfe3371e228878c5490111ed8c1a4e2977b439308fe18fd422ca315efe71"
+      },
+      {
+        "frame": 8,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "2b6903f578c7bfd6ac4c97b4a841ad9f0b74d48eb6091ea59b82c3e45cdc0d8d"
+      },
+      {
+        "frame": 9,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_back",
+        "geometry_sha256": "296f34d2cb627c26bf8a29e50082a1ef6572532db29402ec5b246655fcc1d4d0"
+      },
+      {
+        "frame": 10,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "7e4422d74996ab8629ac5fbb79609a03220f0db342e6ce81d4ad13027794af54"
+      },
+      {
+        "frame": 11,
+        "mode": "preserved_special",
+        "source": "baseline#hand:11",
+        "geometry_sha256": "d81d8d61e9f992125afa73ae66474a52ea5168ef9b909a3dacdf3cd45e2d2106"
+      },
+      {
+        "frame": 12,
+        "mode": "preserved_special",
+        "source": "baseline#hand:12",
+        "geometry_sha256": "77fd8bd83451ad349d5f7acf233f7b2d67c39060a454bf8f5df1a396d074b043"
+      },
+      {
+        "frame": 13,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 14,
+        "mode": "approved",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 15,
+        "mode": "preserved_special",
+        "source": "baseline#hand:15",
+        "geometry_sha256": "5c4ef7cf3b30d0c411695b9eb1092a3ac9734c23022637bc5b2a8f4aeb2b92ed"
+      },
+      {
+        "frame": 16,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "c1665345ad148e550702efb6cab08e8be00125b2e70d9f0379038bfb4038aedf"
+      },
+      {
+        "frame": 17,
+        "mode": "approved",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 18,
+        "mode": "preserved_special",
+        "source": "baseline#hand:18",
+        "geometry_sha256": "1d39629cc1604b56662536b63777051ebcc363d6d0123a958da1f76af95b1336"
+      },
+      {
+        "frame": 19,
+        "mode": "preserved_special",
+        "source": "baseline#hand:19",
+        "geometry_sha256": "60d095d7c5484fadc1893216c3243c10c42c69aca141cc878c773a210d92a49c"
+      }
+    ],
+    "skirt": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#front_skirt_with_static_exact_sleeve_pendants",
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "coherent_rear#uniform_registered_skirt",
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_front#skirt",
+        "geometry_sha256": "cf40b9885562242367a6a324e541473d27ac1b9e80a6b53c27172703acbff8bf"
+      },
+      {
+        "frame": 3,
+        "mode": "approved",
+        "source": "approved_front#skirt",
+        "geometry_sha256": "7192382443bb6d9ebf2873f50eefd634b9bdb4465fd06d77ba1878c026fb6e2b"
+      },
+      {
+        "frame": 4,
+        "mode": "hidden",
+        "source": "baseline#skirt:4",
+        "geometry_sha256": "6e4976932cae25e7eb8889cdb8fdeb480c196dc798819e3a240562121fa03d03"
+      }
+    ],
+    "torso": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_bodice",
+        "geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_bodice",
+        "geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_bodice",
+        "geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 3,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_bodice",
+        "geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524"
+      },
+      {
+        "frame": 4,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_bodice",
+        "geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:3",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 5,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_bodice",
+        "geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:3",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 6,
+        "mode": "approved",
+        "source": "coherent_rear#uniform_registered_bodice",
+        "geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69"
+      },
+      {
+        "frame": 7,
+        "mode": "approved",
+        "source": "coherent_rear#uniform_registered_bodice",
+        "geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:6",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 8,
+        "mode": "approved",
+        "source": "coherent_rear#uniform_registered_bodice",
+        "geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "torso:6",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 9,
+        "mode": "preserved_special",
+        "source": "baseline#torso:9",
+        "geometry_sha256": "6657215b1157571c1d43df45fb4b4ac5c426b3c5fecd2f0af6bdf442d0e8112a"
+      },
+      {
+        "frame": 10,
+        "mode": "preserved_special",
+        "source": "baseline#torso:10",
+        "geometry_sha256": "bed7a0e4e1ec2a0ed807eae4bbd4e5cc8cec4c54b35c764fd1fbfa4ca6878c0d"
+      }
+    ],
+    "hair_hat": [
+      {
+        "frame": 0,
+        "mode": "hidden",
+        "source": "baseline#hair_hat:0",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      },
+      {
+        "frame": 1,
+        "mode": "hidden",
+        "source": "baseline#hair_hat:1",
+        "geometry_sha256": "413c163a4e3ab1293b729857426d2e1a0498dc5fda3cb26d03fbe5725d8f1d72"
+      },
+      {
+        "frame": 2,
+        "mode": "hidden",
+        "source": "baseline#hair_hat:2",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      },
+      {
+        "frame": 3,
+        "mode": "hidden",
+        "source": "baseline#hair_hat:3",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      }
+    ],
+    "leg": [
+      {
+        "frame": 0,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:0",
+        "geometry_sha256": "b035627ecf1d10109f7095d5ca1c6fa785ce497d004b342ce23d3eef3e2366f6"
+      },
+      {
+        "frame": 1,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:1",
+        "geometry_sha256": "b049e00c898efd2677b7172a5f94b395cc9a8871f239270feefb4fddf573f8e8"
+      },
+      {
+        "frame": 2,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:2",
+        "geometry_sha256": "55858e33e7ffe5c3a7bf8e46d2cf11f7a7e4250e367cd2db91d651fc4248885c"
+      },
+      {
+        "frame": 3,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:3",
+        "geometry_sha256": "a6ce970a66e9a86619e7900c411ee5a637c2da23e4a929c9a6a2b6e4af937486"
+      },
+      {
+        "frame": 4,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:4",
+        "geometry_sha256": "5b56704432a7db5cd1d4dec4fe9ce83a15b6733875146a33b66e1d19ab1db42d"
+      },
+      {
+        "frame": 5,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:5",
+        "geometry_sha256": "7a6b5335be22f15489697c4826b80c5899839f1393ed6cf2856f8b5c64ddc198"
+      },
+      {
+        "frame": 6,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:6",
+        "geometry_sha256": "c0ab611f5351469baec67b29ea70891279822fcd667e79a0bca48771481cd3c8"
+      },
+      {
+        "frame": 7,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:7",
+        "geometry_sha256": "a78fec266b361054f3b0514bef5decb785d5830718a554f3d7a53f6bca086f04"
+      },
+      {
+        "frame": 8,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:8",
+        "geometry_sha256": "65eb9fa6956180fb029b8e11e16e0e4fc74697a3938a205188c25910e1923348"
+      },
+      {
+        "frame": 9,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:9",
+        "geometry_sha256": "21199c208b0a3d791b09f9da6fde5b23e5eb61a74595a6075b38d3f4305df714"
+      },
+      {
+        "frame": 10,
+        "mode": "preserved_existing",
+        "source": "baseline#leg:10",
+        "geometry_sha256": "df96de2cf59890b6b410b75f2152ffeb7d23fbea0acd87bd90da7b1d81f3822a"
+      }
+    ],
+    "headbase_hat": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "crownless_material#concept_registered_front_head_hat",
+        "geometry_sha256": "2245f1904faffdc99b5416d837ca6e0d6c8aa36e4f351547f7f728b7816278f6"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "crownless_material#concept_registered_profile_head_hat",
+        "geometry_sha256": "e57123471130846ad2f23a7eda6da7e89d53c6cb3c0b8ccfec4721d05ca3d0cd"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "coherent_rear_hat#crown_omitted_hat_head",
+        "geometry_sha256": "55406e3baa5d6600f1fbb11887c5ee5a256b52d8bbc5d4d82d7301835391d3df"
+      },
+      {
+        "frame": 3,
+        "mode": "hidden",
+        "source": "baseline#headbase_hat:3",
+        "geometry_sha256": "813270077aa1722fa97a394bb75e76bb2e47443bd7ce010c2d137d6479bdbd12"
+      }
+    ],
+    "hairfront": [
+      {
+        "frame": 0,
+        "mode": "hidden",
+        "source": "baseline#hairfront:0",
+        "geometry_sha256": "2029d55af4c9e2e1296a69ebf94e1354899c26b7ded60164f4ac146ea929ef2c"
+      },
+      {
+        "frame": 1,
+        "mode": "hidden",
+        "source": "baseline#hairfront:1",
+        "geometry_sha256": "413c163a4e3ab1293b729857426d2e1a0498dc5fda3cb26d03fbe5725d8f1d72"
+      }
+    ],
+    "tail": [
+      {
+        "frame": 0,
+        "mode": "hidden",
+        "source": "baseline#tail:0",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 1,
+        "mode": "hidden",
+        "source": "baseline#tail:1",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 2,
+        "mode": "hidden",
+        "source": "baseline#tail:2",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 3,
+        "mode": "hidden",
+        "source": "baseline#tail:3",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 4,
+        "mode": "hidden",
+        "source": "baseline#tail:4",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 5,
+        "mode": "hidden",
+        "source": "baseline#tail:5",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 6,
+        "mode": "hidden",
+        "source": "baseline#tail:6",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 7,
+        "mode": "hidden",
+        "source": "baseline#tail:7",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 8,
+        "mode": "hidden",
+        "source": "baseline#tail:8",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 9,
+        "mode": "hidden",
+        "source": "baseline#tail:9",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 10,
+        "mode": "hidden",
+        "source": "baseline#tail:10",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      },
+      {
+        "frame": 11,
+        "mode": "hidden",
+        "source": "baseline#tail:11",
+        "geometry_sha256": "3005c7cadbd43fd74cadd539195cf8c5303dd7e2b6c626e902e53a3643a38283"
+      }
+    ],
+    "arm_upper_skin": [
+      {
+        "frame": 0,
+        "mode": "approved_combined",
+        "source": "approved_front#upper_arm_consumes_skin_layer",
+        "geometry_sha256": "42c7d64d2c3cfa3324dac1e7f3e660d9455f981c0777c1d28138646d68b641a3"
+      },
+      {
+        "frame": 1,
+        "mode": "approved_combined",
+        "source": "approved_front#upper_arm_consumes_skin_layer",
+        "geometry_sha256": "2745dd9dc70995ba00ae973de80964a0ccd00e3519a29cb8fb8557612969c4a4"
+      },
+      {
+        "frame": 2,
+        "mode": "preserved_special",
+        "source": "baseline#arm_upper_skin:2",
+        "geometry_sha256": "5307f5c1ee1e3884159927c9c0658152081c9bf8885a0d3da9ed4cd669d364c6"
+      }
+    ],
+    "arm_upper": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_left_upper_shared",
+        "geometry_sha256": "8d81614ad6e67106bfd0c21d1045342648a6602214632ea2663591816a0cb2d4"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "a96c4379aee38f31f13b98b14910739e7eaee4ed49cb4ec3d28ff169d1fc5981"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_near_upper",
+        "geometry_sha256": "e9d8e7ba3ff4abb71b6ffd105746eb00752e291abe3dd24a2e91d314579c591f"
+      },
+      {
+        "frame": 3,
+        "mode": "approved",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 4,
+        "mode": "approved",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 5,
+        "mode": "preserved_existing",
+        "source": "baseline#arm_upper:5",
+        "geometry_sha256": "0061658e782d70d8dc4987d15fd27d73499b9db281e46134bd1d6512e90682b2"
+      },
+      {
+        "frame": 6,
+        "mode": "preserved_existing",
+        "source": "baseline#arm_upper:6",
+        "geometry_sha256": "fe9481b4bb89f5349636c7f5e267b3873de6eb881b5d0cfcbcaf36dfbaae881a"
+      }
+    ],
+    "hairpigtails": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_back_hair_0",
+        "geometry_sha256": "206ae37e08db93c0c77c90ca2da0a5217965aa43c4bf8809a84e1032cb257644"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_back_hair_1",
+        "geometry_sha256": "392722e1f8f40013269082f6a03fd9e8bf6b5ac2b963e8bec700419a96efd6fc"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "approved_profile#back_hair",
+        "geometry_sha256": "5d636d3e8b6e93b4d0ffd071a8bcd07bc22a1d1685c0a45cd60e937ca87d67ae"
+      },
+      {
+        "frame": 3,
+        "mode": "preserved_existing",
+        "source": "baseline#hairpigtails:3",
+        "geometry_sha256": "64e5bb01330f13a73c1e7c994dd8d6203295d10008ab9c8b5246f7022461071a"
+      },
+      {
+        "frame": 4,
+        "mode": "preserved_existing",
+        "source": "baseline#hairpigtails:4",
+        "geometry_sha256": "32fd06d7e5b6db7c3b22883e2ab4d1d1d6f7fe42b61a53b318fbac7e32a2eac8"
+      }
+    ],
+    "headbase": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_head",
+        "geometry_sha256": "0a0d36e1b6b82c4df518a384f9e4439901b9bfeafd750a939816dd2a6e88cbff"
+      },
+      {
+        "frame": 1,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_head",
+        "geometry_sha256": "017ad375b529fc215217b46f92aa3639912d6402fe82af2a8eeb46356a51b145"
+      },
+      {
+        "frame": 2,
+        "mode": "approved",
+        "source": "coherent_rear#uniform_registered_head",
+        "geometry_sha256": "fd36526e1908e3ba834907fd08740901d27ebfaeb9f0a9140b61c30c57a70b16"
+      },
+      {
+        "frame": 3,
+        "mode": "preserved_special",
+        "source": "baseline#headbase:3",
+        "geometry_sha256": "4883636408a8667786bbc7a21da76fead1c8390364bf91d7ce1c70be2ce55f17"
+      }
+    ],
+    "cheeks": [
+      {
+        "frame": 0,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#cheeks:0",
+        "geometry_sha256": "30fc55f02b0be9fc6e16eebac224cdf1cbe3092de223eb3491068b4cf7bd5e56"
+      },
+      {
+        "frame": 1,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#cheeks:1",
+        "geometry_sha256": "c9b4833781d7f0afff43d373f25ed06e79ee494a0fc65950c4ded8d79bb4c99e"
+      }
+    ],
+    "face": [
+      {
+        "frame": 0,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_front_face",
+        "geometry_sha256": "0abe82b52ee6c41ce370c6f8c821665efbcd9bc785bcb612f03f49e38e277b4b"
+      },
+      {
+        "frame": 1,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:1",
+        "geometry_sha256": "617adb424a4be6d73e4cf330f49ce67d5872dc4eb3d5723ac3bd42b5a6530f84"
+      },
+      {
+        "frame": 2,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:2",
+        "geometry_sha256": "17885ada30abc17ad02d9428819884db20fd3cb9925d450de60c427dddbc0cc4"
+      },
+      {
+        "frame": 3,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:3",
+        "geometry_sha256": "a73490b28533ca95b3a423fde73f90e072b922bb2ae084bc6e0bb47224062f0d"
+      },
+      {
+        "frame": 4,
+        "mode": "approved",
+        "source": "approved_design#concept_registered_profile_face",
+        "geometry_sha256": "018c49edcd067333294f8d41f3b1f265dc12e9bd6e78a213070a0d4a60b15bfa"
+      },
+      {
+        "frame": 5,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:5",
+        "geometry_sha256": "062959363bf0e28fdd5c06a3d8e3e7636a1095eb1ad8785bc53ce3fd11c2f76b"
+      },
+      {
+        "frame": 6,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:6",
+        "geometry_sha256": "6a304f035219d844f1ad3d100f7e71b873266f10be25a3a1af4e44f91feac24d"
+      },
+      {
+        "frame": 7,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:7",
+        "geometry_sha256": "b7ae6224df013338d2d62245419dee5d9ab46ba3b2bcde5843c7cf06d0e90dd7"
+      },
+      {
+        "frame": 8,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:8",
+        "geometry_sha256": "e0d0a2721fdf723c58deb3aba3355bfee9e5a1edc130cd78573bb85a563f4ead"
+      },
+      {
+        "frame": 9,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:9",
+        "geometry_sha256": "5c92f29e32b06c4d8aea3b0270b0581519f643a879f27d08a2d5022a275c37a4"
+      },
+      {
+        "frame": 10,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:10",
+        "geometry_sha256": "b3c35368479f64b08e7a5c37dcd36b51b8c8bebc390104f797e21176735d8623"
+      },
+      {
+        "frame": 11,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:11",
+        "geometry_sha256": "fbf603c43b3b7f96f0a393c706cf84dbc2b5607071d449e0d057ca8eb3a1defd"
+      },
+      {
+        "frame": 12,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:12",
+        "geometry_sha256": "6d1ce1700483b4e73934066822a8eeb1fd41b6389047f5cc7ea4f028aa74c68a"
+      },
+      {
+        "frame": 13,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:13",
+        "geometry_sha256": "3acf7ba1841378b614eaacab70312bd5fc302410497ac94be36d15dbd5b5e276"
+      },
+      {
+        "frame": 14,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:14",
+        "geometry_sha256": "a19a8fc695e66a236de389688f77ddadf62b4bb3be3d6234673169df58e440de"
+      },
+      {
+        "frame": 15,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:15",
+        "geometry_sha256": "8e778bf45e9fab83c1c4c83684388ca60bef4c18ef8412aea6d39eadfb29756c"
+      },
+      {
+        "frame": 16,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:16",
+        "geometry_sha256": "3e5b0d9b73aad9f51ce780fc9cffc6dae3149fce22cb1d8a2c424b07828b6d36"
+      },
+      {
+        "frame": 17,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:17",
+        "geometry_sha256": "bf5708fcd6c56b401a9bd72fc738620f4f42f5efc056b00f4c435fa72f135087"
+      },
+      {
+        "frame": 18,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:18",
+        "geometry_sha256": "edbf4d3bb670bbaca621a8599581130c768f606a5d1b009c96af11d84a6332c5"
+      },
+      {
+        "frame": 19,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:19",
+        "geometry_sha256": "419df2813f5db03b40710d771298ba60371f70f268aefe368bc142cc6de2a9f1"
+      },
+      {
+        "frame": 20,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:20",
+        "geometry_sha256": "7f2a5d5dbfb5bf1bf960de8eeccc861a65840658e05cac99fd5e991cb1758658"
+      },
+      {
+        "frame": 21,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:21",
+        "geometry_sha256": "6b0314d4d9352c69baf3b1f50d93e8037c7d6c28d2c3a658d6b331c3ff6975ec"
+      },
+      {
+        "frame": 22,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:22",
+        "geometry_sha256": "0636e09158b880461e9ee768752b35e3d076dbc0762a61b7fd70c6c773633287"
+      },
+      {
+        "frame": 23,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:23",
+        "geometry_sha256": "173b548ccc069d090cedc2de9d1d6bbb9662a1ea327adbe25605dc4e7305bba5"
+      },
+      {
+        "frame": 24,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:24",
+        "geometry_sha256": "6f8e937cfdfb5e22ea05a7772f2dd7fc08259bd26ba09d7923a6f92af311e794"
+      },
+      {
+        "frame": 25,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:25",
+        "geometry_sha256": "3e76688b13326d347451dbfbf3cdbe0159aeacad16194e771efd71d39eb8df46"
+      },
+      {
+        "frame": 26,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:26",
+        "geometry_sha256": "d7a1bd13d7d4c0d7d76e5950b3e9023a0945c43dac99f5d4907de5818f3d9a92"
+      },
+      {
+        "frame": 27,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:27",
+        "geometry_sha256": "dfaa787bf5534d60f06f9f2cdc10e201bb20c604e6136711ed16386900810234"
+      },
+      {
+        "frame": 28,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:28",
+        "geometry_sha256": "f35906e03a19d77710704b310f57940f0a0152277631a9122bb861d17c7a3038"
+      },
+      {
+        "frame": 29,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:29",
+        "geometry_sha256": "6c03edbe93956880bfc85341de5765163028c7f48d8b2f67499fb56c6e0f6b1a"
+      },
+      {
+        "frame": 30,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:30",
+        "geometry_sha256": "7d4a4db7e2496eda8ca9c90fd657a510c66e05ef8d2310935d11f5f04d5db4f1"
+      },
+      {
+        "frame": 31,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:31",
+        "geometry_sha256": "651d6ddd758842b5b9abd9059ca1eea462f845a436269ce3d8fd609327ad9f86"
+      },
+      {
+        "frame": 32,
+        "mode": "donor_expression",
+        "source": "donor_luoshen#face:32",
+        "geometry_sha256": "b2f39f051d0f0e5d4c53df748f100b82cdbe925190585454ef2a335bd5ee06ea"
+      },
+      {
+        "frame": 33,
+        "mode": "approved",
+        "source": "approved_design#exact_front_neutral_fallback",
+        "geometry_sha256": "3b5246688440c810733949077883b7a0b4a9b07c1f8a18de6759914e55721d90"
+      }
+    ],
+    "foot": [
+      {
+        "frame": 0,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:0",
+        "geometry_sha256": "ed868a84a27bd9047e9adc81c6c4e8146fccf59d605906a1e64ae701626a11be"
+      },
+      {
+        "frame": 1,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:1",
+        "geometry_sha256": "b5b1bca67cd58c2305eb6f42692a9fd04fb02ae8cd0fa0e4a5a14fbbf6426ba9"
+      },
+      {
+        "frame": 2,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:2",
+        "geometry_sha256": "0bc286649e4b79b4908f54dc5bc31e8da29e5a72765dd46047a7c70584fcd7b5"
+      },
+      {
+        "frame": 3,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:3",
+        "geometry_sha256": "8adc05542ea84208541e0b4e380126c6b47e9eaffa8fd1d768e6c7ffc40521df"
+      },
+      {
+        "frame": 4,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:4",
+        "geometry_sha256": "649b90205c5fafc3f61e218df2726b02307e0f45843aecb3b784ddd84aae748a"
+      },
+      {
+        "frame": 5,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:5",
+        "geometry_sha256": "71d7941397105afe9fa4e909069eedf4acd19e8aaf0c03d2e1ff8bc599198e95"
+      },
+      {
+        "frame": 6,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:6",
+        "geometry_sha256": "a3b7e0ea371271874ed4220772eb901d0d65ba1c52bc2a90abbfe4bd8c1d4f6a"
+      },
+      {
+        "frame": 7,
+        "mode": "preserved_existing",
+        "source": "baseline#foot:7",
+        "geometry_sha256": "ed12f124e56e76e06a5489701d51610fc637d7a757b8e880d3aa2ec9ee8e95ca"
+      }
+    ],
+    "face_sail": [
+      {
+        "frame": 0,
+        "mode": "preserved_existing",
+        "source": "baseline#face_sail:0",
+        "geometry_sha256": "072220ff3547def21a23326a55572ef2290d04806a9dbc98841bdeec7ef31aaf"
+      }
+    ],
+    "torso_pelvis": [
+      {
+        "frame": 0,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:0",
+        "geometry_sha256": "1280d410e03691487da4d1e12c3eadcb8bffbdd4d30b009e028b6949df10b285"
+      },
+      {
+        "frame": 1,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:1",
+        "geometry_sha256": "901d150b1d5bca3a4f153db50f696061d5fcb09c659427c657986b2b24e8b72e"
+      },
+      {
+        "frame": 2,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:2",
+        "geometry_sha256": "808852902d0d2af82aa5fa4a871ad1adeec3658b438e7f8355b05880f0557eb9"
+      },
+      {
+        "frame": 3,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:3",
+        "geometry_sha256": "82e6ed167bb17c941bbea8c943696c5c34ffd008ff3a6ae55b0f66fa01912176"
+      },
+      {
+        "frame": 4,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:4",
+        "geometry_sha256": "c8a9f0133d57916a754089657300b97c23f0a452d723b2496d2ac49c9b126a67"
+      },
+      {
+        "frame": 5,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:5",
+        "geometry_sha256": "804a56f56e800e009c352714f234fe9d0edebfd59032221944be7035721a32fc"
+      },
+      {
+        "frame": 6,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:6",
+        "geometry_sha256": "3004c2b4704454c13ed56b30153846cc4886aa2cfc825b6ace42855806b4dae4"
+      },
+      {
+        "frame": 7,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:7",
+        "geometry_sha256": "a06c756a1620ac0e8704f2b9b728ccb8864d5d056a46f1b52595f4a97b13b7df"
+      },
+      {
+        "frame": 8,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:8",
+        "geometry_sha256": "9d58bb65073cf05f237939270aca7e32e064f08e5277fad3325e2867c877e468"
+      },
+      {
+        "frame": 9,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:9",
+        "geometry_sha256": "d22ba1bdaca5ec411ef2fb09b6e95ab062431e36fe2b0ceb31daefb761fa9b9d"
+      },
+      {
+        "frame": 10,
+        "mode": "hidden",
+        "source": "baseline#torso_pelvis:10",
+        "geometry_sha256": "901d150b1d5bca3a4f153db50f696061d5fcb09c659427c657986b2b24e8b72e"
+      }
+    ],
+    "SWAP_ICON": [
+      {
+        "frame": 0,
+        "mode": "preserved_existing",
+        "source": "baseline#SWAP_ICON:0",
+        "geometry_sha256": "3c7f11ad66c6bd39a5095f1c84abd5ebbb1484e82b83a4f5ea015b14684598ee"
+      }
+    ],
+    "skirt__eva_front": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#front_skirt_with_static_exact_sleeve_pendants",
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "coherent_rear#uniform_registered_skirt",
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#front_skirt_with_static_exact_sleeve_pendants",
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "skirt__eva_front:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_design#front_skirt_with_static_exact_sleeve_pendants",
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "skirt__eva_front:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#skirt:4",
+        "geometry_sha256": "6e4976932cae25e7eb8889cdb8fdeb480c196dc798819e3a240562121fa03d03"
+      }
+    ],
+    "skirt__eva_profile": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#exact_profile_skirt_alias",
+        "geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "coherent_rear#uniform_registered_skirt",
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#exact_profile_skirt_alias",
+        "geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "skirt__eva_profile:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_design#exact_profile_skirt_alias",
+        "geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "skirt__eva_profile:0",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#skirt:4",
+        "geometry_sha256": "6e4976932cae25e7eb8889cdb8fdeb480c196dc798819e3a240562121fa03d03"
+      }
+    ],
+    "skirt__eva_rear": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#front_skirt_with_static_exact_sleeve_pendants",
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "coherent_rear#uniform_registered_skirt",
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "coherent_rear#uniform_registered_skirt",
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e",
+        "provenance": {
+          "stage": "Task2c",
+          "copied_from": "skirt__eva_rear:1",
+          "destination_identity_retained": true,
+          "source_archive": "task2b_candidate"
+        }
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_front#skirt",
+        "geometry_sha256": "7192382443bb6d9ebf2873f50eefd634b9bdb4465fd06d77ba1878c026fb6e2b"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#skirt:4",
+        "geometry_sha256": "6e4976932cae25e7eb8889cdb8fdeb480c196dc798819e3a240562121fa03d03"
+      }
+    ],
+    "arm_lower__eva_front": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_left_forearm_joint_shared",
+        "geometry_sha256": "38f1263db00409fb82aa899efaae9fdb48879bc982de0e9ae2082646025b6334"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_design#front_run_forearm",
+        "geometry_sha256": "4bd9adfd32a9f45d05f50e07ba353643c648bcc4b73e2a514234a47c2b06c578",
+        "provenance": {
+          "stage": "Task2",
+          "operation": "restore approved neutral longitudinal arm proportion",
+          "baseline_archive": "task2_6bb_candidate",
+          "evidence": "task2_evidence#geometry_report.lower_1",
+          "uv_z_atlas_exact": true
+        }
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#front_run_forearm",
+        "geometry_sha256": "d6975ccba4c64785f8ee5e504a9c305679f0f30b117488f31570b09e51a082c8",
+        "provenance": {
+          "stage": "Task2",
+          "operation": "restore approved neutral longitudinal arm proportion",
+          "baseline_archive": "task2_6bb_candidate",
+          "evidence": "task2_evidence#geometry_report.lower_2",
+          "uv_z_atlas_exact": true
+        }
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:3",
+        "geometry_sha256": "1292fb3dac11d12120b2e949d67633a602c8172e8d4e241dff072db6d2d3a9c3"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:4",
+        "geometry_sha256": "84e6fb67a7142b3f23789cc1fd1b97d004b1c483c71589cf59ec6d9621c0ec90"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "92af58951fc09380bf5eba6f330c951dc5c3f55cb3f750db4a02d01da9fc374c"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      }
+    ],
+    "arm_lower__eva_profile": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#exact_profile_forearm_alias",
+        "geometry_sha256": "84ab348f02fb1aee21ff73bb575e7c75bcc7a5ede70d9718e7c977231a7b3d72"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "97a1a9139f376a68df8745d7786f810d911ebfa07ad7cf75b962c4823453f4d9"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:3",
+        "geometry_sha256": "1292fb3dac11d12120b2e949d67633a602c8172e8d4e241dff072db6d2d3a9c3"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:4",
+        "geometry_sha256": "84e6fb67a7142b3f23789cc1fd1b97d004b1c483c71589cf59ec6d9621c0ec90"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "92af58951fc09380bf5eba6f330c951dc5c3f55cb3f750db4a02d01da9fc374c"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      }
+    ],
+    "arm_lower__eva_rear": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_left_forearm_joint_shared",
+        "geometry_sha256": "38f1263db00409fb82aa899efaae9fdb48879bc982de0e9ae2082646025b6334"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "97a1a9139f376a68df8745d7786f810d911ebfa07ad7cf75b962c4823453f4d9"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:3",
+        "geometry_sha256": "1292fb3dac11d12120b2e949d67633a602c8172e8d4e241dff072db6d2d3a9c3"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#arm_lower:4",
+        "geometry_sha256": "84e6fb67a7142b3f23789cc1fd1b97d004b1c483c71589cf59ec6d9621c0ec90"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_front#forearm",
+        "geometry_sha256": "92af58951fc09380bf5eba6f330c951dc5c3f55cb3f750db4a02d01da9fc374c"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_profile#forearm",
+        "geometry_sha256": "47bd47853033fedb992f8c0aeb7443e7af3cc0d8b93e8cb096a48ba54ab647ab"
+      }
+    ],
+    "hairpigtails__eva_front": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_front_back_hair_0",
+        "geometry_sha256": "206ae37e08db93c0c77c90ca2da0a5217965aa43c4bf8809a84e1032cb257644"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_front_back_hair_1",
+        "geometry_sha256": "392722e1f8f40013269082f6a03fd9e8bf6b5ac2b963e8bec700419a96efd6fc"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_profile#back_hair",
+        "geometry_sha256": "5d636d3e8b6e93b4d0ffd071a8bcd07bc22a1d1685c0a45cd60e937ca87d67ae"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:3",
+        "geometry_sha256": "64e5bb01330f13a73c1e7c994dd8d6203295d10008ab9c8b5246f7022461071a"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:4",
+        "geometry_sha256": "32fd06d7e5b6db7c3b22883e2ab4d1d1d6f7fe42b61a53b318fbac7e32a2eac8"
+      }
+    ],
+    "hairpigtails__eva_profile": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_front_back_hair_0",
+        "geometry_sha256": "206ae37e08db93c0c77c90ca2da0a5217965aa43c4bf8809a84e1032cb257644"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_front_back_hair_1",
+        "geometry_sha256": "392722e1f8f40013269082f6a03fd9e8bf6b5ac2b963e8bec700419a96efd6fc"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "underarm_material#profile_static_hair_and_body_backing",
+        "geometry_sha256": "b0c43e4b81ad1ddc6f92a39657dc37daa780fce97fd01b9136c3be2cac367148"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:3",
+        "geometry_sha256": "64e5bb01330f13a73c1e7c994dd8d6203295d10008ab9c8b5246f7022461071a"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:4",
+        "geometry_sha256": "32fd06d7e5b6db7c3b22883e2ab4d1d1d6f7fe42b61a53b318fbac7e32a2eac8"
+      }
+    ],
+    "hairpigtails__eva_rear": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "coherent_rear#whole_strand_owner_0",
+        "geometry_sha256": "32dadd9234f1c29c6a1c52287a0e4c71272415db9085645e8a4e58ca5c4d799b"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "coherent_rear#whole_strand_owner_1",
+        "geometry_sha256": "6e4c868db6f7c55b1de06f6d049fd22f136ae288759710b42f898c9e2dd29113"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_profile#back_hair",
+        "geometry_sha256": "5d636d3e8b6e93b4d0ffd071a8bcd07bc22a1d1685c0a45cd60e937ca87d67ae"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:3",
+        "geometry_sha256": "64e5bb01330f13a73c1e7c994dd8d6203295d10008ab9c8b5246f7022461071a"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "baseline#hairpigtails:4",
+        "geometry_sha256": "32fd06d7e5b6db7c3b22883e2ab4d1d1d6f7fe42b61a53b318fbac7e32a2eac8"
+      }
+    ],
+    "arm_upper__eva_front": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_left_upper_shared",
+        "geometry_sha256": "8d81614ad6e67106bfd0c21d1045342648a6602214632ea2663591816a0cb2d4"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "a96c4379aee38f31f13b98b14910739e7eaee4ed49cb4ec3d28ff169d1fc5981"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_profile_near_upper",
+        "geometry_sha256": "e9d8e7ba3ff4abb71b6ffd105746eb00752e291abe3dd24a2e91d314579c591f"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:5",
+        "geometry_sha256": "0061658e782d70d8dc4987d15fd27d73499b9db281e46134bd1d6512e90682b2"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:6",
+        "geometry_sha256": "fe9481b4bb89f5349636c7f5e267b3873de6eb881b5d0cfcbcaf36dfbaae881a"
+      }
+    ],
+    "arm_upper__eva_profile": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_left_upper_shared",
+        "geometry_sha256": "8d81614ad6e67106bfd0c21d1045342648a6602214632ea2663591816a0cb2d4"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "a96c4379aee38f31f13b98b14910739e7eaee4ed49cb4ec3d28ff169d1fc5981"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_profile_near_upper",
+        "geometry_sha256": "e9d8e7ba3ff4abb71b6ffd105746eb00752e291abe3dd24a2e91d314579c591f"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:5",
+        "geometry_sha256": "0061658e782d70d8dc4987d15fd27d73499b9db281e46134bd1d6512e90682b2"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:6",
+        "geometry_sha256": "fe9481b4bb89f5349636c7f5e267b3873de6eb881b5d0cfcbcaf36dfbaae881a"
+      }
+    ],
+    "arm_upper__eva_rear": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_left_upper_shared",
+        "geometry_sha256": "8d81614ad6e67106bfd0c21d1045342648a6602214632ea2663591816a0cb2d4"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "a96c4379aee38f31f13b98b14910739e7eaee4ed49cb4ec3d28ff169d1fc5981"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_profile_near_upper",
+        "geometry_sha256": "e9d8e7ba3ff4abb71b6ffd105746eb00752e291abe3dd24a2e91d314579c591f"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_front#upper_arm",
+        "geometry_sha256": "026e3e6a308fc7587bbd2fbcb9a4e5af1715d8351506972a35004c4ad132a8f4"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:5",
+        "geometry_sha256": "0061658e782d70d8dc4987d15fd27d73499b9db281e46134bd1d6512e90682b2"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "baseline#arm_upper:6",
+        "geometry_sha256": "fe9481b4bb89f5349636c7f5e267b3873de6eb881b5d0cfcbcaf36dfbaae881a"
+      }
+    ],
+    "hand__eva_front": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_bilateral_hand_compromise",
+        "geometry_sha256": "0976451b76268af75739069597a33ea81f6c35f99431decb005d45e215c17a65"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "ab86afbbdaf5bee60bde09a985907b6539f057eed81569c1b497970a56916e7d"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_side_front_run_2_native_wrist_fit",
+        "geometry_sha256": "38f60f583a15d4fbab0beda6f3ff05dcf0fe1bef56a0fab2deea0d7e2be56d15"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "c24087d118753584646914a9017aaea805dfb668da808044327c0444bcf491c0"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_palm_front_run_5_native_wrist_fit",
+        "geometry_sha256": "7dccddacdcdfe49c031c33328c49c5503f8f08a39832f7713c4889a4bcf2d6d4"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "4d692894ad52b6a1a48ac6ec5557194903920ca54774c859d9c259bd866d84ca"
+      },
+      {
+        "frame": 7,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "fbfadfe3371e228878c5490111ed8c1a4e2977b439308fe18fd422ca315efe71"
+      },
+      {
+        "frame": 8,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "2b6903f578c7bfd6ac4c97b4a841ad9f0b74d48eb6091ea59b82c3e45cdc0d8d"
+      },
+      {
+        "frame": 9,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_back",
+        "geometry_sha256": "296f34d2cb627c26bf8a29e50082a1ef6572532db29402ec5b246655fcc1d4d0"
+      },
+      {
+        "frame": 10,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "7e4422d74996ab8629ac5fbb79609a03220f0db342e6ce81d4ad13027794af54"
+      },
+      {
+        "frame": 11,
+        "mode": "facing_alias",
+        "source": "baseline#hand:11",
+        "geometry_sha256": "d81d8d61e9f992125afa73ae66474a52ea5168ef9b909a3dacdf3cd45e2d2106"
+      },
+      {
+        "frame": 12,
+        "mode": "facing_alias",
+        "source": "baseline#hand:12",
+        "geometry_sha256": "77fd8bd83451ad349d5f7acf233f7b2d67c39060a454bf8f5df1a396d074b043"
+      },
+      {
+        "frame": 13,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 14,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 15,
+        "mode": "facing_alias",
+        "source": "baseline#hand:15",
+        "geometry_sha256": "5c4ef7cf3b30d0c411695b9eb1092a3ac9734c23022637bc5b2a8f4aeb2b92ed"
+      },
+      {
+        "frame": 16,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "c1665345ad148e550702efb6cab08e8be00125b2e70d9f0379038bfb4038aedf"
+      },
+      {
+        "frame": 17,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 18,
+        "mode": "facing_alias",
+        "source": "baseline#hand:18",
+        "geometry_sha256": "1d39629cc1604b56662536b63777051ebcc363d6d0123a958da1f76af95b1336"
+      },
+      {
+        "frame": 19,
+        "mode": "facing_alias",
+        "source": "baseline#hand:19",
+        "geometry_sha256": "60d095d7c5484fadc1893216c3243c10c42c69aca141cc878c773a210d92a49c"
+      }
+    ],
+    "hand__eva_profile": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_bilateral_hand_compromise",
+        "geometry_sha256": "0976451b76268af75739069597a33ea81f6c35f99431decb005d45e215c17a65"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "ab86afbbdaf5bee60bde09a985907b6539f057eed81569c1b497970a56916e7d"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_profile_near_hand",
+        "geometry_sha256": "34cbe27624845e8715d9b9ebd4bd6c846de0b4d626f2bec5c053550e12e2ff33"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "c24087d118753584646914a9017aaea805dfb668da808044327c0444bcf491c0"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_palm",
+        "geometry_sha256": "40d86f08c2ffb56913bf513c4d963cb192878a6ad898dfa1295cfdb44040e146"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "4d692894ad52b6a1a48ac6ec5557194903920ca54774c859d9c259bd866d84ca"
+      },
+      {
+        "frame": 7,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "fbfadfe3371e228878c5490111ed8c1a4e2977b439308fe18fd422ca315efe71"
+      },
+      {
+        "frame": 8,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "2b6903f578c7bfd6ac4c97b4a841ad9f0b74d48eb6091ea59b82c3e45cdc0d8d"
+      },
+      {
+        "frame": 9,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_back",
+        "geometry_sha256": "296f34d2cb627c26bf8a29e50082a1ef6572532db29402ec5b246655fcc1d4d0"
+      },
+      {
+        "frame": 10,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "7e4422d74996ab8629ac5fbb79609a03220f0db342e6ce81d4ad13027794af54"
+      },
+      {
+        "frame": 11,
+        "mode": "facing_alias",
+        "source": "baseline#hand:11",
+        "geometry_sha256": "d81d8d61e9f992125afa73ae66474a52ea5168ef9b909a3dacdf3cd45e2d2106"
+      },
+      {
+        "frame": 12,
+        "mode": "facing_alias",
+        "source": "baseline#hand:12",
+        "geometry_sha256": "77fd8bd83451ad349d5f7acf233f7b2d67c39060a454bf8f5df1a396d074b043"
+      },
+      {
+        "frame": 13,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 14,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 15,
+        "mode": "facing_alias",
+        "source": "baseline#hand:15",
+        "geometry_sha256": "5c4ef7cf3b30d0c411695b9eb1092a3ac9734c23022637bc5b2a8f4aeb2b92ed"
+      },
+      {
+        "frame": 16,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "c1665345ad148e550702efb6cab08e8be00125b2e70d9f0379038bfb4038aedf"
+      },
+      {
+        "frame": 17,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 18,
+        "mode": "facing_alias",
+        "source": "baseline#hand:18",
+        "geometry_sha256": "1d39629cc1604b56662536b63777051ebcc363d6d0123a958da1f76af95b1336"
+      },
+      {
+        "frame": 19,
+        "mode": "facing_alias",
+        "source": "baseline#hand:19",
+        "geometry_sha256": "60d095d7c5484fadc1893216c3243c10c42c69aca141cc878c773a210d92a49c"
+      }
+    ],
+    "hand__eva_rear": [
+      {
+        "frame": 0,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_bilateral_hand_compromise",
+        "geometry_sha256": "0976451b76268af75739069597a33ea81f6c35f99431decb005d45e215c17a65"
+      },
+      {
+        "frame": 1,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "ab86afbbdaf5bee60bde09a985907b6539f057eed81569c1b497970a56916e7d"
+      },
+      {
+        "frame": 2,
+        "mode": "facing_alias",
+        "source": "approved_design#concept_registered_profile_near_hand",
+        "geometry_sha256": "34cbe27624845e8715d9b9ebd4bd6c846de0b4d626f2bec5c053550e12e2ff33"
+      },
+      {
+        "frame": 3,
+        "mode": "facing_alias",
+        "source": "approved_hands#grip_palm",
+        "geometry_sha256": "c24087d118753584646914a9017aaea805dfb668da808044327c0444bcf491c0"
+      },
+      {
+        "frame": 4,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 5,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_palm",
+        "geometry_sha256": "40d86f08c2ffb56913bf513c4d963cb192878a6ad898dfa1295cfdb44040e146"
+      },
+      {
+        "frame": 6,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "4d692894ad52b6a1a48ac6ec5557194903920ca54774c859d9c259bd866d84ca"
+      },
+      {
+        "frame": 7,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "fbfadfe3371e228878c5490111ed8c1a4e2977b439308fe18fd422ca315efe71"
+      },
+      {
+        "frame": 8,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "2b6903f578c7bfd6ac4c97b4a841ad9f0b74d48eb6091ea59b82c3e45cdc0d8d"
+      },
+      {
+        "frame": 9,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_back",
+        "geometry_sha256": "296f34d2cb627c26bf8a29e50082a1ef6572532db29402ec5b246655fcc1d4d0"
+      },
+      {
+        "frame": 10,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "7e4422d74996ab8629ac5fbb79609a03220f0db342e6ce81d4ad13027794af54"
+      },
+      {
+        "frame": 11,
+        "mode": "facing_alias",
+        "source": "baseline#hand:11",
+        "geometry_sha256": "d81d8d61e9f992125afa73ae66474a52ea5168ef9b909a3dacdf3cd45e2d2106"
+      },
+      {
+        "frame": 12,
+        "mode": "facing_alias",
+        "source": "baseline#hand:12",
+        "geometry_sha256": "77fd8bd83451ad349d5f7acf233f7b2d67c39060a454bf8f5df1a396d074b043"
+      },
+      {
+        "frame": 13,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 14,
+        "mode": "facing_alias",
+        "source": "approved_hands#fist_back",
+        "geometry_sha256": "c28718bc83ad89e7321d9d7a6b67bb53fc6822c2bf29c1626a09e280e616563d"
+      },
+      {
+        "frame": 15,
+        "mode": "facing_alias",
+        "source": "baseline#hand:15",
+        "geometry_sha256": "5c4ef7cf3b30d0c411695b9eb1092a3ac9734c23022637bc5b2a8f4aeb2b92ed"
+      },
+      {
+        "frame": 16,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_side",
+        "geometry_sha256": "c1665345ad148e550702efb6cab08e8be00125b2e70d9f0379038bfb4038aedf"
+      },
+      {
+        "frame": 17,
+        "mode": "facing_alias",
+        "source": "approved_hands#relaxed_palm",
+        "geometry_sha256": "6deb43ee9b6576cfe0fcc0fa3307785f12e4b67274c0e632202c54c42621a782"
+      },
+      {
+        "frame": 18,
+        "mode": "facing_alias",
+        "source": "baseline#hand:18",
+        "geometry_sha256": "1d39629cc1604b56662536b63777051ebcc363d6d0123a958da1f76af95b1336"
+      },
+      {
+        "frame": 19,
+        "mode": "facing_alias",
+        "source": "baseline#hand:19",
+        "geometry_sha256": "60d095d7c5484fadc1893216c3243c10c42c69aca141cc878c773a210d92a49c"
+      }
+    ]
+  },
+  "calibration": {
+    "face_geometry_basis": "donor_luoshen",
+    "limb_geometry_basis": "native_joint_similarity",
+    "upper_joint_segments": {
+      "0": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -1.19,
+          31.89
+        ]
+      ],
+      "1": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.7,
+          36.3
+        ]
+      ],
+      "2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.06,
+          32.84
+        ]
+      ],
+      "3": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          33.0
+        ]
+      ],
+      "4": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          33.0
+        ]
+      ]
+    },
+    "lower_joint_segments": {
+      "0": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.82,
+          29.31
+        ]
+      ],
+      "1": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.59,
+          41.97
+        ]
+      ],
+      "2": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          33.0
+        ]
+      ],
+      "5": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          33.0
+        ]
+      ],
+      "6": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          33.0
+        ]
+      ]
+    },
+    "head_front_face_scale": 0.8333333333333334,
+    "head_profile_face_scale": 0.9554727240286481,
+    "note": "Workspace-promoted playable iteration; in-game visual acceptance is required before Steam deployment."
+  },
+  "approved_source_pixel_sizes": {
+    "arm_lower:0:0": [
+      78,
+      146
+    ],
+    "arm_lower:1": [
+      149,
+      294
+    ],
+    "arm_lower:2": [
+      140,
+      242
+    ],
+    "arm_lower:5": [
+      149,
+      294
+    ],
+    "arm_lower:6": [
+      140,
+      242
+    ],
+    "hand:0:0": [
+      42,
+      50
+    ],
+    "hand:1": [
+      215,
+      360
+    ],
+    "hand:2:0": [
+      38,
+      54
+    ],
+    "hand:3": [
+      215,
+      360
+    ],
+    "hand:4": [
+      226,
+      328
+    ],
+    "hand:5": [
+      209,
+      327
+    ],
+    "hand:6": [
+      154,
+      420
+    ],
+    "hand:7": [
+      246,
+      416
+    ],
+    "hand:8": [
+      246,
+      416
+    ],
+    "hand:9": [
+      223,
+      417
+    ],
+    "hand:10": [
+      154,
+      420
+    ],
+    "hand:13": [
+      246,
+      416
+    ],
+    "hand:14": [
+      226,
+      328
+    ],
+    "hand:16": [
+      154,
+      420
+    ],
+    "hand:17": [
+      246,
+      416
+    ],
+    "skirt:0:0": [
+      371,
+      241
+    ],
+    "skirt:0:1": [
+      78,
+      146
+    ],
+    "skirt:0:2": [
+      74,
+      143
+    ],
+    "skirt:1:0": [
+      583,
+      346
+    ],
+    "skirt:2": [
+      425,
+      363
+    ],
+    "skirt:3": [
+      425,
+      363
+    ],
+    "torso:0:0": [
+      208,
+      162
+    ],
+    "torso:1": [
+      354,
+      350
+    ],
+    "torso:2": [
+      354,
+      350
+    ],
+    "torso:3:0": [
+      147,
+      192
+    ],
+    "torso:4": [
+      237,
+      359
+    ],
+    "torso:5": [
+      237,
+      359
+    ],
+    "torso:6:0": [
+      305,
+      66
+    ],
+    "torso:7": [
+      333,
+      395
+    ],
+    "torso:8": [
+      333,
+      395
+    ],
+    "headbase_hat:0:0": [
+      400,
+      371
+    ],
+    "headbase_hat:1:0": [
+      385,
+      393
+    ],
+    "headbase_hat:2:0": [
+      488,
+      1125
+    ],
+    "arm_upper:0:0": [
+      32,
+      34
+    ],
+    "arm_upper:1": [
+      137,
+      246
+    ],
+    "arm_upper:2:0": [
+      32,
+      35
+    ],
+    "arm_upper:3": [
+      137,
+      246
+    ],
+    "arm_upper:4": [
+      137,
+      246
+    ],
+    "hairpigtails:0:0": [
+      232,
+      388
+    ],
+    "hairpigtails:1:0": [
+      215,
+      340
+    ],
+    "hairpigtails:2": [
+      311,
+      521
+    ],
+    "headbase:0:0": [
+      400,
+      371
+    ],
+    "headbase:1:0": [
+      442,
+      603
+    ],
+    "headbase:2:0": [
+      751,
+      1125
+    ],
+    "face:0:0": [
+      259,
+      159
+    ],
+    "face:4:0": [
+      122,
+      160
+    ],
+    "face:33:0": [
+      259,
+      159
+    ],
+    "skirt__eva_profile:0:0": [
+      329,
+      233
+    ],
+    "arm_lower__eva_front:1:0": [
+      74,
+      143
+    ],
+    "arm_lower__eva_front:2:0": [
+      78,
+      146
+    ],
+    "arm_lower__eva_profile:0:0": [
+      86,
+      127
+    ],
+    "hairpigtails__eva_profile:2:0": [
+      111,
+      198
+    ],
+    "hairpigtails__eva_rear:0:0": [
+      415,
+      498
+    ],
+    "hairpigtails__eva_rear:1:0": [
+      468,
+      513
+    ],
+    "hand__eva_front:2:0": [
+      171,
+      371
+    ],
+    "hand__eva_front:5:0": [
+      209,
+      327
+    ]
+  },
+  "registration_plan": "registration-plan.json",
+  "expression_geometry": {
+    "front_face_frames": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "profile_face_frames": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "preserved_special_face_frames": [
+      14
+    ],
+    "cheeks": "unchanged shared puff overlay; front/profile/rear use conflict"
+  },
+  "registration_materials": [
+    "coherent_rear",
+    "coherent_rear_hat",
+    "crownless_material",
+    "blank_skin_material",
+    "underarm_material",
+    "strand_ownership",
+    "rear_strand_ownership"
+  ],
+  "build_geometry_sha256": "3ce55dc36719217eb720160a7f388d32e267b183cb223a9a5ae3007a4983a888",
+  "task2c_lineage": {
+    "policy": "Task2 lower-arm geometry, Task2b front-skirt correction, then Task2c explicit payload copies",
+    "artifact_lineage": {
+      "task2_6bb_candidate": {
+        "path": "C:\\Users\\NYX\\company\\dst_wiki\\artifacts\\eva-approved-sprite\\concept-registration\\joint-retarget-trial\\source-candidate-6bb85453.zip",
+        "sha256": "6bb8545349fe39c9f93df7c6fef0709caf064f9f4bfeac1c9278d9b73903b9ef",
+        "role": "pre-Task2 geometry baseline"
+      },
+      "task2_candidate": {
+        "path": "C:\\Users\\NYX\\company\\dst_wiki\\artifacts\\eva-approved-sprite\\concept-registration\\joint-retarget-trial\\front-body-candidate.zip",
+        "sha256": "60f5a69e03c704ab5821fbcebeeb446a0633e1bac690579dc024418ead73c11c",
+        "role": "longitudinal lower-arm correction source"
+      },
+      "task2_evidence": {
+        "path": "C:\\Users\\NYX\\company\\dst_wiki\\artifacts\\eva-approved-sprite\\concept-registration\\joint-retarget-trial\\task2-evidence.json",
+        "sha256": "69aa4fc6bee66a820668eed48a7a17c49b1123754fcbe46e9be631f53d60292d",
+        "role": "recorded Task2 geometry evidence"
+      },
+      "task2b_candidate": {
+        "path": "C:\\Users\\NYX\\company\\dst_wiki\\artifacts\\eva-approved-sprite\\concept-registration\\joint-retarget-trial\\front-body-skirt2-candidate.zip",
+        "sha256": "0abcd2726835ab643a9d9abc015541b01f4cb60d1322c7161a6789ef30cf3666",
+        "role": "approved front skirt frame-2 payload source"
+      },
+      "task2c_candidate": {
+        "path": "C:\\Users\\NYX\\company\\dst_wiki\\artifacts\\eva-approved-sprite\\concept-registration\\joint-retarget-trial\\front-body-authoritative-sources-candidate.zip",
+        "sha256": "9cae351ef02f17af4112d074fdddcd512b8dfa503f60ca8276545f949c3a14d8",
+        "role": "package candidate described by this rig map"
+      }
+    },
+    "payload_copies": [
+      {
+        "symbol": "torso",
+        "frame": 1,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "source_geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "torso",
+        "frame": 2,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "source_geometry_sha256": "d1058ced8f816c461ccdc8c2115dcb428c16c508a1aa4694647d4983065213ad",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "torso",
+        "frame": 4,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 3,
+        "duration": 1,
+        "geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "source_geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "torso",
+        "frame": 5,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 3,
+        "duration": 1,
+        "geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "source_geometry_sha256": "9ecbe95c38799f0928e2e5734048d8f2744b8c85efe0f29b9e2660f8cdfab524",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "torso",
+        "frame": 7,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 6,
+        "duration": 1,
+        "geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "source_geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "torso",
+        "frame": 8,
+        "copied_from_symbol": "torso",
+        "copied_from_frame": 6,
+        "duration": 1,
+        "geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "source_geometry_sha256": "42e1788ad0208fdf8ee08cebc743d1fe3c3442bf531c7800109c34fc8748ac69",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "skirt__eva_front",
+        "frame": 2,
+        "copied_from_symbol": "skirt__eva_front",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "source_geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "skirt__eva_front",
+        "frame": 3,
+        "copied_from_symbol": "skirt__eva_front",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "source_geometry_sha256": "ebd55d30b4177c3e81d360bf2771bebfcd3e4f977ff798f740ba1d349739f25a",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "skirt__eva_profile",
+        "frame": 2,
+        "copied_from_symbol": "skirt__eva_profile",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "source_geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "skirt__eva_profile",
+        "frame": 3,
+        "copied_from_symbol": "skirt__eva_profile",
+        "copied_from_frame": 0,
+        "duration": 1,
+        "geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "source_geometry_sha256": "e90fbcb348634104b48ebf90e502ab3fa949c5f5d35a4c8826d4ae7479bdfb0d",
+        "geometry_equal": true
+      },
+      {
+        "symbol": "skirt__eva_rear",
+        "frame": 2,
+        "copied_from_symbol": "skirt__eva_rear",
+        "copied_from_frame": 1,
+        "duration": 1,
+        "geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e",
+        "source_geometry_sha256": "96cb87b55744645a67e664be74a8307f1be372e2351ceb47b98a5a31ecfa702e",
+        "geometry_equal": true
+      }
+    ],
+    "task2_lower_geometry": [
+      {
+        "symbol": "arm_lower__eva_front",
+        "frame": 1,
+        "before_sha256": "9a9deaf76097e668c129460d19d6695f96e496019940befea7f5bf3bea568f4c",
+        "after_sha256": "4bd9adfd32a9f45d05f50e07ba353643c648bcc4b73e2a514234a47c2b06c578",
+        "evidence": {
+          "old_length_native": 62.02322570439704,
+          "desired_length_native": 28.115299971306463,
+          "new_length_native": 28.11529997130647,
+          "ratio": 0.45330276927717533,
+          "determinant": 0.4533027692771755,
+          "max_transverse_error_native": 1.4210854715202004e-14,
+          "source_part": "right_forearm",
+          "desired_source_elbow_local": [
+            -18.497409664950624,
+            6.174160170697178
+          ],
+          "desired_source_wrist_local": [
+            -15.850143765865823,
+            34.164552732004495
+          ],
+          "elbow_port_local": [
+            -21.5350192802498,
+            -11.926652729722043
+          ],
+          "old_wrist_port_local": [
+            3.431108556312174,
+            44.84986519474232
+          ],
+          "new_wrist_port_local": [
+            -10.21780439380828,
+            13.810300075352846
+          ],
+          "uv_z_atlas_exact": true
+        }
+      },
+      {
+        "symbol": "arm_lower__eva_front",
+        "frame": 2,
+        "before_sha256": "a5b32e362bf7f3e04dc9c888c031631f2b11ccd6868db673fa9f7e546a42febf",
+        "after_sha256": "d6975ccba4c64785f8ee5e504a9c305679f0f30b117488f31570b09e51a082c8",
+        "evidence": {
+          "old_length_native": 71.82951125284562,
+          "desired_length_native": 29.02305506346347,
+          "new_length_native": 29.023055063463467,
+          "ratio": 0.4040547479336174,
+          "determinant": 0.4040547479336173,
+          "max_transverse_error_native": 7.105427357601002e-15,
+          "source_part": "left_forearm",
+          "desired_source_elbow_local": [
+            -20.26397666719066,
+            7.1727700383708
+          ],
+          "desired_source_wrist_local": [
+            -20.498173277483374,
+            36.19488018157989
+          ],
+          "elbow_port_local": [
+            25.293153030066673,
+            9.343898794012206
+          ],
+          "old_wrist_port_local": [
+            -46.473760839030305,
+            12.342024963520567
+          ],
+          "new_wrist_port_local": [
+            -3.704609263284933,
+            10.555305907706089
+          ],
+          "uv_z_atlas_exact": true
+        }
+      }
+    ],
+    "hair_policy": "unchanged from Task2b candidate"
+  }
+}

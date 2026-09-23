@@ -1,0 +1,2064 @@
+[
+  {
+    "table": "antlion",
+    "source": "scripts/prefabs/antlion.lua",
+    "line": 37,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "townportal_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_antlion_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "antlionhat_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 1.0
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 0.5
+      },
+      {
+        "prefab": "townportaltalisman",
+        "chance": 0.5
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "rocks",
+        "chance": 1.0
+      },
+      {
+        "prefab": "rocks",
+        "chance": 1.0
+      },
+      {
+        "prefab": "rocks",
+        "chance": 0.5
+      },
+      {
+        "prefab": "rocks",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    {'townportal_blueprint',    1.00},\r\n\t{'chesspiece_antlion_sketch', 1.00},\r\n    {\"antlionhat_blueprint\", 1.00},\r\n\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  1.00},\r\n    {'townportaltalisman',  0.50},\r\n    {'townportaltalisman',  0.50},\r\n\r\n    {'meat',                1.00},\r\n    {'meat',                1.00},\r\n    {'meat',                1.00},\r\n    {'meat',                1.00},\r\n\r\n    {'rocks',               1.00},\r\n    {'rocks',               1.00},\r\n    {'rocks',               0.50},\r\n    {'rocks',               0.50},\r\n}"
+  },
+  {
+    "table": "bearger",
+    "source": "scripts/prefabs/bearger.lua",
+    "line": 76,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bearger_fur",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_bearger_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'bearger_fur',      1.00},\r\n    {'chesspiece_bearger_sketch', 1.00},\r\n}"
+  },
+  {
+    "table": "mutatedbearger",
+    "source": "scripts/prefabs/bearger.lua",
+    "line": 90,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 0.5
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 0.75
+      },
+      {
+        "prefab": "chesspiece_bearger_mutated_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"spoiled_food\",\t\t\t\t1.0  },\r\n\t{ \"spoiled_food\",\t\t\t\t1.0  },\r\n\t{ \"spoiled_food\",\t\t\t\t1.0  },\r\n\t{ \"spoiled_food\",\t\t\t\t0.5  },\r\n\t{ \"purebrilliance\",\t\t\t\t1.0  },\r\n\t{ \"purebrilliance\",\t\t\t\t0.75 },\r\n    {'chesspiece_bearger_mutated_sketch',   1.00 },\r\n}"
+  },
+  {
+    "table": "beequeen",
+    "source": "scripts/prefabs/beequeen.lua",
+    "line": 24,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 1.0
+      },
+      {
+        "prefab": "royal_jelly",
+        "chance": 0.5
+      },
+      {
+        "prefab": "honeycomb",
+        "chance": 1.0
+      },
+      {
+        "prefab": "honeycomb",
+        "chance": 0.5
+      },
+      {
+        "prefab": "honey",
+        "chance": 1.0
+      },
+      {
+        "prefab": "honey",
+        "chance": 1.0
+      },
+      {
+        "prefab": "honey",
+        "chance": 1.0
+      },
+      {
+        "prefab": "honey",
+        "chance": 0.5
+      },
+      {
+        "prefab": "stinger",
+        "chance": 1.0
+      },
+      {
+        "prefab": "hivehat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bundlewrap_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_beequeen_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      1.00},\r\n    {'royal_jelly',      0.50},\r\n    {'honeycomb',        1.00},\r\n    {'honeycomb',        0.50},\r\n    {'honey',            1.00},\r\n    {'honey',            1.00},\r\n    {'honey',            1.00},\r\n    {'honey',            0.50},\r\n    {'stinger',          1.00},\r\n    {'hivehat',          1.00},\r\n    {'bundlewrap_blueprint', 1.00},\r\n\t{'chesspiece_beequeen_sketch', 1.00},\r\n}"
+  },
+  {
+    "table": "alterguardian_phase1",
+    "source": "scripts/prefabs/alterguardian_phase1.lua",
+    "line": 38,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      }
+    ],
+    "raw": "{\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      0.66},\r\n    {\"moonrocknugget\",      0.66},\r\n}"
+  },
+  {
+    "table": "alterguardian_phase1_lunarrift",
+    "source": "scripts/prefabs/alterguardian_phase1.lua",
+    "line": 49,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.34
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.34
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      0.66},\r\n    {\"moonrocknugget\",      0.66},\r\n    --\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.33},\r\n    --\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   0.66},\r\n    {\"moonglass_charged\",   0.34},\r\n    {\"moonglass_charged\",   0.34},\r\n\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n}"
+  },
+  {
+    "table": "alterguardian_phase2",
+    "source": "scripts/prefabs/alterguardian_phase2.lua",
+    "line": 19,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      }
+    ],
+    "raw": "{\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      0.66},\r\n    {\"moonrocknugget\",      0.66},\r\n}"
+  },
+  {
+    "table": "alterguardian_phase3",
+    "source": "scripts/prefabs/alterguardian_phase3.lua",
+    "line": 27,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "chesspiece_guardianphase3_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "alterguardianhatshard",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonglass_charged",
+        "chance": 0.33
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.66
+      }
+    ],
+    "raw": "{\r\n    {\"chesspiece_guardianphase3_sketch\", 1.00},\r\n    {\"alterguardianhatshard\", 1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           1.00},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.66},\r\n    {\"moonglass\",           0.33},\r\n    {\"moonglass\",           0.33},\r\n    {\"moonglass\",           0.33},\r\n    {\"moonglass\",           0.33},\r\n    {\"moonglass\",           0.33},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   1.00},\r\n    {\"moonglass_charged\",   0.66},\r\n    {\"moonglass_charged\",   0.66},\r\n    {\"moonglass_charged\",   0.66},\r\n    {\"moonglass_charged\",   0.33},\r\n    {\"moonglass_charged\",   0.33},\r\n    {\"moonglass_charged\",   0.33},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      1.00},\r\n    {\"moonrocknugget\",      0.66},\r\n    {\"moonrocknugget\",      0.66},\r\n}"
+  },
+  {
+    "table": "alterguardian_phase4_lunarrift",
+    "source": "scripts/prefabs/alterguardian_phase4_lunarrift.lua",
+    "line": 46,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "lunar_seed",
+        "chance": 1.0
+      },
+      {
+        "prefab": "lunar_seed",
+        "chance": 1.0
+      },
+      {
+        "prefab": "lunar_seed",
+        "chance": 1.0
+      },
+      {
+        "prefab": "lunar_seed",
+        "chance": 1.0
+      },
+      {
+        "prefab": "lunar_seed",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 0.7
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 0.3
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 1.0
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 1.0
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 0.7
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "chesspiece_wagboss_lunar_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"lunar_seed\",\t\t\t1.0 },\r\n\t{ \"lunar_seed\",\t\t\t1.0 },\r\n\t{ \"lunar_seed\",\t\t\t1.0 },\r\n\t{ \"lunar_seed\",\t\t\t1.0 },\r\n\t{ \"lunar_seed\",\t\t\t1.0 },\r\n\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t1.0 },\r\n\t{ \"purebrilliance\",\t\t0.7 },\r\n\t{ \"purebrilliance\",\t\t0.3 },\r\n\r\n\t{ \"trinket_6\",\t\t\t1.0 },\r\n\t{ \"trinket_6\",\t\t\t1.0 },\r\n\t{ \"trinket_6\",\t\t\t0.7 },\r\n\t{ \"gears\",\t\t\t\t1.0 },\r\n\t{ \"gears\",\t\t\t\t0.5 },\r\n\r\n\t{\"chesspiece_wagboss_lunar_sketch\", 1.0},\r\n}"
+  },
+  {
+    "table": "crabking",
+    "source": "scripts/prefabs/crabking.lua",
+    "line": 80,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "trident_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_crabking_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "boat_bumper_crabking_kit",
+        "chance": 1.0
+      },
+      {
+        "prefab": "barnacle",
+        "chance": 1.0
+      },
+      {
+        "prefab": "barnacle",
+        "chance": 1.0
+      },
+      {
+        "prefab": "barnacle",
+        "chance": 0.25
+      },
+      {
+        "prefab": "barnacle",
+        "chance": 0.25
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "messagebottle",
+        "chance": 1.0
+      },
+      {
+        "prefab": "messagebottle",
+        "chance": 1.0
+      },
+      {
+        "prefab": "messagebottle",
+        "chance": 0.5
+      },
+      {
+        "prefab": "messagebottle",
+        "chance": 0.25
+      },
+      {
+        "prefab": "singingshell_octave3",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave3",
+        "chance": 0.5
+      },
+      {
+        "prefab": "singingshell_octave3",
+        "chance": 0.25
+      },
+      {
+        "prefab": "singingshell_octave4",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave4",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave4",
+        "chance": 0.5
+      },
+      {
+        "prefab": "singingshell_octave4",
+        "chance": 0.25
+      },
+      {
+        "prefab": "singingshell_octave5",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave5",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave5",
+        "chance": 1.0
+      },
+      {
+        "prefab": "singingshell_octave5",
+        "chance": 0.5
+      },
+      {
+        "prefab": "singingshell_octave5",
+        "chance": 0.25
+      }
+    ],
+    "raw": "{\r\n    {\"trident_blueprint\",                   1.00},\r\n    {\"chesspiece_crabking_sketch\",          1.00},\r\n    {\"boat_bumper_crabking_kit\",            1.00},\r\n    {\"barnacle\",                            1.00},\r\n    {\"barnacle\",                            1.00},\r\n    {\"barnacle\",                            0.25},\r\n    {\"barnacle\",                            0.25},\r\n    {\"meat\",                                1.00},\r\n    {\"meat\",                                1.00},\r\n    {\"meat\",                                1.00},\r\n    {\"meat\",                                1.00},\r\n    {\"meat\",                                1.00},\r\n    {\"meat\",                                0.50},\r\n    {\"messagebottle\",                       1.00},\r\n    {\"messagebottle\",                       1.00},\r\n    {\"messagebottle\",                       0.50},\r\n    {\"messagebottle\",                       0.25},\r\n    {\"singingshell_octave3\",                1.00},\r\n    {\"singingshell_octave3\",                0.50},\r\n    {\"singingshell_octave3\",                0.25},\r\n    {\"singingshell_octave4\",                1.00},\r\n    {\"singingshell_octave4\",                1.00},\r\n    {\"singingshell_octave4\",                0.50},\r\n    {\"singingshell_octave4\",                0.25},\r\n    {\"singingshell_octave5\",                1.00},\r\n    {\"singingshell_octave5\",                1.00},\r\n    {\"singingshell_octave5\",                1.00},\r\n    {\"singingshell_octave5\",                0.50},\r\n    {\"singingshell_octave5\",                0.25},\r\n}"
+  },
+  {
+    "table": "deerclops",
+    "source": "scripts/prefabs/deerclops.lua",
+    "line": 329,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "deerclops_eyeball",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_deerclops_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'meat',                         1.0},\r\n    {'deerclops_eyeball',            1.0},\r\n    {'chesspiece_deerclops_sketch',  1.0},\r\n}"
+  },
+  {
+    "table": "mutateddeerclops",
+    "source": "scripts/prefabs/deerclops.lua",
+    "line": 343,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 0.5
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 0.75
+      },
+      {
+        "prefab": "ice",
+        "chance": 1.0
+      },
+      {
+        "prefab": "ice",
+        "chance": 0.75
+      },
+      {
+        "prefab": "chesspiece_deerclops_mutated_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"spoiled_food\",\t\t\t        \t 1.0  },\r\n\t{ \"spoiled_food\",\t\t\t        \t 1.0  },\r\n\t{ \"spoiled_food\",\t\t\t        \t 1.0  },\r\n\t{ \"spoiled_food\",\t\t\t        \t 0.5  },\r\n\t{ \"purebrilliance\",\t\t\t\t         1.0  },\r\n\t{ \"purebrilliance\",\t\t\t\t         0.75 },\r\n\t{ \"ice\",\t\t\t\t\t\t         1.0  },\r\n\t{ \"ice\",\t\t\t\t\t\t         0.75 },\r\n    {'chesspiece_deerclops_mutated_sketch',  1.0  },\r\n}"
+  },
+  {
+    "table": "dragonfly",
+    "source": "scripts/prefabs/dragonfly.lua",
+    "line": 38,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "dragon_scales",
+        "chance": 1.0
+      },
+      {
+        "prefab": "dragonflyfurnace_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_dragonfly_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "lavae_egg",
+        "chance": 0.33
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 0.5
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 0.5
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 0.5
+      },
+      {
+        "prefab": "goldnugget",
+        "chance": 0.5
+      },
+      {
+        "prefab": "redgem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bluegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purplegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "orangegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "yellowgem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "greengem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "redgem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bluegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purplegem",
+        "chance": 0.5
+      },
+      {
+        "prefab": "orangegem",
+        "chance": 0.5
+      },
+      {
+        "prefab": "yellowgem",
+        "chance": 0.5
+      },
+      {
+        "prefab": "greengem",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    {'dragon_scales',             1.00},\r\n    {'dragonflyfurnace_blueprint',1.00},\r\n    {'chesspiece_dragonfly_sketch', 1.00},\r\n    {'lavae_egg',                 0.33},\r\n\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n\r\n    {'goldnugget',       1.00},\r\n    {'goldnugget',       1.00},\r\n    {'goldnugget',       1.00},\r\n    {'goldnugget',       1.00},\r\n\r\n    {'goldnugget',       0.50},\r\n    {'goldnugget',       0.50},\r\n    {'goldnugget',       0.50},\r\n    {'goldnugget',       0.50},\r\n\r\n    {'redgem',           1.00},\r\n    {'bluegem',          1.00},\r\n    {'purplegem',        1.00},\r\n    {'orangegem',        1.00},\r\n    {'yellowgem',        1.00},\r\n    {'greengem',         1.00},\r\n\r\n    {'redgem',           1.00},\r\n    {'bluegem',          1.00},\r\n    {'purplegem',        0.50},\r\n    {'orangegem',        0.50},\r\n    {'yellowgem',        0.50},\r\n    {'greengem',         0.50},\r\n}"
+  },
+  {
+    "table": "eyeofterror",
+    "source": "scripts/prefabs/eyeofterror.lua",
+    "line": 457,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "chesspiece_eyeofterror_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "eyemaskhat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "milkywhites",
+        "chance": 1.0
+      },
+      {
+        "prefab": "milkywhites",
+        "chance": 1.0
+      },
+      {
+        "prefab": "milkywhites",
+        "chance": 1.0
+      },
+      {
+        "prefab": "milkywhites",
+        "chance": 0.5
+      },
+      {
+        "prefab": "milkywhites",
+        "chance": 0.5
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    {\"chesspiece_eyeofterror_sketch\",   1.00},\r\n    {\"eyemaskhat\",                      1.00},\r\n    {\"milkywhites\",                     1.00},\r\n    {\"milkywhites\",                     1.00},\r\n    {\"milkywhites\",                     1.00},\r\n    {\"milkywhites\",                     0.50},\r\n    {\"milkywhites\",                     0.50},\r\n    {\"monstermeat\",                     1.00},\r\n    {\"monstermeat\",                     1.00},\r\n    {\"monstermeat\",                     0.50},\r\n    {\"monstermeat\",                     0.50},\r\n}"
+  },
+  {
+    "table": "twinofterror1",
+    "source": "scripts/prefabs/eyeofterror.lua",
+    "line": 541,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "yellowgem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "transistor",
+        "chance": 1.0
+      },
+      {
+        "prefab": "transistor",
+        "chance": 1.0
+      },
+      {
+        "prefab": "transistor",
+        "chance": 0.75
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 1.0
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    --{\"chesspiece_eyeofterror_sketch\",   1.00},\r\n    --{\"shieldofterror\",                  1.00},\r\n    {\"yellowgem\",       1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           0.50},\r\n    {\"gears\",           0.50},\r\n    {\"transistor\",      1.00},\r\n    {\"transistor\",      1.00},\r\n    {\"transistor\",      0.75},\r\n    {\"nightmarefuel\",   1.00},\r\n    {\"nightmarefuel\",   1.00},\r\n    {\"nightmarefuel\",   0.50},\r\n    {\"nightmarefuel\",   0.50},\r\n    {\"trinket_6\",       1.00},\r\n    {\"trinket_6\",       0.50},\r\n}"
+  },
+  {
+    "table": "twinofterror2",
+    "source": "scripts/prefabs/eyeofterror.lua",
+    "line": 611,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "greengem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 1.0
+      },
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "transistor",
+        "chance": 1.0
+      },
+      {
+        "prefab": "transistor",
+        "chance": 1.0
+      },
+      {
+        "prefab": "transistor",
+        "chance": 0.75
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 1.0
+      },
+      {
+        "prefab": "trinket_6",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    --{\"chesspiece_eyeofterror_sketch\",   1.00},\r\n    --{\"shieldofterror\",                  1.00},\r\n    {\"greengem\",        1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           1.00},\r\n    {\"gears\",           0.50},\r\n    {\"gears\",           0.50},\r\n    {\"transistor\",      1.00},\r\n    {\"transistor\",      1.00},\r\n    {\"transistor\",      0.75},\r\n    {\"nightmarefuel\",   1.00},\r\n    {\"nightmarefuel\",   1.00},\r\n    {\"nightmarefuel\",   0.50},\r\n    {\"nightmarefuel\",   0.50},\r\n    {\"trinket_6\",       1.00},\r\n    {\"trinket_6\",       0.50},\r\n}"
+  },
+  {
+    "table": "lordfruitfly",
+    "source": "scripts/prefabs/fruitfly.lua",
+    "line": 51,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "plantmeat",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'plantmeat',             1.00},\r\n}"
+  },
+  {
+    "table": "malbatross",
+    "source": "scripts/prefabs/malbatross.lua",
+    "line": 396,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "malbatross_beak",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bluegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bluegem",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bluegem",
+        "chance": 0.3
+      },
+      {
+        "prefab": "yellowgem",
+        "chance": 0.05
+      },
+      {
+        "prefab": "chesspiece_malbatross_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'meat',                                1.00},\r\n    {'malbatross_beak',                     1.00},\r\n    {'bluegem',                             1},\r\n    {'bluegem',                             1},\r\n    {'bluegem',                             0.3},\r\n    {'yellowgem',                           0.05},\r\n\t{'chesspiece_malbatross_sketch',\t\t1.00},\r\n\r\n}"
+  },
+  {
+    "table": "moose",
+    "source": "scripts/prefabs/moose.lua",
+    "line": 26,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "drumstick",
+        "chance": 1.0
+      },
+      {
+        "prefab": "drumstick",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goose_feather",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goose_feather",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goose_feather",
+        "chance": 1.0
+      },
+      {
+        "prefab": "goose_feather",
+        "chance": 0.33
+      },
+      {
+        "prefab": "goose_feather",
+        "chance": 0.33
+      },
+      {
+        "prefab": "chesspiece_moosegoose_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'meat',             1.00},\r\n    {'drumstick',        1.00},\r\n    {'drumstick',        1.00},\r\n    {'goose_feather',    1.00},\r\n    {'goose_feather',    1.00},\r\n    {'goose_feather',    1.00},\r\n    {'goose_feather',    0.33},\r\n    {'goose_feather',    0.33},\r\n    {'chesspiece_moosegoose_sketch', 1.00},\r\n}"
+  },
+  {
+    "table": "daywalker",
+    "source": "scripts/prefabs/daywalker.lua",
+    "line": 29,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "horrorfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "horrorfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "horrorfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "horrorfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "horrorfuel",
+        "chance": 0.5
+      },
+      {
+        "prefab": "armordreadstone_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "dreadstonehat_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wall_dreadstone_item_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_daywalker_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"nightmarefuel\",\t0.5 },\r\n\r\n\t{ \"horrorfuel\",\t\t1 },\r\n\t{ \"horrorfuel\",\t\t1 },\r\n\t{ \"horrorfuel\",\t\t1 },\r\n\t{ \"horrorfuel\",\t\t1 },\r\n\t{ \"horrorfuel\",\t\t0.5 },\r\n\r\n\t{ \"armordreadstone_blueprint\",\t1 },\r\n\t{ \"dreadstonehat_blueprint\",\t1 },\r\n\t{ \"wall_dreadstone_item_blueprint\", 1 },\r\n\t{'chesspiece_daywalker_sketch', 1.00},\r\n}"
+  },
+  {
+    "table": "daywalker2",
+    "source": "scripts/prefabs/daywalker2.lua",
+    "line": 46,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 0.5
+      },
+      {
+        "prefab": "scrap_monoclehat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_daywalker2_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"gears\",\t\t\t\t0.5 },\r\n\r\n\t{ \"wagpunk_bits\",\t\t1 },\r\n\t{ \"wagpunk_bits\",\t\t1 },\r\n\t{ \"wagpunk_bits\",\t\t1 },\r\n\t{ \"wagpunk_bits\",\t\t1 },\r\n\t{ \"wagpunk_bits\",\t\t0.5 },\r\n\r\n\t{ \"scrap_monoclehat\",\t1 },\r\n\t{ \"chesspiece_daywalker2_sketch\", 1 },\r\n}"
+  },
+  {
+    "table": "shadow_chesspiece",
+    "source": "scripts/prefabs/shadowchesspieces.lua",
+    "line": 70,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "nightmarefuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "nightmarefuel",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n    { \"nightmarefuel\",  1.0 },\r\n    { \"nightmarefuel\",  0.5 },\r\n}"
+  },
+  {
+    "table": "sharkboi",
+    "source": "scripts/prefabs/sharkboi.lua",
+    "line": 29,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "bootleg",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bootleg",
+        "chance": 1.0
+      },
+      {
+        "prefab": "bootleg",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n\t{ \"bootleg\", 1 },\r\n\t{ \"bootleg\", 1 },\r\n\t{ \"bootleg\", 0.5 },\r\n}"
+  },
+  {
+    "table": "toadstool",
+    "source": "scripts/prefabs/toadstool.lua",
+    "line": 88,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "froglegs",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "meat",
+        "chance": 0.25
+      },
+      {
+        "prefab": "shroom_skin",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_toadstool_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 0.33
+      }
+    ],
+    "raw": "{\r\n    {\"froglegs\",      1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          0.50},\r\n    {\"meat\",          0.25},\r\n\r\n    {\"shroom_skin\",   1.00},\r\n    {\"chesspiece_toadstool_sketch\", 1.00},\r\n\r\n    {\"red_cap\",       1.00},\r\n    {\"red_cap\",       0.33},\r\n    {\"red_cap\",       0.33},\r\n\r\n    {\"blue_cap\",      1.00},\r\n    {\"blue_cap\",      0.33},\r\n    {\"blue_cap\",      0.33},\r\n\r\n    {\"green_cap\",     1.00},\r\n    {\"green_cap\",     0.33},\r\n    {\"green_cap\",     0.33},\r\n}"
+  },
+  {
+    "table": "toadstool_dark",
+    "source": "scripts/prefabs/toadstool.lua",
+    "line": 113,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "froglegs",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "meat",
+        "chance": 0.25
+      },
+      {
+        "prefab": "shroom_skin",
+        "chance": 1.0
+      },
+      {
+        "prefab": "shroom_skin",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_toadstool_sketch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "red_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "blue_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 1.0
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "green_cap",
+        "chance": 0.33
+      },
+      {
+        "prefab": "mushroom_light2_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "sleepbomb_blueprint",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {\"froglegs\",      1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          1.00},\r\n    {\"meat\",          0.50},\r\n    {\"meat\",          0.25},\r\n\r\n    {\"shroom_skin\",   1.00},\r\n    {\"shroom_skin\",   1.00},\r\n    {\"chesspiece_toadstool_sketch\", 1.00},\r\n\r\n    {\"red_cap\",       1.00},\r\n    {\"red_cap\",       0.33},\r\n    {\"red_cap\",       0.33},\r\n\r\n    {\"blue_cap\",      1.00},\r\n    {\"blue_cap\",      0.33},\r\n    {\"blue_cap\",      0.33},\r\n\r\n    {\"green_cap\",     1.00},\r\n    {\"green_cap\",     0.33},\r\n    {\"green_cap\",     0.33},\r\n\r\n    {\"mushroom_light2_blueprint\", 1.00},\r\n    {\"sleepbomb_blueprint\", 1.00},\r\n}"
+  },
+  {
+    "table": "stalker",
+    "source": "scripts/prefabs/stalker.lua",
+    "line": 81,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      },
+      {
+        "prefab": "fossil_piece",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n    {\"fossil_piece\",    1.00},\r\n}"
+  },
+  {
+    "table": "warg",
+    "source": "scripts/prefabs/warg.lua",
+    "line": 96,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.5
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 1.0
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.66
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.33
+      }
+    ],
+    "raw": "{\r\n    {'monstermeat',             1.00},\r\n    {'monstermeat',             1.00},\r\n    {'monstermeat',             1.00},\r\n    {'monstermeat',             1.00},\r\n    {'monstermeat',             0.50},\r\n    {'monstermeat',             0.50},\r\n\r\n    {'houndstooth',             1.00},\r\n    {'houndstooth',             0.66},\r\n    {'houndstooth',             0.33},\r\n}"
+  },
+  {
+    "table": "claywarg",
+    "source": "scripts/prefabs/warg.lua",
+    "line": 110,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "redpouch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "redpouch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "redpouch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "redpouch",
+        "chance": 1.0
+      },
+      {
+        "prefab": "redpouch",
+        "chance": 0.5
+      },
+      {
+        "prefab": "redpouch",
+        "chance": 0.5
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 1.0
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.66
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.33
+      }
+    ],
+    "raw": "{\r\n    {'redpouch',                1.00},\r\n    {'redpouch',                1.00},\r\n    {'redpouch',                1.00},\r\n    {'redpouch',                1.00},\r\n    {'redpouch',                0.50},\r\n    {'redpouch',                0.50},\r\n\r\n    {'houndstooth',             1.00},\r\n    {'houndstooth',             0.66},\r\n    {'houndstooth',             0.33},\r\n}"
+  },
+  {
+    "table": "gingerbreadwarg",
+    "source": "scripts/prefabs/warg.lua",
+    "line": 124,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 0.66
+      },
+      {
+        "prefab": "wintersfeastfuel",
+        "chance": 0.33
+      },
+      {
+        "prefab": "crumbs",
+        "chance": 1.0
+      },
+      {
+        "prefab": "crumbs",
+        "chance": 1.0
+      },
+      {
+        "prefab": "crumbs",
+        "chance": 0.5
+      },
+      {
+        "prefab": "crumbs",
+        "chance": 0.5
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 1.0
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.66
+      },
+      {
+        "prefab": "houndstooth",
+        "chance": 0.33
+      }
+    ],
+    "raw": "{\r\n    {'wintersfeastfuel',\t\t1.00},\r\n    {'wintersfeastfuel',\t\t1.00},\r\n    {'wintersfeastfuel',\t\t1.00},\r\n    {'wintersfeastfuel',\t\t1.00},\r\n    {'wintersfeastfuel',\t\t1.00},\r\n    {'wintersfeastfuel',        0.66},\r\n    {'wintersfeastfuel',        0.33},\r\n    {'crumbs',\t\t\t\t\t1.00},\r\n    {'crumbs',\t\t\t\t\t1.00},\r\n    {'crumbs',\t\t\t\t\t0.50},\r\n    {'crumbs',\t\t\t\t\t0.50},\r\n\r\n    {'houndstooth',             1.00},\r\n    {'houndstooth',             0.66},\r\n    {'houndstooth',             0.33},\r\n}"
+  },
+  {
+    "table": "mutatedwarg",
+    "source": "scripts/prefabs/warg.lua",
+    "line": 143,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 1.0
+      },
+      {
+        "prefab": "spoiled_food",
+        "chance": 0.5
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 1.0
+      },
+      {
+        "prefab": "purebrilliance",
+        "chance": 0.75
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.75
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.75
+      },
+      {
+        "prefab": "moonglass",
+        "chance": 0.25
+      },
+      {
+        "prefab": "chesspiece_warg_mutated_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"spoiled_food\",\t\t\t\t  1.0  },\r\n\t{ \"spoiled_food\",\t\t\t\t  1.0  },\r\n\t{ \"spoiled_food\",\t\t\t\t  0.5  },\r\n\r\n\t{ \"purebrilliance\",\t\t\t\t  1.0  },\r\n\t{ \"purebrilliance\",\t\t\t\t  0.75 },\r\n\r\n    { \"moonglass\",                    1.0  },\r\n    { \"moonglass\",                    1.0  },\r\n    { \"moonglass\",                    1.0  },\r\n    { \"moonglass\",                    0.75 },\r\n    { \"moonglass\",                    0.75 },\r\n    { \"moonglass\",                    0.25 },\r\n\r\n    {'chesspiece_warg_mutated_sketch', 1.00},\r\n}"
+  },
+  {
+    "table": "wagboss_robot",
+    "source": "scripts/prefabs/wagboss_robot.lua",
+    "line": 25,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "gears",
+        "chance": 0.5
+      },
+      {
+        "prefab": "transistor",
+        "chance": 0.5
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 1.0
+      },
+      {
+        "prefab": "wagpunk_bits",
+        "chance": 0.5
+      },
+      {
+        "prefab": "chesspiece_wagboss_robot_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n\t{ \"gears\",\t\t\t\t0.5 },\r\n\t{ \"transistor\",\t\t\t0.5 },\r\n\t{ \"wagpunk_bits\",\t\t1.0 },\r\n\t{ \"wagpunk_bits\",\t\t0.5 },\r\n\t{ \"chesspiece_wagboss_robot_sketch\", 1.0},\r\n}"
+  },
+  {
+    "table": "worm_boss",
+    "source": "scripts/prefabs/worm_boss.lua",
+    "line": 28,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.66
+      },
+      {
+        "prefab": "monstermeat",
+        "chance": 0.66
+      },
+      {
+        "prefab": "wormlight",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_wormboss_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    { \"monstermeat\",  1.00 },\r\n    { \"monstermeat\",  1.00 },\r\n    { \"monstermeat\",  1.00 },\r\n    { \"monstermeat\",  0.66 },\r\n    { \"monstermeat\",  0.66 },\r\n    { \"wormlight\",    1.00 },\r\n\r\n    { \"chesspiece_wormboss_sketch\", 1.00 },\r\n}"
+  },
+  {
+    "table": "vault_pillar_guard",
+    "source": "scripts/prefabs/vault_pillar_guard.lua",
+    "line": 59,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "thulecite",
+        "chance": 1.0
+      },
+      {
+        "prefab": "thulecite",
+        "chance": 1.0
+      },
+      {
+        "prefab": "thulecite",
+        "chance": 0.5
+      },
+      {
+        "prefab": "thulecite_pieces",
+        "chance": 1.0
+      },
+      {
+        "prefab": "thulecite_pieces",
+        "chance": 0.6667
+      },
+      {
+        "prefab": "thulecite_pieces",
+        "chance": 0.3333
+      },
+      {
+        "prefab": "rocks",
+        "chance": 1.0
+      },
+      {
+        "prefab": "rocks",
+        "chance": 1.0
+      },
+      {
+        "prefab": "rocks",
+        "chance": 0.75
+      },
+      {
+        "prefab": "rocks",
+        "chance": 0.5
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 1.0
+      },
+      {
+        "prefab": "moonrocknugget",
+        "chance": 0.5
+      }
+    ],
+    "raw": "{\r\n\t{ \"thulecite\",\t\t\t1 },\r\n\t{ \"thulecite\",\t\t\t1 },\r\n\t{ \"thulecite\",\t\t\t0.5 },\r\n\t{ \"thulecite_pieces\",\t1 },\r\n\t{ \"thulecite_pieces\",\t0.6667 },\r\n\t{ \"thulecite_pieces\",\t0.3333 },\r\n\t--\r\n\t{ \"rocks\",\t\t\t\t1 },\r\n\t{ \"rocks\",\t\t\t\t1 },\r\n\t{ \"rocks\",\t\t\t\t0.75 },\r\n\t{ \"rocks\",\t\t\t\t0.5 },\r\n\t--\r\n\t{ \"moonrocknugget\",\t\t1 },\r\n\t{ \"moonrocknugget\",\t\t1 },\r\n\t{ \"moonrocknugget\",\t\t0.5 },\r\n}"
+  },
+  {
+    "table": "minotaur",
+    "source": "scripts/prefabs/minotaur.lua",
+    "line": 49,
+    "literal_entries_complete": true,
+    "entries": [
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "meat",
+        "chance": 1.0
+      },
+      {
+        "prefab": "support_pillar_scaffold_blueprint",
+        "chance": 1.0
+      },
+      {
+        "prefab": "minotaurhorn",
+        "chance": 1.0
+      },
+      {
+        "prefab": "chesspiece_minotaur_sketch",
+        "chance": 1.0
+      }
+    ],
+    "raw": "{\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"meat\",        1.00},\r\n    {\"support_pillar_scaffold_blueprint\", 1.00},\r\n    {\"minotaurhorn\",1.00},\r\n    {\"chesspiece_minotaur_sketch\", 1.00},\r\n}"
+  }
+]

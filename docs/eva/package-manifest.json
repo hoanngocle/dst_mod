@@ -1,0 +1,80 @@
+{
+  "status": "INSTALLED_WORKSPACE_AND_STEAM",
+  "steam_deployment": {
+    "skillpanel_sha256": "a880e9bc97ef1149a1a006d30249e193fae1b225b9b99c1f8a97af8268f9aab2",
+    "skillpanel_note": "Steam widget patched only to remove level labels; its existing skill activation handler was preserved.",
+    "main_source_sha256": "fe1de2c357bd06932f968546ff37813de52ca7fed70d5952d0ff571920aa14ca",
+    "note": "Steam main was patched narrowly to preserve its existing unrelated gameplay changes. Visual archives, skin modules and EVA prefab match workspace. In-game verification pending."
+  },
+  "eva_visual_version": "EVA2_PURPLE_DEFAULT",
+  "candidate_source": "assets/source/eva_v2_luoshen/eva-v2-luoshen-purple.zip",
+  "source_candidate_sha256": "c540aed44a1bb70686a4692ebbd4bb68dc1aa7f361e87340a91e6cdf0c48a644",
+  "candidate_sha256": "a6dc12fb80fe06e8e88263bab3b3b047433953822dc15e2ac523d5adb40c1f9e",
+  "runtime_motion": "native_luoshen_build",
+  "provenance": {
+    "source_archive": "assets/source/eva_v2_luoshen/eva-v2-luoshen-purple.zip",
+    "source_archive_sha256": "c540aed44a1bb70686a4692ebbd4bb68dc1aa7f361e87340a91e6cdf0c48a644",
+    "install_transform": "BILD build identity only: xd_luoshen to eva",
+    "preserved": [
+      "ANIM bytes",
+      "KTEX bytes",
+      "symbol hashes and frames",
+      "geometry and UVs"
+    ]
+  },
+  "files": {
+    "anim/eva.zip": {
+      "sha256": "a6dc12fb80fe06e8e88263bab3b3b047433953822dc15e2ac523d5adb40c1f9e",
+      "size": 554920
+    },
+    "main/ttk_eva_source.lua": {
+      "sha256": "a43f5a14ad17097a47c30c53fcd5664ff2f1d3d2ef8fd2538612c6107d41aebd",
+      "size": 5102
+    },
+    "scripts/prefabs/eva.lua": {
+      "sha256": "6fec104fe6a9cd03a21abc1756eef347b47d3e5ed98b6581e913d664e2807af3",
+      "size": 5424
+    },
+    "scripts/components/eva_fox_blink.lua": {
+      "sha256": "3835954650b6e6757a272f063e04b791b65a4e0e52c6acc3c23bfc6b2a2a340c",
+      "size": 6383
+    },
+    "scripts/util/eva_fox_common.lua": {
+      "sha256": "8f08342dc5ab092f685eb139f65118a62dfd4c93ce385c2da5af9e428e2e4604",
+      "size": 8180
+    },
+    "scripts/util/eva_skillpanel_states.lua": {
+      "sha256": "e4275552a41551da7a45ce3b26e28d7f79755d797ab3c30d1139698a8e962510",
+      "size": 3417
+    },
+    "scripts/util/eva_hud_layout.lua": {
+      "sha256": "dba4b29475370b764c40d039a39f9185a46ddc4d0ccf5376702bb19c9022f222",
+      "size": 3899
+    },
+    "scripts/widgets/eva_skillpanel.lua": {
+      "sha256": "0379e9de3b77a69ed8e89c3f54987667b4ba3536ee60c6fedac6a91b0c2ddd85",
+      "size": 3713
+    },
+    "scripts/util/eva_skins.lua": {
+      "sha256": "d040b9be73d4e132410ea8b7667389b08f29937b9f3551ec9532d092b6eaa8ad",
+      "size": 2982
+    },
+    "scripts/util/eva_settings.lua": {
+      "sha256": "362c68e63755e037e4b1dce6915bfc6aa2291546e10631f203ec82056942e759",
+      "size": 1198
+    }
+  },
+  "removed_obsolete_runtime": [
+    "anim/ttk_eva_run_loop.zip",
+    "scripts/util/eva_facing_alias.lua",
+    "scripts/util/eva_facing_alias_runtime.lua",
+    "scripts/util/eva_run_route.lua",
+    "scripts/util/eva_characterbutton.lua"
+  ],
+  "notes": [
+    "EVA2 purple is the only default native Luoshen build.",
+    "The white-purple runtime and separate eva_purple selection were removed.",
+    "EVA starts with an empty inventory; its standalone scythe item and recipe were removed.",
+    "HUD layout remains installed; obsolete art-specific facing, head-tail, and run routing were removed."
+  ]
+}

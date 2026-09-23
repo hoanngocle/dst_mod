@@ -1,0 +1,3308 @@
+{
+  "source": "Solo Leveling",
+  "version": "2.2.7",
+  "author": "Saikuno",
+  "workshop_id": "3780347550",
+  "files": [
+    {
+      "source": "Wiki.txt",
+      "destination": "Wiki.txt",
+      "sha256": "e5166f83d3273c1e8b841f25d887c02ef05dc03814696dccf351e7b344c31b8a"
+    },
+    {
+      "source": "anim/aura_dark1.zip",
+      "destination": "anim/aura_dark1.zip",
+      "sha256": "8a4727c91d8c4f66728e23e47169212a11bc9f7484482202582e5632229e4891"
+    },
+    {
+      "source": "anim/aura_dark2.zip",
+      "destination": "anim/aura_dark2.zip",
+      "sha256": "757198c0ae802f27975657c75d2feaec2a25772702e2538fe63f80c48aad990d"
+    },
+    {
+      "source": "anim/aura_nhavua.zip",
+      "destination": "anim/aura_nhavua.zip",
+      "sha256": "ae4da1c3f1f6e8f2392d8804359f6205b1b19d29d75e63d6bf4ce330433c30b0"
+    },
+    {
+      "source": "anim/bearger_actions.zip",
+      "destination": "anim/bearger_actions.zip",
+      "sha256": "a99fca2e9b45d7abc86cf88f25696700be321e86a6f50aa23170c658d8503070"
+    },
+    {
+      "source": "anim/bearger_basic.zip",
+      "destination": "anim/bearger_basic.zip",
+      "sha256": "4d1b39b26096d9909dec9a1a745bd1592f4472f094b0edbb8b3411a500be079c"
+    },
+    {
+      "source": "anim/bearger_build.zip",
+      "destination": "anim/bearger_build.zip",
+      "sha256": "d27ab84345de197f293241bcb8eea2ee60bb4fef91886889d9a342e2e7ec7432"
+    },
+    {
+      "source": "anim/bearger_mutated.zip",
+      "destination": "anim/bearger_mutated.zip",
+      "sha256": "4d2f1a6d11f6e2af2ce97927bc5fe75da38623b9a1ccf35a1c24df63d2a6e112"
+    },
+    {
+      "source": "anim/bearger_mutated_actions.zip",
+      "destination": "anim/bearger_mutated_actions.zip",
+      "sha256": "dab262f8c19ab7694b445f2e41506563ca35352502878dd113e357921fdeff8a"
+    },
+    {
+      "source": "anim/bearger_mutated_actions_fx.zip",
+      "destination": "anim/bearger_mutated_actions_fx.zip",
+      "sha256": "e9691542c338f5824b35ca4e2ad196c8ce700a841e7eb02f28378b32980fec78"
+    },
+    {
+      "source": "anim/beru_shadow.zip",
+      "destination": "anim/beru_shadow.zip",
+      "sha256": "774c245a7b77d36120211a3d961e6dc5988876f3811cf56a4689dff12ef7a12f"
+    },
+    {
+      "source": "anim/brewer.zip",
+      "destination": "anim/brewer.zip",
+      "sha256": "59a76a0a4a2fe771f23267bb0e58c53c3594ddf32d72bffd9f5f55aee71e8c28"
+    },
+    {
+      "source": "anim/cotl_tabernacle.zip",
+      "destination": "anim/cotl_tabernacle.zip",
+      "sha256": "64d1072e0c2c86cc5ca632b0bafcb1a655146574292a12cc11e42d8e11135411"
+    },
+    {
+      "source": "anim/crafting_table.zip",
+      "destination": "anim/crafting_table.zip",
+      "sha256": "1022e0f744354f7a26ea3a5e9f5c8503e04a5da9debeb68dd76ba94a283dca2c"
+    },
+    {
+      "source": "anim/curseshot.zip",
+      "destination": "anim/curseshot.zip",
+      "sha256": "4af150fee24824fbcad164bc4909aace57059acdfb863c816f1da4d4b9b859a0"
+    },
+    {
+      "source": "anim/deerclops_actions.zip",
+      "destination": "anim/deerclops_actions.zip",
+      "sha256": "381996f64abc2c5b928981ec39f8c3091525b98a3e27513b1e9b64b99f0aa83e"
+    },
+    {
+      "source": "anim/deerclops_basic.zip",
+      "destination": "anim/deerclops_basic.zip",
+      "sha256": "5842361d5802be61cb23666b92dc263a517b4893f9cbb2954b656e1940b311f8"
+    },
+    {
+      "source": "anim/deerclops_build.zip",
+      "destination": "anim/deerclops_build.zip",
+      "sha256": "ce4f5a499edb6e524daf507f76c0f0c3a7831dde2887474d31ee09fdc25dd86b"
+    },
+    {
+      "source": "anim/deerclops_mutated.zip",
+      "destination": "anim/deerclops_mutated.zip",
+      "sha256": "37afd720d60d664337e62f3084815e1195340d18d34d9eccef5f2d8ab08524a4"
+    },
+    {
+      "source": "anim/deerclops_mutated_actions.zip",
+      "destination": "anim/deerclops_mutated_actions.zip",
+      "sha256": "bbb7002ac98056314d2270f761cccad8b4329fae7759815014ca8b86641136ed"
+    },
+    {
+      "source": "anim/ds_pig_charge.zip",
+      "destination": "anim/ds_pig_charge.zip",
+      "sha256": "58e32d30a57710d5d5df9d661bd542b2f86ab19d6a1a387eea4343745023a368"
+    },
+    {
+      "source": "anim/ds_pig_uppercut.zip",
+      "destination": "anim/ds_pig_uppercut.zip",
+      "sha256": "f5eb43123d8270737257f9a91f4ec9f25e938148e3dbead85bf534366f71bcc8"
+    },
+    {
+      "source": "anim/dsc.zip",
+      "destination": "anim/dsc.zip",
+      "sha256": "22730d9d01fcdea782cd6786290bd808ea37def72ae6c76882dc13cb5960d0e0"
+    },
+    {
+      "source": "anim/dsc_exit.zip",
+      "destination": "anim/dsc_exit.zip",
+      "sha256": "4117c4fd3b2e2560e7e9b25a9f1948a87c0bd1f2338669c641300b7c12e405fc"
+    },
+    {
+      "source": "anim/dsc_fish.zip",
+      "destination": "anim/dsc_fish.zip",
+      "sha256": "28fac4c2c3f39ac954d342ba2e57615024c71c3adddafc2eaee0aec23f687722"
+    },
+    {
+      "source": "anim/dsc_floor.zip",
+      "destination": "anim/dsc_floor.zip",
+      "sha256": "1264297201ffc0eafb53abe61cd1565caf127dc3c045c1178800ed73a87480f6"
+    },
+    {
+      "source": "anim/dsc_floorautumn.zip",
+      "destination": "anim/dsc_floorautumn.zip",
+      "sha256": "559e050fb0e6565ff3222cf994160435041bbc99e19c643a18d93162615d2f17"
+    },
+    {
+      "source": "anim/dsc_floorback.zip",
+      "destination": "anim/dsc_floorback.zip",
+      "sha256": "2be6a3a6bdc7373e973d10cfe6b4653abfdb19431080a3979142300f51265177"
+    },
+    {
+      "source": "anim/dsc_floorback1.zip",
+      "destination": "anim/dsc_floorback1.zip",
+      "sha256": "92ce158c85135678b3aa0f4b81e022f449ecd79c302b96b5e1eec0d7a83d68e9"
+    },
+    {
+      "source": "anim/dsc_floorbackquag.zip",
+      "destination": "anim/dsc_floorbackquag.zip",
+      "sha256": "7b71ba8c54a5898ba2b3663522a54bb54231e422f2b03720f007717d41b1a734"
+    },
+    {
+      "source": "anim/dsc_floorspring.zip",
+      "destination": "anim/dsc_floorspring.zip",
+      "sha256": "aa3720538e59f977615a7570ff6b3546859cdf98b13f91100d500e9d8f5c2abc"
+    },
+    {
+      "source": "anim/dsc_floorsummer.zip",
+      "destination": "anim/dsc_floorsummer.zip",
+      "sha256": "ad3a3d5591455530fa09f910a9443269361af9dd309b36a71abcd2a16fe38b90"
+    },
+    {
+      "source": "anim/dsc_floorwinter.zip",
+      "destination": "anim/dsc_floorwinter.zip",
+      "sha256": "8e5e5335a0d3d07f023df72ae4dca9f73d703f7949c05c47e1e661d8869dac48"
+    },
+    {
+      "source": "anim/dsc_seal.zip",
+      "destination": "anim/dsc_seal.zip",
+      "sha256": "fc41c670bf54248dcd50ba0f95dd73e531c812f9e537ded9d35f5bd7802bd81b"
+    },
+    {
+      "source": "anim/dyc_gem_blue.zip",
+      "destination": "anim/dyc_gem_blue.zip",
+      "sha256": "755a5c52a12e231a1410ec1bdc5a55b38afb08baf837f9c9e588f89011aec19a"
+    },
+    {
+      "source": "anim/dyc_gem_enc.zip",
+      "destination": "anim/dyc_gem_enc.zip",
+      "sha256": "9ecbaf0f78d18f8cc94ea0fe0281492632a715b1e7161ccbd76215e6ae55efe9"
+    },
+    {
+      "source": "anim/dyc_gem_purple.zip",
+      "destination": "anim/dyc_gem_purple.zip",
+      "sha256": "2cff44e4e929915213149425596e2a7c6205584d6483af08aa94ac162233f7d9"
+    },
+    {
+      "source": "anim/fruitfly.zip",
+      "destination": "anim/fruitfly.zip",
+      "sha256": "6058baad8d496a0393b04d3a9f302eb6b1b69d057718d19a2c2ebbf055243c3a"
+    },
+    {
+      "source": "anim/fruitfly_evil.zip",
+      "destination": "anim/fruitfly_evil.zip",
+      "sha256": "e688440bf01c84f4378c1ec394abae4a491c153ba243dfad8f6aa0a0eeb72c58"
+    },
+    {
+      "source": "anim/fx1.zip",
+      "destination": "anim/fx1.zip",
+      "sha256": "2c42ffebb03d117e0af8e6bd437112c25c6f40ab3a439cf0b19b05e70b681053"
+    },
+    {
+      "source": "anim/fx2.zip",
+      "destination": "anim/fx2.zip",
+      "sha256": "8367dab3c007df58da2ab6d01b1bfaf851aaf5894839e826b9bda793dadfe49c"
+    },
+    {
+      "source": "anim/fx3.zip",
+      "destination": "anim/fx3.zip",
+      "sha256": "896629189366bb6825540fdbe6ed3c5cbe0fd997629e7fdf1e94f269a1821d69"
+    },
+    {
+      "source": "anim/glacial_hound_projectile.zip",
+      "destination": "anim/glacial_hound_projectile.zip",
+      "sha256": "f92b8a9a1fbc1d448baf0707487c701064b8aa0dfb7cb3e88204ce8d08ba0244"
+    },
+    {
+      "source": "anim/guild_staff.zip",
+      "destination": "anim/guild_staff.zip",
+      "sha256": "4df41e3974beba9a22d7aba9c5d506625a82cda6143d491060b74913a186a9ef"
+    },
+    {
+      "source": "anim/hh_beru_dungeon.zip",
+      "destination": "anim/hh_beru_dungeon.zip",
+      "sha256": "b1ec6693c561e49919b7b9527fe06b8c57765695695b7286243dfc93eed20f21"
+    },
+    {
+      "source": "anim/hh_da_chuyen_sinh.zip",
+      "destination": "anim/hh_da_chuyen_sinh.zip",
+      "sha256": "6c5e4b83da7afd39536affc4f14918cecdf6fbd070862859fbae90ff0c710ae1"
+    },
+    {
+      "source": "anim/hh_daogam.zip",
+      "destination": "anim/hh_daogam.zip",
+      "sha256": "f5745d76492c78854b53ea0c0a84491224611b07078ca0a8d007e7ba116011d0"
+    },
+    {
+      "source": "anim/hh_daogam2.zip",
+      "destination": "anim/hh_daogam2.zip",
+      "sha256": "431338d143d6e4d1cca21d5923a0c7a758100a1e7fd2eeb269b766364b7e2658"
+    },
+    {
+      "source": "anim/hh_daogam3.zip",
+      "destination": "anim/hh_daogam3.zip",
+      "sha256": "7b290545e0c6f605536e8c66ef76956024cfc7f99d90c2571ba846502f06dd9b"
+    },
+    {
+      "source": "anim/hh_daogam5.zip",
+      "destination": "anim/hh_daogam5.zip",
+      "sha256": "966fb16449497e13fb4d6fcb50b8f82e9aeba080f4fd5f77f2556170de08ec5c"
+    },
+    {
+      "source": "anim/hh_daogam6.zip",
+      "destination": "anim/hh_daogam6.zip",
+      "sha256": "a106cd54f0c8ad597ceef5c8681c3985b371d9eb56bca05b586ddf8d6f897fa4"
+    },
+    {
+      "source": "anim/hh_daogam6_ground.zip",
+      "destination": "anim/hh_daogam6_ground.zip",
+      "sha256": "c7ace4797a514c4a2cfab87aa1f6485c2eba5df21609c33aa7ea6ee897b9c30d"
+    },
+    {
+      "source": "anim/hh_daogam6fx.zip",
+      "destination": "anim/hh_daogam6fx.zip",
+      "sha256": "56d2f39f9aa283c39dfc2ffc7b34cd8491be01458b7032ef0639c9f8a082ee76"
+    },
+    {
+      "source": "anim/hh_daogam_swap.zip",
+      "destination": "anim/hh_daogam_swap.zip",
+      "sha256": "61ec722361eec1f6551a62c4d68daaa3a2cb1c1f22ea0bace0bfa5345bcac3d0"
+    },
+    {
+      "source": "anim/hh_dungeon_disciple_potions.zip",
+      "destination": "anim/hh_dungeon_disciple_potions.zip",
+      "sha256": "7cccc0fc2a659fb560d8272708072f363b5361597b740b1d143d4e6af5660fd7"
+    },
+    {
+      "source": "anim/hh_dungeon_pig_build.zip",
+      "destination": "anim/hh_dungeon_pig_build.zip",
+      "sha256": "36ad5c3abf4272610b6ffc7dbf864d1e2553a003f7af882c92e9aa09147532b5"
+    },
+    {
+      "source": "anim/hh_dungeon_potions.zip",
+      "destination": "anim/hh_dungeon_potions.zip",
+      "sha256": "db256e8a9f707e12dddff4542cfccfa28daeeb58c5eed645f9b8fd868e5dd72c"
+    },
+    {
+      "source": "anim/hh_dungeon_spider_build.zip",
+      "destination": "anim/hh_dungeon_spider_build.zip",
+      "sha256": "853c901d148b51b660f555b7aa99106c22be2d03755cb642643a92ec73ba5567"
+    },
+    {
+      "source": "anim/hh_footprint_fz.zip",
+      "destination": "anim/hh_footprint_fz.zip",
+      "sha256": "5924968c5176bc7291f34240d7a2388b91045902c09899f2129a07b165e60c78"
+    },
+    {
+      "source": "anim/hh_fruitfly_shadow.zip",
+      "destination": "anim/hh_fruitfly_shadow.zip",
+      "sha256": "880396f31fbf0582acb1835911b018840e1ac7e2eac5de521249aa93d4cdce56"
+    },
+    {
+      "source": "anim/hh_hac_nguyet_ho.zip",
+      "destination": "anim/hh_hac_nguyet_ho.zip",
+      "sha256": "b83a47f635e7fd06c5a46782ab0552ff59c865b8d61be01d5e2028fb2e6f4445"
+    },
+    {
+      "source": "anim/hh_hound_fire.zip",
+      "destination": "anim/hh_hound_fire.zip",
+      "sha256": "1c7b10c2c27bcb624986ca0e7ddc9cfc395df11ba0f8994276cd0069e874bbed"
+    },
+    {
+      "source": "anim/hh_hound_horror.zip",
+      "destination": "anim/hh_hound_horror.zip",
+      "sha256": "34b6c7d6edcfe45eb01de6b19d0f3ab31e3c1dc5b1a0f810b2c01061fc4a51d0"
+    },
+    {
+      "source": "anim/hh_hound_lightning.zip",
+      "destination": "anim/hh_hound_lightning.zip",
+      "sha256": "74ca1600ac72e1667f758f1c05e55d841a3084c99c0820208ce99bd9b4540686"
+    },
+    {
+      "source": "anim/hh_hound_snow.zip",
+      "destination": "anim/hh_hound_snow.zip",
+      "sha256": "e898568ae0fc7119b02541fdf6d822e9c49a5bca3fc59d3024bd849030a09cf4"
+    },
+    {
+      "source": "anim/hh_items.zip",
+      "destination": "anim/hh_items.zip",
+      "sha256": "74cdceff81e1a79a8bd586f2c893a833a5ed5b2b72dc9bec9caa3a3d17f6980a"
+    },
+    {
+      "source": "anim/hh_macanh_shadow.zip",
+      "destination": "anim/hh_macanh_shadow.zip",
+      "sha256": "6839dbf564df378683efab9951246aaa840a72fa66a3b727674a72c5cd84bf8d"
+    },
+    {
+      "source": "anim/hh_phuc_lac_duoc.zip",
+      "destination": "anim/hh_phuc_lac_duoc.zip",
+      "sha256": "f78fdf6a6a54acbe52d05f6296e51a03301b809efeea50c454612fd07234b24d"
+    },
+    {
+      "source": "anim/hh_project.zip",
+      "destination": "anim/hh_project.zip",
+      "sha256": "50ae079f6c3ba0348496874a562a6331798956a7d7f26962295d4b8957219437"
+    },
+    {
+      "source": "anim/hh_purple_deer_fire_charge.zip",
+      "destination": "anim/hh_purple_deer_fire_charge.zip",
+      "sha256": "f0f2e6387203dfa233a19fd58ab351b262554991e511d2b839ea95fae68661a7"
+    },
+    {
+      "source": "anim/hh_purple_deer_ice_charge.zip",
+      "destination": "anim/hh_purple_deer_ice_charge.zip",
+      "sha256": "6280ecd88f450d9da8c527479a748d22a55a8c67884779c7669b227459f18622"
+    },
+    {
+      "source": "anim/hh_purple_electric_fx.zip",
+      "destination": "anim/hh_purple_electric_fx.zip",
+      "sha256": "b719691ddcac16dee9915af889f4b234b1bde707a89604dc454b3e764b6924c0"
+    },
+    {
+      "source": "anim/hh_purple_halloween_embers.zip",
+      "destination": "anim/hh_purple_halloween_embers.zip",
+      "sha256": "7f826b502611b7e7ed4747460e1e5da203c5f9a1e721411f4a745dfdbc57c11e"
+    },
+    {
+      "source": "anim/hh_purple_lavaarena_fire_fx.zip",
+      "destination": "anim/hh_purple_lavaarena_fire_fx.zip",
+      "sha256": "229425afc3dae66f72cc94075462f4768a918a5c6b4887adc243810ed78fae1a"
+    },
+    {
+      "source": "anim/hh_purple_lavaarena_firestaff_meteor.zip",
+      "destination": "anim/hh_purple_lavaarena_firestaff_meteor.zip",
+      "sha256": "54a7bab6ffc4878f90961d4d78b74511a8dfccb2ba66032826438d0227d98200"
+    },
+    {
+      "source": "anim/hh_purple_mosling_spin_fx.zip",
+      "destination": "anim/hh_purple_mosling_spin_fx.zip",
+      "sha256": "71b56aadd6248fdec3f81c50fb2f55bcbb1b32760d772780ddac8f01392cb993"
+    },
+    {
+      "source": "anim/hh_purple_warg_mutated_breath_fx.zip",
+      "destination": "anim/hh_purple_warg_mutated_breath_fx.zip",
+      "sha256": "ec45117a815379816fa02079a766976bf61c42939eb94c4b8e0e1b39963674f8"
+    },
+    {
+      "source": "anim/hh_quat_long_vu.zip",
+      "destination": "anim/hh_quat_long_vu.zip",
+      "sha256": "fe30fa30b141f42d8d855d33512ad2a6a41e25f198ed01878eff641a8c7fcabe"
+    },
+    {
+      "source": "anim/hh_star_fx.zip",
+      "destination": "anim/hh_star_fx.zip",
+      "sha256": "30a2c4a2d40ec9138a6e75744b3b2b367e83364baa6811b6adfc1f89f684c8c7"
+    },
+    {
+      "source": "anim/hh_suit_build.zip",
+      "destination": "anim/hh_suit_build.zip",
+      "sha256": "e5ba3af7ea60b621d11b5e713b4071e75aa1554844f71d3f79e5f6f7ef4e0176"
+    },
+    {
+      "source": "anim/hh_vat_pham.zip",
+      "destination": "anim/hh_vat_pham.zip",
+      "sha256": "5ad07474c53ede2d5dac0395cd7c609ec32d4aee4f05d3355fa67465301d8c0d"
+    },
+    {
+      "source": "anim/hh_vat_pham_ground_so_1.zip",
+      "destination": "anim/hh_vat_pham_ground_so_1.zip",
+      "sha256": "df6a1edff7a3bc028ce8e276c7e2834761d03916f5a947f478ca13ee9971a5e5"
+    },
+    {
+      "source": "anim/hh_weapon.zip",
+      "destination": "anim/hh_weapon.zip",
+      "sha256": "23762185a8c53d29d09296289cf3b187fef1574ce751da48b47e219d158b67c8"
+    },
+    {
+      "source": "anim/hh_wing_fz.zip",
+      "destination": "anim/hh_wing_fz.zip",
+      "sha256": "50e3db4b439dc524269a6facd65f8985d88514dea028f38d0fdc6fd43739b968"
+    },
+    {
+      "source": "anim/igris_dungeon.zip",
+      "destination": "anim/igris_dungeon.zip",
+      "sha256": "d11cac7fec71e85e92adaf0ab9262e80a3367ff0da9f98e8fd2d9857dbc51171"
+    },
+    {
+      "source": "anim/igris_shadow.zip",
+      "destination": "anim/igris_shadow.zip",
+      "sha256": "ea9e91a46832fefd359e1b3669ddf044f6d128c21bce60dbc833152923688930"
+    },
+    {
+      "source": "anim/keep_amulet.zip",
+      "destination": "anim/keep_amulet.zip",
+      "sha256": "8c78f5f40349ec2050149ba33545e54a78c65d6661a1fcd37e43cadbecf528ad"
+    },
+    {
+      "source": "anim/krampus_basic.zip",
+      "destination": "anim/krampus_basic.zip",
+      "sha256": "955f6351e3a56325f58b83b443788145b39b43117092bdb466d9d3a2ae59cd55"
+    },
+    {
+      "source": "anim/krampus_build.zip",
+      "destination": "anim/krampus_build.zip",
+      "sha256": "1c8408335b61083ce492d8795d60002520d8d3b498d0afd72f63d3d2c50ea803"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur.zip",
+      "destination": "anim/lavaarena_beetletaur.zip",
+      "sha256": "becb58bd5050b08f67fb69da4f73b9bf3b0b6f0a665798e9aef5a9663883a396"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur_actions.zip",
+      "destination": "anim/lavaarena_beetletaur_actions.zip",
+      "sha256": "8a243d0def83d2d9b8391c9eb0f70edcb92a5473884c7b7e133ee4a7ccb53aab"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur_basic.zip",
+      "destination": "anim/lavaarena_beetletaur_basic.zip",
+      "sha256": "ae5cc206f1153fea624c96f1eb8fad323f86cab9a6839e0ff92a9ff7a18b7ab4"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur_block.zip",
+      "destination": "anim/lavaarena_beetletaur_block.zip",
+      "sha256": "5c3fc139ee0f1b10eeddc55ef6b23fedca4bfe139cd4d45028789417dbd074fb"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur_break.zip",
+      "destination": "anim/lavaarena_beetletaur_break.zip",
+      "sha256": "da492ae0d2fb244235097d24e296faeba996d398610b84fc20403acb0bc66aa6"
+    },
+    {
+      "source": "anim/lavaarena_beetletaur_fx.zip",
+      "destination": "anim/lavaarena_beetletaur_fx.zip",
+      "sha256": "7918b2fe50da5ac649bde947a5320789cf0aa2d303341d8c080883691016526c"
+    },
+    {
+      "source": "anim/lo_ren.zip",
+      "destination": "anim/lo_ren.zip",
+      "sha256": "f592b921b79d532bdbb2c4d631e9bd2c3fa7407b587bb8fe7223e1f55ff993a0"
+    },
+    {
+      "source": "anim/lucky_gem.zip",
+      "destination": "anim/lucky_gem.zip",
+      "sha256": "4dd8bbe4f43a370ae686d36ddc29292cd63a70d73899d14991d3fb82bea01169"
+    },
+    {
+      "source": "anim/lucky_symbols.zip",
+      "destination": "anim/lucky_symbols.zip",
+      "sha256": "514872ec9a671593e0871d9548f529474c13cad41dab95e1f0709abca3b83d53"
+    },
+    {
+      "source": "anim/monkey_island_portal1.zip",
+      "destination": "anim/monkey_island_portal1.zip",
+      "sha256": "aef7b520b494df86f2ab16f17834256aa87f65eb124ab3827fd289081778ebf1"
+    },
+    {
+      "source": "anim/monkey_island_portal2.zip",
+      "destination": "anim/monkey_island_portal2.zip",
+      "sha256": "1534ef8d2c6c21a316a613f0fa4798aa3031d7a1e6d2a8ccb011eb8da13746c1"
+    },
+    {
+      "source": "anim/monkey_island_portal3.zip",
+      "destination": "anim/monkey_island_portal3.zip",
+      "sha256": "8d3ffd2daf52edbf2f01acd3e6857b44a9e7b22ccb954b696833a841406f0538"
+    },
+    {
+      "source": "anim/monkey_island_portal_fx.zip",
+      "destination": "anim/monkey_island_portal_fx.zip",
+      "sha256": "5f5417b95330dd59da37f82fee84a9abd25a918c4876e21d15dbd2256e7d774a"
+    },
+    {
+      "source": "anim/nn_armor.zip",
+      "destination": "anim/nn_armor.zip",
+      "sha256": "f22891c01065c3857a529701f1c0b03c36c964cacbf293b629a628e8e285f23d"
+    },
+    {
+      "source": "anim/nn_cloud.zip",
+      "destination": "anim/nn_cloud.zip",
+      "sha256": "ee0afa981eb076a4093f7d00ed03115035b58693ca21d6c00d42b13df8d9a8fd"
+    },
+    {
+      "source": "anim/nn_contract.zip",
+      "destination": "anim/nn_contract.zip",
+      "sha256": "1c2149e591129c33a6d8774f65cb2cd7cc7c44b6b62835a6f36820fd13966d12"
+    },
+    {
+      "source": "anim/nn_heatrock.zip",
+      "destination": "anim/nn_heatrock.zip",
+      "sha256": "9e81ee903ef7b59852e8e529866bd34126490d16367c0a91985519af236b624f"
+    },
+    {
+      "source": "anim/nn_icebox.zip",
+      "destination": "anim/nn_icebox.zip",
+      "sha256": "c0a194765472b556320eea539d998c83d2a0c4dfa99baddac6561d67454a5103"
+    },
+    {
+      "source": "anim/nn_shield.zip",
+      "destination": "anim/nn_shield.zip",
+      "sha256": "df29d9449fdb4962ecf8bf43bd7315e316b797225b6ce9ae16f0388f3a2c408e"
+    },
+    {
+      "source": "anim/nn_staff_fire.zip",
+      "destination": "anim/nn_staff_fire.zip",
+      "sha256": "1c4d6f64f93f003318cf57c7501cd8872ae623d56d30d35ad250eacf5cc456db"
+    },
+    {
+      "source": "anim/nn_staff_flower.zip",
+      "destination": "anim/nn_staff_flower.zip",
+      "sha256": "b7f7bdb363c07776f85f1ef26a3fa548535342ca25052f5a73c90e46854c9f88"
+    },
+    {
+      "source": "anim/nn_sword.zip",
+      "destination": "anim/nn_sword.zip",
+      "sha256": "04c2995ebd9a2be7b03e2c4593ef1fc4f7fa6dbca126f0e46c290e196332bf43"
+    },
+    {
+      "source": "anim/nn_tele.zip",
+      "destination": "anim/nn_tele.zip",
+      "sha256": "fae4d371e6a79c8cdf7993038ef3e6a48d4a2f6edb980950dedf22bd2a1afa8e"
+    },
+    {
+      "source": "anim/nn_teleport.zip",
+      "destination": "anim/nn_teleport.zip",
+      "sha256": "5b4a9aff1dc043316367fea37459b574411f1839deab175c62ec4862611764ff"
+    },
+    {
+      "source": "anim/nn_tools.zip",
+      "destination": "anim/nn_tools.zip",
+      "sha256": "739fe8b8757861bc4d9e17283acfb186656f8af027cd7400f8449a64eb686682"
+    },
+    {
+      "source": "anim/nn_well.zip",
+      "destination": "anim/nn_well.zip",
+      "sha256": "b83a47f635e7fd06c5a46782ab0552ff59c865b8d61be01d5e2028fb2e6f4445"
+    },
+    {
+      "source": "anim/oasis_tile.zip",
+      "destination": "anim/oasis_tile.zip",
+      "sha256": "c64bbc90bd4637bec31dac2c3aea8e43f495c9e6a13c4e54591e27e2f3c4c647"
+    },
+    {
+      "source": "anim/poison.zip",
+      "destination": "anim/poison.zip",
+      "sha256": "951f40026821e6be64aa00a09e32e7ec10edea96944b0021df4ecf2f8e88261e"
+    },
+    {
+      "source": "anim/resource_amulet.zip",
+      "destination": "anim/resource_amulet.zip",
+      "sha256": "af2bccc9079e384700e4d0497e98855bd83bc3fe2e1001fe6f3eefa1b50be1a3"
+    },
+    {
+      "source": "anim/reticulearcline.zip",
+      "destination": "anim/reticulearcline.zip",
+      "sha256": "94ba9bf2035628181381b10c4f30be3c0d1be88b690eab86960b88f00234d518"
+    },
+    {
+      "source": "anim/rne_grabbylarge.zip",
+      "destination": "anim/rne_grabbylarge.zip",
+      "sha256": "82615fcea0d86a26a3b845815150f830c0325b1eaaa7ba9e831e923d3c7f04ed"
+    },
+    {
+      "source": "anim/rock_treasure.zip",
+      "destination": "anim/rock_treasure.zip",
+      "sha256": "37912d0f5faa9e0099d25a8d660a014d4f63b40af05495e769959c1e1080e88f"
+    },
+    {
+      "source": "anim/seffc.zip",
+      "destination": "anim/seffc.zip",
+      "sha256": "c1913d9bb53966ff1e4590751a9a1a9594386091b433d31f36efba9acaeb1590"
+    },
+    {
+      "source": "anim/shanhai_decovine.zip",
+      "destination": "anim/shanhai_decovine.zip",
+      "sha256": "981a37879d94fe712690f60179206e088d8b46dea39dc1fc9373090b172b692f"
+    },
+    {
+      "source": "anim/sharkboi_action.zip",
+      "destination": "anim/sharkboi_action.zip",
+      "sha256": "151c6d9a060aec0b27cbc5d1bec78fcd75edc2832fe31d58af681c270fc88ee8"
+    },
+    {
+      "source": "anim/sharkboi_actions1.zip",
+      "destination": "anim/sharkboi_actions1.zip",
+      "sha256": "80a0f52dc5a151794517f1766f8c353adbd3b0b802facba45d6106a8b1d7f97c"
+    },
+    {
+      "source": "anim/sharkboi_basic.zip",
+      "destination": "anim/sharkboi_basic.zip",
+      "sha256": "98fd2e5207d92f40e3a84070a524a922f6f86536b5e5caebdb26d907c605555d"
+    },
+    {
+      "source": "anim/sharkboi_build.zip",
+      "destination": "anim/sharkboi_build.zip",
+      "sha256": "1c3f76e41bd8230686ad18484a9449eb17c0adddf25dd1a6584e065d48a23d99"
+    },
+    {
+      "source": "anim/swap_nn_shield.zip",
+      "destination": "anim/swap_nn_shield.zip",
+      "sha256": "1ca5f1a90d1b10b649660db2606cf2a82de0970c5a5686ecad24ceabc7a22acd"
+    },
+    {
+      "source": "anim/swap_nn_staff_fire.zip",
+      "destination": "anim/swap_nn_staff_fire.zip",
+      "sha256": "a4ad5993867aaac97335ebcbd2a06ae8539444868a9b3a320f1b412f0f32cc19"
+    },
+    {
+      "source": "anim/swap_nn_sword.zip",
+      "destination": "anim/swap_nn_sword.zip",
+      "sha256": "218900b1659467629c17c67bea37ed15c177d990ba15d59507bc34f67bc7f254"
+    },
+    {
+      "source": "anim/swap_walking_stick.zip",
+      "destination": "anim/swap_walking_stick.zip",
+      "sha256": "66a5026e7f8ccc43ed164d0e897f7ea09523d000c4353658cd0b5855227d9f93"
+    },
+    {
+      "source": "anim/tesspotions.zip",
+      "destination": "anim/tesspotions.zip",
+      "sha256": "1ce608323aff6cabc2d668b62cdd2e5f0ae667282cf2d491663e082b40528457"
+    },
+    {
+      "source": "anim/ui_nn_icebox.zip",
+      "destination": "anim/ui_nn_icebox.zip",
+      "sha256": "f055b20c453406e713cb7519b4fefcf7670638aef731a5c07febff5b020a9dc0"
+    },
+    {
+      "source": "anim/vortex_cloak_fx.zip",
+      "destination": "anim/vortex_cloak_fx.zip",
+      "sha256": "20c3804673796ea0cfc7773198c1a7cc54ec3758d05005eca71ec3fd0ac28454"
+    },
+    {
+      "source": "anim/walking_stick.zip",
+      "destination": "anim/walking_stick.zip",
+      "sha256": "c8765e483013a498b7018aed0121b5c0b105d7636ab040efc1337234ae4aa765"
+    },
+    {
+      "source": "anim/wall.zip",
+      "destination": "anim/wall.zip",
+      "sha256": "7349d4478668b4ebc24b24b4c9fdaeb00af238de1630b327c71aa3ae9b15373b"
+    },
+    {
+      "source": "anim/wall_ruins_2.zip",
+      "destination": "anim/wall_ruins_2.zip",
+      "sha256": "6915fc93a628550b2277a08f65b5496382551e0d6b96eb586a4db6b461bce809"
+    },
+    {
+      "source": "anim/walrus_basic.zip",
+      "destination": "anim/walrus_basic.zip",
+      "sha256": "52864fff5ba8aa02e07f92ecabb37a9a9c549f18ab02649bdc66d43c0622ed75"
+    },
+    {
+      "source": "anim/walrus_build.zip",
+      "destination": "anim/walrus_build.zip",
+      "sha256": "0cdfbfd327e11b06f6edace87be6e15c2d2a4e036a2198dac35baffa32fabe5f"
+    },
+    {
+      "source": "anim/white_vortex_cloak_fx.zip",
+      "destination": "anim/white_vortex_cloak_fx.zip",
+      "sha256": "5a79f7ba029beb1230987aa43b90c4cc1d84e81beb01ef329ad6d09e2940d28c"
+    },
+    {
+      "source": "images/attackpotion.tex",
+      "destination": "images/attackpotion.tex",
+      "sha256": "5656e2003126c9c68380230d83f8f3d21fd4aadb7f27429c3a3ae93c553df5d8"
+    },
+    {
+      "source": "images/attackpotion.xml",
+      "destination": "images/attackpotion.xml",
+      "sha256": "2973b36edd0983c7820c2d70f163e777201aece1b30a2a1f1647ac95fb3ba491"
+    },
+    {
+      "source": "images/bang_tong_hop_background.tex",
+      "destination": "images/bang_tong_hop_background.tex",
+      "sha256": "b755956890102c655667b37351bdc0e7b4e0435e33310882a8b38328283a6dab"
+    },
+    {
+      "source": "images/bang_tong_hop_background.xml",
+      "destination": "images/bang_tong_hop_background.xml",
+      "sha256": "7030d8aa71e2c42dfdd220ae75008fef863555855493dcd22e642c9d20bdd53b"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_beru_skill_icon.tex",
+      "destination": "images/de_tu_skill_icon/hh_beru_skill_icon.tex",
+      "sha256": "133b127ee40623539bbaccfd44ffba8620bc765490c1feff85a90ab4688b8fea"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_beru_skill_icon.xml",
+      "destination": "images/de_tu_skill_icon/hh_beru_skill_icon.xml",
+      "sha256": "bfd795b4263f9d48905bf5c526a28a13ddb2c34bd6049312ada598be9ddaeb65"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_fruitfly_skill_icon.tex",
+      "destination": "images/de_tu_skill_icon/hh_fruitfly_skill_icon.tex",
+      "sha256": "cccab8c3e5165ab1732860e5e9dd81485e73a934e8c2993bc0dfad2cc8505a62"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_fruitfly_skill_icon.xml",
+      "destination": "images/de_tu_skill_icon/hh_fruitfly_skill_icon.xml",
+      "sha256": "f0558a3c2c80519027b3e3201e430553e6ed89c6170d6c1aa7b2bbe5b6ffce1a"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_hacanh_skill_icon.tex",
+      "destination": "images/de_tu_skill_icon/hh_hacanh_skill_icon.tex",
+      "sha256": "6b5165a365b3d94d4d321a69827fc90843613453988f21143a54d56793744c1e"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_hacanh_skill_icon.xml",
+      "destination": "images/de_tu_skill_icon/hh_hacanh_skill_icon.xml",
+      "sha256": "3bba26356918aaf37384625894594d03df4a641c3a8f78993060d4425f8e47a4"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_igris_skill_icon.tex",
+      "destination": "images/de_tu_skill_icon/hh_igris_skill_icon.tex",
+      "sha256": "c4ded55dfea946766dd39728d5f777a22b4ff49791dace5ae8281b0dddcd3763"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_igris_skill_icon.xml",
+      "destination": "images/de_tu_skill_icon/hh_igris_skill_icon.xml",
+      "sha256": "87d79cf052f4e63173450fc49dd8bae462f4bed473cfef6c7a71192be4726a0d"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_macanh_skill_icon.tex",
+      "destination": "images/de_tu_skill_icon/hh_macanh_skill_icon.tex",
+      "sha256": "f45ed3e5f64eda06c298701b60996f99773ce3073966bc65dda4e57fab390905"
+    },
+    {
+      "source": "images/de_tu_skill_icon/hh_macanh_skill_icon.xml",
+      "destination": "images/de_tu_skill_icon/hh_macanh_skill_icon.xml",
+      "sha256": "514c75a8eed37824339a1fd64bedffb0633a80c05f9fc7d320b1cd5b2414d040"
+    },
+    {
+      "source": "images/defensepotion.tex",
+      "destination": "images/defensepotion.tex",
+      "sha256": "f3056e925f7e97eeffed313ff47ec3fe0c274b48d385ff3725b16f3bb24d94b2"
+    },
+    {
+      "source": "images/defensepotion.xml",
+      "destination": "images/defensepotion.xml",
+      "sha256": "8486fde0e716a45e775a603df3097f022901c10dc68251d8754d58b82a55942f"
+    },
+    {
+      "source": "images/destiny_symbol.tex",
+      "destination": "images/destiny_symbol.tex",
+      "sha256": "9eaf587f788986426bad2acbb5093ce7e594bcde4ccfc857cf43a22d07e88bfa"
+    },
+    {
+      "source": "images/destiny_symbol.xml",
+      "destination": "images/destiny_symbol.xml",
+      "sha256": "9e56fdb37492b45bcd5d02836971e4e861bd7c963e927af7677102c9b5d3ba75"
+    },
+    {
+      "source": "images/dsc.tex",
+      "destination": "images/dsc.tex",
+      "sha256": "b6851ddc2592c32e6b1dba221e0b77a0cd284caa4d45cd1eca69074de3d546ec"
+    },
+    {
+      "source": "images/dsc.xml",
+      "destination": "images/dsc.xml",
+      "sha256": "116929785ff2029345fb1491963813ae4d7e730520f555bf8e55eccd1bb40c3d"
+    },
+    {
+      "source": "images/dsc_seal.tex",
+      "destination": "images/dsc_seal.tex",
+      "sha256": "0096757fe2a7c706554923365bf6348a661d974a6b447afbb35d8d79cc95f047"
+    },
+    {
+      "source": "images/dsc_seal.xml",
+      "destination": "images/dsc_seal.xml",
+      "sha256": "dc556b3e76fca23024c84322a1305563963a780364eaa4ae20ef0a3a84b0de55"
+    },
+    {
+      "source": "images/dyc_gem_blue.tex",
+      "destination": "images/dyc_gem_blue.tex",
+      "sha256": "7ac154f80e146ddf4b1d05ff4a8196ba501ea7bd5acd9ecce68b56d9bc874c14"
+    },
+    {
+      "source": "images/dyc_gem_blue.xml",
+      "destination": "images/dyc_gem_blue.xml",
+      "sha256": "e9f83aee613a3ea80ae33efe3915fed6a14ab410071ad4f34c4e012b1fa27b0c"
+    },
+    {
+      "source": "images/dyc_gem_enc.tex",
+      "destination": "images/dyc_gem_enc.tex",
+      "sha256": "9415527a3de44ed7512a0b0c6da5dddcb6866efbb3f7640f5144fdfae4bef30c"
+    },
+    {
+      "source": "images/dyc_gem_enc.xml",
+      "destination": "images/dyc_gem_enc.xml",
+      "sha256": "71601a40cda309a1c475151ce269c7043e0eba00bf255302b1b64b9ae24a8a33"
+    },
+    {
+      "source": "images/dyc_gem_purple.tex",
+      "destination": "images/dyc_gem_purple.tex",
+      "sha256": "7e4c91e90a9f7c29b588b3aa1e6c62f7d97212eec67128c0a53e5e2186f37881"
+    },
+    {
+      "source": "images/dyc_gem_purple.xml",
+      "destination": "images/dyc_gem_purple.xml",
+      "sha256": "bbcd57ff6717b57881a360bb6f242c597989eba4ce6b9e5a21951caed8d5c9f9"
+    },
+    {
+      "source": "images/fx/hh_ball_blue.tex",
+      "destination": "images/fx/hh_ball_blue.tex",
+      "sha256": "05f36ae91862883fdc65e7473751fe65491cfef8b407858b092ac52f77db4e7a"
+    },
+    {
+      "source": "images/fx/hh_ball_blue.xml",
+      "destination": "images/fx/hh_ball_blue.xml",
+      "sha256": "479366b776af94a2d35bf3490645fb040205302d0d31af83aebf52c04b182c77"
+    },
+    {
+      "source": "images/fx/hh_ball_green.tex",
+      "destination": "images/fx/hh_ball_green.tex",
+      "sha256": "33b986936bc26e3f3f38dd8bc4e95088f120134ece0219cf2dc840accc5567a2"
+    },
+    {
+      "source": "images/fx/hh_ball_green.xml",
+      "destination": "images/fx/hh_ball_green.xml",
+      "sha256": "29d75823bdd73e3586ed5db97af947b6c4bdb6b9584db352bdd0aa9d7429fd68"
+    },
+    {
+      "source": "images/fx/hh_ball_orange.tex",
+      "destination": "images/fx/hh_ball_orange.tex",
+      "sha256": "fad5c78d8a83d96d024447232910d2d2e766961118cc1672170b06b650cf3d7b"
+    },
+    {
+      "source": "images/fx/hh_ball_orange.xml",
+      "destination": "images/fx/hh_ball_orange.xml",
+      "sha256": "6da859aaf405982a1abd9766bb2317496c52846debde5f92902ca8839b94dc7d"
+    },
+    {
+      "source": "images/fx/hh_ball_purple.tex",
+      "destination": "images/fx/hh_ball_purple.tex",
+      "sha256": "898411949df3777bb1b56dafd835ef730776145727eaa5d4a2b30d3a9dffad11"
+    },
+    {
+      "source": "images/fx/hh_ball_purple.xml",
+      "destination": "images/fx/hh_ball_purple.xml",
+      "sha256": "182e0385ff2f916ea6e26bb409caab7d1d26c934cf9fe1bf30495317cb27bd69"
+    },
+    {
+      "source": "images/fx/hh_ball_red.tex",
+      "destination": "images/fx/hh_ball_red.tex",
+      "sha256": "bb226e6455d26271a1293a8f964707cb0fb5304617538cc1eb5dcfb24b0628f3"
+    },
+    {
+      "source": "images/fx/hh_ball_red.xml",
+      "destination": "images/fx/hh_ball_red.xml",
+      "sha256": "fd92d67320ff358228f6d0472be9407f4a483669e876c7f08ef76b2ca465061a"
+    },
+    {
+      "source": "images/fx/hh_fx_star.tex",
+      "destination": "images/fx/hh_fx_star.tex",
+      "sha256": "e107cc3be221922c0bc94bfd82411426018b374169410800cee1b5cc43164053"
+    },
+    {
+      "source": "images/fx/hh_fx_star.xml",
+      "destination": "images/fx/hh_fx_star.xml",
+      "sha256": "0d8983b3e8d64e6c0e29c8ca9c88b135d16ef03bbc16c1f5e4ee015088349a6d"
+    },
+    {
+      "source": "images/gate_high.tex",
+      "destination": "images/gate_high.tex",
+      "sha256": "169ae6822c7b7359716e1bc41a18cdd3dbe84901d4df1f1ada2c3be32f0af0d4"
+    },
+    {
+      "source": "images/gate_high.xml",
+      "destination": "images/gate_high.xml",
+      "sha256": "86b08e971bb51f797116a4cf14c7c234fe284fa211103a070c72b813882edc5b"
+    },
+    {
+      "source": "images/gate_low.tex",
+      "destination": "images/gate_low.tex",
+      "sha256": "9f2b1500a583997b93a5634c9af7928d0d077245495c5a2e5e4dabc51f8cc659"
+    },
+    {
+      "source": "images/gate_low.xml",
+      "destination": "images/gate_low.xml",
+      "sha256": "990875e73998cb5b9022ca341d17c52bab579ec6cd27d3439d309fcf8fb3d98e"
+    },
+    {
+      "source": "images/gate_reset.tex",
+      "destination": "images/gate_reset.tex",
+      "sha256": "82ab8d9fa318e71d7f400780e3bdcca3ebdf833c3f99c7a38617fc48977f49dd"
+    },
+    {
+      "source": "images/gate_reset.xml",
+      "destination": "images/gate_reset.xml",
+      "sha256": "51edc3b02a3284801f3c0ef5052131e4d066710813d365f44704e8e89c5aa01e"
+    },
+    {
+      "source": "images/hh_daogam4.tex",
+      "destination": "images/hh_daogam4.tex",
+      "sha256": "e5d60e52976dc6bcd1375d6d830cc94bd865141d0de728799bfc65fd826b1a73"
+    },
+    {
+      "source": "images/hh_daogam4.xml",
+      "destination": "images/hh_daogam4.xml",
+      "sha256": "07333372f42a40d93a7d9b15e1f0514ab5b83cd3b72b227a4b8848339b2aa4eb"
+    },
+    {
+      "source": "images/hh_daogam6_inventory.tex",
+      "destination": "images/hh_daogam6_inventory.tex",
+      "sha256": "bfe6406ddcec1e322bc4ff0f7420626c6b14f63ee6cf9da94d5dcc52f7dc326f"
+    },
+    {
+      "source": "images/hh_daogam6_inventory.xml",
+      "destination": "images/hh_daogam6_inventory.xml",
+      "sha256": "163187ae30976197d2d0de5f228c554a66f768ac55d42c267bc9124f0c037285"
+    },
+    {
+      "source": "images/hh_hac_nguyet_ho.tex",
+      "destination": "images/hh_hac_nguyet_ho.tex",
+      "sha256": "23ebcadbc50e3f724dde5a2c70e23ed6f46668e0ae0c8a2156ef2fda1ed45618"
+    },
+    {
+      "source": "images/hh_hac_nguyet_ho.xml",
+      "destination": "images/hh_hac_nguyet_ho.xml",
+      "sha256": "e8144cee89b2b3194eca1b253bd9e5ea78909b0fbd19825884adae6234d1359d"
+    },
+    {
+      "source": "images/hh_icon/book_background.tex",
+      "destination": "images/hh_icon/book_background.tex",
+      "sha256": "a89baf41629ec51b1e0cf4f2fdc3b5201ea683b8d2b006c0bdd1b98ee9763d12"
+    },
+    {
+      "source": "images/hh_icon/book_background.xml",
+      "destination": "images/hh_icon/book_background.xml",
+      "sha256": "12fd53dddfe63ca09c458c6461c90a77a562f95d02f0f07ddc57865ec74a837e"
+    },
+    {
+      "source": "images/hh_icon/cooldown_background.tex",
+      "destination": "images/hh_icon/cooldown_background.tex",
+      "sha256": "866ed346914ea1dc4f3669cc14fae5762aef1e6a915b97e82dc67067de351f0e"
+    },
+    {
+      "source": "images/hh_icon/cooldown_background.xml",
+      "destination": "images/hh_icon/cooldown_background.xml",
+      "sha256": "26368fe6d54002a6fb0a1a27ff102c3bf5ed14d9e5713b2ce6a26eee6d403e41"
+    },
+    {
+      "source": "images/hh_icon/guild_hud.tex",
+      "destination": "images/hh_icon/guild_hud.tex",
+      "sha256": "b672f99d01e0fd00bcc5fd3afbbb710ec015f5131f51b0b434685096628ca532"
+    },
+    {
+      "source": "images/hh_icon/guild_hud.xml",
+      "destination": "images/hh_icon/guild_hud.xml",
+      "sha256": "95ce3585ba50fa09e2369a8b90c8c982d0203e55499d3af27293b74e371ca5db"
+    },
+    {
+      "source": "images/hh_icon/guild_staff.tex",
+      "destination": "images/hh_icon/guild_staff.tex",
+      "sha256": "28817272ab591af3710f341ccfa0d3d8a86241da42f99df9e135f8d96d1a4ca3"
+    },
+    {
+      "source": "images/hh_icon/guild_staff.xml",
+      "destination": "images/hh_icon/guild_staff.xml",
+      "sha256": "4f3af4cd51c8a3ec9dc93ab45122b16745a542def1689c6bb14247c7c5b79c25"
+    },
+    {
+      "source": "images/hh_icon/hh_buff_icon.tex",
+      "destination": "images/hh_icon/hh_buff_icon.tex",
+      "sha256": "01d5226ca146a7596c3a895939def717a391604ed63d8a53b231ba43ad1248b5"
+    },
+    {
+      "source": "images/hh_icon/hh_buff_icon.xml",
+      "destination": "images/hh_icon/hh_buff_icon.xml",
+      "sha256": "897c8b0f38603ded40ee2dc328e0049672104ef45c3730abaf7f273b77a317c9"
+    },
+    {
+      "source": "images/hh_icon/hh_hacanh_shadow.tex",
+      "destination": "images/hh_icon/hh_hacanh_shadow.tex",
+      "sha256": "f3d64d3be9ac13680e120fce0f73aa1f34ee515fd54da7f56e865a3d49ddd158"
+    },
+    {
+      "source": "images/hh_icon/hh_hacanh_shadow.xml",
+      "destination": "images/hh_icon/hh_hacanh_shadow.xml",
+      "sha256": "0538aaba26e9ba7006df8763a90a9f5bd6f484d37177af0daf89f08a7b0bb594"
+    },
+    {
+      "source": "images/hh_icon/hh_icon_01.tex",
+      "destination": "images/hh_icon/hh_icon_01.tex",
+      "sha256": "575b4d1f9822f337529081d0781a3a9543dfae35ca5f67b12f6572b21bffa6d0"
+    },
+    {
+      "source": "images/hh_icon/hh_icon_01.xml",
+      "destination": "images/hh_icon/hh_icon_01.xml",
+      "sha256": "fe78e1f166b9b12609183f1b27512e1173217ebf3a0cb1964b1ec76bd7fd966b"
+    },
+    {
+      "source": "images/hh_icon/hh_items.tex",
+      "destination": "images/hh_icon/hh_items.tex",
+      "sha256": "edcc87d60b57e45c9d5a9152b056dc4859f45b53195909dc1dd3a816a75f8f21"
+    },
+    {
+      "source": "images/hh_icon/hh_items.xml",
+      "destination": "images/hh_icon/hh_items.xml",
+      "sha256": "17639d544644727fe35537a83ce43d52fc5bad4b0c9121c3bf1a5e09ebf10c8c"
+    },
+    {
+      "source": "images/hh_icon/hh_macanh_shadow.tex",
+      "destination": "images/hh_icon/hh_macanh_shadow.tex",
+      "sha256": "4069b7840f5dd353880b3222e30c28bf6ffb8e0b6aba7b115552bee2ec64e394"
+    },
+    {
+      "source": "images/hh_icon/hh_macanh_shadow.xml",
+      "destination": "images/hh_icon/hh_macanh_shadow.xml",
+      "sha256": "550c4e6393ebc4c2dae51b5b6ad5ea5658003dbfad28de34fe4e8a553bb64ae3"
+    },
+    {
+      "source": "images/hh_icon/hh_status.tex",
+      "destination": "images/hh_icon/hh_status.tex",
+      "sha256": "14d217467bda857a2afbc957dc5a97b2fd11bf159bf82a00c91aedecd76574ce"
+    },
+    {
+      "source": "images/hh_icon/hh_status.xml",
+      "destination": "images/hh_icon/hh_status.xml",
+      "sha256": "b66b2993777ea3d6d922b41eff3784002d7f294bf8321c7c43cb59298a24a7e9"
+    },
+    {
+      "source": "images/hh_icon/hh_suit_build.tex",
+      "destination": "images/hh_icon/hh_suit_build.tex",
+      "sha256": "b73ef272283666e718fc55deb0c37e939c98872aaaa2003b6a65111ae625d146"
+    },
+    {
+      "source": "images/hh_icon/hh_suit_build.xml",
+      "destination": "images/hh_icon/hh_suit_build.xml",
+      "sha256": "86c6e9b18bb963cb621e765a2ebba86e3128bc474f9e1e289e009740def7d7e7"
+    },
+    {
+      "source": "images/hh_icon/hh_ui_frame.tex",
+      "destination": "images/hh_icon/hh_ui_frame.tex",
+      "sha256": "aceb7b000b9f5c0873c751800090bbd24606ced2097883830686282ca60ee34d"
+    },
+    {
+      "source": "images/hh_icon/hh_ui_frame.xml",
+      "destination": "images/hh_icon/hh_ui_frame.xml",
+      "sha256": "1c7a297a61333a3f62f4a956d07c27c1e3c3b94d1a70f2b7dad832c1ce710961"
+    },
+    {
+      "source": "images/hh_icon/hh_ui_icon.tex",
+      "destination": "images/hh_icon/hh_ui_icon.tex",
+      "sha256": "4cea556526be842d56da59c49c6f799357ab0116e408837327ae5f57a9485e64"
+    },
+    {
+      "source": "images/hh_icon/hh_ui_icon.xml",
+      "destination": "images/hh_icon/hh_ui_icon.xml",
+      "sha256": "fa49ea88f92a0e51ee671850ad4a418d04a99d20160ca49d442744aec6b9ae80"
+    },
+    {
+      "source": "images/hh_icon/hh_weapon.tex",
+      "destination": "images/hh_icon/hh_weapon.tex",
+      "sha256": "06106d79fb4c83f9222318dc9ac4a6e26888b632cde84195324eb94d39e1db6f"
+    },
+    {
+      "source": "images/hh_icon/hh_weapon.xml",
+      "destination": "images/hh_icon/hh_weapon.xml",
+      "sha256": "d46503b250482963d63fbb39f698f3228509a8d317a33453dba66a2eaf6ed2b1"
+    },
+    {
+      "source": "images/hh_icon/hh_white.tex",
+      "destination": "images/hh_icon/hh_white.tex",
+      "sha256": "ac7f9e92f7f85297972b26d1a66b594d4b2650209c34183297a654998c3a5baa"
+    },
+    {
+      "source": "images/hh_icon/hh_white.xml",
+      "destination": "images/hh_icon/hh_white.xml",
+      "sha256": "88660ba4d3ee731874e47e1978089b2f2c07ab533317d310da6261e1137efff3"
+    },
+    {
+      "source": "images/hh_icon/hud_status.tex",
+      "destination": "images/hh_icon/hud_status.tex",
+      "sha256": "c5243373659bda47044df70c86a51001d89e8c75cafca6917911ab60dd00d13a"
+    },
+    {
+      "source": "images/hh_icon/hud_status.xml",
+      "destination": "images/hh_icon/hud_status.xml",
+      "sha256": "c2dda250e2e60d88afa76890fc7933732cf293b3213f261b7807153c4950549d"
+    },
+    {
+      "source": "images/hh_icon/icon_bang_tong_hop.tex",
+      "destination": "images/hh_icon/icon_bang_tong_hop.tex",
+      "sha256": "c56349ecd17ce675b2a974f31dff9b1f05386f905099f337b4dc72fcd43f74a6"
+    },
+    {
+      "source": "images/hh_icon/icon_bang_tong_hop.xml",
+      "destination": "images/hh_icon/icon_bang_tong_hop.xml",
+      "sha256": "60926f664bd9283861774460fed5ec2d8624eff095bc536f62abb5cedfb503a9"
+    },
+    {
+      "source": "images/hh_icon/icon_book.tex",
+      "destination": "images/hh_icon/icon_book.tex",
+      "sha256": "64ad32e6b6f41c4d90c109bcf99b400d0dbf6205706338ccfe2dc60e4a6ba99a"
+    },
+    {
+      "source": "images/hh_icon/icon_book.xml",
+      "destination": "images/hh_icon/icon_book.xml",
+      "sha256": "d7e3820cf477b530425129c1a28590a75b3f42ee971733f2897c4a10eec4c505"
+    },
+    {
+      "source": "images/hh_icon/icon_tab.tex",
+      "destination": "images/hh_icon/icon_tab.tex",
+      "sha256": "103bd0cc88a3a96ca851cb4e36374586cd8f56774db8952054950c7b13759d14"
+    },
+    {
+      "source": "images/hh_icon/icon_tab.xml",
+      "destination": "images/hh_icon/icon_tab.xml",
+      "sha256": "3cd41ed0b5ab5e8070c21a3e8808944262334e78c579fb740fe5d6aaf961d180"
+    },
+    {
+      "source": "images/hh_icon/icon_tab_hover.tex",
+      "destination": "images/hh_icon/icon_tab_hover.tex",
+      "sha256": "63704759df5f7ebbe8e4ec0aef22c081b735e4d1ccc663d8a1b348f09cc45840"
+    },
+    {
+      "source": "images/hh_icon/icon_tab_hover.xml",
+      "destination": "images/hh_icon/icon_tab_hover.xml",
+      "sha256": "89c880f6464e943f03ed21dcbf6a346851b4268052c5846d92fcbd1ec0aeb986"
+    },
+    {
+      "source": "images/hh_icon/icon_tab_selected.tex",
+      "destination": "images/hh_icon/icon_tab_selected.tex",
+      "sha256": "a89fa29ba6671a7fccdfd2ac724347b2c63af6b4af26e1f0440c00e49248a379"
+    },
+    {
+      "source": "images/hh_icon/icon_tab_selected.xml",
+      "destination": "images/hh_icon/icon_tab_selected.xml",
+      "sha256": "48f9a08bf3e7202e73b8afae74c190459b69d9cddc4d05bf28ac6e1194fe9488"
+    },
+    {
+      "source": "images/hh_icon/trich_xuat_background.tex",
+      "destination": "images/hh_icon/trich_xuat_background.tex",
+      "sha256": "c3ad4f4d69c67e4a2f3ffe74160e90273a4eaa98e0aad9ed7a60392323914f95"
+    },
+    {
+      "source": "images/hh_icon/trich_xuat_background.xml",
+      "destination": "images/hh_icon/trich_xuat_background.xml",
+      "sha256": "1153c4dec43d2d63bc38f3dcacfa45be8a4d6f984e9102f8603e49812ef5d029"
+    },
+    {
+      "source": "images/hh_slot_lock_body.tex",
+      "destination": "images/hh_slot_lock_body.tex",
+      "sha256": "d63e5ce53572a8188c26ed84ca1a8b87fe8e9c6aaabd6db4819d837a3b7676dd"
+    },
+    {
+      "source": "images/hh_slot_lock_body.xml",
+      "destination": "images/hh_slot_lock_body.xml",
+      "sha256": "de1a33069a1e16e10471675767f488743f89d2d4c92e9eeeffb676350bc5e69a"
+    },
+    {
+      "source": "images/hh_slot_lock_hands.tex",
+      "destination": "images/hh_slot_lock_hands.tex",
+      "sha256": "6a918e85ae2d69445e1f40c7106b24f13a8b038f9826afbc824e7dfd70fcd0d8"
+    },
+    {
+      "source": "images/hh_slot_lock_hands.xml",
+      "destination": "images/hh_slot_lock_hands.xml",
+      "sha256": "c4a94d05769c5960a0ab4aa25264b4687dfb6a6c2c30248d4854458ae7d88438"
+    },
+    {
+      "source": "images/hh_slot_lock_head.tex",
+      "destination": "images/hh_slot_lock_head.tex",
+      "sha256": "4d2ba7097e05fe133507c5f180f596707853d12e70a243862908d67f47171f0a"
+    },
+    {
+      "source": "images/hh_slot_lock_head.xml",
+      "destination": "images/hh_slot_lock_head.xml",
+      "sha256": "36acce2ed286350281926142ff4faddf66f8f43ac970c48f94825c7271e931b3"
+    },
+    {
+      "source": "images/hud_dungeon_store.tex",
+      "destination": "images/hud_dungeon_store.tex",
+      "sha256": "ce3d790e1df0daabda6805f9c745c72b4859ea84660b4a435254b896dfcf7cc5"
+    },
+    {
+      "source": "images/hud_dungeon_store.xml",
+      "destination": "images/hud_dungeon_store.xml",
+      "sha256": "921a42d1a2faf8b111c492feb3bc70162ebcded509b1cc553954d917c0eb53b8"
+    },
+    {
+      "source": "images/hud_nang_cap_quan_doan.tex",
+      "destination": "images/hud_nang_cap_quan_doan.tex",
+      "sha256": "d18dd9e786d185f32b50eb96f365107def109f78aab869bbf1337c8f75699185"
+    },
+    {
+      "source": "images/hud_nang_cap_quan_doan.xml",
+      "destination": "images/hud_nang_cap_quan_doan.xml",
+      "sha256": "0cbd1c6798f0a4dbb033da18e81a7e167d5c71dc796dc6c47f20bdd9f9aca7df"
+    },
+    {
+      "source": "images/hud_troi_day.tex",
+      "destination": "images/hud_troi_day.tex",
+      "sha256": "08c1f84b370f98a2e13c22a4ed81613d9796c69c1768cdf3d2add08ce1dfc90d"
+    },
+    {
+      "source": "images/hud_troi_day.xml",
+      "destination": "images/hud_troi_day.xml",
+      "sha256": "39162da77fe77e8dd35d8e59276a04a67d5b57c569e252f493a8863cde5ba7d3"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam.tex",
+      "destination": "images/inventoryimages/hh_daogam.tex",
+      "sha256": "32a42f2c2021dd1c072998540b6125488abac13a1aee8203a9c9dc514153430a"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam.xml",
+      "destination": "images/inventoryimages/hh_daogam.xml",
+      "sha256": "6e605f0f1a8382d521621936401e68e3a34ed3bc322d34333d46c807a44eb1b3"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam2.tex",
+      "destination": "images/inventoryimages/hh_daogam2.tex",
+      "sha256": "9083be85780482270d5fbdc9e6c4efbab45fa36cb9bd43b22983bbaea1b8c324"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam2.xml",
+      "destination": "images/inventoryimages/hh_daogam2.xml",
+      "sha256": "bd8fb36e8ccd3bb1adeff234faf49bfc68314b3da38655d471fce8f2a8bbde74"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam3.tex",
+      "destination": "images/inventoryimages/hh_daogam3.tex",
+      "sha256": "5c77f218bbc1495395c748ae10d2150d86bbb08ae19a6c7d5ff76d41d26842ac"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam3.xml",
+      "destination": "images/inventoryimages/hh_daogam3.xml",
+      "sha256": "41d32cc46dc3613969c716caf1fb8464f1acbdd63f3e2e70b45c039397f870c3"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam5.tex",
+      "destination": "images/inventoryimages/hh_daogam5.tex",
+      "sha256": "be70c6736ff8d404a6fc770a83e77ad78fa13c144fa3247845740984aa8699ba"
+    },
+    {
+      "source": "images/inventoryimages/hh_daogam5.xml",
+      "destination": "images/inventoryimages/hh_daogam5.xml",
+      "sha256": "f6c27bb8b634115ec2c46786bf66529b5a5e7d7164293ec88f655d9fdc62d4fe"
+    },
+    {
+      "source": "images/inventoryimages/hh_dungeon_spider.tex",
+      "destination": "images/inventoryimages/hh_dungeon_spider.tex",
+      "sha256": "5fa144cc9b7dd8184c334eb5aa26742b95dae10d5567428b14c1bbf447ad9c3f"
+    },
+    {
+      "source": "images/inventoryimages/hh_dungeon_spider.xml",
+      "destination": "images/inventoryimages/hh_dungeon_spider.xml",
+      "sha256": "724ac96deeafcf1a96b48ba09a0c3516510c43c8e6c64bbbe52267320daf71f6"
+    },
+    {
+      "source": "images/inventoryimages/hh_quat_long_vu_inventory.tex",
+      "destination": "images/inventoryimages/hh_quat_long_vu_inventory.tex",
+      "sha256": "f98225d0f8cee4235d4beff70dd0a90160b47932410d966d178ec4dbb9d6e04a"
+    },
+    {
+      "source": "images/inventoryimages/hh_quat_long_vu_inventory.xml",
+      "destination": "images/inventoryimages/hh_quat_long_vu_inventory.xml",
+      "sha256": "564d8346551feae0fc81796625f86225da00fb505e704604259de4b9c0c11eb8"
+    },
+    {
+      "source": "images/keep_amulet.tex",
+      "destination": "images/keep_amulet.tex",
+      "sha256": "a67f41f5a346eae892787c24c8e74d762fc1aae1c1d049b4824137b268f3061a"
+    },
+    {
+      "source": "images/keep_amulet.xml",
+      "destination": "images/keep_amulet.xml",
+      "sha256": "74402b0b4568fad95bc7770f91e03b63b46706fda882d8877b33d35498827389"
+    },
+    {
+      "source": "images/keep_symbol.tex",
+      "destination": "images/keep_symbol.tex",
+      "sha256": "bf33f9ec14e396f900d6c26fc6ff0bf38e337351159a97a29279b063defa59b8"
+    },
+    {
+      "source": "images/keep_symbol.xml",
+      "destination": "images/keep_symbol.xml",
+      "sha256": "a4141405588d6a53724b537a6b01dc6ab2090b71de4cd913f6dab531b60e9814"
+    },
+    {
+      "source": "images/lo_ren.tex",
+      "destination": "images/lo_ren.tex",
+      "sha256": "a65506b269955eb060e1fd64615ae671162fcc3039e8a2dee3ad0229b556df77"
+    },
+    {
+      "source": "images/lo_ren.xml",
+      "destination": "images/lo_ren.xml",
+      "sha256": "03e6cf37de4834818e18fab9122a266e9bc7ed9b2f761016885b664bdae2ed2a"
+    },
+    {
+      "source": "images/loading_screen.tex",
+      "destination": "images/loading_screen.tex",
+      "sha256": "65345ba2099450ea494b63492aff40fd49a2ebaadb4a13a36ed84472ae10c35c"
+    },
+    {
+      "source": "images/loading_screen.xml",
+      "destination": "images/loading_screen.xml",
+      "sha256": "05c3956abae39506afa12e01e86062049ce62707d1cc1b24c924fbf133432f9a"
+    },
+    {
+      "source": "images/lucky_gem.tex",
+      "destination": "images/lucky_gem.tex",
+      "sha256": "d0fa0ac18a89c1409f5022c0a5109c75790efae4b989c3c0180562d0e7c23b20"
+    },
+    {
+      "source": "images/lucky_gem.xml",
+      "destination": "images/lucky_gem.xml",
+      "sha256": "325da4830605bc5c68c6fb9b0f47ccf28b601ae03264e99a98ce5fac490a64e5"
+    },
+    {
+      "source": "images/luckypotion.tex",
+      "destination": "images/luckypotion.tex",
+      "sha256": "5259792e82bd8e13d293e3940bb3e1f3253ee6b77b3e4f0bb3ec98fc7801efc1"
+    },
+    {
+      "source": "images/luckypotion.xml",
+      "destination": "images/luckypotion.xml",
+      "sha256": "f8923376be939a6268adb9ed80c000be50bae841487c96128d96f754d7b7f938"
+    },
+    {
+      "source": "images/mana_frame.tex",
+      "destination": "images/mana_frame.tex",
+      "sha256": "d96b8695ee719ec40b432bbddd7271b68060326ffefb4ff5d73d731660178ccc"
+    },
+    {
+      "source": "images/mana_frame.xml",
+      "destination": "images/mana_frame.xml",
+      "sha256": "df4215f64c280166858ceff361c3aa72c687ec41af44c732af5f433afcbd7188"
+    },
+    {
+      "source": "images/mana_liquid.tex",
+      "destination": "images/mana_liquid.tex",
+      "sha256": "4b5f80d315fbfe93991520c509b39f657bb149a8482d2a01622207f828d36730"
+    },
+    {
+      "source": "images/mana_liquid.xml",
+      "destination": "images/mana_liquid.xml",
+      "sha256": "551546e4109189b68ae674d1ebb38deb164c1909798037654c78aa8a4e798155"
+    },
+    {
+      "source": "images/minimap/dsc.tex",
+      "destination": "images/minimap/dsc.tex",
+      "sha256": "75dfbdb1c51d55cfb19e656a0690bdf34cca287dcc3539e2067bd6f045533ff2"
+    },
+    {
+      "source": "images/minimap/dsc.xml",
+      "destination": "images/minimap/dsc.xml",
+      "sha256": "116929785ff2029345fb1491963813ae4d7e730520f555bf8e55eccd1bb40c3d"
+    },
+    {
+      "source": "images/minimap/gate_high.tex",
+      "destination": "images/minimap/gate_high.tex",
+      "sha256": "aff8df874e1065fc5f50ea0c8cc28482958cf9dee5833a3348b4c91d0b58ccf3"
+    },
+    {
+      "source": "images/minimap/gate_high.xml",
+      "destination": "images/minimap/gate_high.xml",
+      "sha256": "ac9d6dc86653a7729c7b71d114ce3d86157f4d2b68526b3d4652b7de4393e7a3"
+    },
+    {
+      "source": "images/minimap/gate_high_max.tex",
+      "destination": "images/minimap/gate_high_max.tex",
+      "sha256": "9d4ea1c794ae310e740e94551fe350d37bf14ce6ca6f0fc631ff60dd18751577"
+    },
+    {
+      "source": "images/minimap/gate_high_max.xml",
+      "destination": "images/minimap/gate_high_max.xml",
+      "sha256": "21d63981deab8e8559d7a3d2e6d24a62dece8e95a9201a2a8086717d63a3e408"
+    },
+    {
+      "source": "images/minimap/gate_low.tex",
+      "destination": "images/minimap/gate_low.tex",
+      "sha256": "d0cff489cf2e8886c4a497ee5244e08ac1a5c9898c95679043951f832973dec1"
+    },
+    {
+      "source": "images/minimap/gate_low.xml",
+      "destination": "images/minimap/gate_low.xml",
+      "sha256": "b9f5f749eaebb95e0e6db463a6a94c5500fa2caa44eafeb359321d8db1dce0da"
+    },
+    {
+      "source": "images/minimap/gate_low_max.tex",
+      "destination": "images/minimap/gate_low_max.tex",
+      "sha256": "bfa18d25f21c8c0283f18aa3d4ccb7b1489fef6a842eb9c2d559cd8c2b4b8156"
+    },
+    {
+      "source": "images/minimap/gate_low_max.xml",
+      "destination": "images/minimap/gate_low_max.xml",
+      "sha256": "0499c141ebe660dde8ef8deac271a1be06309e61bb48212857ba11b5ddf8a7a6"
+    },
+    {
+      "source": "images/minimap/gate_reset.tex",
+      "destination": "images/minimap/gate_reset.tex",
+      "sha256": "82ab8d9fa318e71d7f400780e3bdcca3ebdf833c3f99c7a38617fc48977f49dd"
+    },
+    {
+      "source": "images/minimap/gate_reset.xml",
+      "destination": "images/minimap/gate_reset.xml",
+      "sha256": "51edc3b02a3284801f3c0ef5052131e4d066710813d365f44704e8e89c5aa01e"
+    },
+    {
+      "source": "images/minimap/gate_reset_max.tex",
+      "destination": "images/minimap/gate_reset_max.tex",
+      "sha256": "3674da33e8cdb56579f6228ae4dd0507efc8cf45ebbc84faab7544ed1dbe5d45"
+    },
+    {
+      "source": "images/minimap/gate_reset_max.xml",
+      "destination": "images/minimap/gate_reset_max.xml",
+      "sha256": "317aa1fd9b9d85e4cdc00c2c30341fee6c47b3e5f5d2634c699bc4a7e8639a6c"
+    },
+    {
+      "source": "images/nn_armor.tex",
+      "destination": "images/nn_armor.tex",
+      "sha256": "3b0c8859996646487ca25942f22100723f3a23115229b60903172172464fb054"
+    },
+    {
+      "source": "images/nn_armor.xml",
+      "destination": "images/nn_armor.xml",
+      "sha256": "2d3b1a3cfdd60bc36c1f98ff0350156a1771efbbed64f54e13d8d8dac4b0eda1"
+    },
+    {
+      "source": "images/nn_cauldron.tex",
+      "destination": "images/nn_cauldron.tex",
+      "sha256": "b626568a3ac605da8b2c40dcb8698b744d85b9069ebca6aba9edf0ebfbfd3421"
+    },
+    {
+      "source": "images/nn_cauldron.xml",
+      "destination": "images/nn_cauldron.xml",
+      "sha256": "c5ae9e2a587d609d9254f57da0e052a588336dbcbb0f74a81907966c1f0ab1b7"
+    },
+    {
+      "source": "images/nn_cauldron_ui.tex",
+      "destination": "images/nn_cauldron_ui.tex",
+      "sha256": "12f9247575d0f7c0ab35f19da9d0b82c886d47ff2105ea3900ae54556af2b8bb"
+    },
+    {
+      "source": "images/nn_cauldron_ui.xml",
+      "destination": "images/nn_cauldron_ui.xml",
+      "sha256": "79f49fccab23fb7f626955ea753565c9981247b8d7df001a098a2ef6b355955b"
+    },
+    {
+      "source": "images/nn_contract.tex",
+      "destination": "images/nn_contract.tex",
+      "sha256": "ac476df4a772720f2da0d35644d132a913b474c4192ff6ba6798a7e34108904b"
+    },
+    {
+      "source": "images/nn_contract.xml",
+      "destination": "images/nn_contract.xml",
+      "sha256": "1672590bee6d4e0284bdf7ebbba2ed782afd101c94f50702ddcd80c6043aa86e"
+    },
+    {
+      "source": "images/nn_heatrock.tex",
+      "destination": "images/nn_heatrock.tex",
+      "sha256": "8bd84292a790a30b836c0398dc4e82bb6508a4bfec52e065887806c7e5bb59a9"
+    },
+    {
+      "source": "images/nn_heatrock.xml",
+      "destination": "images/nn_heatrock.xml",
+      "sha256": "fece9075f1fa48ba52c9163351aa38df1439a1f0d4561611ab3d716f86746c4f"
+    },
+    {
+      "source": "images/nn_heatrock1.tex",
+      "destination": "images/nn_heatrock1.tex",
+      "sha256": "d914250becf7c4097988687416426e8eaf0ed5c62b841359b47a12c0df971bda"
+    },
+    {
+      "source": "images/nn_heatrock1.xml",
+      "destination": "images/nn_heatrock1.xml",
+      "sha256": "98d91e7f5aa60d3776388f9a87ec42225d246be365f45119317019969db512cd"
+    },
+    {
+      "source": "images/nn_heatrock2.tex",
+      "destination": "images/nn_heatrock2.tex",
+      "sha256": "700c6dda3c3d5655b39091b63822e6c2711dd3c579ceb6f0a367f4eee7234836"
+    },
+    {
+      "source": "images/nn_heatrock2.xml",
+      "destination": "images/nn_heatrock2.xml",
+      "sha256": "5d142e81806c78456e3716553690a7ab6cfa970dd52d08cf669e626748e24f48"
+    },
+    {
+      "source": "images/nn_heatrock3.tex",
+      "destination": "images/nn_heatrock3.tex",
+      "sha256": "8bd84292a790a30b836c0398dc4e82bb6508a4bfec52e065887806c7e5bb59a9"
+    },
+    {
+      "source": "images/nn_heatrock3.xml",
+      "destination": "images/nn_heatrock3.xml",
+      "sha256": "db59de31773ef882436996d4324677a25f0d7c9aa83179741342a504402ac46b"
+    },
+    {
+      "source": "images/nn_heatrock4.tex",
+      "destination": "images/nn_heatrock4.tex",
+      "sha256": "4b9b253d0afd92a0187f27f4fc911ecedb9330fa8c4ba9d800f68467b5dfb7b6"
+    },
+    {
+      "source": "images/nn_heatrock4.xml",
+      "destination": "images/nn_heatrock4.xml",
+      "sha256": "0b71307cff23a20aa09933239047fef1071bc01a3fb57a47972793d35ec181f3"
+    },
+    {
+      "source": "images/nn_heatrock5.tex",
+      "destination": "images/nn_heatrock5.tex",
+      "sha256": "7a6617c99aa9257469139dcd64da1666c32dea458f30e816310baab13e7159bc"
+    },
+    {
+      "source": "images/nn_heatrock5.xml",
+      "destination": "images/nn_heatrock5.xml",
+      "sha256": "9960fbf7d19b1303aebed359c52e75de975704ce3e667a2f1569922295dd717e"
+    },
+    {
+      "source": "images/nn_icebox.tex",
+      "destination": "images/nn_icebox.tex",
+      "sha256": "55d3ff48a595ee0dc2b41b819ace0193d02cf4547f50ab6ccfe2e2b241cca472"
+    },
+    {
+      "source": "images/nn_icebox.xml",
+      "destination": "images/nn_icebox.xml",
+      "sha256": "1d4ed5b0031d8da1f8ba13a1fcba1d9ddb66ffa47e9bc3dc2832d9f67c08fdf7"
+    },
+    {
+      "source": "images/nn_shield.tex",
+      "destination": "images/nn_shield.tex",
+      "sha256": "cd6a48c7e15177d709cddc90db0aba797b96d07f6e8f9a00487e50d40c42f0ce"
+    },
+    {
+      "source": "images/nn_shield.xml",
+      "destination": "images/nn_shield.xml",
+      "sha256": "2b3de65932b65a8f791386578b4075636da7f96d025fd87d66aceca4ab31f7c0"
+    },
+    {
+      "source": "images/nn_staff_dis.tex",
+      "destination": "images/nn_staff_dis.tex",
+      "sha256": "fa18bdcc50d2e3a184c9ffdd1323653dd5934caf1fb650f089717becdaa19d5a"
+    },
+    {
+      "source": "images/nn_staff_dis.xml",
+      "destination": "images/nn_staff_dis.xml",
+      "sha256": "c7fcfcd7990acdc842f5ac75c6ebd77aa1bd3f382b01969400910f65b9c59888"
+    },
+    {
+      "source": "images/nn_staff_flower.tex",
+      "destination": "images/nn_staff_flower.tex",
+      "sha256": "26111256f2e5494341677be047171f0afb309fbd2d598190801f45165d80cba3"
+    },
+    {
+      "source": "images/nn_staff_flower.xml",
+      "destination": "images/nn_staff_flower.xml",
+      "sha256": "97b8001b4abdb2339f4c7dfb7c95d4cb0cd8be39e265b16433c24883bf946d2c"
+    },
+    {
+      "source": "images/nn_sword.tex",
+      "destination": "images/nn_sword.tex",
+      "sha256": "5fbd821461fbb0b40dcbc1fe2b8a5a44d488f50dfbe914a6eb4332d034ce2493"
+    },
+    {
+      "source": "images/nn_sword.xml",
+      "destination": "images/nn_sword.xml",
+      "sha256": "958ed7eded531fc50629f4fcb7bb90c8fa4779b6ac2cc765f19374db0e34a696"
+    },
+    {
+      "source": "images/nn_tele.tex",
+      "destination": "images/nn_tele.tex",
+      "sha256": "bc203d9e3386b2f44a40ccce53c707058e1c5a58644d6a151cbcf5d431d61cd4"
+    },
+    {
+      "source": "images/nn_tele.xml",
+      "destination": "images/nn_tele.xml",
+      "sha256": "f49f3eb35ccc76f45e4f9168f7196044702b88eac9b8682b3fa0c48fb3be1894"
+    },
+    {
+      "source": "images/nn_teleport.tex",
+      "destination": "images/nn_teleport.tex",
+      "sha256": "64ceecb9baf5d5f22c5f48f7a4811be0aa43ee01a8098a99dbc7e2025cf790ad"
+    },
+    {
+      "source": "images/nn_teleport.xml",
+      "destination": "images/nn_teleport.xml",
+      "sha256": "0f9b167610f84f898d5b4fd92cf627b79ae07a240f23cfb8d315e5d85f11983f"
+    },
+    {
+      "source": "images/nn_tools.tex",
+      "destination": "images/nn_tools.tex",
+      "sha256": "3c299dd816fad204b308172c34f8e933cdbff8ba580b96271ae8294036d37719"
+    },
+    {
+      "source": "images/nn_tools.xml",
+      "destination": "images/nn_tools.xml",
+      "sha256": "3e11a0d6936dde62c125bdd372f422343bf6bf698ed28330dd8f4dffba04cf7f"
+    },
+    {
+      "source": "images/nn_well.tex",
+      "destination": "images/nn_well.tex",
+      "sha256": "23ebcadbc50e3f724dde5a2c70e23ed6f46668e0ae0c8a2156ef2fda1ed45618"
+    },
+    {
+      "source": "images/nn_well.xml",
+      "destination": "images/nn_well.xml",
+      "sha256": "08869369c844b63517739ffb6d3298fbd8c6b05f22b0bc062c2f1507dcd3bd3b"
+    },
+    {
+      "source": "images/phuc_lac_duoc_ground.tex",
+      "destination": "images/phuc_lac_duoc_ground.tex",
+      "sha256": "6038cfe0ef2f263de6682af6e3323034299e88076beaf5d60dde90e392ca284a"
+    },
+    {
+      "source": "images/phuc_lac_duoc_ground.xml",
+      "destination": "images/phuc_lac_duoc_ground.xml",
+      "sha256": "029738a42bc6012abae55afc635b004d4363c2fb778afe2b517dfca10894b436"
+    },
+    {
+      "source": "images/phuc_lac_duoc_inventory.tex",
+      "destination": "images/phuc_lac_duoc_inventory.tex",
+      "sha256": "9b94c488d4911b5ab62c6f5c85ed3a97a7792f9070f7f48d6fad110c8ee0d581"
+    },
+    {
+      "source": "images/phuc_lac_duoc_inventory.xml",
+      "destination": "images/phuc_lac_duoc_inventory.xml",
+      "sha256": "819c92df0817dfffb8d7a8723eb717fed64cd22e98b2ba4b8c8d6f2f9e51f002"
+    },
+    {
+      "source": "images/potions/hh_thuoc_bao_kich.tex",
+      "destination": "images/potions/hh_thuoc_bao_kich.tex",
+      "sha256": "473ac57456c1561597cd1a5242e71d5071107c8d8c912618a029500d1ff0c6aa"
+    },
+    {
+      "source": "images/potions/hh_thuoc_bao_kich.xml",
+      "destination": "images/potions/hh_thuoc_bao_kich.xml",
+      "sha256": "e9f0644218b0510285cea9046a2a3ac356a58e881e6389215f0d03745fdab0d9"
+    },
+    {
+      "source": "images/potions/hh_thuoc_chinh_phat.tex",
+      "destination": "images/potions/hh_thuoc_chinh_phat.tex",
+      "sha256": "f1ffa747cd2a13384a0f8cf9a80a3d789457d4b4363739f71e964b442814ed28"
+    },
+    {
+      "source": "images/potions/hh_thuoc_chinh_phat.xml",
+      "destination": "images/potions/hh_thuoc_chinh_phat.xml",
+      "sha256": "d9b8f5e40867099bba8f8f7dfcd7deba35fb065da4b37e901d095215a7d65964"
+    },
+    {
+      "source": "images/potions/hh_thuoc_de_tu_inventory.tex",
+      "destination": "images/potions/hh_thuoc_de_tu_inventory.tex",
+      "sha256": "00fa0cc9fa37dcc4828e58b7116824e76a71f9315090d1ede51000af451e1738"
+    },
+    {
+      "source": "images/potions/hh_thuoc_de_tu_inventory.xml",
+      "destination": "images/potions/hh_thuoc_de_tu_inventory.xml",
+      "sha256": "b51dc6a8253e2d743caa5291438466bf7adab3597daadbb0a036aea3663d18bb"
+    },
+    {
+      "source": "images/potions/hh_thuoc_hap_huyet.tex",
+      "destination": "images/potions/hh_thuoc_hap_huyet.tex",
+      "sha256": "69d0615bdac5958340e5813c093d969d714e0bd845f71c0936a70e739ee14226"
+    },
+    {
+      "source": "images/potions/hh_thuoc_hap_huyet.xml",
+      "destination": "images/potions/hh_thuoc_hap_huyet.xml",
+      "sha256": "b19939c9f9ee91d55a24aa79a6a53d0476ba5d5ad14cb69673560730e18a47b3"
+    },
+    {
+      "source": "images/potions/hh_thuoc_ho_the.tex",
+      "destination": "images/potions/hh_thuoc_ho_the.tex",
+      "sha256": "5afe961031227786a6566e410ded977e5b17d50c65f413daf856284f09bcbf2c"
+    },
+    {
+      "source": "images/potions/hh_thuoc_ho_the.xml",
+      "destination": "images/potions/hh_thuoc_ho_the.xml",
+      "sha256": "7bfdd4963784d6f9d1aa5c47c9f3992998dfe27ab4352461138ddce28befadd6"
+    },
+    {
+      "source": "images/potions/hh_thuoc_hoc_gia.tex",
+      "destination": "images/potions/hh_thuoc_hoc_gia.tex",
+      "sha256": "da3330185f903a518eb06d7b3334d3fed92334c4a161ecc7a0071bee8e12d906"
+    },
+    {
+      "source": "images/potions/hh_thuoc_hoc_gia.xml",
+      "destination": "images/potions/hh_thuoc_hoc_gia.xml",
+      "sha256": "d79ba8f048413fe0bf880d1b2e492ac43f9de6235428a72891eef710e764a301"
+    },
+    {
+      "source": "images/potions/hh_thuoc_khang_the.tex",
+      "destination": "images/potions/hh_thuoc_khang_the.tex",
+      "sha256": "bb4d780e36a9582684e887c79e8fdbc02340367b5c6293dc9a6e863d886a5ede"
+    },
+    {
+      "source": "images/potions/hh_thuoc_khang_the.xml",
+      "destination": "images/potions/hh_thuoc_khang_the.xml",
+      "sha256": "c3929969dbd9e7f65a9ed29e70b8f6285bd6a40312545d1800baebe62a85b1e2"
+    },
+    {
+      "source": "images/potions/hh_thuoc_lien_kich.tex",
+      "destination": "images/potions/hh_thuoc_lien_kich.tex",
+      "sha256": "fb0c8736d0a1322b07c9edc01afe59aba44f2435b5f2079ec3f8493ab46b20ee"
+    },
+    {
+      "source": "images/potions/hh_thuoc_lien_kich.xml",
+      "destination": "images/potions/hh_thuoc_lien_kich.xml",
+      "sha256": "1bce8e3929f28e2f472d429d7d50f2ed3c8f54c3c2a1fd8377b23b9816c00e54"
+    },
+    {
+      "source": "images/potions/hh_thuoc_ma_luc.tex",
+      "destination": "images/potions/hh_thuoc_ma_luc.tex",
+      "sha256": "7598e23a2eec47a1a84b88202d3f146252b8b342f3179ae383939e5a3d5a1cba"
+    },
+    {
+      "source": "images/potions/hh_thuoc_ma_luc.xml",
+      "destination": "images/potions/hh_thuoc_ma_luc.xml",
+      "sha256": "12940ecb7de102a8aeb38d5c4857fe36598525ed599dcf3e59b5a2f1f90658b2"
+    },
+    {
+      "source": "images/potions/hh_thuoc_phong_toc.tex",
+      "destination": "images/potions/hh_thuoc_phong_toc.tex",
+      "sha256": "30e40d2a6a25ded06c74b3bff38d8f4fc5cb05b37032969e7a10d345b48b9551"
+    },
+    {
+      "source": "images/potions/hh_thuoc_phong_toc.xml",
+      "destination": "images/potions/hh_thuoc_phong_toc.xml",
+      "sha256": "fe5b5e11b5e9089cf400fce17caa1c72ffbfe6d3e35ba6f2e4de84207785b787"
+    },
+    {
+      "source": "images/potions/hh_thuoc_sinh_menh.tex",
+      "destination": "images/potions/hh_thuoc_sinh_menh.tex",
+      "sha256": "10765c7c01b6e75d318e47009d548c6323f5e71313d54529e9de9574aa19e24c"
+    },
+    {
+      "source": "images/potions/hh_thuoc_sinh_menh.xml",
+      "destination": "images/potions/hh_thuoc_sinh_menh.xml",
+      "sha256": "41c2ae9757d0b4d76228d199fe47f4b4df1ade8905255bf871ef3bc904ae9232"
+    },
+    {
+      "source": "images/potions/hh_thuoc_store1.tex",
+      "destination": "images/potions/hh_thuoc_store1.tex",
+      "sha256": "2fe490060365fc1639fed355f79092101bb1e15fdf31fd0b8d22969e3e09ed34"
+    },
+    {
+      "source": "images/potions/hh_thuoc_store1.xml",
+      "destination": "images/potions/hh_thuoc_store1.xml",
+      "sha256": "619f9055377ac1022f1fcfb7ab5c5084cbbf57ecde208bb6b966c6e9b099d495"
+    },
+    {
+      "source": "images/potions/hh_thuoc_store2.tex",
+      "destination": "images/potions/hh_thuoc_store2.tex",
+      "sha256": "298e69645c4620bf1dcdeaf389c74246b19096527dcf1fb47ad7f993da8ec8d0"
+    },
+    {
+      "source": "images/potions/hh_thuoc_store2.xml",
+      "destination": "images/potions/hh_thuoc_store2.xml",
+      "sha256": "201e6b20d3ad54bc5078a350cbc47489701df2f1aed460ed408603a207c5fd68"
+    },
+    {
+      "source": "images/potions/hh_thuoc_suc_manh.tex",
+      "destination": "images/potions/hh_thuoc_suc_manh.tex",
+      "sha256": "3d94dac21cc1b595f3ff9eac8eb35db85b69e1ed28b171a3afacb9122050041f"
+    },
+    {
+      "source": "images/potions/hh_thuoc_suc_manh.xml",
+      "destination": "images/potions/hh_thuoc_suc_manh.xml",
+      "sha256": "9a50b073e54bf9abd4b286047a2fa0eab68c15858e428a88d4f95ea52ebc477b"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tai_sinh.tex",
+      "destination": "images/potions/hh_thuoc_tai_sinh.tex",
+      "sha256": "6bb4f61b95974a1745aa45de4c1de8148271841a6402ccc2016c0b0f88189ea7"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tai_sinh.xml",
+      "destination": "images/potions/hh_thuoc_tai_sinh.xml",
+      "sha256": "ef53d4b793124daf238fe430f8fcdcdce80dca1fddb99430072c6f883294b07f"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tiet_ma.tex",
+      "destination": "images/potions/hh_thuoc_tiet_ma.tex",
+      "sha256": "f3103ad289d0183b71abad5d474d1313920e1d4e2605ef1f978ead86240d48c0"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tiet_ma.xml",
+      "destination": "images/potions/hh_thuoc_tiet_ma.xml",
+      "sha256": "e35115e0542f57b3878ee13e1a3c92c3befd73d80004ce356522d28b8ae51de7"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tinh_tam.tex",
+      "destination": "images/potions/hh_thuoc_tinh_tam.tex",
+      "sha256": "42243748e2b68b5bc66a4dc2479f6dedaea947077415d60f21d065bf2466f145"
+    },
+    {
+      "source": "images/potions/hh_thuoc_tinh_tam.xml",
+      "destination": "images/potions/hh_thuoc_tinh_tam.xml",
+      "sha256": "694a1c66ae39fd348ebdf2bdea43fd569a5c2150d8e4769ff0e2525070011a6e"
+    },
+    {
+      "source": "images/potions/hh_thuoc_toan_nang.tex",
+      "destination": "images/potions/hh_thuoc_toan_nang.tex",
+      "sha256": "883027eca80f13580289ddd79f992338919c386323a948000c59eee1af4e0da7"
+    },
+    {
+      "source": "images/potions/hh_thuoc_toan_nang.xml",
+      "destination": "images/potions/hh_thuoc_toan_nang.xml",
+      "sha256": "0ff7568109e7aec2666b18e39d414c6edc19923f602a5c29febc51ba09b77d15"
+    },
+    {
+      "source": "images/prayer_symbol.tex",
+      "destination": "images/prayer_symbol.tex",
+      "sha256": "6b6344dbd840e77e6e9515bbeeee2a22609edb3425aadf3633989f21c97ddd50"
+    },
+    {
+      "source": "images/prayer_symbol.xml",
+      "destination": "images/prayer_symbol.xml",
+      "sha256": "161a607bd503ce880e069ec17a2975f03f959031be40e974af80b36d776cbba7"
+    },
+    {
+      "source": "images/resource_amulet.tex",
+      "destination": "images/resource_amulet.tex",
+      "sha256": "378c4ef31cdadace3949cb1f6ecfe525949897b82443c8abf61cbb88c65d7df9"
+    },
+    {
+      "source": "images/resource_amulet.xml",
+      "destination": "images/resource_amulet.xml",
+      "sha256": "6db4ff8836fe9661671a44c91f20e80e5987865a4bba101ff7ee24a4690ac182"
+    },
+    {
+      "source": "images/shadow_hud.tex",
+      "destination": "images/shadow_hud.tex",
+      "sha256": "3b5aa200ea4bab464660e06db408ee435998fd9cd7410e0cf26215a1a8dccf57"
+    },
+    {
+      "source": "images/shadow_hud.xml",
+      "destination": "images/shadow_hud.xml",
+      "sha256": "45f9a4f70c5c3270baa917a7b6339401c4703dfd326f304bae6bdd38c7f1dede"
+    },
+    {
+      "source": "images/skill_wheel/beru_icon.tex",
+      "destination": "images/skill_wheel/beru_icon.tex",
+      "sha256": "1af92b93e5d85bde07abb679efc868c985915856dba01b7cad70d80e6a9d31d3"
+    },
+    {
+      "source": "images/skill_wheel/beru_icon.xml",
+      "destination": "images/skill_wheel/beru_icon.xml",
+      "sha256": "13dd883fa7f7b6a289c360328ec273d9cdf393abf27ed48b78960bd33f7e6c46"
+    },
+    {
+      "source": "images/skill_wheel/diet_than.tex",
+      "destination": "images/skill_wheel/diet_than.tex",
+      "sha256": "5493df08044bf542d208e900f4d4f4cb0014e51d74027d043d80812cd74053ac"
+    },
+    {
+      "source": "images/skill_wheel/diet_than.xml",
+      "destination": "images/skill_wheel/diet_than.xml",
+      "sha256": "8e0d7bc23478d859bd6aea9505b4e8590b466ffc034130aae8bcd03fafe078ac"
+    },
+    {
+      "source": "images/skill_wheel/fruitfly_icon.tex",
+      "destination": "images/skill_wheel/fruitfly_icon.tex",
+      "sha256": "fdb07f973a0248c826adbae1269bbee466b1627708755d473a364747a0ba9826"
+    },
+    {
+      "source": "images/skill_wheel/fruitfly_icon.xml",
+      "destination": "images/skill_wheel/fruitfly_icon.xml",
+      "sha256": "f1b666f49b8abb90ce63756287900008865ff8ea3a1dcae81baba380f6656d49"
+    },
+    {
+      "source": "images/skill_wheel/hac_anh_icon.tex",
+      "destination": "images/skill_wheel/hac_anh_icon.tex",
+      "sha256": "9da18d5ace925214bb5bcf79938bf84ee6bd03d7188090c4bd761cc4d9f475c8"
+    },
+    {
+      "source": "images/skill_wheel/hac_anh_icon.xml",
+      "destination": "images/skill_wheel/hac_anh_icon.xml",
+      "sha256": "2bf42a6380d7b923799de679606b1e8e19105e72c26e688b9f8049048db8d6a4"
+    },
+    {
+      "source": "images/skill_wheel/hoan_doi.tex",
+      "destination": "images/skill_wheel/hoan_doi.tex",
+      "sha256": "d7c09f22ca3a4d85b84d113fb4cf071d9cd86a04fb3bb861576a6a574c4abcf2"
+    },
+    {
+      "source": "images/skill_wheel/hoan_doi.xml",
+      "destination": "images/skill_wheel/hoan_doi.xml",
+      "sha256": "ab0a464ae073b5ba0be9918b8f949768bf2df1e712153c04d1824185f39157fb"
+    },
+    {
+      "source": "images/skill_wheel/igris_icon.tex",
+      "destination": "images/skill_wheel/igris_icon.tex",
+      "sha256": "fda84ccd8b8b91f157af39911672238d1569af6cc7682aede0b6b1bd09e23dbc"
+    },
+    {
+      "source": "images/skill_wheel/igris_icon.xml",
+      "destination": "images/skill_wheel/igris_icon.xml",
+      "sha256": "afa73141c2bcb3ae0b6faa3b3a4ba88130a8432ca287b3ca340ce66fd69ba29d"
+    },
+    {
+      "source": "images/skill_wheel/ke_thong_tri.tex",
+      "destination": "images/skill_wheel/ke_thong_tri.tex",
+      "sha256": "b334e4c263c893477c6e9937857a2cae65d15f1a7c1b7397adef8dd5317125ca"
+    },
+    {
+      "source": "images/skill_wheel/ke_thong_tri.xml",
+      "destination": "images/skill_wheel/ke_thong_tri.xml",
+      "sha256": "7e1692dbdaefcbec95c33d6e2a1dac8302f0e1cf81238a7ed1c01da7952c5201"
+    },
+    {
+      "source": "images/skill_wheel/kho_quan_vuong_icon.tex",
+      "destination": "images/skill_wheel/kho_quan_vuong_icon.tex",
+      "sha256": "958b3b29b5d63054d1d1232f02aea30616f5276d6e7e9eeab41717589cae479b"
+    },
+    {
+      "source": "images/skill_wheel/kho_quan_vuong_icon.xml",
+      "destination": "images/skill_wheel/kho_quan_vuong_icon.xml",
+      "sha256": "e748a51695e65c5723623353ecb07ea8219378b36ec855303dcda73308eb7ab8"
+    },
+    {
+      "source": "images/skill_wheel/mac_anh_icon.tex",
+      "destination": "images/skill_wheel/mac_anh_icon.tex",
+      "sha256": "d8f122685cf620773f2f1bfb265f990463b950482f483b0659c2b32ba542204b"
+    },
+    {
+      "source": "images/skill_wheel/mac_anh_icon.xml",
+      "destination": "images/skill_wheel/mac_anh_icon.xml",
+      "sha256": "56e2c9e1b1105a04db9b0eed65826be254cca80d1404a517035f2c32aa244f20"
+    },
+    {
+      "source": "images/skill_wheel/nha_vua_icon.tex",
+      "destination": "images/skill_wheel/nha_vua_icon.tex",
+      "sha256": "c4299df364cbc5a68d68ddfd757e539f4118f8a434696b7a787b0d8d87ef0d2c"
+    },
+    {
+      "source": "images/skill_wheel/nha_vua_icon.xml",
+      "destination": "images/skill_wheel/nha_vua_icon.xml",
+      "sha256": "89131c073bfbc69c1d1c4dffb1d8f2dbf15338d7d8430e005c52f2dd2d87779a"
+    },
+    {
+      "source": "images/skill_wheel/thanh_vuc_hoi_phuc.tex",
+      "destination": "images/skill_wheel/thanh_vuc_hoi_phuc.tex",
+      "sha256": "35ef56c4e79fc3a2bf32be9c727641845aeb8598c0a3a75450f93601c3424e83"
+    },
+    {
+      "source": "images/skill_wheel/thanh_vuc_hoi_phuc.xml",
+      "destination": "images/skill_wheel/thanh_vuc_hoi_phuc.xml",
+      "sha256": "77e25b44d1e3d24190afdafd385acff469f3a0c0ce3aedd97a606f40533a39ed"
+    },
+    {
+      "source": "images/skill_wheel/thu_hoi.tex",
+      "destination": "images/skill_wheel/thu_hoi.tex",
+      "sha256": "42539dd21236e66e3f003a313be98d0646882b26d6bb85df61014fc5510c38c6"
+    },
+    {
+      "source": "images/skill_wheel/thu_hoi.xml",
+      "destination": "images/skill_wheel/thu_hoi.xml",
+      "sha256": "041a681101f7ce89c6d6c64845d8b31263574dc5036aed8c2bc9bde8b1ccefc9"
+    },
+    {
+      "source": "images/skill_wheel/trieu_hoi.tex",
+      "destination": "images/skill_wheel/trieu_hoi.tex",
+      "sha256": "f21d1bed7d4ec4c3dac8cc9ecb5a9728933c27dd73f3ff0e307d63e5743ab15a"
+    },
+    {
+      "source": "images/skill_wheel/trieu_hoi.xml",
+      "destination": "images/skill_wheel/trieu_hoi.xml",
+      "sha256": "10aff88564376c0e57509f4d36d2fd77b9e748496552b19b00df2ccb52db344f"
+    },
+    {
+      "source": "images/speedpotion.tex",
+      "destination": "images/speedpotion.tex",
+      "sha256": "05598d60a0ba7dd4c110e22eacc4edd1ef00aff5b2aa080655c0d70b2c97c6d8"
+    },
+    {
+      "source": "images/speedpotion.xml",
+      "destination": "images/speedpotion.xml",
+      "sha256": "5b2c29cb5aa61786248cb81b4849b451604fd1f1d7421a53ce4931167ae4c9b5"
+    },
+    {
+      "source": "images/transport_symbol.tex",
+      "destination": "images/transport_symbol.tex",
+      "sha256": "0c273f50328f10e42656b306182b87f0b2cad77bd11eef3f4afabbc63f20c932"
+    },
+    {
+      "source": "images/transport_symbol.xml",
+      "destination": "images/transport_symbol.xml",
+      "sha256": "83210c109109e455a861b12908966f2faa0051cafaf8039ff21af2cdcdc40a05"
+    },
+    {
+      "source": "images/vat_pham/hh_da_chuyen_sinh_inventory.tex",
+      "destination": "images/vat_pham/hh_da_chuyen_sinh_inventory.tex",
+      "sha256": "4d8a6f7b8c398e9f5a3aef58bf86b5ab8480952e744e6ffa823963b8539bd53c"
+    },
+    {
+      "source": "images/vat_pham/hh_da_chuyen_sinh_inventory.xml",
+      "destination": "images/vat_pham/hh_da_chuyen_sinh_inventory.xml",
+      "sha256": "9b17f19b771b83f260fa4c2e715f4c7d3e50291965487f321499b4833d9d2901"
+    },
+    {
+      "source": "images/vat_pham/hh_da_chuyen_sinh_store.tex",
+      "destination": "images/vat_pham/hh_da_chuyen_sinh_store.tex",
+      "sha256": "b318c07872320efffc7ed6830252bcf3ff77fe63abc6034ee3c8be17a0840e8b"
+    },
+    {
+      "source": "images/vat_pham/hh_da_chuyen_sinh_store.xml",
+      "destination": "images/vat_pham/hh_da_chuyen_sinh_store.xml",
+      "sha256": "2817cc35587fd9b92429c87e8e5859541f5c41894c7d798ea23cdf5c79f95315"
+    },
+    {
+      "source": "images/vat_pham/hh_vat_pham_inventory.tex",
+      "destination": "images/vat_pham/hh_vat_pham_inventory.tex",
+      "sha256": "03ae9a113abb546943802c922da2aa4f5f250d1c6c9956f2cc1e8eaf1a3feb40"
+    },
+    {
+      "source": "images/vat_pham/hh_vat_pham_inventory.xml",
+      "destination": "images/vat_pham/hh_vat_pham_inventory.xml",
+      "sha256": "319ad4e2725214b7420b00eb2b91ccb07171a69918562e5b8c1a9d686cb91b2f"
+    },
+    {
+      "source": "images/vat_pham/hh_vat_pham_store1.tex",
+      "destination": "images/vat_pham/hh_vat_pham_store1.tex",
+      "sha256": "6fb733e249c19e00cdd2019b74dc0f0230121526a0ac0a6d94017c4d594458be"
+    },
+    {
+      "source": "images/vat_pham/hh_vat_pham_store1.xml",
+      "destination": "images/vat_pham/hh_vat_pham_store1.xml",
+      "sha256": "afcaf2fc70d39d18b36a0e307120aefe84f4a969cda70d54dc7e2605fc2cd686"
+    },
+    {
+      "source": "images/vat_pham_ground_so_1.tex",
+      "destination": "images/vat_pham_ground_so_1.tex",
+      "sha256": "8e8d7d3dbc116b8d03b14bde05e84c257187cc5015177a8dfc70db486cf8111c"
+    },
+    {
+      "source": "images/vat_pham_ground_so_1.xml",
+      "destination": "images/vat_pham_ground_so_1.xml",
+      "sha256": "a6eb42594dcfcaf98da5fbd2dc21297110e1e0fcfe3293cdf57ccfa78e7f8297"
+    },
+    {
+      "source": "images/vat_pham_inventory_so_1.tex",
+      "destination": "images/vat_pham_inventory_so_1.tex",
+      "sha256": "e6e888bfd4d23a8350249bc4657dffed1736d4f8c0d166067df2b0502cd8e3cb"
+    },
+    {
+      "source": "images/vat_pham_inventory_so_1.xml",
+      "destination": "images/vat_pham_inventory_so_1.xml",
+      "sha256": "f48258716196c3b30ac2ae1ef1b248bdeed12b5829a7404ce2137a7662e1be55"
+    },
+    {
+      "source": "images/vu_khi/hh_vukhi_store1.tex",
+      "destination": "images/vu_khi/hh_vukhi_store1.tex",
+      "sha256": "4b1ad6611844fe32f351e4b335dc38161f08fe833282b936d15b97e3b0c7754d"
+    },
+    {
+      "source": "images/vu_khi/hh_vukhi_store1.xml",
+      "destination": "images/vu_khi/hh_vukhi_store1.xml",
+      "sha256": "1b7d4c8dca3b09ec71355cf25133f681a4b2a9ab2201edaf99b1296b2e2b9843"
+    },
+    {
+      "source": "main/hh_act.lua",
+      "destination": "main/hh_act.lua",
+      "sha256": "200d28ad436374b9862a817c79565b4cf6a702fd40c36af98906e9c681ff8b6b"
+    },
+    {
+      "source": "main/hh_api.lua",
+      "destination": "main/hh_api.lua",
+      "sha256": "9f028b7f3085660aa64a5e6467c0e1f6c6c4283c2b92dcb1e11ad51eb6a2e77a"
+    },
+    {
+      "source": "main/hh_assets.lua",
+      "destination": "main/hh_assets.lua",
+      "sha256": "67fbfc004d9e9a8ae154c4103b4d5ea158939867a59a4d59fdb6bc3f0700730f"
+    },
+    {
+      "source": "main/hh_config.lua",
+      "destination": "main/hh_config.lua",
+      "sha256": "7369ef6da72c0495a2c6f6f091a9b567f254edf079f2dcbffa0a798bbf05a229"
+    },
+    {
+      "source": "main/hh_container.lua",
+      "destination": "main/hh_container.lua",
+      "sha256": "43d71fa3dc76403f843c350eded54b67ef93c2d670913ba4e3bea0ddf4c4b8bb"
+    },
+    {
+      "source": "main/hh_daogam_main.lua",
+      "destination": "main/hh_daogam_main.lua",
+      "sha256": "4909b2fe74276b074cefac49daab05bed1e9c35a4f81d109140b919f6475b7f3"
+    },
+    {
+      "source": "main/hh_dungeon_mobs_sg.lua",
+      "destination": "main/hh_dungeon_mobs_sg.lua",
+      "sha256": "bc890a8c849d41db5fe510e3aec825affcfa761704be6301b47d1fb088bd36f9"
+    },
+    {
+      "source": "main/hh_dungeon_shop.lua",
+      "destination": "main/hh_dungeon_shop.lua",
+      "sha256": "2c98d0211629859cbbf7adcbc1a54701ffd7831653c107085abd233eaa85a286"
+    },
+    {
+      "source": "main/hh_guild_main.lua",
+      "destination": "main/hh_guild_main.lua",
+      "sha256": "bbd324c60563a012a6c54724878ab5931ab7bf3251580545b17df698d30281ef"
+    },
+    {
+      "source": "main/hh_guild_rpc.lua",
+      "destination": "main/hh_guild_rpc.lua",
+      "sha256": "560442275196e69b051a529031e0ed07e7c65291294e9259a411961de1321740"
+    },
+    {
+      "source": "main/hh_recipe.lua",
+      "destination": "main/hh_recipe.lua",
+      "sha256": "d7b007024a08d27165b3db9880bd65e29a3437fe8e03e8232710dbf2d2705834"
+    },
+    {
+      "source": "main/hh_rpc.lua",
+      "destination": "main/hh_rpc.lua",
+      "sha256": "17272f0dc86a51dca92e3fff536dc66512cfc36f781b6495090e0b4cc5b17257"
+    },
+    {
+      "source": "main/hh_sg.lua",
+      "destination": "main/hh_sg.lua",
+      "sha256": "a16291c9718eb3e76b7b06e506230f4e5ea31a5142b88544c99399b0c1fb7327"
+    },
+    {
+      "source": "main/hh_skill_cost.lua",
+      "destination": "main/hh_skill_cost.lua",
+      "sha256": "09a6d6a4aec713c20d837c032237dd50b79fefe021cc8ce67ee0b647fb8d7ffa"
+    },
+    {
+      "source": "main/hh_string.lua",
+      "destination": "main/hh_string.lua",
+      "sha256": "517a439ae4e8bc5bad700e992dcacd114d2f334274a0bc2a5b937cd9a9d37a5e"
+    },
+    {
+      "source": "main/hh_tunning.lua",
+      "destination": "main/hh_tunning.lua",
+      "sha256": "fe66a9583fe344681f58dc97a13238ac05a02a34c283db2ca259b26e51f71d72"
+    },
+    {
+      "source": "main/hh_ui.lua",
+      "destination": "main/hh_ui.lua",
+      "sha256": "452fb3c4cdae335efc35ecefb215ec6406d400d3423cd3592fee6922442fa449"
+    },
+    {
+      "source": "main/hh_world_rank.lua",
+      "destination": "main/hh_world_rank.lua",
+      "sha256": "b8f19020c24bdbe878ce2a024ddc6dec3a3de2a088cd3118d9fb6d5bb30a58ac"
+    },
+    {
+      "source": "mod.manifest",
+      "destination": "provenance/solo/mod.manifest",
+      "sha256": "d17f9926a43327c26fbccbe216927e1d9243ea28f91819f9fbac7b2b4c68aa4d"
+    },
+    {
+      "source": "modicon.tex",
+      "destination": "modicon.tex",
+      "sha256": "0f576fc5dcd145da07ee7b4baeabf1cf181df01b79c01eba19926c1e8b6ea911"
+    },
+    {
+      "source": "modicon.xml",
+      "destination": "modicon.xml",
+      "sha256": "e1a3739c59f441e3bc2db7ef28509abaf971d9e4202c3de64ec30514ab3cfcb7"
+    },
+    {
+      "source": "modinfo.lua",
+      "destination": "provenance/solo/modinfo.lua",
+      "sha256": "c56bd66382bd50be1009ff90dfc3a7fe24d54957e8b9b15a1fdbbe4f670e8575"
+    },
+    {
+      "source": "modmain.lua",
+      "destination": "main/ttk_solo_source.lua",
+      "sha256": "91dcd1209c8ae254596005dcd7877711eac5d7d7140ba04b9155aec2f522a9a7"
+    },
+    {
+      "source": "modworldgenmain.lua",
+      "destination": "main/ttk_solo_worldgen.lua",
+      "sha256": "6c1ce292769cbedad4a07b360c2beeb9def21e77b6684f843e98160ac50dc147"
+    },
+    {
+      "source": "scripts/brains/guild_staffbrain.lua",
+      "destination": "scripts/brains/guild_staffbrain.lua",
+      "sha256": "7fd91ca05a5f3d3a702f257e6bae84ce7de6b1c96d79e9ff0660b3b463e2d28b"
+    },
+    {
+      "source": "scripts/brains/hh_com_monster.lua",
+      "destination": "scripts/brains/hh_com_monster.lua",
+      "sha256": "198356f3f8fbf53aec6296ad015a66b1bd0f92c6461000b475ed685887a5c1e2"
+    },
+    {
+      "source": "scripts/brains/hh_fruitfly_shadow_brain.lua",
+      "destination": "scripts/brains/hh_fruitfly_shadow_brain.lua",
+      "sha256": "99a8bfc0a2412b60487758c90fc45a37263eb715fe53584dcbc423312e5749d2"
+    },
+    {
+      "source": "scripts/brains/hh_hacanh_shadow_brain.lua",
+      "destination": "scripts/brains/hh_hacanh_shadow_brain.lua",
+      "sha256": "727e07e6ccd9520d04b76880ab2b283480a62f122e09e67ee188c78b2033fb16"
+    },
+    {
+      "source": "scripts/brains/hh_igris_brain.lua",
+      "destination": "scripts/brains/hh_igris_brain.lua",
+      "sha256": "ebe871b1f74624ab1b89aed2b20cfb10f2ed9f154bdc5112a3dc7be43cd9f8d9"
+    },
+    {
+      "source": "scripts/brains/hh_macanh_shadow_brain.lua",
+      "destination": "scripts/brains/hh_macanh_shadow_brain.lua",
+      "sha256": "895e5faade138dfaf8e7628e347e929a07fa7db9d722118c9a16daf309e62a08"
+    },
+    {
+      "source": "scripts/brains/hh_shadow_brain.lua",
+      "destination": "scripts/brains/hh_shadow_brain.lua",
+      "sha256": "c74b888e717ac3e80bd7bd25cd03a6086f5453d00dc2c55753919afe201d73f5"
+    },
+    {
+      "source": "scripts/brains/hh_sharkboi.lua",
+      "destination": "scripts/brains/hh_sharkboi.lua",
+      "sha256": "4f499249d8a7045ecec0f3821417144c6f05d1937ae70590a5599c54e8623f7f"
+    },
+    {
+      "source": "scripts/brains/minotaubrain.lua",
+      "destination": "scripts/brains/minotaubrain.lua",
+      "sha256": "cab6f05132e428c1d59bd44cd84077ff94c068e1ac8a2a9befafcf6992c7f1e5"
+    },
+    {
+      "source": "scripts/brains/nn_golembrain.lua",
+      "destination": "scripts/brains/nn_golembrain.lua",
+      "sha256": "9546b9e9c95c969119592e7c4d697841e088ccc46467ce6e74130583aa4a902d"
+    },
+    {
+      "source": "scripts/components/dungeon_cooldown.lua",
+      "destination": "scripts/components/dungeon_cooldown.lua",
+      "sha256": "f70efbbd5a8da529ed17647564e8a9fd898d78196c3e8c7e124c73517971f7fa"
+    },
+    {
+      "source": "scripts/components/dungeon_manager.lua",
+      "destination": "scripts/components/dungeon_manager.lua",
+      "sha256": "eefac549055647d159cfdff46927e9deec081b03b0ac5d1722155c1b4dcc7468"
+    },
+    {
+      "source": "scripts/components/hh_buff.lua",
+      "destination": "scripts/components/hh_buff.lua",
+      "sha256": "062676ed0faf98486cd4a4427ba0985fae2fb35be179df12ba9127e74c6cbe6d"
+    },
+    {
+      "source": "scripts/components/hh_client.lua",
+      "destination": "scripts/components/hh_client.lua",
+      "sha256": "82616eb5724076e4947952eb6ddcc53e66203a36f94305a17223878ccc23fb08"
+    },
+    {
+      "source": "scripts/components/hh_daily_quest.lua",
+      "destination": "scripts/components/hh_daily_quest.lua",
+      "sha256": "1acf5a96c05baa2daa4e45e1b9ada5a8397b5c5dec773d7d1344a3cc570a07a3"
+    },
+    {
+      "source": "scripts/components/hh_death_threshold.lua",
+      "destination": "scripts/components/hh_death_threshold.lua",
+      "sha256": "69f310276d5ff93acd8aa1431d19e024f08562784411d52501042dbc974922a0"
+    },
+    {
+      "source": "scripts/components/hh_dungeon_coin.lua",
+      "destination": "scripts/components/hh_dungeon_coin.lua",
+      "sha256": "a360be5bbeb4a85294ea42ee98a5461069baf7b56ec772feac1b79cc32f37371"
+    },
+    {
+      "source": "scripts/components/hh_dungeon_effects.lua",
+      "destination": "scripts/components/hh_dungeon_effects.lua",
+      "sha256": "2336a22b4a3a0bfdd09395dc4b36fa47c88660e15a8f526c5d1465805325e0c9"
+    },
+    {
+      "source": "scripts/components/hh_dungeon_shop.lua",
+      "destination": "scripts/components/hh_dungeon_shop.lua",
+      "sha256": "991637970590eeea82ca09cd644a05f00c5e4260d110fe25aedc0ab889e629cf"
+    },
+    {
+      "source": "scripts/components/hh_equip.lua",
+      "destination": "scripts/components/hh_equip.lua",
+      "sha256": "bebed42c7586fe9fbc09b3c9e4aafdf838e663698dff82c74dcc3005d774a98b"
+    },
+    {
+      "source": "scripts/components/hh_godslayer.lua",
+      "destination": "scripts/components/hh_godslayer.lua",
+      "sha256": "c6d119314c07761bd5d8bca826e9c31e4a706ab822fe0fa9685012185b045e5c"
+    },
+    {
+      "source": "scripts/components/hh_guild_quest.lua",
+      "destination": "scripts/components/hh_guild_quest.lua",
+      "sha256": "aa76070aa382ea81fbdd1dbdd3d9a79db75c91db1f69dad14e4a3cb1e6406acf"
+    },
+    {
+      "source": "scripts/components/hh_guild_shop.lua",
+      "destination": "scripts/components/hh_guild_shop.lua",
+      "sha256": "5f9f59c2e052933be3ee7bd441af612affb9ab86c23f3de3d0a966a1243a5acd"
+    },
+    {
+      "source": "scripts/components/hh_king.lua",
+      "destination": "scripts/components/hh_king.lua",
+      "sha256": "d23c4311fe297f60d0872c4a987ea65d05d9af080ec8d217be8e404f40500a89"
+    },
+    {
+      "source": "scripts/components/hh_leveling.lua",
+      "destination": "scripts/components/hh_leveling.lua",
+      "sha256": "79cfdfed3ad040edbd9bc1aa0656f79a5ae3ca9e982da00d642b7e8ee94e2c81"
+    },
+    {
+      "source": "scripts/components/hh_mana.lua",
+      "destination": "scripts/components/hh_mana.lua",
+      "sha256": "e53029ffaa4b4186eb38f4ae29fa51e6565bcd77f3ec941bb82abc6ca1fb628b"
+    },
+    {
+      "source": "scripts/components/hh_monster.lua",
+      "destination": "scripts/components/hh_monster.lua",
+      "sha256": "7f19681c2de08d46d893e2b8b9de80c979b45a3bb36e288d1e56d539c906b269"
+    },
+    {
+      "source": "scripts/components/hh_morphweapon.lua",
+      "destination": "scripts/components/hh_morphweapon.lua",
+      "sha256": "959d39bd1604a1f7e7a437fe72d26612b76827d22fee2ef95f5a0c75904ab4b8"
+    },
+    {
+      "source": "scripts/components/hh_player.lua",
+      "destination": "scripts/components/hh_player.lua",
+      "sha256": "017701cb7a49775eea33ffc2021715d4d65bad5a656b0ddedaaf78ad7296e54d"
+    },
+    {
+      "source": "scripts/components/hh_project.lua",
+      "destination": "scripts/components/hh_project.lua",
+      "sha256": "ed6298c6047b0f836ce07a87dae86d39b59f3446c5ffb406df5b370ef5fc7e21"
+    },
+    {
+      "source": "scripts/components/hh_rank.lua",
+      "destination": "scripts/components/hh_rank.lua",
+      "sha256": "3d6581c1b8594b19011f36fbc5539515a30b33d84fef590e62a810b847342139"
+    },
+    {
+      "source": "scripts/components/hh_ruler.lua",
+      "destination": "scripts/components/hh_ruler.lua",
+      "sha256": "a2c80d0cc23705ac1012e6739d6286eb82b53aeb7b53e23d71fbb95448497b9d"
+    },
+    {
+      "source": "scripts/components/hh_sanctuary.lua",
+      "destination": "scripts/components/hh_sanctuary.lua",
+      "sha256": "4294d2e877bc51b25a45aaea7ce816402ae4dc39b33d28eb16253a925510bbba"
+    },
+    {
+      "source": "scripts/components/hh_shadow_manager.lua",
+      "destination": "scripts/components/hh_shadow_manager.lua",
+      "sha256": "0414a5eae580ff0c21eb51e28725afd5c71b0e57884151f61e95a437e9bf1198"
+    },
+    {
+      "source": "scripts/components/hh_shadow_progression.lua",
+      "destination": "scripts/components/hh_shadow_progression.lua",
+      "sha256": "2685b0b58464a733a6629305a7f628d0833daeb52ed9323d40ac1cd78ac696ef"
+    },
+    {
+      "source": "scripts/components/hh_shadow_unit.lua",
+      "destination": "scripts/components/hh_shadow_unit.lua",
+      "sha256": "eb355f44842d66d3b70d905cb057a93bfb5a4f90bc54315fa28a28e8c19cb7b4"
+    },
+    {
+      "source": "scripts/components/hh_slot_lock_penalty.lua",
+      "destination": "scripts/components/hh_slot_lock_penalty.lua",
+      "sha256": "13fc816cbc3ad8de2828daeb0afa72d66e7893001bb8166198388c1dd27290d6"
+    },
+    {
+      "source": "scripts/components/hh_world.lua",
+      "destination": "scripts/components/hh_world.lua",
+      "sha256": "143af7fb14ff192bbb6e2435e546db52098778bdee6e677aa1bf28c782b3a770"
+    },
+    {
+      "source": "scripts/components/nn_useitem.lua",
+      "destination": "scripts/components/nn_useitem.lua",
+      "sha256": "48162981b1f328778862ed62319137681f28c39b3a7b17af9cde15bc1c9e8e2e"
+    },
+    {
+      "source": "scripts/components/pageable.lua",
+      "destination": "scripts/components/pageable.lua",
+      "sha256": "c8549e9917d56028fe9d7866f35de64d66903f5729721eb4bca6a54d9abf8f89"
+    },
+    {
+      "source": "scripts/components/sh_getposition.lua",
+      "destination": "scripts/components/sh_getposition.lua",
+      "sha256": "dff1db1b79c502a5b9b222a7770b848f44292c2acea2f359e4aa4ad28cc7e24a"
+    },
+    {
+      "source": "scripts/components/sh_upvaluehelper.lua",
+      "destination": "scripts/components/sh_upvaluehelper.lua",
+      "sha256": "4b0ae3f7269e19b1d0358ee08f57325c180bba003687fdc7043ec020e9fa3eb4"
+    },
+    {
+      "source": "scripts/components/shanhaimovemotor.lua",
+      "destination": "scripts/components/shanhaimovemotor.lua",
+      "sha256": "36214f804159f8e1033d3a45bb09af58e573781eab8d87d637824523522d2ae3"
+    },
+    {
+      "source": "scripts/components/travelable.lua",
+      "destination": "scripts/components/travelable.lua",
+      "sha256": "71e40421cd1ad060e36a33fc2f715dd4910f678c6f4f274482e0340619e5adf8"
+    },
+    {
+      "source": "scripts/components/travelable_replica.lua",
+      "destination": "scripts/components/travelable_replica.lua",
+      "sha256": "348defb05032cdb08b80589f4fc00e864e4d208836450f702fb65f449bc9c75d"
+    },
+    {
+      "source": "scripts/components/wb_handsskill.lua",
+      "destination": "scripts/components/wb_handsskill.lua",
+      "sha256": "bc254e33311c7ff367802c6ff04aa000f0a6de0ff0e17af9461763c887087468"
+    },
+    {
+      "source": "scripts/components/wb_strengthen.lua",
+      "destination": "scripts/components/wb_strengthen.lua",
+      "sha256": "82c56f678595b102bc82e9f95c9ba3a6fe107b104d8dc419ccf9b2253c0eb520"
+    },
+    {
+      "source": "scripts/debug.lua",
+      "destination": "scripts/debug.lua",
+      "sha256": "12bb9a48edd291196a3735d928e04273a81dc7faeecd66e02133cbeba8bbb3f0"
+    },
+    {
+      "source": "scripts/dungeon_blueprints.lua",
+      "destination": "scripts/dungeon_blueprints.lua",
+      "sha256": "88415bd795613367b2b810a64900508edcaae36fe10b7aef01d25f395bc8946f"
+    },
+    {
+      "source": "scripts/dungeon_shop/hh_dungeon_shop_defs.lua",
+      "destination": "scripts/dungeon_shop/hh_dungeon_shop_defs.lua",
+      "sha256": "951c419c6ae7414583845365c5006ff7ce12906c4d2323173887d4418db8fe33"
+    },
+    {
+      "source": "scripts/dungeon_shop/hh_dungeon_shop_layout.lua",
+      "destination": "scripts/dungeon_shop/hh_dungeon_shop_layout.lua",
+      "sha256": "e12bde4c7b3f617821e33514eeb03b528ab04429d8763dc775683f7225131c49"
+    },
+    {
+      "source": "scripts/dungeon_shop/hh_dungeon_shop_manual_layout.lua",
+      "destination": "scripts/dungeon_shop/hh_dungeon_shop_manual_layout.lua",
+      "sha256": "61d24399a6735045a225a8a39691e0f1e475c0d40fea7246bfc9f31cc9e9d2b5"
+    },
+    {
+      "source": "scripts/enums/hh_boss.lua",
+      "destination": "scripts/enums/hh_boss.lua",
+      "sha256": "7c5895c44583d771729c57d047ee12c829eeea445f45d3d1985207d4210b2867"
+    },
+    {
+      "source": "scripts/enums/hh_buff.lua",
+      "destination": "scripts/enums/hh_buff.lua",
+      "sha256": "71b39b676d8644034fd6aa86571e9eb4dd3507659fb019e9e6cf561204e46743"
+    },
+    {
+      "source": "scripts/enums/hh_copy_monster.lua",
+      "destination": "scripts/enums/hh_copy_monster.lua",
+      "sha256": "cf0fcadb2f7c53f12f2a9cf5326031e2c5fe6974f8263dc138f68f292a261fc6"
+    },
+    {
+      "source": "scripts/enums/hh_effects.lua",
+      "destination": "scripts/enums/hh_effects.lua",
+      "sha256": "51a816bec6eba8db854aabfbff64bb96d8542d7f2bd561bd6e354a34e8f5660f"
+    },
+    {
+      "source": "scripts/enums/hh_enchant.lua",
+      "destination": "scripts/enums/hh_enchant.lua",
+      "sha256": "fe9a80b89a1a1186a890a5e3db7a579b3806d1e14ff91ceda91707ae61fc7e09"
+    },
+    {
+      "source": "scripts/enums/hh_equip.lua",
+      "destination": "scripts/enums/hh_equip.lua",
+      "sha256": "31e0cb833651aedf5f551898ad574e5753e81d373b9cf8e18212f04f92901a18"
+    },
+    {
+      "source": "scripts/enums/hh_fx_config.lua",
+      "destination": "scripts/enums/hh_fx_config.lua",
+      "sha256": "064eb5507619498c98338bfee5af9f9edc3c629fafb0eba7769629a5d90d40dd"
+    },
+    {
+      "source": "scripts/enums/hh_hoverer.lua",
+      "destination": "scripts/enums/hh_hoverer.lua",
+      "sha256": "836d5b68205840f017e904ea17a57826d630d92f23d2dd5df1eb6bb144c0b064"
+    },
+    {
+      "source": "scripts/enums/hh_items.lua",
+      "destination": "scripts/enums/hh_items.lua",
+      "sha256": "bf7b20bc09a007c80c614abfaa9dfab51ce322a3d62cb7e3c255de97c156fa28"
+    },
+    {
+      "source": "scripts/enums/hh_monster.lua",
+      "destination": "scripts/enums/hh_monster.lua",
+      "sha256": "0c5a8893ddc5b005b4ceb58b55b28b783eb3e56cb546bde391706daf8c1f18f2"
+    },
+    {
+      "source": "scripts/enums/hh_prefab_list.lua",
+      "destination": "scripts/enums/hh_prefab_list.lua",
+      "sha256": "a928aa8f4671fd6a8a44cc5c0ed25294911fa1935e55b762eee25ea75f9aa2df"
+    },
+    {
+      "source": "scripts/enums/hh_prefabs.lua",
+      "destination": "scripts/enums/hh_prefabs.lua",
+      "sha256": "63dc2a1f578133447c7d67d23774826656e57a92f96276492441e7ba76f5038f"
+    },
+    {
+      "source": "scripts/enums/hh_shadow_progression_defs.lua",
+      "destination": "scripts/enums/hh_shadow_progression_defs.lua",
+      "sha256": "cfe6d099159bedab8f1ede84da88693e2149be6c705f547aeb845e9431aa6c32"
+    },
+    {
+      "source": "scripts/enums/hh_treasure_beefalo.lua",
+      "destination": "scripts/enums/hh_treasure_beefalo.lua",
+      "sha256": "f79196b2fc9946e4c137ece7c510d08cb00b8353d8ed8a699efdbb4d0f29300e"
+    },
+    {
+      "source": "scripts/enums/hh_treasure_monster.lua",
+      "destination": "scripts/enums/hh_treasure_monster.lua",
+      "sha256": "5d27da380d2b743451b1bb8a261bbf8a997c7fb6f2009e03df882d254bf7289d"
+    },
+    {
+      "source": "scripts/guild/hh_guild_event.lua",
+      "destination": "scripts/guild/hh_guild_event.lua",
+      "sha256": "0389c81cced08d60a8f5b0f4084009b9632fe269602da048e63210c7fde7ba2d"
+    },
+    {
+      "source": "scripts/guild/hh_guild_quest_defs.lua",
+      "destination": "scripts/guild/hh_guild_quest_defs.lua",
+      "sha256": "fb0fad79ec266e4804fdd7b68f57a8b33ef3950aeb8d8112d5f05642d5eb682d"
+    },
+    {
+      "source": "scripts/guild/hh_guild_shop_defs.lua",
+      "destination": "scripts/guild/hh_guild_shop_defs.lua",
+      "sha256": "36236ec933f87cc643394acfc96d6481c1cdcc9d2a2ebb16b03cef1ed7286267"
+    },
+    {
+      "source": "scripts/guild/hh_rank_defs.lua",
+      "destination": "scripts/guild/hh_rank_defs.lua",
+      "sha256": "8fa3d2a84e37b141b0dde08a51a06d2fc8aeb3f1e14bcfecd68962eee32ff8c6"
+    },
+    {
+      "source": "scripts/guild/hh_rank_exam_defs.lua",
+      "destination": "scripts/guild/hh_rank_exam_defs.lua",
+      "sha256": "c8fbd49e78e073993bbd979b1e25eda241331b910c39b93990076cbf6f3e87e5"
+    },
+    {
+      "source": "scripts/lib/base64.lua",
+      "destination": "scripts/lib/base64.lua",
+      "sha256": "f73cd985fb5b7cf26b4c43a84285193a1335fd28c0577cd05fe5acb8bbbf7211"
+    },
+    {
+      "source": "scripts/map/static_layouts/dungeon_gate_biome.lua",
+      "destination": "scripts/map/static_layouts/dungeon_gate_biome.lua",
+      "sha256": "304abeb213bed96f68ef00f8a33b820f213397e16c45e32e37f53830c21be353"
+    },
+    {
+      "source": "scripts/patches/container_classified_patch.lua",
+      "destination": "scripts/patches/container_classified_patch.lua",
+      "sha256": "e75299e0995d1ab95a171886b5f2f08bc1ad0efaf52a67f97e9bf4796f00d959"
+    },
+    {
+      "source": "scripts/patches/container_patch.lua",
+      "destination": "scripts/patches/container_patch.lua",
+      "sha256": "c5ab51305244f80191210f2cff479f91d8a1f24990bf937de3079cff9eae9ce4"
+    },
+    {
+      "source": "scripts/patches/rpcs.lua",
+      "destination": "scripts/patches/rpcs.lua",
+      "sha256": "5e9c7ca96e54834a7b5b55c52d70f26220f53d9cfc1245f2af643645816b6603"
+    },
+    {
+      "source": "scripts/prefabs/dsc.lua",
+      "destination": "scripts/prefabs/dsc.lua",
+      "sha256": "1fabad71146776c49d83db223e2afd098ef584f9ba1f7eb9d93ba550c8d0c86e"
+    },
+    {
+      "source": "scripts/prefabs/dsc_actions_def.lua",
+      "destination": "scripts/prefabs/dsc_actions_def.lua",
+      "sha256": "a22daa0e5dc17859ce7549ba1ea2827bf549d6663be13a7033609220a1d7e561"
+    },
+    {
+      "source": "scripts/prefabs/dsc_exit.lua",
+      "destination": "scripts/prefabs/dsc_exit.lua",
+      "sha256": "95bac91210db010d8d3f3108ba5b49ef5fcad78922e658c4259810331f83a753"
+    },
+    {
+      "source": "scripts/prefabs/dsc_fish.lua",
+      "destination": "scripts/prefabs/dsc_fish.lua",
+      "sha256": "3e4958b4e577ca23a756aa449b54f89bbb60077f4ab7017464be963761f39a64"
+    },
+    {
+      "source": "scripts/prefabs/dsc_floor.lua",
+      "destination": "scripts/prefabs/dsc_floor.lua",
+      "sha256": "fded036c4a9ea2954b0402c125271970aeb9b4fc6339afee1c37e14202849693"
+    },
+    {
+      "source": "scripts/prefabs/dsc_floorback.lua",
+      "destination": "scripts/prefabs/dsc_floorback.lua",
+      "sha256": "85371806763c74d0b57239d62c4517c7a7e36747924f1f561220306fb3635054"
+    },
+    {
+      "source": "scripts/prefabs/dsc_hiddenexit.lua",
+      "destination": "scripts/prefabs/dsc_hiddenexit.lua",
+      "sha256": "c4d6af8e5116ee512ba69dec6a5d269962ce1c3720a8a11e443eab98abfb9738"
+    },
+    {
+      "source": "scripts/prefabs/dsc_main.lua",
+      "destination": "scripts/prefabs/dsc_main.lua",
+      "sha256": "695795ab1db63ebdb21f1ba660c2243744eec6bc7312fd51f37b1fa92357d646"
+    },
+    {
+      "source": "scripts/prefabs/dsc_seal.lua",
+      "destination": "scripts/prefabs/dsc_seal.lua",
+      "sha256": "3c452be4ba6965d8c6fe08bb885da8fe90fe9bf3f767426da30ca8c0872c4f52"
+    },
+    {
+      "source": "scripts/prefabs/dsc_vine.lua",
+      "destination": "scripts/prefabs/dsc_vine.lua",
+      "sha256": "ebfcad908c25dcafcc03a9077aa94f6f36a93c754c6139b67d72e1f8420018dc"
+    },
+    {
+      "source": "scripts/prefabs/dsc_wall.lua",
+      "destination": "scripts/prefabs/dsc_wall.lua",
+      "sha256": "e65fc3956ab647554e3230f3389213c795137e9b96ec8eb855b235a49c03f29b"
+    },
+    {
+      "source": "scripts/prefabs/dungeon_exit.lua",
+      "destination": "scripts/prefabs/dungeon_exit.lua",
+      "sha256": "bd9dca785c8d4957b6ca8a9375835fc734bb235fcb13d8f9f5dfaed74d065220"
+    },
+    {
+      "source": "scripts/prefabs/dungeon_gate.lua",
+      "destination": "scripts/prefabs/dungeon_gate.lua",
+      "sha256": "a473ff3ed30f841ae1560ecf291bcb9810a625909011c802e8593852ac8be37c"
+    },
+    {
+      "source": "scripts/prefabs/dungeon_wall_ruins.lua",
+      "destination": "scripts/prefabs/dungeon_wall_ruins.lua",
+      "sha256": "7cad603ff618656ce422e71801f2b9b86f0751e5ffe073066a6ec993707effa5"
+    },
+    {
+      "source": "scripts/prefabs/guild_staff.lua",
+      "destination": "scripts/prefabs/guild_staff.lua",
+      "sha256": "88ddfa6358a84000b696a7911739784284108345e21be4f9b6e70f7d32a08297"
+    },
+    {
+      "source": "scripts/prefabs/hh_arena_lava_pond.lua",
+      "destination": "scripts/prefabs/hh_arena_lava_pond.lua",
+      "sha256": "a27b1a3f6aec68fac43f572dc3933ada661da36b3434808189c7da55a6a12c81"
+    },
+    {
+      "source": "scripts/prefabs/hh_beru_dungeon.lua",
+      "destination": "scripts/prefabs/hh_beru_dungeon.lua",
+      "sha256": "e7643a91a2c55d5b603fa6123fcb4da2f14d217a93abac6aff08a1583d94c1d9"
+    },
+    {
+      "source": "scripts/prefabs/hh_boss.lua",
+      "destination": "scripts/prefabs/hh_boss.lua",
+      "sha256": "4d77dc666714e692c754e8e2785d9e406884008847584342bc673105c8908da6"
+    },
+    {
+      "source": "scripts/prefabs/hh_build.lua",
+      "destination": "scripts/prefabs/hh_build.lua",
+      "sha256": "c2f0cd5e56776f0a87ecf0d9161071163608cd5c60c8831a46c48a467fe3b01d"
+    },
+    {
+      "source": "scripts/prefabs/hh_com_prefab.lua",
+      "destination": "scripts/prefabs/hh_com_prefab.lua",
+      "sha256": "b222ad21f8e7f51edab10c5f82e4820ae9232f51c681ca11a0315cec957fc6a7"
+    },
+    {
+      "source": "scripts/prefabs/hh_daily_slot_lock.lua",
+      "destination": "scripts/prefabs/hh_daily_slot_lock.lua",
+      "sha256": "6de680f60de93bb3cb4595eb1f5a03eaf6fe84e82b6332635c478625879382c6"
+    },
+    {
+      "source": "scripts/prefabs/hh_daogam.lua",
+      "destination": "scripts/prefabs/hh_daogam.lua",
+      "sha256": "421699ac68860857ffb6b26d49abc41e3d265b725e8cf2db887881fd118666ce"
+    },
+    {
+      "source": "scripts/prefabs/hh_daogam2.lua",
+      "destination": "scripts/prefabs/hh_daogam2.lua",
+      "sha256": "1a84aaa8194e56f39c1c67ce48f1bc660485e63c45f06d4a4409d1ffb43d7970"
+    },
+    {
+      "source": "scripts/prefabs/hh_daogam6.lua",
+      "destination": "scripts/prefabs/hh_daogam6.lua",
+      "sha256": "fc18c9966fe19255ea307929546f9d9b1470d18218c2ab79e3df0cd4ef3eb7f3"
+    },
+    {
+      "source": "scripts/prefabs/hh_daogam_fire_skill.lua",
+      "destination": "scripts/prefabs/hh_daogam_fire_skill.lua",
+      "sha256": "0ca33c1318e5b60559c7e564fcdc786a1e29d2154ceaf093003f7e9d1e1dcac5"
+    },
+    {
+      "source": "scripts/prefabs/hh_decor_skeletons.lua",
+      "destination": "scripts/prefabs/hh_decor_skeletons.lua",
+      "sha256": "c5d2daa0c3ce00865c719c5b2d6866555a69abe77c55ba73782fc36e0280d83a"
+    },
+    {
+      "source": "scripts/prefabs/hh_dummy_preload.lua",
+      "destination": "scripts/prefabs/hh_dummy_preload.lua",
+      "sha256": "c37c13a67ce03a76dfd1ce3411f37229063ba7017dfd9fe5f41e6406d7f6ad75"
+    },
+    {
+      "source": "scripts/prefabs/hh_dungeon_hounds.lua",
+      "destination": "scripts/prefabs/hh_dungeon_hounds.lua",
+      "sha256": "c716a915749113167815413124eaa1bbf4fc8977c9f230b10809013c70900893"
+    },
+    {
+      "source": "scripts/prefabs/hh_dungeon_pig.lua",
+      "destination": "scripts/prefabs/hh_dungeon_pig.lua",
+      "sha256": "698d3f8acd464c70e0b9e349057c827621f3695d48f6a364263bd4e7a3d57258"
+    },
+    {
+      "source": "scripts/prefabs/hh_dungeon_potion.lua",
+      "destination": "scripts/prefabs/hh_dungeon_potion.lua",
+      "sha256": "1b93943ce2969b4f1ac26a9670f249fe258da5a8c38c007b0eb454983ee81560"
+    },
+    {
+      "source": "scripts/prefabs/hh_dungeon_spider.lua",
+      "destination": "scripts/prefabs/hh_dungeon_spider.lua",
+      "sha256": "afd528c22e283a2626af49d70fdbe79a1818df3396333921d2ad8adb5144152d"
+    },
+    {
+      "source": "scripts/prefabs/hh_fruitfly_shadow.lua",
+      "destination": "scripts/prefabs/hh_fruitfly_shadow.lua",
+      "sha256": "d060b83fa5e81990a09f2d1ee4d8147eb082d16a30eb18c854257b28cf68c52c"
+    },
+    {
+      "source": "scripts/prefabs/hh_fx.lua",
+      "destination": "scripts/prefabs/hh_fx.lua",
+      "sha256": "b63fc4a53f4b8d7efe7a6e887230cea1d9db219226aeec6b9cad53a70637cb44"
+    },
+    {
+      "source": "scripts/prefabs/hh_godslayer_aura_fx.lua",
+      "destination": "scripts/prefabs/hh_godslayer_aura_fx.lua",
+      "sha256": "8d41b7101eb5ff2b3be971ab71d5a755fd92b352d2461e97254d756f66fa0ae3"
+    },
+    {
+      "source": "scripts/prefabs/hh_guild_complete_fx.lua",
+      "destination": "scripts/prefabs/hh_guild_complete_fx.lua",
+      "sha256": "02ac92ac54c2a7d07efcd54053cf8b845200e4564c08560034796c95527edcb6"
+    },
+    {
+      "source": "scripts/prefabs/hh_hac_nguyet_ho.lua",
+      "destination": "scripts/prefabs/hh_hac_nguyet_ho.lua",
+      "sha256": "b62441b1d9832cc2de02f0fc8c80480583532e0ce358ba09d49fcc6a6f365bba"
+    },
+    {
+      "source": "scripts/prefabs/hh_hacanh_shadow.lua",
+      "destination": "scripts/prefabs/hh_hacanh_shadow.lua",
+      "sha256": "9bfce549900c11e2f481ba3517dd1eb7577e686f21eaca2756431a8747f91925"
+    },
+    {
+      "source": "scripts/prefabs/hh_hound_projectiles.lua",
+      "destination": "scripts/prefabs/hh_hound_projectiles.lua",
+      "sha256": "61688c54d385c93f1d8b04c7210b9e7cea709aa160936e1365bf8cc55b0f1304"
+    },
+    {
+      "source": "scripts/prefabs/hh_king_aura_beru_fx.lua",
+      "destination": "scripts/prefabs/hh_king_aura_beru_fx.lua",
+      "sha256": "9ec801a12675f85a1f2195bfa15c67996c1b35250f8b491e01995fa7b89755db"
+    },
+    {
+      "source": "scripts/prefabs/hh_king_aura_fruitfly_fx.lua",
+      "destination": "scripts/prefabs/hh_king_aura_fruitfly_fx.lua",
+      "sha256": "cf242591f62aa0719e29524d257c03b9eae1fefd8164ad2a489bbff0c26a9b40"
+    },
+    {
+      "source": "scripts/prefabs/hh_king_aura_hacanh_fx.lua",
+      "destination": "scripts/prefabs/hh_king_aura_hacanh_fx.lua",
+      "sha256": "256c8d60781daca102d76a802fd2bf157bc27810037e457cb562a938e2b762b3"
+    },
+    {
+      "source": "scripts/prefabs/hh_king_aura_igris_fx.lua",
+      "destination": "scripts/prefabs/hh_king_aura_igris_fx.lua",
+      "sha256": "53dd4ab2b16b1eb23c8c297670c7335d349fffd614e6a583ec0f6d8eff3b7b07"
+    },
+    {
+      "source": "scripts/prefabs/hh_king_aura_macanh_fx.lua",
+      "destination": "scripts/prefabs/hh_king_aura_macanh_fx.lua",
+      "sha256": "d4d5ab09d57bb49e2fc8c560b71a0267c51e823f30a572323ececb5b7fa70a74"
+    },
+    {
+      "source": "scripts/prefabs/hh_laser.lua",
+      "destination": "scripts/prefabs/hh_laser.lua",
+      "sha256": "8abd6f88e7dacb7012f9133b54f86165e50593a55d81a6c58bb924cbbdd2803e"
+    },
+    {
+      "source": "scripts/prefabs/hh_lo_ren.lua",
+      "destination": "scripts/prefabs/hh_lo_ren.lua",
+      "sha256": "8ffd836d1be32c7e776edff26091a9deaa1e3fea5bff46eedeb189929b6115c9"
+    },
+    {
+      "source": "scripts/prefabs/hh_lz_fx.lua",
+      "destination": "scripts/prefabs/hh_lz_fx.lua",
+      "sha256": "71b3f76500549ebbcde1da8d1691c71d84c84e09f66e629c9c298223c848d6a9"
+    },
+    {
+      "source": "scripts/prefabs/hh_macanh_shadow.lua",
+      "destination": "scripts/prefabs/hh_macanh_shadow.lua",
+      "sha256": "6257e0647599af2cdebfe7b43e18217f53fb9f20819860c82955f1cf2f676c5e"
+    },
+    {
+      "source": "scripts/prefabs/hh_prefabs.lua",
+      "destination": "scripts/prefabs/hh_prefabs.lua",
+      "sha256": "a3ded607b296c54eb9264c9b4b16ed5d371dbd8750571eef595e7b4b6564ab1c"
+    },
+    {
+      "source": "scripts/prefabs/hh_ruler_aura_fx.lua",
+      "destination": "scripts/prefabs/hh_ruler_aura_fx.lua",
+      "sha256": "d20926c23ac55eb87e6608e226712e66242e86e7f0e1d2cbc66f9bdd9d6b83f1"
+    },
+    {
+      "source": "scripts/prefabs/hh_ruler_shadow_pillar_spell.lua",
+      "destination": "scripts/prefabs/hh_ruler_shadow_pillar_spell.lua",
+      "sha256": "17635c7088511e6795ae65137e644cf3806495d0e06177ec18ef3e74aacb07f4"
+    },
+    {
+      "source": "scripts/prefabs/hh_ruler_shadow_pillar_target.lua",
+      "destination": "scripts/prefabs/hh_ruler_shadow_pillar_target.lua",
+      "sha256": "6aa04636fcce36ad762970848525ce4b4d626b9ed4ae03fd2239d1e044748347"
+    },
+    {
+      "source": "scripts/prefabs/hh_shadow_swap_grab_fx.lua",
+      "destination": "scripts/prefabs/hh_shadow_swap_grab_fx.lua",
+      "sha256": "0076f98ab34db4b16626e8881c70eef331e0921ff7f726ff11f67dccf8799457"
+    },
+    {
+      "source": "scripts/prefabs/hh_shadows.lua",
+      "destination": "scripts/prefabs/hh_shadows.lua",
+      "sha256": "b130c77442e5652779920973d32efc556b5da51eae7a85fff8077bed1d9fe5db"
+    },
+    {
+      "source": "scripts/prefabs/hh_weapon.lua",
+      "destination": "scripts/prefabs/hh_weapon.lua",
+      "sha256": "989684ad752145559d83455eac0f0576e401f8afd711b3edd576a87605cd4520"
+    },
+    {
+      "source": "scripts/prefabs/lavaarena_heal_flowers_fx.lua",
+      "destination": "scripts/prefabs/lavaarena_heal_flowers_fx.lua",
+      "sha256": "adf1a6085fa328808e758fbbd923ae94710bbfa84c766bc82f25506b4778841b"
+    },
+    {
+      "source": "scripts/prefabs/minimoonspider_spike.lua",
+      "destination": "scripts/prefabs/minimoonspider_spike.lua",
+      "sha256": "d29a8e9d5c1c2e6879338833aa138010a05261cc301c7bc8b267c541345323c7"
+    },
+    {
+      "source": "scripts/prefabs/minotau.lua",
+      "destination": "scripts/prefabs/minotau.lua",
+      "sha256": "6496432106498ab11310aa6d6245367fee5adecf41018d1de0e185787476acaa"
+    },
+    {
+      "source": "scripts/prefabs/minotaur_deadlyshockwave.lua",
+      "destination": "scripts/prefabs/minotaur_deadlyshockwave.lua",
+      "sha256": "49b224cf625123f4480aac2201593f628470bcbf4b9d78c2dbb45c527bdebf0f"
+    },
+    {
+      "source": "scripts/prefabs/minotaur_shadowblaze.lua",
+      "destination": "scripts/prefabs/minotaur_shadowblaze.lua",
+      "sha256": "8a339a0c716b42b351e245cf78c53bd5d9d5f93ace7750b335b8bf17710774b0"
+    },
+    {
+      "source": "scripts/prefabs/minotaur_weakeningfx.lua",
+      "destination": "scripts/prefabs/minotaur_weakeningfx.lua",
+      "sha256": "a7c8b0d02d8942f41de02e77d3a38f392945ed989151d9face9170030814b2b6"
+    },
+    {
+      "source": "scripts/prefabs/minotaurattachedfire_fx.lua",
+      "destination": "scripts/prefabs/minotaurattachedfire_fx.lua",
+      "sha256": "bdfea4786f8bc72e3c0f549fac7a01f423e6070ef57f8ae9a180192e066c64de"
+    },
+    {
+      "source": "scripts/prefabs/minotaurfirecharge_fx.lua",
+      "destination": "scripts/prefabs/minotaurfirecharge_fx.lua",
+      "sha256": "f7a3daf8534cbcb17319144aed4f861ed1d7e1e84023f7008276b267fe7a3e37"
+    },
+    {
+      "source": "scripts/prefabs/minotaurfirering_fx.lua",
+      "destination": "scripts/prefabs/minotaurfirering_fx.lua",
+      "sha256": "477fedc0e738b99cd1c6771ceadd93d3d9db6b67b214a2a451a257f55d4943bb"
+    },
+    {
+      "source": "scripts/prefabs/minotaurfiresplash_fx.lua",
+      "destination": "scripts/prefabs/minotaurfiresplash_fx.lua",
+      "sha256": "2e1935afd1bc18d78c82a0bdfba81dc764977f27a474be6d247dcd2de1b62e9c"
+    },
+    {
+      "source": "scripts/prefabs/minotaurtarget_fx.lua",
+      "destination": "scripts/prefabs/minotaurtarget_fx.lua",
+      "sha256": "6d0b08d0891018954a4284c9b40d3fd74f4dbec81cbafcdd443b875475042f9e"
+    },
+    {
+      "source": "scripts/prefabs/minotaurteleport_fx.lua",
+      "destination": "scripts/prefabs/minotaurteleport_fx.lua",
+      "sha256": "5989ad8851005049e49152801a44e53715921a3262d123a712f06ca517183982"
+    },
+    {
+      "source": "scripts/prefabs/minotaurteleportpost_fx.lua",
+      "destination": "scripts/prefabs/minotaurteleportpost_fx.lua",
+      "sha256": "628fbcf4fab5f83dd430facce906729472697e4aebb0b8a2c04ff24d418a99ff"
+    },
+    {
+      "source": "scripts/prefabs/minotaurtransform_fx.lua",
+      "destination": "scripts/prefabs/minotaurtransform_fx.lua",
+      "sha256": "395bc229e3265e8975e77172e0660ca85b88fd607a58aef7f835b9c60e325302"
+    },
+    {
+      "source": "scripts/prefabs/nn_fx.lua",
+      "destination": "scripts/prefabs/nn_fx.lua",
+      "sha256": "b3d97c7021c62313a3783487e1514be730bf8d7239f072c6911ce8505964b1b7"
+    },
+    {
+      "source": "scripts/prefabs/nn_magicpaper.lua",
+      "destination": "scripts/prefabs/nn_magicpaper.lua",
+      "sha256": "88f1e17a09b412375ccd3f3016886a5c59a917056309a9a9a9b55dc4163c399b"
+    },
+    {
+      "source": "scripts/prefabs/poisonbubble.lua",
+      "destination": "scripts/prefabs/poisonbubble.lua",
+      "sha256": "ce94b85493eefc6ae0dcb644bffec14b01f4ce896ec22fe6d15e4263a467da51"
+    },
+    {
+      "source": "scripts/prefabs/pycloud.lua",
+      "destination": "scripts/prefabs/pycloud.lua",
+      "sha256": "7f7882cc8942452619d48cc074375a68217cfcc639fc46bbc6053684e7669e04"
+    },
+    {
+      "source": "scripts/prefabs/reticulearcline.lua",
+      "destination": "scripts/prefabs/reticulearcline.lua",
+      "sha256": "e10c0a8063fc4edb33440ce108c8f8c1a44eb5008af628c0a89296d27d75330b"
+    },
+    {
+      "source": "scripts/prefabs/rock_treasure.lua",
+      "destination": "scripts/prefabs/rock_treasure.lua",
+      "sha256": "6a3bdf922dadacd9b4666e7383e1c5443d94dbee0f77edbdec5c14a55689d23e"
+    },
+    {
+      "source": "scripts/prefabs/shadowpoundring_fx.lua",
+      "destination": "scripts/prefabs/shadowpoundring_fx.lua",
+      "sha256": "ccc255e909bad0ae48cb1d3a2a72217c413080e0bea011ea3812dc17367ba7db"
+    },
+    {
+      "source": "scripts/prefabs/travelable_classified.lua",
+      "destination": "scripts/prefabs/travelable_classified.lua",
+      "sha256": "ebbe2787bd0653b1481fe29b8a8fda125f896cc3d7cdcd052d076a6a2ff884a9"
+    },
+    {
+      "source": "scripts/prefabs/wb_handsskill_paper.lua",
+      "destination": "scripts/prefabs/wb_handsskill_paper.lua",
+      "sha256": "38f2072ddf0f9763ef379bacbda1294bc2cf21f700f2d1e0cbafe799991fe2b4"
+    },
+    {
+      "source": "scripts/prefabs/wb_magical_shadow.lua",
+      "destination": "scripts/prefabs/wb_magical_shadow.lua",
+      "sha256": "78f8dc6e178272d23bc428ca332c2c5b37e77ba7712a3d8d58650641ad025d49"
+    },
+    {
+      "source": "scripts/prefabs/wb_magical_weaponsparks.lua",
+      "destination": "scripts/prefabs/wb_magical_weaponsparks.lua",
+      "sha256": "d44b88c96f38700440a90adf12c29ac13696976cbec23ccb31adde9a6f45c7f7"
+    },
+    {
+      "source": "scripts/prefabs/wb_strengthen_bindpaper.lua",
+      "destination": "scripts/prefabs/wb_strengthen_bindpaper.lua",
+      "sha256": "390d0ef8a34281f5b951d67eeaa1c59c2d4fe1c5ec017c75639dd82a1124c399"
+    },
+    {
+      "source": "scripts/prefabs/wb_strengthen_food.lua",
+      "destination": "scripts/prefabs/wb_strengthen_food.lua",
+      "sha256": "6b137eebc220274748ec0d420f3aaee2d44aacd572dcf325a381db802e6464bf"
+    },
+    {
+      "source": "scripts/prefabs/wb_strengthen_levelpaper.lua",
+      "destination": "scripts/prefabs/wb_strengthen_levelpaper.lua",
+      "sha256": "62aa9d83e03c2d890f5e5934b714cb4f42d264ea5ab3ce475046189c32606f75"
+    },
+    {
+      "source": "scripts/prefabs/wb_strengthen_protectpaper.lua",
+      "destination": "scripts/prefabs/wb_strengthen_protectpaper.lua",
+      "sha256": "d4b630d195e7fc37f1c4b6bfcd348917c7a3d6bdb9191dd28fc12334ec1e4d16"
+    },
+    {
+      "source": "scripts/quests/hh_daily_quest_defs.lua",
+      "destination": "scripts/quests/hh_daily_quest_defs.lua",
+      "sha256": "1b33707dff8b20021cbc80b6980532200e93c352e4458c8cd32f84ce1ecac815"
+    },
+    {
+      "source": "scripts/screens/hh_dungeon_shop_screen.lua",
+      "destination": "scripts/screens/hh_dungeon_shop_screen.lua",
+      "sha256": "938cf384dc1f5e7fa43c6083845e099d97bf114f0205bc37542504985eee60f9"
+    },
+    {
+      "source": "scripts/screens/hh_shadow_popup.lua",
+      "destination": "scripts/screens/hh_shadow_popup.lua",
+      "sha256": "0730dd3e6bd049cc32f74dc93f71a30e4f3e229c2e6e9fad0dd8cdd158316bc2"
+    },
+    {
+      "source": "scripts/screens/hh_shadow_recall_screen.lua",
+      "destination": "scripts/screens/hh_shadow_recall_screen.lua",
+      "sha256": "f03a365b68941b2081278d15c43ec8fe90df2d7343c6adedc2a81e14855c3cc5"
+    },
+    {
+      "source": "scripts/screens/hh_shadow_summon_screen.lua",
+      "destination": "scripts/screens/hh_shadow_summon_screen.lua",
+      "sha256": "6da76a1520fa909e1d2f1587df5754627e4055d83998e7933cf1408cea340374"
+    },
+    {
+      "source": "scripts/screens/hh_shadow_upgrade_screen.lua",
+      "destination": "scripts/screens/hh_shadow_upgrade_screen.lua",
+      "sha256": "5f71b17c3aabdf1f2d23181742bcaad437f4b56339b7a63e800005e5adc09ed4"
+    },
+    {
+      "source": "scripts/screens/travelscreen.lua",
+      "destination": "scripts/screens/travelscreen.lua",
+      "sha256": "afb713c895db14885db1d504a581fc506a9c8048565ce50d4bb4d4212a40312e"
+    },
+    {
+      "source": "scripts/shadow_upgrade/hh_shadow_upgrade_layout.lua",
+      "destination": "scripts/shadow_upgrade/hh_shadow_upgrade_layout.lua",
+      "sha256": "b7a0aafaed78afb6e02265ac9076362751ebd494bab0afb0a5875962c25658e0"
+    },
+    {
+      "source": "scripts/shadow_upgrade/hh_shadow_upgrade_manual_layout.lua",
+      "destination": "scripts/shadow_upgrade/hh_shadow_upgrade_manual_layout.lua",
+      "sha256": "9a0fd3c842470f5ac080934058c36ee424214fed212b198dd6f60898c312f0ed"
+    },
+    {
+      "source": "scripts/stategraphs/SGguild_staff.lua",
+      "destination": "scripts/stategraphs/SGguild_staff.lua",
+      "sha256": "fbd92b2e1a4c08f56a7dddd6d332ce12f326eb0e616286db479699ec69c06a59"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_beetle_pig.lua",
+      "destination": "scripts/stategraphs/SGhh_beetle_pig.lua",
+      "sha256": "315b6704b0ff1428106bf72968feec11a4b6d21f2296afd62fd08ffb2ef8e09a"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_beru_dungeon.lua",
+      "destination": "scripts/stategraphs/SGhh_beru_dungeon.lua",
+      "sha256": "fc9cf8e77b5910e7f50d6691f1528410c9698e8f5fdfae0c4d7b0598ae706c78"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_beru_shadow.lua",
+      "destination": "scripts/stategraphs/SGhh_beru_shadow.lua",
+      "sha256": "94682996a51e6058a55afd4d8fabd41a2e0a3a1d8b991e03e6b20edeb8bef104"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_dual_wield_pig.lua",
+      "destination": "scripts/stategraphs/SGhh_dual_wield_pig.lua",
+      "sha256": "a48db6879c91d3d8763261b5ea3ffcc8c0292a3ae72382e5e16e2b471412237d"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_fruitfly_shadow.lua",
+      "destination": "scripts/stategraphs/SGhh_fruitfly_shadow.lua",
+      "sha256": "07b841820654050bb4ee8ff93791d2b9c01dc955a388e2ab859b1beb1c63b50c"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_igris_dungeon.lua",
+      "destination": "scripts/stategraphs/SGhh_igris_dungeon.lua",
+      "sha256": "c113f1f2a08801f174ef9af23d295a1b742d85063088cddaa8cfe1d07eeb5b0c"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_igris_shadow.lua",
+      "destination": "scripts/stategraphs/SGhh_igris_shadow.lua",
+      "sha256": "dd293dd301ea1971a51272a5d79e3d148bd326dabcb5002bec15e8fd1adfb87c"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_lightninghound.lua",
+      "destination": "scripts/stategraphs/SGhh_lightninghound.lua",
+      "sha256": "eadcd1af8ee4505c97ef9f5a208ac7682422f06ec73b80376b2bf43b0e626e10"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_macanh_shadow.lua",
+      "destination": "scripts/stategraphs/SGhh_macanh_shadow.lua",
+      "sha256": "dd68a627b99aa92e5f841fdad209d1ffc85abe56c609f19b9254477cc0a67be0"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_sharkboi.lua",
+      "destination": "scripts/stategraphs/SGhh_sharkboi.lua",
+      "sha256": "a92a80d9176b437136437ab0c44fa5aade794b2ef0082526d86884aeb7fbd790"
+    },
+    {
+      "source": "scripts/stategraphs/SGhh_snowhound.lua",
+      "destination": "scripts/stategraphs/SGhh_snowhound.lua",
+      "sha256": "0cd9510178b9b8904d4147b4e91fa7285e33db329cec4e8ea0e1b933a1acff28"
+    },
+    {
+      "source": "scripts/stategraphs/SGminotau.lua",
+      "destination": "scripts/stategraphs/SGminotau.lua",
+      "sha256": "4d1e850575a4e8a7d32a6d89bb7c3ebff9d29b04ada392ab77437b5de11d5778"
+    },
+    {
+      "source": "scripts/stategraphs/SGminotaur_deadlyshockwave.lua",
+      "destination": "scripts/stategraphs/SGminotaur_deadlyshockwave.lua",
+      "sha256": "b50f78312ab8995c060b03c45d918d612048ea0299e226e34d51c7708addb984"
+    },
+    {
+      "source": "scripts/stategraphs/SGminotaur_deathshockwave.lua",
+      "destination": "scripts/stategraphs/SGminotaur_deathshockwave.lua",
+      "sha256": "3f6596ca90a79cba2087653213c2f6437aa80310c66f374f1dafe518ee2db2b1"
+    },
+    {
+      "source": "scripts/stategraphs/SGminotaurteleport.lua",
+      "destination": "scripts/stategraphs/SGminotaurteleport.lua",
+      "sha256": "05cb7caeb87ac7a0273139d8afb199880f7d69d4999f262bb8b6287237ea5021"
+    },
+    {
+      "source": "scripts/stategraphs/SGminotaurteleportpost.lua",
+      "destination": "scripts/stategraphs/SGminotaurteleportpost.lua",
+      "sha256": "527e45c57d810804e4322c197c6281428362aff9430b54239a9508f306b6ee40"
+    },
+    {
+      "source": "scripts/stategraphs/SGnn_golem.lua",
+      "destination": "scripts/stategraphs/SGnn_golem.lua",
+      "sha256": "896a1ddbdd53f1b90bd20ccf619ff0c4dab627331cc589e74a039b06bd62c55d"
+    },
+    {
+      "source": "scripts/unwrapped.lua",
+      "destination": "scripts/unwrapped.lua",
+      "sha256": "c105f3895bed4416feb6d9640a6529eacc9fc64a45d075f565c02808cb686ba1"
+    },
+    {
+      "source": "scripts/util/wb_util.lua",
+      "destination": "scripts/util/wb_util.lua",
+      "sha256": "ccab218077f13d1f0ee376b02d64094ec1250644bed253b84859331169dd855e"
+    },
+    {
+      "source": "scripts/utils/hh_daogam_durability.lua",
+      "destination": "scripts/utils/hh_daogam_durability.lua",
+      "sha256": "c940f462a444572d6d89c1b2598905fefc66bb16fc240d73e30041d97da6f7c7"
+    },
+    {
+      "source": "scripts/utils/hh_dungeon_authority.lua",
+      "destination": "scripts/utils/hh_dungeon_authority.lua",
+      "sha256": "fee4618e7a25a692ea3c124bafd127d96ed08cb7af19982e1257c90ae678f358"
+    },
+    {
+      "source": "scripts/utils/hh_guide_lock.lua",
+      "destination": "scripts/utils/hh_guide_lock.lua",
+      "sha256": "d8fe4e7cd01ca681ee5622838ca0802d20640c50c67f093f84dc79fea426ec3b"
+    },
+    {
+      "source": "scripts/utils/hh_hac_nguyet_ho_items.lua",
+      "destination": "scripts/utils/hh_hac_nguyet_ho_items.lua",
+      "sha256": "f6c787141f8d2f6f6db8d921fc0fc5726dd8fbd68e857139488ea65cbe64f1db"
+    },
+    {
+      "source": "scripts/utils/hh_monster_autostack.lua",
+      "destination": "scripts/utils/hh_monster_autostack.lua",
+      "sha256": "32c95be37ca00c22b1adecc137c631f3d092444e97264e925d85cc919d418aa4"
+    },
+    {
+      "source": "scripts/utils/hh_summary_lock.lua",
+      "destination": "scripts/utils/hh_summary_lock.lua",
+      "sha256": "678abdbbf8f8659079950a094180d4082f6fa71883c32704ab3013d7573e6a3b"
+    },
+    {
+      "source": "scripts/utils/hh_utils.lua",
+      "destination": "scripts/utils/hh_utils.lua",
+      "sha256": "f8753946073c22e3d1991cf3cf63efaa46b3ad4a1b9808ecda5941968cd97faa"
+    },
+    {
+      "source": "scripts/widgets/hh_buff.lua",
+      "destination": "scripts/widgets/hh_buff.lua",
+      "sha256": "829a9afa7461f0d343672f0c9ad391478d41b51f39ead3fd603c0f280a2decab"
+    },
+    {
+      "source": "scripts/widgets/hh_dungeon_coin_hud.lua",
+      "destination": "scripts/widgets/hh_dungeon_coin_hud.lua",
+      "sha256": "ca4d22ca6b7d7a7e2537e6f0e16dc6a390caaf5b5944e6eaa56ed6d0a3e34f6e"
+    },
+    {
+      "source": "scripts/widgets/hh_guild_nametag.lua",
+      "destination": "scripts/widgets/hh_guild_nametag.lua",
+      "sha256": "77de6449a56c4e82f7f052358efff34bc0ec2fed7d50e46eb72c22c273875926"
+    },
+    {
+      "source": "scripts/widgets/hh_guild_ui.lua",
+      "destination": "scripts/widgets/hh_guild_ui.lua",
+      "sha256": "58044d245d1d7521035e5c9c64022c58cdd10c4e0006c137c8a75803485c2534"
+    },
+    {
+      "source": "scripts/widgets/hh_help_ui.lua",
+      "destination": "scripts/widgets/hh_help_ui.lua",
+      "sha256": "b5436027931e5b3498c0912730516762cdc55b06223b35666a8930d919540951"
+    },
+    {
+      "source": "scripts/widgets/hh_hoverer.lua",
+      "destination": "scripts/widgets/hh_hoverer.lua",
+      "sha256": "afc5bb3e0430cc4dc23d6ffca156e962c33592eacb53bdbeb3502d85dcba81d6"
+    },
+    {
+      "source": "scripts/widgets/hh_hoverer_config.lua",
+      "destination": "scripts/widgets/hh_hoverer_config.lua",
+      "sha256": "14f83b8ee40b5e6ca634a211938a6074e71ce15a31991422c716233db043a8c8"
+    },
+    {
+      "source": "scripts/widgets/hh_mana_ui.lua",
+      "destination": "scripts/widgets/hh_mana_ui.lua",
+      "sha256": "502b36c68aedfa8c7ffeab32901e9b5e516fa54300436689e169c2e33afe8933"
+    },
+    {
+      "source": "scripts/widgets/hh_shadow_count_ui.lua",
+      "destination": "scripts/widgets/hh_shadow_count_ui.lua",
+      "sha256": "4ae5b510df36dea8edbcecabbc07905ecbf96dc8996f1bf58a2f7524dfa682e8"
+    },
+    {
+      "source": "scripts/widgets/hh_shadow_ui.lua",
+      "destination": "scripts/widgets/hh_shadow_ui.lua",
+      "sha256": "02a015f26b58e958ecd185b0aa9f09b3ff92144bfcbd035f52484d1c6c984747"
+    },
+    {
+      "source": "scripts/widgets/hh_skill_wheel.lua",
+      "destination": "scripts/widgets/hh_skill_wheel.lua",
+      "sha256": "8c6cfb5d9e40d2bd0a2f47bcc492f65bd0966ceacf9becc3db086e6bb2d199c9"
+    },
+    {
+      "source": "scripts/widgets/hh_status_ui.lua",
+      "destination": "scripts/widgets/hh_status_ui.lua",
+      "sha256": "d602784ecf19407bd4dd739cc0549413e601ac361ad114e6869a949562561520"
+    },
+    {
+      "source": "scripts/widgets/hh_ui/hh_equip_ui.lua",
+      "destination": "scripts/widgets/hh_ui/hh_equip_ui.lua",
+      "sha256": "24a9726413c01c66d98011144b962c063bb90db05c15020254bba87ede66a388"
+    },
+    {
+      "source": "scripts/widgets/hh_ui/hh_forge_ui.lua",
+      "destination": "scripts/widgets/hh_ui/hh_forge_ui.lua",
+      "sha256": "dbe0752cbfb8c87ecdae3f6bfe037d61de5988d4c332cefcb2ed46cfb59b753b"
+    },
+    {
+      "source": "scripts/widgets/hh_waring_ui.lua",
+      "destination": "scripts/widgets/hh_waring_ui.lua",
+      "sha256": "2274217056f33e8dc8017029bbd8bf15047e066137d8abea9906f472acf2c9c3"
+    },
+    {
+      "source": "scripts/widgets/pagewidget.lua",
+      "destination": "scripts/widgets/pagewidget.lua",
+      "sha256": "0e43a9e031fdc1862b244439bd9b1372311d0433412c77d5181d619e5e5dedcf"
+    },
+    {
+      "source": "sound/malibag.fev",
+      "destination": "sound/malibag.fev",
+      "sha256": "c792bd73c1f41d1ea9750f5e906da4522c3b92cfa3149a1626e1aae62b1f25d0"
+    },
+    {
+      "source": "sound/malibag.fsb",
+      "destination": "sound/malibag.fsb",
+      "sha256": "cecae8af12938763d90889c35a5add6590bd7974282dec07f55fe521296ee3b6"
+    },
+    {
+      "source": "sound/reforge.fev",
+      "destination": "sound/reforge.fev",
+      "sha256": "60abfe96363a3ef2f003e4094bfabbdcf42e8b4ea88cba32d5d692092abdd6ef"
+    },
+    {
+      "source": "sound/reforge.fsb",
+      "destination": "sound/reforge.fsb",
+      "sha256": "121614ab0c1ac450b027ccf71051ef4f7c955414064dedd5be0d0afb7f4ff162"
+    },
+    {
+      "source": "sound/seffcsound.fev",
+      "destination": "sound/seffcsound.fev",
+      "sha256": "6d503f897ff237098450ee5321623658fbf90f1bbc3757aa3f353fb27b486dc6"
+    },
+    {
+      "source": "sound/seffcsound.fsb",
+      "destination": "sound/seffcsound.fsb",
+      "sha256": "94b7d037d31c93f99afe04bdf771d6cd7f48dccb77b61547ceea5447eaf408d2"
+    }
+  ]
+}
