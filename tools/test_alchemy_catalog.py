@@ -3,16 +3,15 @@
 import copy
 from collections import Counter
 import json
-from pathlib import Path
 import re
 import unittest
 from unittest.mock import patch
 
 import build_alchemy_defs as generator
+from test_support import MOD_ROOT
 
 
-ROOT = Path(__file__).resolve().parents[3]
-OUTPUT = ROOT / "mods" / "PhamNhanTuTien" / "scripts" / "alchemy" / "ttk_alchemy_defs.lua"
+OUTPUT = MOD_ROOT / "scripts" / "alchemy" / "ttk_alchemy_defs.lua"
 
 CULTIVATION = [
     "xd_danyao_jq", "xd_danyao_dt", "xd_danyao_zj", "xd_danyao_xs",

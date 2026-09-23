@@ -1,4 +1,4 @@
-local Store = dofile('mods/PhamNhanTuTien/scripts/ttk_eva_portraits.lua')
+local Store = dofile('scripts/ttk_eva_portraits.lua')
 local saved, read_cb, write_cb
 local sim = {
  GetPersistentString=function(_,key,cb) read_cb=cb end,

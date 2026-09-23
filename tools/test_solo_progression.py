@@ -1,16 +1,13 @@
 """Regression tests for Pham Nhan's integrated Solo progression components."""
 from __future__ import annotations
 
-from pathlib import Path
-import sys
 import unittest
 
-
-ROOT = Path(__file__).resolve().parents[3]
-MOD = ROOT / "mods" / "PhamNhanTuTien"
-sys.path.insert(0, str(ROOT / ".superpowers/ttk-solo-integration/lua-runtime"))
-
 from lupa.lua51 import LuaRuntime
+from test_support import MOD_ROOT
+
+
+MOD = MOD_ROOT
 
 
 def progression_runtime():

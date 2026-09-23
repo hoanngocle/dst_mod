@@ -8,16 +8,16 @@ they do not claim to execute the Lua component.
 from __future__ import annotations
 
 import math
-from pathlib import Path
 import re
 import unittest
 
+from test_support import MOD_ROOT
 
-ROOT = Path(__file__).resolve().parents[3]
-DEFS = ROOT / "mods/PhamNhanTuTien/scripts/alchemy/ttk_alchemy_defs.lua"
-COMPONENT = ROOT / "mods/PhamNhanTuTien/scripts/components/ttk_cultivation.lua"
-ALCHEMY_MAIN = ROOT / "mods/PhamNhanTuTien/main/ttk_alchemy.lua"
-MODMAIN = ROOT / "mods/PhamNhanTuTien/modmain.lua"
+
+DEFS = MOD_ROOT / "scripts/alchemy/ttk_alchemy_defs.lua"
+COMPONENT = MOD_ROOT / "scripts/components/ttk_cultivation.lua"
+ALCHEMY_MAIN = MOD_ROOT / "main/ttk_alchemy.lua"
+MODMAIN = MOD_ROOT / "modmain.lua"
 
 
 def cultivation_prefabs() -> list[str]:

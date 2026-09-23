@@ -1,7 +1,7 @@
--- Client-only popup palette. Keep item/rank hues, but lift dark colours so
--- information remains readable against the almost opaque violet surface.
+-- Client-only popup palette. Keep item/rank hues and the original Solo
+-- background opacity while lifting dark text colours for readability.
 local Theme = {
-    background = {0.065, 0.045, 0.105, 0.97},
+    background = {0.065, 0.045, 0.105, 0.5},
     frame = {0.78, 0.66, 1, 1},
     corner = {0.96, 0.93, 1, 1},
     label = {0.84, 0.78, 0.96, 1},

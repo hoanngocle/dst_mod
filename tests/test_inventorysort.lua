@@ -1,5 +1,5 @@
 -- Run from the repository root with a Lua 5.1 runtime.
-local path = "mods/PhamNhanTuTien/scripts/ttk_inventorysort.lua"
+local path = "scripts/ttk_inventorysort.lua"
 assert(io.open(path), "Missing inventory/container sorting integration")
 local Sort = dofile(path)
 local tasks = {}

@@ -155,7 +155,8 @@ assert(root.h_anchor == ANCHOR_LEFT and root.v_anchor == ANCHOR_BOTTOM)
 assert(badge.parent == controls.status and controls.status.children[badge] == badge)
 assert(panel.parent == hud_root and controls.bottomright_root.children[panel] == nil)
 assert(badge.position.x == -40 and badge.position.y == -150)
-assert(panel.position.x == 115 and panel.position.y == 190)
+assert(panel.position.x == 0 and panel.position.y == 230,
+    "panel must use the current bottom-left HUD row anchor")
 assert(panel.collapse.position.x == 0 and panel.collapse.position.y == 0)
 
 local expected_x = {life = 64, harvest = 128, wings = 192, daydu = 256, array = 320}

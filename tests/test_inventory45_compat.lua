@@ -8,7 +8,7 @@ function AddClassPostConstruct(name, fn) classes[name] = fn end
 function AddComponentPostInit(name, fn) components[name] = fn end
 
 -- Chạy từ thư mục gốc của workspace, cùng quy ước với test_inventorysort.lua.
-dofile("mods/PhamNhanTuTien/main/ttk_inventory45_compat.lua")
+dofile("main/ttk_inventory45_compat.lua")
 
 local calls, body = 0, {}
 local anim = {build = "armor_skin", symbol = "armor", skin = true}

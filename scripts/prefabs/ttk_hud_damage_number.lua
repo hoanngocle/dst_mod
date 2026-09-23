@@ -28,15 +28,16 @@ local function fn()
         self.Label:SetFontSize(kind == "crit" and 43 or 36)
         self.Label:SetText(format_amount(amount))
         self.Transform:SetPosition(x or 0, (y or 0) + 2.4, z or 0)
-        self._target = Ents[guid]
-        if self._target ~= nil and self._target:IsValid() then
+        local target = Ents[guid]
+        self._target = target ~= nil and target:IsValid() and target.Transform ~= nil and target or nil
+        if self._target ~= nil then
             local tx, _, tz = self._target.Transform:GetWorldPosition()
             self._offset_x, self._offset_z = (x or tx) - tx, (z or tz) - tz
         else
             self._offset_x, self._offset_z = 0, 0
         end
         self:DoPeriodicTask(FRAMES, function(fx)
-            if fx._target ~= nil and fx._target:IsValid() then
+            if fx._target ~= nil and fx._target:IsValid() and fx._target.Transform ~= nil then
                 local tx, ty, tz = fx._target.Transform:GetWorldPosition()
                 fx.Transform:SetPosition(tx + fx._offset_x, ty + 2.4, tz + fx._offset_z)
             end

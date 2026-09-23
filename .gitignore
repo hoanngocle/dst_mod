@@ -1,0 +1,16 @@
+# Local analysis and generated artifacts
+artifacts/
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system noise
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db

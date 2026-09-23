@@ -1,4 +1,4 @@
-local path = "mods/PhamNhanTuTien/scripts/ttk_bossindicators.lua"
+local path = "scripts/ttk_bossindicators.lua"
 assert(io.open(path), "Missing boss indicator integration")
 local Bosses = dofile(path)
 
@@ -117,7 +117,7 @@ package.preload["widgets/targetindicator"] = function()
         self.name_label = {SetString = function(label, value) label.value = value end}
     end}
 end
-local BossIndicator = dofile("mods/PhamNhanTuTien/scripts/widgets/ttk_bossindicator.lua")
+local BossIndicator = dofile("scripts/widgets/ttk_bossindicator.lua")
 package.preload["widgets/ttk_bossindicator"] = function() return BossIndicator end
 local actual_widget = BossIndicator(owner, future, {name = "Cosmic Horror Overlord"})
 assert(base_ctor_calls == 1 and actual_widget.name_label.value == "Cosmic Horror Overlord",

@@ -10,10 +10,10 @@ import zipfile
 
 import build_alchemy_defs as generator
 from lupa.lua51 import LuaRuntime
+from test_support import MOD_ROOT
 
 
-ROOT = Path(__file__).resolve().parents[3]
-MOD = ROOT / "mods" / "PhamNhanTuTien"
+MOD = MOD_ROOT
 CATALOG = MOD / "scripts" / "alchemy" / "ttk_alchemy_defs.lua"
 PREFAB = MOD / "scripts" / "prefabs" / "ttk_alchemy.lua"
 EFFECTS = MOD / "scripts" / "components" / "ttk_alchemy_effects.lua"

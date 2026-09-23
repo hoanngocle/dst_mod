@@ -11,15 +11,14 @@ from __future__ import annotations
 import math
 import re
 import unittest
-from pathlib import Path
 
+from test_support import MOD_ROOT
 
-ROOT = Path(__file__).resolve().parents[3]
-RANK_DEFS = ROOT / "mods/PhamNhanTuTien/scripts/guild/hh_rank_defs.lua"
-RANK_COMPONENT = ROOT / "mods/PhamNhanTuTien/scripts/components/hh_rank.lua"
-GUILD_MAIN = ROOT / "mods/PhamNhanTuTien/main/hh_guild_main.lua"
-EXAM_DEFS = ROOT / "mods/PhamNhanTuTien/scripts/guild/hh_rank_exam_defs.lua"
-SHOP_DEFS = ROOT / "mods/PhamNhanTuTien/scripts/guild/hh_guild_shop_defs.lua"
+RANK_DEFS = MOD_ROOT / "scripts/guild/hh_rank_defs.lua"
+RANK_COMPONENT = MOD_ROOT / "scripts/components/hh_rank.lua"
+GUILD_MAIN = MOD_ROOT / "main/hh_guild_main.lua"
+EXAM_DEFS = MOD_ROOT / "scripts/guild/hh_rank_exam_defs.lua"
+SHOP_DEFS = MOD_ROOT / "scripts/guild/hh_guild_shop_defs.lua"
 EXPECTED = {
     1: "E", 9: "E", 10: "D", 20: "C", 30: "B", 40: "A",
     50: "S", 69: "S", 70: "SS", 99: "SS", 100: "SSS",
@@ -196,7 +195,7 @@ class ExtendedRankContractTests(unittest.TestCase):
         self.assertNotRegex(EXAM_DEFS.read_text(encoding="utf-8"), r"RANK\.(?:SSS|SS)\b")
         self.assertNotRegex(SHOP_DEFS.read_text(encoding="utf-8"), r"RANK\.(?:SSS|SS)\b")
         registered = []
-        for path in (ROOT / "mods/PhamNhanTuTien/scripts").rglob("*.lua"):
+        for path in (MOD_ROOT / "scripts").rglob("*.lua"):
             if path == RANK_DEFS:
                 continue
             if re.search(r"RANK\.(?:SSS|SS)\b", path.read_text(encoding="utf-8")):

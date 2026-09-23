@@ -10,7 +10,7 @@ try:
 except ModuleNotFoundError as error:
     raise unittest.SkipTest("optional EVA preview tests require numpy") from error
 
-from mods.PhamNhanTuTien.tools import build_eva_v3_luoshen_preview as builder
+import build_eva_v3_luoshen_preview as builder
 
 
 SOURCE = Path(__file__).resolve().parents[1] / "assets/source/eva_approved/donor-luoshen.zip"

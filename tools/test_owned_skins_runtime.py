@@ -1,13 +1,10 @@
 """Focused Lua smoke checks for the native owned-skin adapter."""
-from pathlib import Path
-import sys
 
-ROOT = Path(__file__).resolve().parents[3]
-sys.path.insert(0, str(ROOT / ".superpowers/luoshen-runtime"))
 from lupa.lua51 import LuaRuntime
+from test_support import MOD_ROOT
 
 lua = LuaRuntime(unpack_returned_tuples=True)
-scripts = (ROOT / "mods/PhamNhanTuTien/scripts").as_posix()
+scripts = (MOD_ROOT / "scripts").as_posix()
 lua.execute(f'package.path = "{scripts}/?.lua;" .. package.path')
 lua.execute(r'''
 TheWorld = { ismastersim = true }

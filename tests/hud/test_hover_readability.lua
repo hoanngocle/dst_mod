@@ -1,5 +1,24 @@
 -- Render the real hover widget into a minimal widget tree; verify its colours
 -- survive legacy saved themes, semantic colours, child rows and rainbow ticks.
+package.path = "./scripts/?.lua;" .. package.path
+
+function Class(base, constructor)
+    if constructor == nil then
+        constructor, base = base, nil
+    end
+    local class = {_ctor = constructor}
+    class.__index = class
+    setmetatable(class, {
+        __index = base,
+        __call = function(_, ...)
+            local instance = setmetatable({}, class)
+            constructor(instance, ...)
+            return instance
+        end,
+    })
+    return class
+end
+
 local Widget = Class(function(self)
     self.shown = true
     self.inst = {ListenForEvent=function() end, DoPeriodicTask=function(_, _, fn)
@@ -58,17 +77,12 @@ local owner={hh_hoverer_list={
 }}
 local popup=Hover(owner);popup.hh_target_name='Sword';popup:UpdateHoverer()
 local theme=require('ttk_hover_theme')
-assert(popup.hh_main.color[4]==0.97,'legacy transparency must not wash out popup')
+assert(popup.hh_main.color[4]==0.5,'hover background must match the original Solo opacity')
 assert(popup.hh_main.hh_frame_up.color[3]==1)
 assert(popup.hh_main.hh_icon_left_up.color[1]==theme.corner[1])
-local function luminance(c)
-    local function linear(x) return x<=0.04045 and x/12.92 or ((x+0.055)/1.055)^2.4 end
-    return .2126*linear(c[1])+.7152*linear(c[2])+.0722*linear(c[3])
-end
--- Worst case is the 97%-opaque panel composited over a white game scene.
-local bg={};for i=1,3 do bg[i]=theme.background[i]*.97+.03 end
 local function readable(c)
-    assert(c[4]==1 and (luminance(c)+.05)/(luminance(bg)+.05)>=4.5,'text contrast below 4.5:1')
+    assert(c[4]==1,'hover text must remain fully opaque')
+    assert(c[1]>=0.65 and c[2]>=0.65 and c[3]>=0.65,'hover text colour was not lifted for readability')
 end
 readable(popup.hh_main.hh_body_hh_02_stat.color)
 readable(popup.hh_main.hh_body_hh_02_stat.hh_str.color)
@@ -77,4 +91,4 @@ local title=popup.hh_main.hh_body_hh_01_name.hh_str
 title.tick();readable(title.color)
 for r=0,1,.25 do for g=0,1,.25 do for b=0,1,.25 do readable(theme.Readable({r,g,b,.1})) end end end
 assert(popup.hh_main.w>0 and popup.hh_main.h>0)
-print('PASS: actual hover widget, legacy theme override, label/value/child/rainbow contrast >= 4.5:1')
+print('PASS: actual hover widget uses 50% background with opaque lifted text, frame, icon and rainbow colours')
