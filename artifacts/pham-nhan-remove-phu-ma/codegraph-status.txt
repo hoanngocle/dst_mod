@@ -1,0 +1,28 @@
+
+CodeGraph Status
+
+Project: C:\Users\hoanc\company\dst_wiki\mods\TuTienKy
+
+Index Statistics:
+  Files:     867
+  Nodes:     9,153
+  Edges:     21,735
+  DB Size:   24.95 MB
+  Backend:   node:sqlite - built-in (full WAL)
+  Journal:   wal
+
+Nodes by Kind:
+  variable        3,556
+  function        2,875
+  method          1,207
+  file            867
+  import          646
+  class           2
+
+Files by Language:
+  lua             446
+  xml             391
+  python          30
+
+[OK] Index is up to date
+

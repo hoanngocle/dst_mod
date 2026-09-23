@@ -1,0 +1,683 @@
+[
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_life_skill_baseline_20260919-212906-718",
+    "Files": 83,
+    "Bytes": 13602155,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_all_owned_skins_20260920_1630",
+    "Files": 13,
+    "Bytes": 166836,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_always_on_20260919_204956",
+    "Files": 4,
+    "Bytes": 22777,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_gcsz_skin_20260920_131837",
+    "Files": 8,
+    "Bytes": 97227,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_inventory45_20260919_215214",
+    "Files": 249,
+    "Bytes": 27392296,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_portal_20260919_204828",
+    "Files": 6,
+    "Bytes": 23772,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_vinhhang_20260919_214315",
+    "Files": 211,
+    "Bytes": 24347897,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\CalliopeMori_v2.0_before_EVA.zip",
+    "Files": 1,
+    "Bytes": 5457655,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_crown_revision.zip",
+    "Files": 1,
+    "Bytes": 7972237,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_dress_revision.zip",
+    "Files": 1,
+    "Bytes": 7975990,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_expression_revision.zip",
+    "Files": 1,
+    "Bytes": 9858334,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_eye_revision.zip",
+    "Files": 1,
+    "Bytes": 7814669,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_hair_revision.zip",
+    "Files": 1,
+    "Bytes": 7053745,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_mouth_revision.zip",
+    "Files": 1,
+    "Bytes": 7975192,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_single_dress_revision.zip",
+    "Files": 1,
+    "Bytes": 9861619,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_soft_eye_revision.zip",
+    "Files": 1,
+    "Bytes": 9862014,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_thin_lines.zip",
+    "Files": 1,
+    "Bytes": 7273106,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_unified_revision.zip",
+    "Files": 1,
+    "Bytes": 9861421,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_weapon_revision.zip",
+    "Files": 1,
+    "Bytes": 7332270,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_wings_d277e62c.zip",
+    "Files": 1,
+    "Bytes": 10110722,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_before_solo_20260920_155105.zip",
+    "Files": 1,
+    "Bytes": 67631935,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_v0.1.1_before_lucmach.zip",
+    "Files": 1,
+    "Bytes": 723245,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\TuTienKy_v0.2.0_before_vanhonphien.zip",
+    "Files": 1,
+    "Bytes": 1072527,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\CalliopeMori_v2.0_EVA.zip",
+    "Files": 1,
+    "Bytes": 7274479,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\EVA_v1.0.zip",
+    "Files": 1,
+    "Bytes": 8680218,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\EVA_v1.1.0.verification.json",
+    "Files": 1,
+    "Bytes": 289,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\EVA_v1.1.0.zip",
+    "Files": 1,
+    "Bytes": 8698077,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.0.zip",
+    "Files": 1,
+    "Bytes": 221294,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.1.zip",
+    "Files": 1,
+    "Bytes": 723149,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.10.0.zip",
+    "Files": 1,
+    "Bytes": 139088480,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.2.0.zip",
+    "Files": 1,
+    "Bytes": 1072527,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.3.0.zip",
+    "Files": 1,
+    "Bytes": 4104421,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\__pycache__",
+    "Files": 9,
+    "Bytes": 129211,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\compiled",
+    "Files": 16,
+    "Bytes": 21752741,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\current-gallery",
+    "Files": 25,
+    "Bytes": 5331343,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\expansion",
+    "Files": 127,
+    "Bytes": 25904148,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\fox-hud",
+    "Files": 125,
+    "Bytes": 26256757,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\generated",
+    "Files": 9,
+    "Bytes": 9472407,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ingame",
+    "Files": 783,
+    "Bytes": 209689436,
+    "Links": [
+      {
+        "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ingame\\runtime\\data",
+        "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+      }
+    ]
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\item-cleanup",
+    "Files": 4,
+    "Bytes": 11084819,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\life-flower",
+    "Files": 21,
+    "Bytes": 12743854,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\life-rename",
+    "Files": 12,
+    "Bytes": 11120611,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\life-skill",
+    "Files": 9,
+    "Bytes": 66897,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\moon-wings",
+    "Files": 15,
+    "Bytes": 17046384,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-crown",
+    "Files": 11,
+    "Bytes": 18165997,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-dress",
+    "Files": 15,
+    "Bytes": 26161915,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-expression",
+    "Files": 11,
+    "Bytes": 8460415,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-eyes",
+    "Files": 19,
+    "Bytes": 25407931,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-hair",
+    "Files": 12,
+    "Bytes": 16904319,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-mouth",
+    "Files": 9,
+    "Bytes": 10094971,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-single-dress",
+    "Files": 8,
+    "Bytes": 14769775,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-soft-eyes",
+    "Files": 8,
+    "Bytes": 7069280,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-thin-lines",
+    "Files": 14,
+    "Bytes": 19312856,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-unified",
+    "Files": 4,
+    "Bytes": 10426891,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-weapon",
+    "Files": 22,
+    "Bytes": 14185240,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\scythe-array",
+    "Files": 101,
+    "Bytes": 24426533,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\skill-audit",
+    "Files": 603,
+    "Bytes": 13369312,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\skill-icons",
+    "Files": 9,
+    "Bytes": 324868,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\solo-compat",
+    "Files": 11,
+    "Bytes": 11124531,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\soul-progression",
+    "Files": 5,
+    "Bytes": 8516680,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\source",
+    "Files": 10,
+    "Bytes": 4109607,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ultimate-levels",
+    "Files": 4,
+    "Bytes": 8521453,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\wings-skill",
+    "Files": 9,
+    "Bytes": 592062,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\export_current_gallery.py",
+    "Files": 1,
+    "Bytes": 3342,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\eye_mesh.py",
+    "Files": 1,
+    "Bytes": 4787,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\face-current.png",
+    "Files": 1,
+    "Bytes": 27959,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\fix_single_dress.py",
+    "Files": 1,
+    "Bytes": 6318,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ghost-preview.png",
+    "Files": 1,
+    "Bytes": 162043,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\inspect_build.py",
+    "Files": 1,
+    "Bytes": 3705,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\original-manifest.json",
+    "Files": 1,
+    "Bytes": 8791,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\package_assets.py",
+    "Files": 1,
+    "Bytes": 8756,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\prompts.json",
+    "Files": 1,
+    "Bytes": 7274,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\release_eva.py",
+    "Files": 1,
+    "Bytes": 2327,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\render_preview.py",
+    "Files": 1,
+    "Bytes": 4427,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_crown.py",
+    "Files": 1,
+    "Bytes": 4845,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_dress.py",
+    "Files": 1,
+    "Bytes": 8023,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_expression.py",
+    "Files": 1,
+    "Bytes": 5845,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_eyes.py",
+    "Files": 1,
+    "Bytes": 5363,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_hair.py",
+    "Files": 1,
+    "Bytes": 10764,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_lines.py",
+    "Files": 1,
+    "Bytes": 6124,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_mouth.py",
+    "Files": 1,
+    "Bytes": 4732,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_soft_eyes.py",
+    "Files": 1,
+    "Bytes": 5087,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revise_weapon.py",
+    "Files": 1,
+    "Bytes": 11187,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\rig-preview.png",
+    "Files": 1,
+    "Bytes": 874562,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\silhouette-preview.png",
+    "Files": 1,
+    "Bytes": 80513,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\verification.json",
+    "Files": 1,
+    "Bytes": 1226,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\verify_unified.py",
+    "Files": 1,
+    "Bytes": 3078,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\compiled",
+    "Files": 4,
+    "Bytes": 2097643,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime",
+    "Files": 697,
+    "Bytes": 211324094,
+    "Links": [
+      {
+        "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime\\data",
+        "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+      }
+    ]
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk",
+    "Files": 1688,
+    "Bytes": 277213936,
+    "Links": [
+      {
+        "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk\\data",
+        "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+      }
+    ]
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\.gitignore",
+    "Files": 1,
+    "Bytes": 40,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\animation-preview.gif",
+    "Files": 1,
+    "Bytes": 4602976,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\approved-concept.png",
+    "Files": 1,
+    "Bytes": 1736429,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\build_assets.py",
+    "Files": 1,
+    "Bytes": 7028,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\build-report.json",
+    "Files": 1,
+    "Bytes": 319,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\gameplay-before-ttk.json",
+    "Files": 1,
+    "Bytes": 45636,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\gameplay-before.json",
+    "Files": 1,
+    "Bytes": 25442,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\original-forge.zip",
+    "Files": 1,
+    "Bytes": 104150,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\original-ttk-forge.zip",
+    "Files": 1,
+    "Bytes": 104176,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\preview_assets.py",
+    "Files": 1,
+    "Bytes": 3176,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\preview.png",
+    "Files": 1,
+    "Bytes": 284719,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\publish_icon.py",
+    "Files": 1,
+    "Bytes": 449,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\README.md",
+    "Files": 1,
+    "Bytes": 6100,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\run_smoke.py",
+    "Files": 1,
+    "Bytes": 3122,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\smoke-ttk.log",
+    "Files": 1,
+    "Bytes": 179639,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\smoke.log",
+    "Files": 1,
+    "Bytes": 81623,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\smoke.lua",
+    "Files": 1,
+    "Bytes": 2816,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\superseded-solo-patch.zip",
+    "Files": 1,
+    "Bytes": 613953,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\test_visuals.py",
+    "Files": 1,
+    "Bytes": 3406,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\verification.json",
+    "Files": 1,
+    "Bytes": 694,
+    "Links": []
+  },
+  {
+    "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\verify_assets.py",
+    "Files": 1,
+    "Bytes": 2929,
+    "Links": []
+  }
+]

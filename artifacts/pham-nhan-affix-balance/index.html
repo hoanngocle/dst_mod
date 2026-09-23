@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Phàm Nhân - Bảng cân bằng Affix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="workbench">
+    <header class="page-header">
+      <div>
+        <p class="kicker">PHÀM NHÂN TU TIÊN</p>
+        <h1>Bảng cân bằng Affix</h1>
+        <p class="intro">So sánh catalog hiện tại, chỉnh thông số đề xuất và xuất JSON trước khi thay đổi gameplay.</p>
+      </div>
+      <div class="summary-grid" aria-label="Tổng quan catalog">
+        <div><span id="visible-count">0</span><small>đang hiển thị</small></div>
+        <div><span id="current-count">0</span><small>đang có</small></div>
+        <div><span id="proposal-count">0</span><small>đề xuất</small></div>
+        <div><span id="edited-count">0</span><small>đã chỉnh</small></div>
+      </div>
+    </header>
+
+    <section class="legend" aria-label="Màu tier">
+      <span class="legend-label">Màu tier</span>
+      <span class="legend-chip tier-i">I - Xám</span>
+      <span class="legend-chip tier-ii">II - Xanh lá nhạt</span>
+      <span class="legend-chip tier-iii">III - Xanh dương</span>
+      <span class="legend-chip tier-iv">IV - Tím nhạt</span>
+      <span class="legend-chip tier-v">V - Vàng</span>
+      <span class="legend-chip tier-utility">Utility - Gradient</span>
+    </section>
+
+    <section class="toolbar" aria-label="Bộ lọc và thao tác">
+      <label class="search-field">
+        <span>Tìm affix hoặc code</span>
+        <input id="search" type="search" autocomplete="off" placeholder="Ví dụ: mana, shadow, trueDamageNum">
+      </label>
+      <label>
+        <span>Tier</span>
+        <select id="tier-filter">
+          <option value="ALL">Tất cả tier</option>
+          <option value="I">Tier I</option>
+          <option value="II">Tier II</option>
+          <option value="III">Tier III</option>
+          <option value="IV">Tier IV</option>
+          <option value="V">Tier V</option>
+          <option value="UTILITY">Utility</option>
+        </select>
+      </label>
+      <label>
+        <span>Nhóm</span>
+        <select id="category-filter"><option value="ALL">Tất cả nhóm</option></select>
+      </label>
+      <label>
+        <span>Trạng thái</span>
+        <select id="status-filter"><option value="ALL">Tất cả trạng thái</option></select>
+      </label>
+      <label class="check-field">
+        <input id="edited-filter" type="checkbox">
+        <span>Chỉ dòng đã chỉnh</span>
+      </label>
+      <div class="actions">
+        <button id="export-button" class="button button-primary" type="button">Xuất JSON</button>
+        <button id="import-button" class="button" type="button">Nhập JSON</button>
+        <button id="reset-button" class="button button-danger" type="button">Xóa bản chỉnh</button>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
+
+    <div class="save-line">
+      <p id="save-status" role="status" aria-live="polite">Sẵn sàng. Mọi thay đổi được lưu trên trình duyệt này.</p>
+      <p><strong>Quy tắc:</strong> chỉ số affix chỉ có hiệu lực khi món đồ đang được trang bị.</p>
+    </div>
+
+    <section class="table-shell" aria-label="Catalog affix">
+      <table>
+        <thead>
+          <tr>
+            <th>Tier</th>
+            <th>Ảnh</th>
+            <th>Affix</th>
+            <th>Code / ID</th>
+            <th>Effect key</th>
+            <th>Nhóm / Slot</th>
+            <th>Trạng thái</th>
+            <th>Thông số hiện tại</th>
+            <th>Ý nghĩa</th>
+            <th>Thông số đề xuất</th>
+            <th>Cap tổng</th>
+            <th>Độc quyền</th>
+            <th>Nguồn code</th>
+            <th>Quyết định</th>
+            <th>Ghi chú cân bằng</th>
+          </tr>
+        </thead>
+        <tbody id="affix-body"></tbody>
+      </table>
+      <div id="empty-state" class="empty-state" hidden>
+        <strong>Không có affix phù hợp</strong>
+        <span>Đổi từ khóa hoặc bỏ bớt bộ lọc.</span>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>Dữ liệu gốc lấy từ catalog runtime Phàm Nhân. Các dòng đề xuất chưa được đưa vào gameplay.</p>
+      <p>File JSON chứa phần đã chỉnh và snapshot đầy đủ của bảng tại thời điểm xuất.</p>
+    </footer>
+  </main>
+
+  <script src="state.js"></script>
+  <script src="data.js"></script>
+  <script src="view.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

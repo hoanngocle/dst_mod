@@ -1,0 +1,40 @@
+{
+  "Scope": "Read-only audit; no source or runtime files modified",
+  "Inventory": "physical-inventory.json: explicit stack traversal skips every ReparsePoint before descending/counting",
+  "ProcessCheck": "Get-Process matching *dontstarve* and python* returned no processes at audit time; Win32_Process CIM denied",
+  "Preserve": [
+    "mods/EVA",
+    "mods/SoloCombatHUD",
+    "mods/mod_steam",
+    "mods/TuTienKy",
+    "mods/eva-assets-work/source",
+    "mods/eva-assets-work/generated",
+    "EVA revision artwork, builders, tests, engine-reference and baseline manifests/directories",
+    "mods/solo-assets-work/lam-phuong/approved-concept.png",
+    "mods/solo-assets-work/lam-phuong/original-ttk-forge.zip",
+    "mods/solo-assets-work/lam-phuong/gameplay-before-ttk.json",
+    "mods/solo-assets-work/lam-phuong/smoke-ttk.log",
+    "mods/dist/EVA_v1.1.0.zip",
+    "mods/dist/EVA_v1.1.0.verification.json",
+    "All mods/backups retained: unique historical recovery/evidence; subset also input dependencies"
+  ],
+  "InputDependencies": {
+    "mods/eva-assets-work/life-rename/package_verified.py:18": "life-rename/baseline contents",
+    "tools/port_ttk_owned_item_skins.py:173": "mods/backups/TuTienKy_before_all_owned_skins_20260920_1630",
+    "mods/solo-assets-work/lam-phuong/build_assets.py:143": "original-ttk-forge.zip",
+    "mods/solo-assets-work/lam-phuong/verify_assets.py:48-51": "gameplay-before-ttk.json; original-ttk-forge.zip",
+    "mods/eva-assets-work/revise_lines.py:21": "mods/backups/CalliopeMori_v2.0_before_EVA.zip",
+    "mods/eva-assets-work/package_assets.py:148": "mods/backups/CalliopeMori_v2.0_before_EVA.zip",
+    "mods/eva-assets-work/verify_unified.py:33": "mods/backups/EVA_v1.0_before_unified_revision.zip",
+    "tools/port_vanhonphien.py:65": "mods/backups/TuTienKy_v0.2.0_before_vanhonphien.zip"
+  },
+  "ReferencesToUpdate": {
+    "docs/superpowers/reports/2026-09-20-solo-integration.md:41": "Historical release ZIP removed: annotate retired artifact in cleanup report rather than rewriting historic release fact",
+    "mods/eva-assets-work/revise_*.py": "EVA_v1.0.zip within revision folders are generated staging outputs, can be regenerated; no update needed for removing duplicates",
+    "mods/solo-assets-work/lam-phuong/README.md:38": "After runtime-ttk deletion document recreation of data junction or add bootstrap to run_smoke.py",
+    "docs/superpowers/plans/2026-09-20-solo-into-tu-tien-ky.md:50": "Historic ZIP path; annotate cleanup",
+    "mods/eva-assets-work/ingame/run_live.py": "Requires copied bin64/mods/runtime/data; does not bootstrap them, and smoke.lua is currently absent outside runtime",
+    "mods/solo-assets-work/lam-phuong/run_smoke.py:15": "Requires runtime-ttk/data junction; copies bin64 and mod itself"
+  },
+  "Safety": "Remove each runtime data junction as a link only before deleting runtime; never recursively traverse external game data. Recheck process use immediately before cleanup."
+}

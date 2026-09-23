@@ -1,0 +1,155 @@
+{
+  "Applied": true,
+  "Bytes": 746706457.0,
+  "Files": 2442.0,
+  "Paths": [
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-crown\\EVA_v1.0.zip",
+      "Bytes": 7975192,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-dress\\EVA_v1.0.zip",
+      "Bytes": 9861421,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-eyes\\EVA_v1.0.zip",
+      "Bytes": 7972237,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-hair\\EVA_v1.0.zip",
+      "Bytes": 7332270,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-mouth\\EVA_v1.0.zip",
+      "Bytes": 7975990,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-single-dress\\EVA_v1.0.zip",
+      "Bytes": 9862014,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-thin-lines\\EVA_v1.0.zip",
+      "Bytes": 7053745,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-unified\\EVA_v1.0.zip",
+      "Bytes": 9861619,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-weapon\\EVA_v1.0.zip",
+      "Bytes": 7814669,
+      "Files": 1,
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\CalliopeMori_v2.0_EVA.zip",
+      "Bytes": 7274479,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.0.zip",
+      "Bytes": 221294,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.1.zip",
+      "Bytes": 723149,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.2.0.zip",
+      "Bytes": 1072527,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.3.0.zip",
+      "Bytes": 4104421,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.10.0.zip",
+      "Bytes": 139088480,
+      "Files": 1,
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\__pycache__",
+      "Bytes": 129211,
+      "Files": 9,
+      "Reason": "Regenerable Python bytecode",
+      "Links": [],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime",
+      "Bytes": 211324094,
+      "Files": 697,
+      "Reason": "Copied native smoke harness, binaries and generated isolated test saves; preserve sibling smoke logs and scripts",
+      "Links": [
+        "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime\\data"
+      ],
+      "Removed": true
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk",
+      "Bytes": 307059645,
+      "Files": 1721,
+      "Reason": "Copied native smoke harness, binaries and generated isolated test saves; preserve sibling smoke logs and scripts",
+      "Links": [
+        "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk\\data"
+      ],
+      "Removed": true
+    }
+  ]
+}

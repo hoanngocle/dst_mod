@@ -1,0 +1,176 @@
+{
+  "Count": 19,
+  "TotalBytes": 926547249.0,
+  "SafeBytes": 228322718.0,
+  "Candidates": [
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-crown\\EVA_v1.0.zip",
+      "Bytes": 7975192,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_mouth_revision.zip",
+      "SHA256": "A607E17FBA7F1603C2403F711C364B2F4FD4C9D5EF36284FAC6E450354583778"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-dress\\EVA_v1.0.zip",
+      "Bytes": 9861421,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_unified_revision.zip",
+      "SHA256": "0A33B0312DF37C7E5C8C27AADC7FFE0A32493711B013C293E1FF85F2A518DAA7"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-eyes\\EVA_v1.0.zip",
+      "Bytes": 7972237,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_crown_revision.zip",
+      "SHA256": "30EAF9A0DC990677DE42E5CAAD1B1497DDB8933E932EDAB352E3F51A230139D9"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-hair\\EVA_v1.0.zip",
+      "Bytes": 7332270,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_weapon_revision.zip",
+      "SHA256": "A730D039888177D4B8925BF5B85E5FCD27C4A97C797B71A663F208C63F9110E6"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-mouth\\EVA_v1.0.zip",
+      "Bytes": 7975990,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_dress_revision.zip",
+      "SHA256": "B8637C9FEB6132EC80C9D533381EF9262A59A509F6DDA2677914093A602E1E5A"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-single-dress\\EVA_v1.0.zip",
+      "Bytes": 9862014,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_soft_eye_revision.zip",
+      "SHA256": "68AC5739511A0E9F2A6F8DD0787ADAEC89531526FABDE26CBD923A91F7EA0A30"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-thin-lines\\EVA_v1.0.zip",
+      "Bytes": 7053745,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_hair_revision.zip",
+      "SHA256": "78C766B9E9EADBF59FFAE620D81FE0DFD650E1BEE82845E29CB190FBA4E3D776"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-unified\\EVA_v1.0.zip",
+      "Bytes": 9861619,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_single_dress_revision.zip",
+      "SHA256": "A140D9A840E7ADA883AE07C4A6C03CBED5DDA617A177E74B6EA2D8E3733DC176"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\revision-weapon\\EVA_v1.0.zip",
+      "Bytes": 7814669,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Generated staging ZIP; SHA256-identical retained backup",
+      "RetainedCopy": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\backups\\EVA_v1.0_before_eye_revision.zip",
+      "SHA256": "0B7162FF91C27F5F91B3EA12A7B5B6B7665433870CCB59630C90F0B86389903C"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\CalliopeMori_v2.0_EVA.zip",
+      "Bytes": 7274479,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.0.zip",
+      "Bytes": 221294,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.1.1.zip",
+      "Bytes": 723149,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.2.0.zip",
+      "Bytes": 1072527,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.3.0.zip",
+      "Bytes": 4104421,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\dist\\TuTienKy_v0.10.0.zip",
+      "Bytes": 139088480,
+      "Files": 1,
+      "Status": "safe",
+      "Reason": "Superseded distributable; active source remains, historical pre-change backups retained"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\__pycache__",
+      "Bytes": 129211,
+      "Files": 9,
+      "Status": "safe",
+      "Reason": "Regenerable Python bytecode"
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime",
+      "Bytes": 211324094,
+      "Files": 697,
+      "Status": "after-root-verification",
+      "Reason": "Copied native smoke harness, binaries and generated isolated test saves; preserve sibling smoke logs and scripts",
+      "Links": [
+        {
+          "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime\\data",
+          "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+        }
+      ]
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk",
+      "Bytes": 277213936,
+      "Files": 1688,
+      "Status": "after-root-verification",
+      "Reason": "Copied native smoke harness, binaries and generated isolated test saves; preserve sibling smoke logs and scripts",
+      "Links": [
+        {
+          "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\solo-assets-work\\lam-phuong\\runtime-ttk\\data",
+          "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+        }
+      ]
+    },
+    {
+      "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ingame\\runtime",
+      "Bytes": 209686501,
+      "Files": 782,
+      "Status": "conditional",
+      "Reason": "Copied native harness; run_live.py lacks bootstrap and relies on it. Keep or update recreation documentation/bootstrap before cleanup",
+      "Links": [
+        {
+          "Path": "C:\\Users\\hoanc\\company\\dst_wiki\\mods\\eva-assets-work\\ingame\\runtime\\data",
+          "Target": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data"
+        }
+      ]
+    }
+  ]
+}

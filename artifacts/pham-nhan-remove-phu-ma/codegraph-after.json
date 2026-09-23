@@ -1,0 +1,20 @@
+{
+  "symbol": "DoStrengthen",
+  "depth": 2,
+  "nodeCount": 2,
+  "edgeCount": 1,
+  "affected": [
+    {
+      "name": "DoStrengthen",
+      "kind": "method",
+      "filePath": "scripts/components/wb_strengthen.lua",
+      "startLine": 1678
+    },
+    {
+      "name": "ttk_solo_source.lua",
+      "kind": "file",
+      "filePath": "main/ttk_solo_source.lua",
+      "startLine": 1
+    }
+  ]
+}
