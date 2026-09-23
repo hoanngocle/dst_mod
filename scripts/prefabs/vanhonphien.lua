@@ -1,4 +1,4 @@
--- Adapted from Tu Tien 19.7; see CREDITS.md.
+-- Adapted from Tu Tien 19.7; see docs/CREDITS.md.
 local rules = require("vanhonphien_rules")
 local banner_damage = require("vanhonphien_damage")
 local banner_attack = require("vanhonphien_attack")

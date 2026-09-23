@@ -19,7 +19,7 @@ for category, label in labels.items():
         contents = ' + '.join(f'`{i.prefab}` ×{i.count}' for i in b['items'].values())
         lines.append(f'| {b.label} | {contents} | {100*group.weight/10.5*b.weight/total:.4f}% |')
 lines += ['', 'Tỷ lệ áp dụng khi tất cả prefab được nạp. Nếu mod khác làm mất prefab, máy bỏ cả gói không hợp lệ trước khi chọn. Không có bảo hiểm.', '']
-(MOD/'CHOUJIANGJI_REWARDS.md').write_text('\n'.join(lines), encoding='utf-8')
+(MOD/'docs/CHOUJIANGJI_REWARDS.md').write_text('\n'.join(lines), encoding='utf-8')
 
 all_original = set.union(*original.values())
 lines = ['# Kiểm kê bảng thưởng Tu Tiên gốc → Tu Tiên Ký', '',
@@ -44,5 +44,5 @@ lines += ['', '## Boss đặc biệt', '',
           '- Vệ Binh Thiên Thể do máy gọi có dấu riêng lưu cùng thế giới; khi chết, kết thúc bằng rơi Vương Miện Khai Sáng, không tạo quả cầu hậu chiến. Boss tự nhiên giữ handler gốc.',
           '- Giữ xử lý riêng của mod gốc cho bộ sinh rương Vệ Binh Cổ Đại nếu nó gắn với boss do máy gọi.', '',
           'Tôn Hồn Phiên (`xd_zhf`) là món khác Cửu Thiên Tinh Thần Phiên (`vanhonphien`); không coi hai prefab này là bản đổi tên của nhau.', '']
-(MOD/'CHOUJIANGJI_AUDIT.md').write_text('\n'.join(lines),encoding='utf-8')
+(MOD/'docs/CHOUJIANGJI_AUDIT.md').write_text('\n'.join(lines),encoding='utf-8')
 print('Updated rewards and full original-prefab inventory')

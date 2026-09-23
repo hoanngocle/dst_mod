@@ -8,4 +8,4 @@ Create ONE production game sprite for a Don't Starve Together cultivation mod: a
 
 ## Output
 
-`ttk_spirit_workshop.png`: 1254 × 1254 RGBA; measured alpha spans 0–255. The generated resolution differs from the requested size. Klei TextureConverter builds a 1024px game texture and 128px icon from the unchanged source.
+`assets/source/ttk_spirit_workshop.png`: 1254 × 1254 RGBA; measured alpha spans 0–255. The generated resolution differs from the requested size. Klei TextureConverter builds a 1024px game texture and 128px icon from the unchanged source.

@@ -1,4 +1,4 @@
--- Tinh La Kiem, adapted from Tu Tien 19.7 xd_xlj; see CREDITS.md.
+-- Tinh La Kiem, adapted from Tu Tien 19.7 xd_xlj; see docs/CREDITS.md.
 local repairvalues = require("ttk_tinhlakiem_repair")
 local Elements = require("ttk_elemental_combat")
 local assets = {

@@ -1,4 +1,4 @@
--- Standalone adaptation of xd_yunxiao_fysz, Tu Tien 19.7. See CREDITS.md.
+-- Standalone adaptation of xd_yunxiao_fysz, Tu Tien 19.7. See docs/CREDITS.md.
 local common = require("thanhiquangtruong_common")
 local assets = {
     Asset("ANIM", "anim/thanhiquangtruong.zip"),

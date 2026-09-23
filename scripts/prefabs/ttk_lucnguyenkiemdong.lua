@@ -1,4 +1,4 @@
--- Lục Nguyên Kiếm Đồng. Visuals adapted from Tu Tiên 19.7; see CREDITS.md.
+-- Lục Nguyên Kiếm Đồng. Visuals adapted from Tu Tiên 19.7; see docs/CREDITS.md.
 local Bridge = require("ttk_lucnguyen_combat")
 local Rules = require("ttk_lucnguyen_rules")
 local Elements = require("ttk_elemental_combat")

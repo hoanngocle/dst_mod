@@ -1,6 +1,6 @@
 # Phàm Nhân Tu Tiên 2.0 — hình linh vật và Tàn Hồn
 
-Ngày 2026-09-20. Bốn PNG tạo bằng công cụ ImageGen tích hợp của Codex, không dùng CLI/API fallback. Giữ nguyên PNG nền trong suốt; Klei TextureConverter chỉ đổi kích thước/định dạng. Các file `*.preview.png` là bản giải mã texture để kiểm tra, không phải asset runtime.
+Ngày 2026-09-20. Bốn PNG trong `assets/source/boss_relics/` được tạo bằng công cụ ImageGen tích hợp của Codex, không dùng CLI/API fallback. Giữ nguyên PNG nền trong suốt; Klei TextureConverter chỉ đổi kích thước/định dạng. Các file `*.preview.png` là bản giải mã texture để kiểm tra, không phải asset runtime.
 
 | Prefab giữ nguyên | Tên hiển thị | Nguồn hình |
 |---|---|---|

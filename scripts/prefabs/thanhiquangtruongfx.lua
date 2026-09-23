@@ -1,4 +1,4 @@
--- Particle visuals adapted from Tu Tien 19.7; see CREDITS.md.
+-- Particle visuals adapted from Tu Tien 19.7; see docs/CREDITS.md.
 local function IntColour(r, g, b, a)
     return { r / 255, g / 255, b / 255, a / 255 }
 end

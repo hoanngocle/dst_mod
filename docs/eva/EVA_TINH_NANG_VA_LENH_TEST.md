@@ -58,4 +58,4 @@ local p = ConsoleCommandPlayer(); local l = p and p.components.hh_leveling; if l
 
 Các test còn dùng trong `tools/`: `test_eva_v3_install.py`, `test_eva_loadout.py`, `test_eva_approved_rig.py`, `test_eva_build_repack.py`, `test_eva_skins.py`, `test_eva_fixed_hotkeys.py`, `test_eva_lightning_blink.py`, `test_eva_skillpanel.py` và các test HUD. Bộ build/preview EVA2–EVA3 còn dùng parser và renderer chung; không xóa `build_eva_approved.py` hoặc `tools/eva` chỉ dựa vào tên cũ.
 
-Giới hạn Achievement/perk và cấu hình EXP nhiệm vụ mùa: [ACHIEVEMENT_PERK_RUNTIME.md](../../ACHIEVEMENT_PERK_RUNTIME.md).
+Giới hạn Achievement/perk và cấu hình EXP nhiệm vụ mùa: [ACHIEVEMENT_PERK_RUNTIME.md](../ACHIEVEMENT_PERK_RUNTIME.md).
